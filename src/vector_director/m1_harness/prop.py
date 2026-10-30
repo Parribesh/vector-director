@@ -59,6 +59,9 @@ class Prop:
     meta: dict = field(default_factory=dict)
 
 
+NUMERIC = {"cx", "cy", "r", "rx", "ry", "x", "y", "x1", "x2", "y1", "y2", "width", "height"}
+
+
 def clean_fragment(fragment: str, prefix: str) -> str:
     """Parse, refuse anything but plain shapes, and prefix every id. Raises ValueError."""
     fragment = re.sub(r"<\?xml.*?\?>|<!--.*?-->", "", fragment, flags=re.DOTALL).strip()
@@ -75,6 +78,9 @@ def clean_fragment(fragment: str, prefix: str) -> str:
         for name in list(el.attrib):
             if name.lower().startswith("on") or name.split("}")[-1] == "href":
                 del el.attrib[name]
+        for name in NUMERIC & set(el.attrib):
+            if "," in el.get(name):
+                raise ValueError(f'<{tag} {name}="{el.get(name)}"> is not a number')
         if el.get("id"):
             el.set("id", f"{prefix}-{el.get('id')}")
         for name, value in el.attrib.items():

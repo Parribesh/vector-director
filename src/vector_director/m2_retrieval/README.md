@@ -1,22 +1,17 @@
-# M2: Asset library with CLIP search and RAG
+# M2: the gallery and its search
 
-Bootcamp weeks: W4, W8. Status: **stub**.
+Every prop and backdrop, registered once, for any project. See `library.py` for the format.
 
-**Goal.** Index 2 to 5k open-license SVGs and animation docs; search by text or sketch; feed the best parts to the generator.
+```bash
+vd library seed --sadhu ../sadhu                                  # Sadhu's assets, objects, AI props and sets
+vd library openmoji --heights data/raw/openmoji/heights.json      # the open-licence set, unpacked in data/raw/openmoji
+vd library thumbs                                                 # a picture of each item
+vd library embed                                                  # CLIP vectors of each picture and its words
+vd library eval                                                   # recall@10 and MRR on data/eval/retrieval.jsonl
+vd search "stone well"
+vd serve                                                          # for Studio's Gallery tab, on port 8772
+```
 
-**Provides.** `ClipEmbedder` (Embedder), `BM25Retriever` / `VectorRetriever` / `HybridRetriever` / `HyDERetriever` (Retriever), `CrossEncoderReranker` (Reranker)
+Re-seeding keeps your edits. `library/thumbs` and `library/vectors.npz` are rebuilt, not committed.
 
-**Done when.** recall@10 and MRR on a labeled query set, and the M1 scoreboard improves with retrieval on.
-
-**Files**
-
-- `library.py`
-- `embedders.py`
-- `retrievers.py`
-- `docs_index.py`
-- `metrics.py`
-
-**Install.** `uv pip install -e ".[m2]"`
-
-All functions raise `NotImplementedError` until this milestone is built. Contracts live in
-`vector_director/core`; do not change them without updating `docs/DESIGN.md`.
+M4 plugs fine-tuned weights into `ClipEmbedder`. `CrossEncoderReranker` is still a stub.

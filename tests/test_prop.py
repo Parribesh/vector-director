@@ -113,3 +113,10 @@ def test_make_prop_repairs_once_and_meets_the_contract(page):
 def test_make_prop_gives_up_with_the_reasons(page):
     with pytest.raises(ValueError, match="not allowed"):
         make_prop("a well", "well", 110, FakeLLM("<script/>", "<script/>"), page)
+
+
+def test_clean_fragment_refuses_a_bad_number():
+    import pytest
+
+    with pytest.raises(ValueError, match="not a number"):
+        clean_fragment('<circle cx="115,302" cy="10" r="3"/>', "x")

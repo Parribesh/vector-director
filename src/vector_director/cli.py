@@ -50,6 +50,22 @@ def main(argv: list[str] | None = None) -> None:
     st.add_argument("--provider", default="gemini", choices=providers)
     st.add_argument("--model", default=None)
     st.add_argument("--out", default=".")
+    lb = sub.add_parser("library", help="(M2) build the gallery")
+    lb.add_argument("action", choices=["seed", "openmoji", "thumbs", "embed", "eval"])
+    lb.add_argument("--sadhu", default="../sadhu", help="seed: a sadhu checkout")
+    lb.add_argument("--openmoji", default="data/raw/openmoji", help="openmoji: the unpacked download")
+    lb.add_argument("--heights", default=None, help="openmoji: JSON of id -> height_cm")
+    lb.add_argument("--labels", default="data/eval/retrieval.jsonl", help="eval: the labeled queries")
+    lb.add_argument("--root", default="library")
+    se = sub.add_parser("search", help="(M2) search the gallery")
+    se.add_argument("query")
+    se.add_argument("-k", type=int, default=10)
+    se.add_argument("--kind", default=None)
+    se.add_argument("--mode", default="vector", choices=["bm25", "vector", "hybrid"])
+    se.add_argument("--root", default="library")
+    sv = sub.add_parser("serve", help="(M2) the gallery over local HTTP, for Studio")
+    sv.add_argument("--root", default="library")
+    sv.add_argument("--port", type=int, default=8772)
     pr = sub.add_parser("prompts", help="(M1) write the synthetic eval prompt set")
     pr.add_argument("--n", type=int, default=50)
     pr.add_argument("--seed", type=int, default=0)
@@ -74,8 +90,64 @@ def main(argv: list[str] | None = None) -> None:
         _eval(args)
     elif args.cmd == "prop":
         _prop(args)
+    elif args.cmd == "library":
+        _library(args)
+    elif args.cmd == "search":
+        from vector_director.m2_retrieval.serve import Gallery
+
+        for h in Gallery(args.root).search(args.query, args.k, args.kind, None, args.mode):
+            print(f"{h['score']:.3f}  {h['id']:40} {h['status']:9} {h['height_cm']:g} cm")
+    elif args.cmd == "serve":
+        from vector_director.m2_retrieval.serve import serve
+
+        serve(args.root, args.port)
     elif args.cmd == "set":
         _set(args)
+
+
+def _library(args: argparse.Namespace) -> None:
+    from pathlib import Path
+
+    from playwright.sync_api import sync_playwright
+
+    from vector_director.m2_retrieval import library as lib
+    from vector_director.m2_retrieval.embedders import ClipEmbedder
+    from vector_director.m2_retrieval.retrievers import (
+        BM25Retriever,
+        HybridRetriever,
+        VectorRetriever,
+    )
+
+    reg = lib.Registry(args.root)
+    if args.action in ("seed", "openmoji", "thumbs"):
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch()
+            page = browser.new_page()
+            if args.action == "seed":
+                print(lib.seed_sadhu(reg, Path(args.sadhu), page))
+            elif args.action == "openmoji":
+                root = Path(args.openmoji)
+                meta = json.loads((root / "openmoji.json").read_text())
+                heights = json.loads(Path(args.heights).read_text()) if args.heights else None
+                print(lib.seed_openmoji(reg, root / "color", meta, page, heights))
+            else:
+                print("thumbs", lib.make_thumbs(reg, page))
+            browser.close()
+    elif args.action == "embed":
+        print("embedded", VectorRetriever(reg, ClipEmbedder()).build())
+    elif args.action == "eval":
+        from vector_director.m2_retrieval.metrics import mrr, recall_at_k
+
+        labels = [json.loads(x) for x in Path(args.labels).read_text().splitlines() if x.strip()]
+        bm25, vector = BM25Retriever(reg), VectorRetriever(reg, ClipEmbedder())
+        for name, r in {"bm25": bm25, "vector": vector, "hybrid": HybridRetriever([bm25, vector], [1, 3])}.items():
+            rec, rr = 0.0, 0.0
+            for row in labels:
+                ranked = [h.id for h in r.search(row["query"], k=50, kind="prop")]
+                good = set(row["relevant"])
+                rec += recall_at_k(ranked, good, 10)
+                rr += mrr(ranked, good)
+            print(f"{name:7} recall@10 {rec / len(labels):.3f}   mrr {rr / len(labels):.3f}   ({len(labels)} queries)")
 
 
 def _prop(args: argparse.Namespace) -> None:

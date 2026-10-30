@@ -1,0 +1,40 @@
+{"query": "stone well", "relevant": ["gen-stone-well"]}
+{"query": "well where villagers draw water", "relevant": ["gen-stone-well"]}
+{"query": "clay water pot", "relevant": ["gen-earthen-water-pot", "sadhu-matka-clay"]}
+{"query": "matka", "relevant": ["sadhu-matka-clay", "sadhu-matka-brass"]}
+{"query": "potter's wheel", "relevant": ["gen-potters-wheel"]}
+{"query": "oven for firing pottery", "relevant": ["gen-brick-kiln"]}
+{"query": "king's throne", "relevant": ["sadhu-throne-front", "sadhu-throne-side"]}
+{"query": "seat for a raja", "relevant": ["sadhu-throne-front", "sadhu-throne-side", "sadhu-chair-front-royal"]}
+{"query": "woven rope bed", "relevant": ["sadhu-bed-charpai"]}
+{"query": "small clay oil lamp", "relevant": ["sadhu-lamp-diya", "openmoji-diya-lamp"]}
+{"query": "sword", "relevant": ["openmoji-crossed-swords", "openmoji-dagger"]}
+{"query": "weapon for a soldier", "relevant": ["openmoji-crossed-swords", "openmoji-dagger", "openmoji-bow-and-arrow", "openmoji-shield"]}
+{"query": "tool for digging the ground", "relevant": ["gen-iron-shovel", "gen-iron-pickaxe", "gen-broken-shovel"]}
+{"query": "shade tree in the village", "relevant": ["sadhu-tree", "openmoji-deciduous-tree"]}
+{"query": "dead dry tree", "relevant": ["gen-dry-neem-tree"]}
+{"query": "palm tree", "relevant": ["openmoji-palm-tree"]}
+{"query": "big boulder", "relevant": ["gen-riverbed-boulder", "sadhu-rock-hill", "sadhu-rock-river", "openmoji-rock"]}
+{"query": "bullock cart", "relevant": ["sadhu-cart"]}
+{"query": "small wooden boat for a river", "relevant": ["sadhu-boat", "openmoji-canoe"]}
+{"query": "three wheeler taxi", "relevant": ["sadhu-auto", "openmoji-auto-rickshaw"]}
+{"query": "basket for carrying grain", "relevant": ["gen-wicker-basket", "gen-pile-of-wicker-baskets", "openmoji-basket"]}
+{"query": "storage jar for grain", "relevant": ["gen-giant-grain-urn"]}
+{"query": "pile of logs for a fire", "relevant": ["gen-firewood-stack", "openmoji-wood"]}
+{"query": "market stall", "relevant": ["gen-merchants-canopy-tent", "gen-merchants-wooden-table"]}
+{"query": "scale for weighing goods", "relevant": ["gen-brass-weighing-scale", "openmoji-balance-scale"]}
+{"query": "temple bell", "relevant": ["gen-hanging-temple-bell"]}
+{"query": "statue of a god", "relevant": ["gen-stone-deity-idol"]}
+{"query": "shrine", "relevant": ["gen-white-stone-temple", "gen-stone-deity-idol", "gen-stone-tulsi-pedestal"]}
+{"query": "palace doorway", "relevant": ["sadhu-door-palace"]}
+{"query": "carved stone lattice window", "relevant": ["sadhu-window-jaali"]}
+{"query": "treasure box", "relevant": ["sadhu-chest"]}
+{"query": "royal order on paper", "relevant": ["gen-royal-scroll-pedestal", "openmoji-scroll"]}
+{"query": "carpet on the floor", "relevant": ["sadhu-rug-carpet", "sadhu-rug-durrie", "sadhu-rug-round"]}
+{"query": "goat", "relevant": ["sadhu-goat", "openmoji-goat"]}
+{"query": "elephant", "relevant": ["openmoji-elephant"]}
+{"query": "horse to ride", "relevant": ["openmoji-horse"]}
+{"query": "a mango", "relevant": ["openmoji-mango"]}
+{"query": "bread for a meal", "relevant": ["openmoji-bread", "openmoji-flatbread"]}
+{"query": "drum for a festival", "relevant": ["openmoji-drum", "openmoji-long-drum"]}
+{"query": "flute played by a shepherd", "relevant": ["openmoji-flute"]}
