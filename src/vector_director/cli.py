@@ -43,6 +43,13 @@ def main(argv: list[str] | None = None) -> None:
     pp.add_argument("--provider", default="gemini", choices=providers)
     pp.add_argument("--model", default=None)
     pp.add_argument("--out", default=".")
+    st = sub.add_parser("set", help="(M1) paint one location for a stage")
+    st.add_argument("prompt")
+    st.add_argument("--slug", required=True, help="file name and id prefix")
+    st.add_argument("--kind", default="outdoor", choices=["outdoor", "interior"])
+    st.add_argument("--provider", default="gemini", choices=providers)
+    st.add_argument("--model", default=None)
+    st.add_argument("--out", default=".")
     pr = sub.add_parser("prompts", help="(M1) write the synthetic eval prompt set")
     pr.add_argument("--n", type=int, default=50)
     pr.add_argument("--seed", type=int, default=0)
@@ -67,6 +74,8 @@ def main(argv: list[str] | None = None) -> None:
         _eval(args)
     elif args.cmd == "prop":
         _prop(args)
+    elif args.cmd == "set":
+        _set(args)
 
 
 def _prop(args: argparse.Namespace) -> None:
@@ -91,6 +100,30 @@ def _prop(args: argparse.Namespace) -> None:
         json.dumps(
             {"slug": prop.slug, "svg": str(out / f"{prop.slug}.svg"), **prop.meta},
             ensure_ascii=False,
+        )
+    )
+
+
+def _set(args: argparse.Namespace) -> None:
+    from pathlib import Path
+
+    from playwright.sync_api import sync_playwright
+
+    from vector_director.m1_harness.llm import make_llm
+    from vector_director.m1_harness.set_design import make_set
+
+    llm = make_llm(args.provider, args.model)
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch()
+        art = make_set(args.prompt, args.slug, args.kind, llm, browser.new_page())
+        browser.close()
+    out = Path(args.out)
+    out.mkdir(parents=True, exist_ok=True)
+    (out / f"{art.slug}.svg").write_text(art.svg)
+    (out / f"{art.slug}.png").write_bytes(art.png)
+    print(
+        json.dumps(
+            {"slug": art.slug, "svg": str(out / f"{art.slug}.svg"), **art.meta}, ensure_ascii=False
         )
     )
 
