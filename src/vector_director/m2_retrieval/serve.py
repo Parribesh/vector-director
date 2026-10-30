@@ -1,7 +1,10 @@
 """`vd serve`: the gallery over local HTTP, for Studio.
 
+GET   /                 the search test page
 GET   /health
-GET   /search?q=stone+well&k=20&kind=prop&status=approved&mode=vector
+GET   /search?q=stone+well&k=20&kind=prop&status=approved&mode=vector   (or image, text, bm25, hybrid)
+GET   /labels           the test queries;  PUT /labels {"query", "relevant"}, an empty list removes one
+GET   /scoreboard       every search mode scored on the test queries
 GET   /items?kind=prop
 GET   /items/<id>
 PATCH /items/<id>      {"name", "description", "tags", "height_cm", "status"}
@@ -21,12 +24,14 @@ import json
 import threading
 import uuid
 from dataclasses import asdict
+from functools import partial
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, unquote, urlparse
 
 from vector_director.m2_retrieval.embedders import ClipEmbedder
 from vector_director.m2_retrieval.library import Registry
+from vector_director.m2_retrieval.metrics import first_right, mrr, recall_at_k, resolve
 from vector_director.m2_retrieval.retrievers import BM25Retriever, HybridRetriever, VectorRetriever
 
 TYPES = {".svg": "image/svg+xml", ".png": "image/png"}
@@ -38,6 +43,14 @@ class Gallery:
         self.bm25 = BM25Retriever(self.reg)
         self.vector = VectorRetriever(self.reg, ClipEmbedder())
         self.hybrid = HybridRetriever([self.bm25, self.vector], [1, 3])
+        self.modes = {
+            "vector": self.vector.search,
+            "image": partial(self.vector.search, image_weight=1.0),
+            "text": partial(self.vector.search, image_weight=0.0),
+            "bm25": self.bm25.search,
+            "hybrid": self.hybrid.search,
+        }
+        self.labels_path = self.reg.root.resolve().parent / "data" / "eval" / "retrieval.jsonl"
         self.lock = threading.Lock()
         self.engine = None
         self.jobs: dict[str, dict] = {}
@@ -75,10 +88,42 @@ class Gallery:
         mode: str = "vector",
     ) -> list[dict]:
         """Vector by default: it ranked best on data/eval/retrieval.jsonl (`vd library eval`)."""
-        r = {"bm25": self.bm25, "hybrid": self.hybrid}.get(mode, self.vector)
         with self.lock:
-            hits = r.search(q, k=k, kind=kind, status=status)
+            hits = self.modes.get(mode, self.vector.search)(q, k=k, kind=kind, status=status)
         return [{**asdict(self.reg.items[h.id]), "score": h.score} for h in hits]
+
+    def labels(self) -> list[dict]:
+        path = self.labels_path
+        return [json.loads(x) for x in path.read_text().splitlines() if x.strip()] if path.exists() else []
+
+    def save_label(self, query: str, relevant: list[str]) -> list[dict]:
+        """The saved queries, with this one replaced, added or (no relevant items) removed."""
+        with self.lock:
+            rows = [r for r in self.labels() if r["query"].lower() != query.lower()]
+            if relevant:
+                rows.append({"query": query, "relevant": relevant})
+            self.labels_path.parent.mkdir(parents=True, exist_ok=True)
+            self.labels_path.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows))
+        return rows
+
+    def scoreboard(self) -> dict:
+        rows, merged = self.labels(), self.reg.merged()
+        modes = {m: {"recall": 0.0, "mrr": 0.0} for m in self.modes}
+        queries = []
+        with self.lock:
+            for row in rows:
+                good, first = resolve(row["relevant"], merged), {}
+                for m, search in self.modes.items():
+                    ranked = [h.id for h in search(row["query"], k=50, kind="prop")]
+                    modes[m]["recall"] += recall_at_k(ranked, good, 10)
+                    modes[m]["mrr"] += mrr(ranked, good)
+                    first[m] = first_right(ranked, good)
+                queries.append({"query": row["query"], "first": first})
+        for score in modes.values():
+            score["recall"] /= max(1, len(rows))
+            score["mrr"] /= max(1, len(rows))
+        queries.sort(key=lambda q: -(q["first"]["vector"] or 1000))
+        return {"count": len(rows), "modes": modes, "queries": queries}
 
     def edit(self, item_id: str, fields: dict) -> dict:
         with self.lock:
@@ -95,7 +140,7 @@ def handler_for(g: Gallery):
             self.send_response(code)
             self.send_header("content-type", ctype)
             self.send_header("access-control-allow-origin", "*")
-            self.send_header("access-control-allow-methods", "GET, PATCH, POST, OPTIONS")
+            self.send_header("access-control-allow-methods", "GET, PATCH, POST, PUT, OPTIONS")
             self.send_header("access-control-allow-headers", "content-type")
             self.end_headers()
             self.wfile.write(body)
@@ -113,6 +158,12 @@ def handler_for(g: Gallery):
             u = urlparse(self.path)
             parts = [unquote(p) for p in u.path.strip("/").split("/")]
             q = {k: v[0] for k, v in parse_qs(u.query).items()}
+            if parts == [""]:
+                return self._send(200, (Path(__file__).parent / "search_test.html").read_bytes(), "text/html; charset=utf-8")
+            if parts == ["labels"]:
+                return self._json(200, g.labels())
+            if parts == ["scoreboard"]:
+                return self._json(200, g.scoreboard())
             if parts == ["health"]:
                 return self._json(
                     200, {"ok": True, "items": len(g.reg.items), "embedded": len(g.vector.ids)}
@@ -190,6 +241,18 @@ def handler_for(g: Gallery):
             else:
                 return self._json(404, {"error": "not found"})
             self._json(200, {"job": g.start_job(pid, work)})
+
+        def do_PUT(self) -> None:
+            if urlparse(self.path).path.strip("/") != "labels":
+                return self._json(404, {"error": "not found"})
+            try:
+                body = json.loads(self.rfile.read(int(self.headers.get("content-length", 0))))
+                query, relevant = body["query"].strip(), body["relevant"]
+            except (ValueError, KeyError, AttributeError):
+                return self._json(400, {"error": "needs query and relevant"})
+            if not query or not isinstance(relevant, list) or not all(i in g.reg.items for i in relevant):
+                return self._json(400, {"error": "needs a query and known item ids"})
+            self._json(200, g.save_label(query, relevant))
 
         def do_PATCH(self) -> None:
             parts = [unquote(p) for p in urlparse(self.path).path.strip("/").split("/")]

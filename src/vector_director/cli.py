@@ -152,7 +152,7 @@ def _library(args: argparse.Namespace) -> None:
     elif args.action == "embed":
         print("embedded", VectorRetriever(reg, ClipEmbedder()).build())
     elif args.action == "eval":
-        from vector_director.m2_retrieval.metrics import mrr, recall_at_k
+        from vector_director.m2_retrieval.metrics import mrr, recall_at_k, resolve
 
         labels = [json.loads(x) for x in Path(args.labels).read_text().splitlines() if x.strip()]
         bm25, vector = BM25Retriever(reg), VectorRetriever(reg, ClipEmbedder())
@@ -160,7 +160,7 @@ def _library(args: argparse.Namespace) -> None:
             rec, rr = 0.0, 0.0
             for row in labels:
                 ranked = [h.id for h in r.search(row["query"], k=50, kind="prop")]
-                good = set(row["relevant"])
+                good = resolve(row["relevant"], reg.merged())
                 rec += recall_at_k(ranked, good, 10)
                 rr += mrr(ranked, good)
             print(f"{name:7} recall@10 {rec / len(labels):.3f}   mrr {rr / len(labels):.3f}   ({len(labels)} queries)")

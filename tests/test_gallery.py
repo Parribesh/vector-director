@@ -113,3 +113,11 @@ def test_a_refused_item_stays_out_of_a_reseed(tmp_path):
     reg.refuse("oc-bad")
     reg.add(item, '<path fill="#000"/>')
     assert "oc-bad" not in reg.items
+
+
+def test_a_label_on_a_merged_item_counts_as_what_it_became():
+    from vector_director.m2_retrieval.metrics import first_right, resolve
+
+    assert resolve(["a", "x", "gone"], {"a": "b", "b": "c", "gone": None}) == {"c", "x", "gone"}
+    assert first_right(["p", "c"], {"c"}) == 2
+    assert first_right(["p"], {"c"}) is None

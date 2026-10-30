@@ -107,11 +107,11 @@ class VectorRetriever:
                     break
         return out
 
-    def search(self, query: str, k: int = 10, kind: str | None = None, status: str | None = None) -> list[Hit]:
+    def search(self, query: str, k: int = 10, kind: str | None = None, status: str | None = None, image_weight: float | None = None) -> list[Hit]:
         if not self.ids:
             return []
-        q = self.embedder.embed_text([query])[0]
-        return self._rank(self.image_weight * (self.image @ q) + (1 - self.image_weight) * (self.text @ q), k, kind, status)
+        q, w = self.embedder.embed_text([query])[0], self.image_weight if image_weight is None else image_weight
+        return self._rank(w * (self.image @ q) + (1 - w) * (self.text @ q), k, kind, status)
 
     def search_image(self, image, k: int = 10, kind: str | None = None, status: str | None = None) -> list[Hit]:
         return self._rank(self.image @ self.embedder.embed_images([image])[0], k, kind, status)

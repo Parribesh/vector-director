@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery Search Test</title>
+<style>
+:root {
+  --bg: #f7f4ee; --panel: #fffdf9; --line: #ddd5c7; --ink: #2a2118; --soft: #6d6355;
+  --accent: #a8501c; --right: #1f7a4d; --right-bg: #e4f3ea; --thumb: #ece6da;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17130f; --panel: #211c16; --line: #3b3329; --ink: #f1e9dc; --soft: #a99d8c;
+    --accent: #e88f52; --right: #6fd19f; --right-bg: #1d3a2b; --thumb: #e9e2d4;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17130f; --panel: #211c16; --line: #3b3329; --ink: #f1e9dc; --soft: #a99d8c;
+  --accent: #e88f52; --right: #6fd19f; --right-bg: #1d3a2b; --thumb: #e9e2d4;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 1500px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { font-size: 22px; margin: 0 0 4px; }
+.help { color: var(--soft); margin: 0; font-size: 13px; }
+form { display: flex; gap: 8px; margin: 16px 0 10px; }
+input[type=search] { flex: 1; min-width: 0; font: inherit; font-size: 17px; padding: 10px 12px; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
+button { font: inherit; color: inherit; cursor: pointer; }
+.primary { background: var(--accent); color: var(--panel); border: 0; border-radius: 8px; padding: 0 18px; font-weight: 600; }
+.bar { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
+.bar label { display: inline-flex; gap: 5px; align-items: center; font-size: 13px; cursor: pointer; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.chip { border: 1px solid var(--line); background: var(--panel); border-radius: 99px; padding: 3px 11px; font-size: 13px; }
+#status { min-height: 20px; margin: 12px 0 8px; }
+#cols { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); align-items: start; }
+.col { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.col header { padding: 10px 12px; border-bottom: 1px solid var(--line); }
+.col h2 { font-size: 14px; margin: 0; }
+.tally { font-size: 13px; font-weight: 600; color: var(--right); min-height: 19px; margin-top: 3px; }
+.hit { display: grid; grid-template-columns: 20px 64px 1fr; gap: 8px; align-items: center; width: 100%; text-align: left; padding: 6px 10px 6px 8px; background: none; border: 0; border-top: 1px solid var(--line); border-left: 4px solid transparent; }
+.hit:first-of-type { border-top: 0; }
+.hit:hover { background: var(--bg); }
+.hit[aria-pressed=true] { background: var(--right-bg); border-left-color: var(--right); }
+.rank { color: var(--soft); font-size: 12px; text-align: right; font-variant-numeric: tabular-nums; }
+.hit img { width: 64px; height: 64px; object-fit: contain; background: var(--thumb); border-radius: 6px; display: block; }
+.name { display: block; font-weight: 600; font-size: 14px; overflow-wrap: anywhere; }
+.meta { display: block; color: var(--soft); font-size: 12px; font-variant-numeric: tabular-nums; }
+.none { padding: 14px 12px; color: var(--soft); font-size: 13px; margin: 0; }
+details { margin-top: 28px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+summary { cursor: pointer; font-weight: 600; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; font-size: 13px; margin-top: 10px; font-variant-numeric: tabular-nums; }
+th, td { padding: 4px 12px 4px 0; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td button { background: none; border: 0; padding: 0; color: var(--accent); text-decoration: underline; }
+.miss { color: var(--accent); font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Gallery search test</h1>
+  <p class="help">Search as a story would, then click each result that is really right. Your marks score every column and are saved as a test query.</p>
+  <form id="form">
+    <input id="q" type="search" placeholder="a wooden pier, a place to store grain, something to light at night…" aria-label="Search the gallery" autofocus>
+    <button class="primary">Search</button>
+  </form>
+  <div class="bar" id="toggles"></div>
+  <div class="chips" id="chips"></div>
+  <p class="help" id="status" role="status"></p>
+  <div id="cols"></div>
+  <details id="board">
+    <summary>Scoreboard: every saved test query</summary>
+    <p class="help" id="boardNote" style="margin-top:8px"></p>
+    <div class="scroll" id="boardBody"></div>
+  </details>
+</main>
+<script>
+const MODES = [
+  ['vector', 'CLIP: picture + words', 'What stories use'],
+  ['image', 'CLIP: picture only', 'Does the art look like the words?'],
+  ['text', 'CLIP: words only', 'Do the labels mean the same thing?'],
+  ['bm25', 'Keywords (BM25)', 'No embeddings: the baseline to beat'],
+  ['hybrid', 'Hybrid', 'Keywords and CLIP combined'],
+];
+const SHOW = 10, FETCH = 60;
+const $ = id => document.getElementById(id);
+const el = (tag, props = {}, ...kids) => { const e = Object.assign(document.createElement(tag), props); e.append(...kids); return e; };
+const J = async (url, opts) => { const r = await fetch(url, opts); if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); };
+
+let on = new Set(['vector', 'image', 'text', 'bm25']), storiesOnly = true;
+let labels = [], query = '', results = {}, right = new Set();
+
+function drawToggles() {
+  $('toggles').replaceChildren(
+    ...MODES.map(([m, name]) => el('label', {}, el('input', { type: 'checkbox', checked: on.has(m), onchange: e => { e.target.checked ? on.add(m) : on.delete(m); run(); } }), name)),
+    el('label', { title: 'Stories leave out emoji and backdrops' }, el('input', { type: 'checkbox', checked: storiesOnly, onchange: e => { storiesOnly = e.target.checked; run(); } }), 'Only what stories can use'));
+}
+
+function drawChips() {
+  const saved = labels.slice(-8).reverse().map(l => l.query);
+  $('chips').replaceChildren(...saved.map(s => el('button', { className: 'chip', type: 'button', onclick: () => go(s) }, s)));
+}
+
+function tally(hits) {
+  if (!right.size) return '';
+  const top = hits.slice(0, SHOW), n = top.filter(h => right.has(h.id)).length, first = hits.findIndex(h => right.has(h.id));
+  if (first < 0) return 'Missed: no right item found';
+  return `First right at #${first + 1}, ${n} of ${right.size} in the top ${SHOW}`;
+}
+
+function drawCols() {
+  $('cols').replaceChildren(...MODES.filter(([m]) => on.has(m)).map(([m, name, why]) => {
+    const hits = results[m] || [];
+    return el('section', { className: 'col' },
+      el('header', {}, el('h2', {}, name), el('p', { className: 'help' }, why), el('div', { className: 'tally' }, tally(hits))),
+      ...(hits.length ? hits.slice(0, SHOW).map((h, i) => el('button', {
+        className: 'hit', type: 'button', title: `${h.id}\n${h.description || ''}\n${h.source}`,
+        ariaPressed: String(right.has(h.id)), onclick: () => toggle(h.id),
+      },
+        el('span', { className: 'rank' }, i + 1),
+        el('img', { src: `/files/thumbs/${encodeURIComponent(h.id)}.png`, alt: '', loading: 'lazy' }),
+        el('span', {}, el('span', { className: 'name' }, `${right.has(h.id) ? '✓ ' : ''}${h.name}`),
+          el('span', { className: 'meta' }, `${h.score.toFixed(3)} · ${h.height_cm} cm · ${h.source.split(' ')[0]}`)))) : [el('p', { className: 'none' }, query ? 'Nothing found.' : 'Results appear here.')]));
+  }));
+}
+
+async function toggle(id) {
+  right.has(id) ? right.delete(id) : right.add(id);
+  drawCols();
+  try {
+    labels = await J('/labels', { method: 'PUT', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ query, relevant: [...right] }) });
+    say(right.size ? `Saved as a test query, with ${right.size} right ${right.size === 1 ? 'item' : 'items'}.` : 'Removed from the test queries.');
+    drawChips();
+    if ($('board').open) board();
+  } catch (e) { say(`Your mark wasn't saved: ${e.message}`); }
+}
+
+const say = t => { $('status').textContent = t; };
+const go = q => { $('q').value = q; run(); window.scrollTo({ top: 0 }); };
+
+async function run() {
+  drawToggles();
+  query = $('q').value.trim();
+  const url = new URL(location); query ? url.searchParams.set('q', query) : url.searchParams.delete('q'); history.replaceState(null, '', url);
+  if (!query) { results = {}; right = new Set(); drawCols(); return; }
+  const asked = query;
+  say('Searching…');
+  try {
+    const kind = storiesOnly ? '&kind=prop' : '';
+    const got = await Promise.all(MODES.filter(([m]) => on.has(m)).map(async ([m]) => {
+      const hits = await J(`/search?q=${encodeURIComponent(asked)}&k=${FETCH}&mode=${m}${kind}`);
+      return [m, storiesOnly ? hits.filter(h => h.source !== 'openmoji') : hits];
+    }));
+    if (asked !== query) return;
+    results = Object.fromEntries(got);
+    right = new Set(labels.find(l => l.query.toLowerCase() === asked.toLowerCase())?.relevant || []);
+    say(right.size ? 'This query was already saved, so your earlier marks are shown.' : 'Click every result that is really right.');
+    drawCols();
+  } catch (e) { say(`Search failed: ${e.message}. Is the gallery server still running?`); }
+}
+
+async function board() {
+  $('boardNote').textContent = 'Scoring every query…';
+  try {
+    const b = await J('/scoreboard');
+    $('boardNote').textContent = `${b.count} queries, up to the first 50 results of each, searching props including emoji. Recall@10 is how many right items reach the top 10. MRR is higher when the first right item ranks nearer the top. Queries are sorted worst first for CLIP.`;
+    const row = (tag, cells) => el('tr', {}, ...cells.map(c => el(tag, {}, c)));
+    const names = Object.fromEntries(MODES);
+    $('boardBody').replaceChildren(
+      el('table', {}, row('th', ['Search', 'Recall@10', 'MRR']), ...MODES.map(([m]) => row('td', [names[m], b.modes[m].recall.toFixed(3), b.modes[m].mrr.toFixed(3)]))),
+      el('table', {}, row('th', ['Query', ...MODES.map(([m]) => names[m])]),
+        ...b.queries.map(q => row('td', [
+          el('button', { type: 'button', onclick: () => go(q.query) }, q.query),
+          ...MODES.map(([m]) => q.first[m] ? `#${q.first[m]}` : el('span', { className: 'miss' }, 'missed')),
+        ]))));
+  } catch (e) { $('boardNote').textContent = `Could not score: ${e.message}`; }
+}
+
+$('form').onsubmit = e => { e.preventDefault(); run(); };
+$('board').ontoggle = () => { if ($('board').open) board(); };
+(async () => {
+  drawToggles(); drawCols();
+  try { labels = await J('/labels'); drawChips(); } catch (e) { say(`The gallery server isn't answering: ${e.message}`); return; }
+  const q = new URLSearchParams(location.search).get('q');
+  if (q) go(q);
+})();
+</script>
+</body>
+</html>
