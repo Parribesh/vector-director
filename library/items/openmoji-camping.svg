@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-153.09 41.76) scale(11.4706)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-camping-color">
-    <polyline fill="#FCEA2B" stroke="#FCEA2B" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="27,35 12.5,60 41.5,60 27,35" />
-    <polyline fill="#F1B31C" stroke="#F1B31C" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="27,35 27,60 12.5,60 27,35" />
-    <path fill="#B1CC33" d="M66.5,32.6158c0-3.5438-3.6409-6.422-8.1319-6.422c-0.3752,0.0031-0.75,0.0268-1.1227,0.0708 C55.3433,22.5678,51.2137,20,46.4116,20c-6.6037,0-11.9566,4.845-11.9566,10.8212c0.0012,0.395,0.026,0.7896,0.0743,1.1815 C31.5775,32.9659,29.5,35.2594,29.5,37.9378c0,3.5437,3.6409,6.422,8.1319,6.422c1.7071,0.0148,3.3882-0.4304,4.8765-1.2914 c1.9213,1.5798,4.9956,2.6089,8.472,2.6089c5.8244,0,10.546-2.8754,10.546-6.4219c-0.001-0.2345-0.0226-0.4684-0.0647-0.6989 C64.4176,37.5919,66.5,35.297,66.5,32.6158z" />
-    <path fill="#8967AA" d="M27,54c-1,0-3,1-5,1c-2.7614,0-5,2.2386-5,5h10V54z" />
+    <polyline fill="var(--c1,#fcea2b)" stroke="var(--c1,#fcea2b)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="27,35 12.5,60 41.5,60 27,35" />
+    <polyline fill="color-mix(in srgb,var(--c1,#fcea2b) 90.9%,black)" stroke="color-mix(in srgb,var(--c1,#fcea2b) 90.9%,black)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="27,35 27,60 12.5,60 27,35" />
+    <path fill="color-mix(in srgb,var(--c1,#fce92b) 86.1%,black)" d="M66.5,32.6158c0-3.5438-3.6409-6.422-8.1319-6.422c-0.3752,0.0031-0.75,0.0268-1.1227,0.0708 C55.3433,22.5678,51.2137,20,46.4116,20c-6.6037,0-11.9566,4.845-11.9566,10.8212c0.0012,0.395,0.026,0.7896,0.0743,1.1815 C31.5775,32.9659,29.5,35.2594,29.5,37.9378c0,3.5437,3.6409,6.422,8.1319,6.422c1.7071,0.0148,3.3882-0.4304,4.8765-1.2914 c1.9213,1.5798,4.9956,2.6089,8.472,2.6089c5.8244,0,10.546-2.8754,10.546-6.4219c-0.001-0.2345-0.0226-0.4684-0.0647-0.6989 C64.4176,37.5919,66.5,35.297,66.5,32.6158z" />
+    <path fill="var(--c2,#8967aa)" d="M27,54c-1,0-3,1-5,1c-2.7614,0-5,2.2386-5,5h10V54z" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-camping-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-camping-skin" />

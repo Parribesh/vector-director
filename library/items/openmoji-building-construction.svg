@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-13963.43 -22809.64) scale(398.9770)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-building-construction-color">
-    <polygon fill="#FCEA2B" points="58,25.8333 12,27 12,20 58,21.1667" />
-    <polygon fill="#FCEA2B" points="28,59 18,59 20,13 26,13" />
-    <rect x="40.5" y="37" width="19" height="4" fill="#D0CFCE" />
+    <polygon fill="var(--c1,#fcea2b)" points="58,25.8333 12,27 12,20 58,21.1667" />
+    <polygon fill="var(--c1,#fcea2b)" points="28,59 18,59 20,13 26,13" />
+    <rect x="40.5" y="37" width="19" height="4" fill="var(--c2,#d0cfce)" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-building-construction-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-building-construction-skin" />

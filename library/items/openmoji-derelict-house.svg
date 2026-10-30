@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-1557.41 -2185.10) scale(51.5946)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-derelict-house-color">
     <rect x="18.5" y="31.5" width="35" height="25" fill="#FFFFFF" />
-    <polygon fill="#EA5A47" points="28.5,22.0588 23.5,26.7647 23.5,17 28.5,17" />
-    <rect x="25.5" y="40" width="9" height="16" fill="#A57939" />
-    <polygon fill="#6A462F" points="37.45,40.3798 24.26,53.5698 21.34,50.6598 25.5,46.4998 32,39.9998 34.53,37.4698" />
-    <polygon fill="#9B9B9A" points="48,47 42.7924,47 40,47 40,40 42,40 48,40" />
-    <polygon fill="#92D3F5" points="42.7917,47 46,43 43,42 42,40 48,40 48,47" />
-    <polygon fill="#EA5A47" points="36,15 19,31 19,32.0003 53,32.0003 53,31 47,26 40,27 32,28 34,24 32,22 38.6,17.6" />
+    <polygon fill="var(--c1,#ea5a47)" points="28.5,22.0588 23.5,26.7647 23.5,17 28.5,17" />
+    <rect x="25.5" y="40" width="9" height="16" fill="color-mix(in srgb,var(--c1,#ea5a47) 73.1%,black)" />
+    <polygon fill="color-mix(in srgb,var(--c1,#ea5a48) 50.0%,black)" points="37.45,40.3798 24.26,53.5698 21.34,50.6598 25.5,46.4998 32,39.9998 34.53,37.4698" />
+    <polygon fill="var(--c2,#9b9b9a)" points="48,47 42.7924,47 40,47 40,40 42,40 48,40" />
+    <polygon fill="var(--c3,#92d3f5)" points="42.7917,47 46,43 43,42 42,40 48,40 48,47" />
+    <polygon fill="var(--c1,#ea5a47)" points="36,15 19,31 19,32.0003 53,32.0003 53,31 47,26 40,27 32,28 34,24 32,22 38.6,17.6" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-derelict-house-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-derelict-house-skin" />

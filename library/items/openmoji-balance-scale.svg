@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(224.89 600.52) scale(2.0578)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-balance-scale-color">
-    <path fill="#9B9B9A" stroke="none" d="M48.0626,62.92c0-3.3137-5.5964-6-12.5-6s-12.5,2.6863-12.5,6H48.0626z" />
-    <path fill="#D0CFCE" stroke="none" d="M24.9006,46.9656c0,2.1938-2.1985,3.9723-4.9106,3.9723s-4.9106-1.7785-4.9106-3.9723H24.9006z" />
-    <path fill="#D0CFCE" stroke="none" d="M57.9006,46.9248c0,2.1938-2.1985,3.9723-4.9106,3.9723c-2.712,0-4.9106-1.7785-4.9106-3.9723H57.9006z" />
+    <path fill="color-mix(in srgb,var(--c1,#d0cfcf) 75.0%,black)" stroke="none" d="M48.0626,62.92c0-3.3137-5.5964-6-12.5-6s-12.5,2.6863-12.5,6H48.0626z" />
+    <path fill="var(--c1,#d0cfce)" stroke="none" d="M24.9006,46.9656c0,2.1938-2.1985,3.9723-4.9106,3.9723s-4.9106-1.7785-4.9106-3.9723H24.9006z" />
+    <path fill="var(--c1,#d0cfce)" stroke="none" d="M57.9006,46.9248c0,2.1938-2.1985,3.9723-4.9106,3.9723c-2.712,0-4.9106-1.7785-4.9106-3.9723H57.9006z" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-balance-scale-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-balance-scale-skin" />

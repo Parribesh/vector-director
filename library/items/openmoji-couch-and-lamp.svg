@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-0.59 206.01) scale(8.3593)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-couch-and-lamp-color">
-    <rect x="6.833" y="55.62" width="5.422" height="7.064" fill="#a57939" stroke-width="1.042" />
-    <rect x="51.82" y="55.62" width="5.422" height="7.064" fill="#a57939" stroke-width="1.042" />
-    <path fill="#92d3f5" d="m12.54 28.49h38.94l0.243 26.82-38.96-0.2078z" />
-    <rect x="12.62" y="46.36" width="39.1" height="8.952" fill="#61b2e4" stroke-width="0.9064" />
-    <path transform="rotate(90 56.28 44.95)" fill="#61b2e4" d="m45.93 43.3h20.69l0.01452 6.212-20.71-0.1735z" />
-    <path transform="rotate(90 7.178 44.95)" fill="#61b2e4" d="m-1.848 39.65 19.39-0.1405-0.01452 7.167h-21.36z" />
-    <polyline fill="#A57939" points="52.74 57.65 52.74 62.46 56.17 62.46 56.17 57.65" />
-    <polyline fill="#A57939" points="7.444 57.61 7.444 62.46 10.87 62.46 10.87 57.61" />
-    <path fill="#FCEA2B" d="m34.46 9.549v8.465s6.279 3.422 12.56 0v-8.465c1e-4 0-6.279-3.782-12.56 0z" />
+    <rect x="6.833" y="55.62" width="5.422" height="7.064" fill="var(--c1,#a57939)" stroke-width="1.042" />
+    <rect x="51.82" y="55.62" width="5.422" height="7.064" fill="var(--c1,#a57939)" stroke-width="1.042" />
+    <path fill="color-mix(in srgb,var(--c2,#61b2e4) 63.9%,white)" d="m12.54 28.49h38.94l0.243 26.82-38.96-0.2078z" />
+    <rect x="12.62" y="46.36" width="39.1" height="8.952" fill="var(--c2,#61b2e4)" stroke-width="0.9064" />
+    <path transform="rotate(90 56.28 44.95)" fill="var(--c2,#61b2e4)" d="m45.93 43.3h20.69l0.01452 6.212-20.71-0.1735z" />
+    <path transform="rotate(90 7.178 44.95)" fill="var(--c2,#61b2e4)" d="m-1.848 39.65 19.39-0.1405-0.01452 7.167h-21.36z" />
+    <polyline fill="var(--c1,#a57939)" points="52.74 57.65 52.74 62.46 56.17 62.46 56.17 57.65" />
+    <polyline fill="var(--c1,#a57939)" points="7.444 57.61 7.444 62.46 10.87 62.46 10.87 57.61" />
+    <path fill="color-mix(in srgb,var(--c1,#a67939) 75.3%,white)" d="m34.46 9.549v8.465s6.279 3.422 12.56 0v-8.465c1e-4 0-6.279-3.782-12.56 0z" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-couch-and-lamp-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-couch-and-lamp-skin" />

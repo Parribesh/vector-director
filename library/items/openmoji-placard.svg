@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(33.69 280.47) scale(7.3976)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-placard-color">
     <path fill="#fff" d="M55.0372,42.06H16.9628a1.19,1.19,0,0,1-1.19-1.19V16.119a1.19,1.19,0,0,1,1.19-1.19H55.0372a1.19,1.19,0,0,1,1.19,1.1905v24.75A1.19,1.19,0,0,1,55.0372,42.06Z" />
-    <rect x="44.5182" y="16.119" width="10.5189" height="24.75" fill="#d0cfce" />
-    <path fill="#a57939" d="M40.1509,40.8687V59.7671a1,1,0,0,1-1,1H32.8491a1,1,0,0,1-1-1V40.8687Z" />
-    <path fill="#a57939" d="M31.8491,16.1187v-3.97a1,1,0,0,1,1-1h6.3018a1,1,0,0,1,1,1v3.97Z" />
+    <rect x="44.5182" y="16.119" width="10.5189" height="24.75" fill="var(--c2,#d0cfce)" />
+    <path fill="var(--c1,#a57939)" d="M40.1509,40.8687V59.7671a1,1,0,0,1-1,1H32.8491a1,1,0,0,1-1-1V40.8687Z" />
+    <path fill="var(--c1,#a57939)" d="M31.8491,16.1187v-3.97a1,1,0,0,1,1-1h6.3018a1,1,0,0,1,1,1v3.97Z" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-placard-line">
     <rect x="16.9632" y="16.119" width="38.0739" height="24.75" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />

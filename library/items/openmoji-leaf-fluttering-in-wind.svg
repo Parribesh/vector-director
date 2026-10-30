@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(266.90 682.82) scale(0.9218)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-leaf-fluttering-in-wind-color">
-    <path fill="#b1cc33" d="M28.919,27.91c8.1523-6.8285,20.7734-4.925,20.7734-4.925S49.0929,35.8214,41.0678,42.44s-20.7734,4.9249-20.7734,4.9249S20.7668,34.738,28.919,27.91Z" />
+    <path fill="var(--c1,#b1cc33)" d="M28.919,27.91c8.1523-6.8285,20.7734-4.925,20.7734-4.925S49.0929,35.8214,41.0678,42.44s-20.7734,4.9249-20.7734,4.9249S20.7668,34.738,28.919,27.91Z" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-leaf-fluttering-in-wind-line">
     <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M29.63,27.91c8.1523-6.8285,20.7734-4.925,20.7734-4.925S49.804,35.8214,41.7789,42.44s-20.7734,4.9249-20.7734,4.9249S21.4778,34.738,29.63,27.91Z" />

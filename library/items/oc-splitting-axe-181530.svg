@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(182.78 402.12) scale(0.3070)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-splitting-axe-181530-defs101051">
+    <linearGradient id="oc-splitting-axe-181530-linearGradient84468" x1="11540" gradientUnits="userSpaceOnUse" y1="2414" gradientTransform="matrix(1.3831 2.3535 -2.3535 1.3831 12366 667.59)" x2="11732" y2="2688">
+      <stop id="oc-splitting-axe-181530-stop28039" stop-color="var(--c2,#a40)" offset="0" />
+      <stop id="oc-splitting-axe-181530-stop28045" stop-color="var(--c3,#808000)" stop-opacity=".65098" offset=".2373" />
+      <stop id="oc-splitting-axe-181530-stop28041" stop-color="color-mix(in srgb,var(--c2,#d45500) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-splitting-axe-181530-linearGradient84470" x1="9992.2" gradientUnits="userSpaceOnUse" y1="3830.5" gradientTransform="matrix(1.3831 2.3535 -2.3535 1.3831 12366 667.59)" x2="10232" y2="4524.1">
+      <stop id="oc-splitting-axe-181530-stop28049" stop-color="var(--c1,#999)" offset="0" />
+      <stop id="oc-splitting-axe-181530-stop28051" stop-color="var(--c1,#999)" stop-opacity="0" offset="1" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-splitting-axe-181530-layer1">
+    <g id="oc-splitting-axe-181530-g28069" stroke="#000" stroke-width="27.298" transform="matrix(.096317 -.16390 .16390 .096317 -1194.1 2171.7)">
+      <path id="oc-splitting-axe-181530-path28071" fill="url(#oc-splitting-axe-181530-linearGradient84468)" d="m9919.9 3538.5 3391.3-2364.7c134.22-82.494 255.32 113.56 122.43 217.2l-3405 2306.2z" />
+      <path id="oc-splitting-axe-181530-path28073" fill="url(#oc-splitting-axe-181530-linearGradient84470)" d="m9868.4 4601.4-100.77-416.5-221.69-470.24 26.871-241.84 166.58-99.716 233.67 89.817 220.81 442.68 256.51 285.01s-48.098 32.217-101.3 69.396c-6.68 4.6687-33.212-30.806-38.618-37.7-12.775-16.293 27.769 45.883 23.677 48.76-39.081 27.474-87.643 62.101-131.68 93.323-3.145 2.2299-38.64-37.543-45.081-43.174-6.485-5.6694 36.062 51.898 32.113 54.696-5.812 4.1193-11.636 8.2457-17.46 12.372-3.677 2.6048-83.719-119.96-82.291-115.69 0.224 0.6701 69.918 124.25 66.876 126.41-145.75 103.22-290.58 205.45-288.24 202.4z" />
+      <path id="oc-splitting-axe-181530-path28075" fill="color-mix(in srgb,var(--c1,#999999) 66.7%,black)" d="m9865 4598-166.84-360.1-260.03-339.42 23.189-266.3 104.73-147.21-18.235 232.96 223.26 465.52z" />
+      <path id="oc-splitting-axe-181530-path28077" fill="none" d="m9545.4 3716.2-106.76 184.68" />
+    </g>
+  </g></g></svg>

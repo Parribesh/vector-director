@@ -2,23 +2,23 @@
     <polygon fill="#d0cfce" points="9.3563 56.5056 62.6437 56.5056 62.6437 23.5644 45.2823 23.5644 45.2823 20.6578 26.7177 20.6578 26.7177 23.5644 9.3563 23.5644 9.3563 56.5056" />
     <rect x="30.6247" y="39.9946" width="10.7507" height="12.7465" fill="#a57939" />
     <circle cx="36" cy="30.2423" r="6.2976" fill="#fff" />
-    <rect x="20.4982" y="46.817" width="1.9377" height="4.0355" fill="none" stroke="#92d3f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <rect x="13.7162" y="46.817" width="1.9377" height="4.0355" fill="none" stroke="#92d3f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <rect x="20.4982" y="37.1284" width="1.9377" height="4.8443" fill="none" stroke="#92d3f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <rect x="13.7162" y="37.1284" width="1.9377" height="4.8443" fill="none" stroke="#92d3f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <rect x="20.4982" y="27.4398" width="1.9377" height="4.8443" fill="none" stroke="#92d3f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <rect x="13.7162" y="27.4398" width="1.9377" height="4.8443" fill="none" stroke="#92d3f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <rect x="56.3461" y="46.817" width="1.9377" height="4.0355" fill="none" stroke="#92d3f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <rect x="49.564" y="46.817" width="1.9377" height="4.0355" fill="none" stroke="#92d3f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <rect x="56.3461" y="37.1284" width="1.9377" height="4.8443" fill="none" stroke="#92d3f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <rect x="49.564" y="37.1284" width="1.9377" height="4.8443" fill="none" stroke="#92d3f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <rect x="56.3461" y="27.4398" width="1.9377" height="4.8443" fill="none" stroke="#92d3f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <rect x="49.564" y="27.4398" width="1.9377" height="4.8443" fill="none" stroke="#92d3f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <polygon fill="#d22f27" points="24.8 20.49 26.72 20.49 26.72 23.56 9.36 23.56 13.21 17.42 28.4107 17.42 24.8 20.49" />
-    <polygon fill="#d22f27" points="47.2 20.49 45.2837 20.49 45.2837 23.56 62.6437 23.56 58.7936 17.42 43.592 17.42 47.2 20.49" />
-    <polygon fill="#ea5a47" points="47.2 20.49 24.8 20.49 26.72 18.8591 36 10.96 47.2 20.49" />
-    <rect x="7.196" y="50.8525" width="19.5218" height="5.6531" fill="#b1cc33" />
-    <rect x="45.2823" y="50.8525" width="19.5218" height="5.6531" fill="#b1cc33" />
+    <rect x="20.4982" y="46.817" width="1.9377" height="4.0355" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="13.7162" y="46.817" width="1.9377" height="4.0355" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="20.4982" y="37.1284" width="1.9377" height="4.8443" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="13.7162" y="37.1284" width="1.9377" height="4.8443" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="20.4982" y="27.4398" width="1.9377" height="4.8443" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="13.7162" y="27.4398" width="1.9377" height="4.8443" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="56.3461" y="46.817" width="1.9377" height="4.0355" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="49.564" y="46.817" width="1.9377" height="4.0355" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="56.3461" y="37.1284" width="1.9377" height="4.8443" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="49.564" y="37.1284" width="1.9377" height="4.8443" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="56.3461" y="27.4398" width="1.9377" height="4.8443" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="49.564" y="27.4398" width="1.9377" height="4.8443" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <polygon fill="var(--c2,#d22f27)" points="24.8 20.49 26.72 20.49 26.72 23.56 9.36 23.56 13.21 17.42 28.4107 17.42 24.8 20.49" />
+    <polygon fill="var(--c2,#d22f27)" points="47.2 20.49 45.2837 20.49 45.2837 23.56 62.6437 23.56 58.7936 17.42 43.592 17.42 47.2 20.49" />
+    <polygon fill="color-mix(in srgb,var(--c2,#d23027) 79.2%,white)" points="47.2 20.49 24.8 20.49 26.72 18.8591 36 10.96 47.2 20.49" />
+    <rect x="7.196" y="50.8525" width="19.5218" height="5.6531" fill="var(--c3,#b1cc33)" />
+    <rect x="45.2823" y="50.8525" width="19.5218" height="5.6531" fill="var(--c3,#b1cc33)" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-school-line">
     <rect x="26.72" y="20.49" width="18.5601" height="36.02" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />

@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(290.24 712.65) scale(0.2709)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-bookmark-tabs-color">
     <path fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="2" d="m14.85 64.04 0.05537-5.257-5.343-0.03324v-50.79h28.89l5.287 5.291h11.3v50.79z" />
-    <polyline transform="matrix(1.057 0 0 1.058 -8.414 -4.737)" fill="#d0cfce" stroke-width="0.9454" points="54.92 23 44 11.65 44 23" />
-    <polygon transform="matrix(1.057 0 0 1.058 -8.414 -4.737)" fill="#92d3f5" stroke-width="0.9454" points="59.55 29.04 67 29.04 67 34 59.55 34 57.71 31.52" />
-    <polygon transform="matrix(1.057 0 0 1.058 -8.414 -4.737)" fill="#ea5a47" stroke-width="0.9454" points="54.55 48 62 48 62 52.96 54.55 52.96 52.71 50.48" />
+    <polyline transform="matrix(1.057 0 0 1.058 -8.414 -4.737)" fill="var(--c1,#d0cfce)" stroke-width="0.9454" points="54.92 23 44 11.65 44 23" />
+    <polygon transform="matrix(1.057 0 0 1.058 -8.414 -4.737)" fill="var(--c2,#92d3f5)" stroke-width="0.9454" points="59.55 29.04 67 29.04 67 34 59.55 34 57.71 31.52" />
+    <polygon transform="matrix(1.057 0 0 1.058 -8.414 -4.737)" fill="var(--c3,#ea5a47)" stroke-width="0.9454" points="54.55 48 62 48 62 52.96 54.55 52.96 52.71 50.48" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-bookmark-tabs-line">
     <polyline transform="matrix(1.059 0 0 1.058 -8.462 -4.752)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.889" points="60 28.75 60 17 49.32 17" />

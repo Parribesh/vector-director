@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(232.64 422.52) scale(1.1589)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-blue-candle-189405-defs3021">
+    <radialGradient id="oc-blue-candle-189405-radialGradient4369" gradientUnits="userSpaceOnUse" cy="177.4" cx="304.47" gradientTransform="matrix(.80829 .080013 -.15881 1.6043 597.86 -43.713)" r="53.232">
+      <stop id="oc-blue-candle-189405-stop4058" stop-color="#fffdec" offset="0" />
+      <stop id="oc-blue-candle-189405-stop4060" stop-color="var(--c2,#ffea00)" offset=".42857" />
+      <stop id="oc-blue-candle-189405-stop4062" stop-color="color-mix(in srgb,var(--c2,#ffbb00) 94.5%,black)" stop-opacity=".65649" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-blue-candle-189405-radialGradient3040" gradientUnits="userSpaceOnUse" cy="307.85" cx="806.18" gradientTransform="matrix(.39632 .0096921 -.0033279 .1117 824.92 946.13)" r="120.34">
+      <stop id="oc-blue-candle-189405-stop3849" stop-color="color-mix(in srgb,var(--c1,#3131ff) 48.6%,black)" offset="0" />
+      <stop id="oc-blue-candle-189405-stop3855" stop-color="var(--c1,#7272ff)" offset=".42857" />
+      <stop id="oc-blue-candle-189405-stop3851" stop-color="var(--c1,#7272ff)" offset="1" />
+    </radialGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-blue-candle-189405-layer1" transform="translate(-1083.4 -891.22)">
+    <path id="oc-blue-candle-189405-path3811-6" d="m461.43 790.22a172.14 49.287 0 1 1 -344.29 0 172.14 49.287 0 1 1 344.29 0z" style="" transform="matrix(.26503 0 0 .30347 1066.8 901.77)" />
+    <path id="oc-blue-candle-189405-rect3041" style="fill:color-mix(in srgb,var(--c1,#0000ff) 100.0%,black)" d="m1102.8 981.67h80.426v155.99c0.3211 20.109-79.646 20.331-80.426 0z" />
+    <path id="oc-blue-candle-189405-path3835" style="fill:url(#oc-blue-candle-189405-radialGradient3040)" d="m1104 978.05c-9.2203 8.0222-18.093 55.304 1.4159 64.141 16.06 7.2752 7.5757-39.831 13.027-34.893 1.1992 1.0865 3.0767 2.7875 4.531 4.105 2.7778 2.5167 7.94-3.9792 9.6284-4.3616 6.2059-1.4056 31.706 6.6901 38.514-5.6444 1.8765-3.4002 7.7988 16.523 9.9116 17.19 6.9302 2.188 4.3021-7.2349 5.0974-9.4929 11.736-33.325-10.569-34.893-43.045-34.893-13.741 0-29.382-4.5894-39.08 3.8485z" />
+    <g id="oc-blue-candle-189405-g3087">
+      <path id="oc-blue-candle-189405-rect4002-1" style="fill:var(--c3,#803300)" d="m1143 958.58c-3.4723-5.9183 3.1048-2.6333 4.2325-1.4444-2.4469 3.551 3.8003 9.5036 3.731 14.666-0.064 4.7964-3.4673 10.325-3.4318 15.629 0.1587 1.4524-5.8188 2.0688-5.8071 0 0.6217-5.1563 4.5546-11.069 5.0775-16.314 0.483-4.8454-1.7114-7.8841-3.8021-12.537z" />
+      <path id="oc-blue-candle-189405-path3987-7" d="m857 218.86c30.258 33.395-12.897 89.839-41.629 89.839-28.731 0-59.993-30.48-52.023-65.66 8.2159-36.263 41.159-95.596 22.821-155.2 38.152 46.351 40.572 97.621 70.83 131.02z" style="fill:url(#oc-blue-candle-189405-radialGradient4369)" transform="matrix(-.39646 0 0 .35919 1471.6 861.05)" />
+    </g>
+    <path id="oc-blue-candle-189405-path4132" d="m550.12 209.32c0 18.131-1.5301 38.891-4.0406 38.891s-4.0406-24.295-4.0406-42.426 14.662-20.203 17.173-20.203c2.5105 0-9.0914 5.6071-9.0914 23.739z" style="fill:#ffffff" transform="matrix(.52688 0 0 .52688 816.39 884.4)" />
+  </g></g></svg>

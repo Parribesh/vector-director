@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(295.77 722.48) scale(0.1174)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-gem-stone-color">
-    <polygon fill="#61B2E4" points="56.3771,11.9798 16.3771,11.9798 4,23.3481 36,64.0837 68,23.3481" />
-    <polyline fill="#92D3F5" points="37.3698,62.3355 55.7486,23.3482 36,11.9798 56.3771,11.9798 68,23.3481 37.3698,62.3355" />
+    <polygon fill="var(--c1,#61b2e4)" points="56.3771,11.9798 16.3771,11.9798 4,23.3481 36,64.0837 68,23.3481" />
+    <polyline fill="color-mix(in srgb,var(--c1,#61b2e4) 63.9%,white)" points="37.3698,62.3355 55.7486,23.3482 36,11.9798 56.3771,11.9798 68,23.3481 37.3698,62.3355" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-gem-stone-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-gem-stone-skin" />

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(153.98 413.53) scale(9.9811)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-hammer-27069-defs3">
+    <linearGradient id="oc-hammer-27069-linearGradient2888" y2="14.851" gradientUnits="userSpaceOnUse" y1="18.015" gradientTransform="scale(0.911 1.0977)" x2="21.395" x1="17.781">
+      <stop id="oc-hammer-27069-stop2859" style="stop-color:#3b2200" offset="0" />
+      <stop id="oc-hammer-27069-stop2861" style="stop-color:var(--c1,#855700)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-hammer-27069-linearGradient2890" y2="9.7736" gradientUnits="userSpaceOnUse" y1="4.227" gradientTransform="scale(1.0352 .96603)" x2="11.45" x1="5.7898">
+      <stop id="oc-hammer-27069-stop2851" style="stop-color:var(--c2,#5e5e5e)" offset="0" />
+      <stop id="oc-hammer-27069-stop2853" style="stop-color:#1f1f1f" offset="1" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-hammer-27069-layer1">
+    <g id="oc-hammer-27069-g2884" transform="translate(.084656 .33862)">
+      <path id="oc-hammer-27069-path2083" style="fill-rule:evenodd;stroke:#000000;stroke-width:1px;fill:url(#oc-hammer-27069-linearGradient2888)" d="m5.0181 5.8683l18.951 25.5 4.341-3.675-19.291-24.596-4.0009 2.7713z" />
+      <path id="oc-hammer-27069-path2081" style="fill-rule:evenodd;stroke:#000000;stroke-width:1px;fill:url(#oc-hammer-27069-linearGradient2890)" d="m0.77995 16.609l1.2116-5.668 12.522-10.219 4.198 6.005-13.244 10.662-4.688-0.78z" />
+    </g>
+  </g></g></svg>

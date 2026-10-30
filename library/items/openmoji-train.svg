@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-536.89 -688.07) scale(23.2471)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-train-color">
-    <rect x="21.6" y="11" rx="3.0558" ry="3.0558" width="28.8" height="33.6" fill="#d0cfce" />
-    <rect x="25" y="18" width="22" height="10" fill="#3f3f3f" />
-    <rect x="25" y="35" width="5" height="5" fill="#fcea2b" />
-    <rect x="42" y="35" width="5" height="5" fill="#fcea2b" />
+    <rect x="21.6" y="11" rx="3.0558" ry="3.0558" width="28.8" height="33.6" fill="var(--c2,#d0cfce)" />
+    <rect x="25" y="18" width="22" height="10" fill="color-mix(in srgb,var(--c2,#d0d0d0) 29.8%,black)" />
+    <rect x="25" y="35" width="5" height="5" fill="var(--c1,#fcea2b)" />
+    <rect x="42" y="35" width="5" height="5" fill="var(--c1,#fcea2b)" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-train-line">
     <line x1="25" x2="12" y1="48" y2="61" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(147.27 430.89) scale(6.1013)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-tango-style-chicken-leg-23488-defs4458">
+    <linearGradient id="oc-tango-style-chicken-leg-23488-linearGradient3197" y2="666.58" gradientUnits="userSpaceOnUse" x2="279.78" gradientTransform="matrix(-.0021149 .31352 -.34044 -.0022964 330.19 -67.811)" y1="769.11" x1="257.19">
+      <stop id="oc-tango-style-chicken-leg-23488-stop3346" style="stop-color:var(--c1,#e9b96e)" offset="0" />
+      <stop id="oc-tango-style-chicken-leg-23488-stop3348" style="stop-color:color-mix(in srgb,var(--c1,#e99715) 82.8%,black)" offset="1" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-tango-style-chicken-leg-23488-layer1">
+    <g id="oc-tango-style-chicken-leg-23488-g3191" transform="matrix(.32388 -.086785 .086785 .32388 -5.5615 13.105)">
+      <path id="oc-tango-style-chicken-leg-23488-rect3336" style="stroke:var(--c2,#888a85);stroke-width:4;fill:color-mix(in srgb,var(--c2,#929285) 15.6%,white)" d="m96.884 112.58c0.027-4.06-3.532-7.39-7.94-7.42-0.099 0-0.2 0.01-0.298 0.01l0.36-53.395-17.15-0.116-0.344 51.091c-4.105 1.3-7.145 5.58-7.179 10.69-0.042 6.17 4.302 11.2 9.691 11.24 4.134 0.03 7.683-2.9 9.133-7.04 1.44 1.37 3.456 2.22 5.687 2.24 4.409 0.03 8.012-3.24 8.04-7.3z" />
+      <path id="oc-tango-style-chicken-leg-23488-path3189" style="stroke:#ffffff;stroke-width:4;fill:none" d="m75.812 55.688l-0.312 47.092c-0.012 1.73-1.134 3.26-2.781 3.78-2.234 0.71-4.351 3.36-4.375 6.91-0.029 4.27 2.814 7.2 5.718 7.22 2.221 0.01 4.338-1.59 5.313-4.38 0.445-1.28 1.511-2.25 2.831-2.57 1.321-0.33 2.714 0.04 3.7 0.98 0.7 0.66 1.755 1.15 2.969 1.16 2.409 0.01 3.988-1.64 4-3.35s-1.552-3.36-3.969-3.37h-0.156c-1.082 0.02-2.129-0.39-2.9-1.15-0.772-0.76-1.202-1.8-1.194-2.89l0.313-49.37-9.157-0.062z" />
+      <path id="oc-tango-style-chicken-leg-23488-path3334" style="stroke:color-mix(in srgb,var(--c1,#e99103) 61.4%,black);stroke-width:4;fill:url(#oc-tango-style-chicken-leg-23488-linearGradient3197)" d="m79.758 83.738c-3.166 0.05-5.916-0.099-6.767-0.88-13.736-12.616-21.435-40.303-21.564-59.411 0.497-24.732 15.822-38.394 28.331-38.376 12.51-0.018 27.832 13.644 28.332 38.376-0.13 19.108-7.83 46.795-21.564 59.411-0.851 0.781-3.601 0.93-6.768 0.88z" />
+      <path id="oc-tango-style-chicken-leg-23488-path3185" style="opacity:.5;stroke:#ffffff;stroke-width:4;fill:none" d="m79.75-10.938c-9.592-0.014-23.848 11.358-24.312 34.469 0.12 17.841 7.954 44.513 19.843 55.907 0.138 0.066 0.33 0.146 0.688 0.187 0.883 0.101 2.227 0.149 3.719 0.125 0.041-0.001 0.083-0.001 0.124 0 1.492 0.024 2.857-0.024 3.75-0.125 0.35-0.04 0.542-0.118 0.688-0.187 11.89-11.396 19.72-38.191 19.84-56.032-0.46-23.108-14.748-34.358-24.34-34.344z" />
+    </g>
+  </g></g></svg>

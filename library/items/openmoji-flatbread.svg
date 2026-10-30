@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(297.61 726.08) scale(0.0665)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-flatbread-color">
-    <circle cx="36" cy="36" r="23" fill="#fcea2b" />
-    <path fill="#f1b31c" d="M54.6948,22.61a23,23,0,0,1-40.6742,20.182A23.0012,23.0012,0,1,0,54.6948,22.61Z" />
+    <circle cx="36" cy="36" r="23" fill="var(--c1,#fcea2b)" />
+    <path fill="color-mix(in srgb,var(--c1,#fcea2b) 90.9%,black)" d="M54.6948,22.61a23,23,0,0,1-40.6742,20.182A23.0012,23.0012,0,1,0,54.6948,22.61Z" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-flatbread-line">
     <circle cx="36" cy="36" r="23" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2" />

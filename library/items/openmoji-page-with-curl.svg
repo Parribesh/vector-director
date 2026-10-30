@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(234.25 623.72) scale(1.8830)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-page-with-curl-color">
-    <polyline fill="#9B9B9A" stroke="none" points="56,48.8213 56,10.9583 15.0372,10.9583 15.0372,41.1106 15.0372,52.2652 54.4639,50.9166" />
-    <polyline fill="#9B9B9A" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="56,48.8213 56,10.9583 16,10.9583 16,41.1106" />
-    <polygon fill="#D0CFCE" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="47.9719,38.1494 13.8387,45.6521 14.6533,56.4415 45.8422,52.277 49.1154,51.84 53,51.3213" />
+    <polyline fill="var(--c1,#9b9b9a)" stroke="none" points="56,48.8213 56,10.9583 15.0372,10.9583 15.0372,41.1106 15.0372,52.2652 54.4639,50.9166" />
+    <polyline fill="var(--c1,#9b9b9a)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="56,48.8213 56,10.9583 16,10.9583 16,41.1106" />
+    <polygon fill="color-mix(in srgb,var(--c1,#9a9a9a) 47.5%,white)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="47.9719,38.1494 13.8387,45.6521 14.6533,56.4415 45.8422,52.277 49.1154,51.84 53,51.3213" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-page-with-curl-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-page-with-curl-skin" />

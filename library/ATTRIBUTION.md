@@ -5,3 +5,4 @@
 - `sadhu-*`, `set-*`, `gen-*`: made for Sadhu Stories. `gen-*` were drawn by a model with `vd prop`.
 
 Each item's `source` and `license` in `registry.json` say the same, per item.
+- `oc-*`: Openclipart (https://openclipart.org), CC0 1.0 public domain dedication. Each item's source names its page.

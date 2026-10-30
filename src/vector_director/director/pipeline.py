@@ -453,7 +453,7 @@ def dress_set(run: Run, project_id: str, st_set: dict, scenes: list[dict]) -> No
         y = rows[t["row"]]
         run.files["objects"].append({"name": item["id"], "svg": run.gallery.reg.svg_path(item["id"]).read_text()})
         dressing.append({"slug": item["id"], "src": f"objects/{item['id']}.svg", "need": t["slug"], "x": MARK_X[t["mark"]], "y": y, "row": t["row"],
-                         "scale": scale_for(item, t["row"], st_set.get("kind", "outdoor"), y), "scenes": t.get("scenes") or []})  # fmt: skip
+                         "scale": scale_for(item, t["row"], st_set.get("kind", "outdoor"), y), "palette": item.get("palette") or {}, "scenes": t.get("scenes") or []})  # fmt: skip
     st_set["dressing"] = sorted(dressing, key=lambda d: d["y"])  # the back row is drawn first
     run.on_step(label, "done", ", ".join(f"{d['need']}: {d['slug']}" for d in st_set["dressing"]) + (f"; {len(needs) - len(dressing)} wanted" if len(dressing) < len(needs) else ""))
 

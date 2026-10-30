@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(105.19 518.65) scale(0.5509)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-pickaxe-249235-defs104">
+    <linearGradient id="oc-pickaxe-249235-linearGradient47938-1">
+      <stop offset="0" style="stop-color:#000000;stop-opacity:0.78431374" id="oc-pickaxe-249235-stop47940-7" />
+      <stop offset="1" style="stop-color:#000000;stop-opacity:0" id="oc-pickaxe-249235-stop47942-4" />
+    </linearGradient>
+    <linearGradient id="oc-pickaxe-249235-linearGradient7546-4">
+      <stop offset="0" style="stop-color:var(--c1,#6d0000);stop-opacity:1" id="oc-pickaxe-249235-stop7548-5" />
+      <stop offset="1" style="stop-color:color-mix(in srgb,var(--c1,#8a0000) 100.0%,white);stop-opacity:0" id="oc-pickaxe-249235-stop7550-5" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-pickaxe-249235-g4" transform="translate(-1458.9858,2167.4322)">
+    <g id="oc-pickaxe-249235-g6">
+      <g id="oc-pickaxe-249235-g8">
+        <g transform="matrix(5.7306949,1.9732366,-1.9732366,5.7306949,2847.7615,-2078.4665)" id="oc-pickaxe-249235-g4746">
+          <path d="m -125.47471,27.68 c 10.9,14.885 17.2,31.936 16.75,52.154 -1.32,-7.854 -3.25,-15.534 -9.46,-21.991 -2.43,0.637 -4.86,1.274 -7.29,1.912 -1.68,-1.768 -2.2,-3.651 -1.56,-5.65 2.14,-0.696 4.28,-1.391 6.42,-2.086 0.59,-7.19 -2.5,-15.916 -4.86,-24.339 z" id="oc-pickaxe-249235-path12" style="fill:var(--c2,#dbd6d1)" />
+          <path d="m -120.44471,37.484 c 5.22,8.708 8.99,19.043 11,31.345 -2.21,-10.839 -5.96,-21.264 -11,-31.345 z" id="oc-pickaxe-249235-path14" style="fill:var(--c3,#2c2c2b)" />
+          <path id="oc-pickaxe-249235-path528" d="m -160.68471,71.684 33.95,-11.839 -0.11,-0.142 -0.28,-0.384 -0.26,-0.391 -0.22,-0.399 -0.19,-0.407 -0.17,-0.416 -0.13,-0.421 -0.1,-0.426 -0.07,-0.433 -0.04,-0.436 0,-0.437 0.01,-0.103 -38.92,13.788 -8.66,3.066 -36.43,12.911 c -0.45,1.994 0.18,3.309 2.41,3.634 l 40.45,-14.107" style="fill:color-mix(in srgb,var(--c1,#6a1600) 81.2%,white);fill-opacity:1" />
+        </g>
+      </g>
+    </g>
+  </g></g></svg>

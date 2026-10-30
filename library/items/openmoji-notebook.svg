@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(251.25 646.35) scale(1.3733)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-notebook-color">
     <polygon fill="#FFFFFF" stroke="none" points="11,57.6968 60,57.6968 60,11.9092 15.9985,11.9092 11.9985,15.9092" />
-    <path fill="#9b9b9a" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M55.0015,60.9092h-43.003c-0.5514,0-0.9985-0.447-0.9985-0.9985v-43.003c0-0.5514,0.447-0.9985,0.9985-0.9985h43.003 c0.5514,0,0.9985,0.447,0.9985,0.9985v43.003C56,60.4621,55.553,60.9092,55.0015,60.9092z" />
+    <path fill="var(--c1,#9b9b9a)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M55.0015,60.9092h-43.003c-0.5514,0-0.9985-0.447-0.9985-0.9985v-43.003c0-0.5514,0.447-0.9985,0.9985-0.9985h43.003 c0.5514,0,0.9985,0.447,0.9985,0.9985v43.003C56,60.4621,55.553,60.9092,55.0015,60.9092z" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-notebook-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-notebook-skin" />

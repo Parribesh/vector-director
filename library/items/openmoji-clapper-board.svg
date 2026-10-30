@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(246.29 638.00) scale(1.5807)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-clapper-board-color">
     <circle cx="15.7986" cy="30.9666" r="1.5112" fill="#FFFFFF" stroke="none" />
-    <path fill="#3F3F3F" stroke="none" d="M16.5878,37.3974V54.97c0,1.1026,1.8975,3,3,3l33.6372,0.2321c1.1025,0,2.2763-2.1295,2.2763-3.2321 V37.3974H16.5878z" />
-    <polygon fill="#3F3F3F" stroke="none" points="41.3736,12.9105 48.5254,16.5978 51.0755,15.6178 43.9229,11.9299" />
-    <polygon fill="#3F3F3F" stroke="none" points="39.9624,20.129 32.2753,16.158 29.5359,17.2084 37.2265,21.1804" />
-    <polygon fill="#3F3F3F" stroke="none" points="22.0853,20.0666 18.6391,21.7152 25.3257,25.7192 29.7098,24.0727" />
-    <polygon fill="#3F3F3F" stroke="none" points="29.2578,31.3147 25.6628,31.3147 20.5536,37.0496 24.1487,37.0496" />
-    <polygon fill="#3F3F3F" stroke="none" points="41.225,30.9669 38.3154,30.9669 32.5865,37.3974 35.4963,37.3974" />
-    <polygon fill="#3F3F3F" stroke="none" points="44.5865,37.3974 47.4963,37.3974 53.225,30.9669 50.3154,30.9669" />
+    <path fill="var(--c1,#3f3f3f)" stroke="none" d="M16.5878,37.3974V54.97c0,1.1026,1.8975,3,3,3l33.6372,0.2321c1.1025,0,2.2763-2.1295,2.2763-3.2321 V37.3974H16.5878z" />
+    <polygon fill="var(--c1,#3f3f3f)" stroke="none" points="41.3736,12.9105 48.5254,16.5978 51.0755,15.6178 43.9229,11.9299" />
+    <polygon fill="var(--c1,#3f3f3f)" stroke="none" points="39.9624,20.129 32.2753,16.158 29.5359,17.2084 37.2265,21.1804" />
+    <polygon fill="var(--c1,#3f3f3f)" stroke="none" points="22.0853,20.0666 18.6391,21.7152 25.3257,25.7192 29.7098,24.0727" />
+    <polygon fill="var(--c1,#3f3f3f)" stroke="none" points="29.2578,31.3147 25.6628,31.3147 20.5536,37.0496 24.1487,37.0496" />
+    <polygon fill="var(--c1,#3f3f3f)" stroke="none" points="41.225,30.9669 38.3154,30.9669 32.5865,37.3974 35.4963,37.3974" />
+    <polygon fill="var(--c1,#3f3f3f)" stroke="none" points="44.5865,37.3974 47.4963,37.3974 53.225,30.9669 50.3154,30.9669" />
     <polygon fill="#FFFFFF" stroke="none" points="43.3309,36.9135 48.1979,31.4508 42.4806,31.4508 37.6136,36.9135" />
     <polygon fill="#FFFFFF" stroke="none" points="49.6923,36.9903 55.0593,36.9903 55.0593,30.9664" />
-    <circle cx="15.7987" cy="30.9667" r="2.5116" fill="#3F3F3F" stroke="none" />
+    <circle cx="15.7987" cy="30.9667" r="2.5116" fill="var(--c1,#3f3f3f)" stroke="none" />
     <path fill="#FFFFFF" stroke="none" d="M16.5271,33.8909v3.3443h3.2915l5.4403-6.1061h-6.5834C18.3249,32.2981,17.5547,33.2765,16.5271,33.8909z" />
     <polygon fill="#FFFFFF" stroke="none" points="31.3297,36.9057 36.1827,31.4586 30.4818,31.4586 25.6288,36.9057" />
     <polygon fill="#FFFFFF" stroke="none" points="45.9297,11.195 49.5767,13.0755 48.4776,10.216" />

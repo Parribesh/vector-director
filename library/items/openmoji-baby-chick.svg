@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(281.84 700.81) scale(0.5025)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-baby-chick-color">
-    <path fill="#FCEA2B" stroke="#FCEA2B" stroke-miterlimit="10" stroke-width="2" d="M51.989,51.91 C63,43,53.7604,34.196,53.7604,34.196c0-13.0876-10.032-17.4726-15.2722-18.8704c-1.9297-0.5147-3.9633-0.5083-5.88,0.053 C17.1418,19.9076,18.3325,34.196,18.3325,34.196C10,44,19.4396,51.4671,19.4396,51.4671S36.0464,66.0812,51.989,51.91" />
-    <path fill="#F1B31C" stroke="none" d="M36.7052,38.8074c0,0,10.4746-0.5149,0,9.2687C36.7052,48.076,26.2306,38.8074,36.7052,38.8074z" />
+    <path fill="var(--c1,#fcea2b)" stroke="var(--c1,#fcea2b)" stroke-miterlimit="10" stroke-width="2" d="M51.989,51.91 C63,43,53.7604,34.196,53.7604,34.196c0-13.0876-10.032-17.4726-15.2722-18.8704c-1.9297-0.5147-3.9633-0.5083-5.88,0.053 C17.1418,19.9076,18.3325,34.196,18.3325,34.196C10,44,19.4396,51.4671,19.4396,51.4671S36.0464,66.0812,51.989,51.91" />
+    <path fill="color-mix(in srgb,var(--c1,#fcea2b) 90.9%,black)" stroke="none" d="M36.7052,38.8074c0,0,10.4746-0.5149,0,9.2687C36.7052,48.076,26.2306,38.8074,36.7052,38.8074z" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-baby-chick-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-baby-chick-skin" />

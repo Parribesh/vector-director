@@ -4,12 +4,12 @@
     <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M18 21.3456C18.3888 20.6429 18.8738 20.0009 19.4374 19.4374C20.0009 18.8738 20.6429 18.3888 21.3456 18" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-bubbles-color">
-    <path fill="#92D3F5" d="M24.5 39C31.9558 39 38 32.9558 38 25.5C38 18.0442 31.9558 12 24.5 12C17.0442 12 11 18.0442 11 25.5C11 32.9558 17.0442 39 24.5 39Z" />
-    <path fill="#92D3F5" d="M51.2987 35.7002C55.6578 35.7002 59.1916 32.1665 59.1916 27.8073C59.1916 23.4482 55.6578 19.9144 51.2987 19.9144C46.9395 19.9144 43.4058 23.4482 43.4058 27.8073C43.4058 32.1665 46.9395 35.7002 51.2987 35.7002Z" />
-    <path fill="#92D3F5" d="M44 60C49.5228 60 54 55.5228 54 50C54 44.4772 49.5228 40 44 40C38.4772 40 34 44.4772 34 50C34 55.5228 38.4772 60 44 60Z" />
-    <path fill="none" stroke="#61B2E4" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" d="M32 25.5C32 29.0899 29.0899 32 25.5 32" />
-    <path fill="none" stroke="#61B2E4" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M50 50C50 52.7614 47.7614 55 45 55" />
-    <path fill="none" stroke="#61B2E4" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M55.5 28.5C55.5 30.1569 54.1569 31.5 52.5 31.5" />
+    <path fill="var(--c1,#92d3f5)" d="M24.5 39C31.9558 39 38 32.9558 38 25.5C38 18.0442 31.9558 12 24.5 12C17.0442 12 11 18.0442 11 25.5C11 32.9558 17.0442 39 24.5 39Z" />
+    <path fill="var(--c1,#92d3f5)" d="M51.2987 35.7002C55.6578 35.7002 59.1916 32.1665 59.1916 27.8073C59.1916 23.4482 55.6578 19.9144 51.2987 19.9144C46.9395 19.9144 43.4058 23.4482 43.4058 27.8073C43.4058 32.1665 46.9395 35.7002 51.2987 35.7002Z" />
+    <path fill="var(--c1,#92d3f5)" d="M44 60C49.5228 60 54 55.5228 54 50C54 44.4772 49.5228 40 44 40C38.4772 40 34 44.4772 34 50C34 55.5228 38.4772 60 44 60Z" />
+    <path fill="none" stroke="color-mix(in srgb,var(--c1,#92d3f5) 82.9%,black)" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" d="M32 25.5C32 29.0899 29.0899 32 25.5 32" />
+    <path fill="none" stroke="color-mix(in srgb,var(--c1,#92d3f5) 82.9%,black)" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M50 50C50 52.7614 47.7614 55 45 55" />
+    <path fill="none" stroke="color-mix(in srgb,var(--c1,#92d3f5) 82.9%,black)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M55.5 28.5C55.5 30.1569 54.1569 31.5 52.5 31.5" />
     <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M40 47.091C40.243 46.6518 40.5461 46.2506 40.8984 45.8984C41.2506 45.5461 41.6518 45.243 42.091 45" />
     <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M48.5 25.5C48.6162 25.29 48.7612 25.0981 48.9296 24.9296C49.0981 24.7612 49.29 24.6162 49.5 24.5" />
     <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M18 21.3456C18.3888 20.6429 18.8738 20.0009 19.4374 19.4374C20.0009 18.8738 20.6429 18.3888 21.3456 18" />

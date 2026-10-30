@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(278.34 689.38) scale(0.6017)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-razor-color">
-    <path fill="#92d3f5" d="M32.5,22.5s0,38,1,42,4,4,5,0c2.0308-8.123,1-42,1-42" />
-    <path fill="#92d3f5" d="M22.5,15.5s10,5,10,7h7c0-1.6987,7.214-5.5616,9.3876-6.6869.3855-.2.6124-.3131.6124-.3131Z" />
-    <rect x="20" y="6.5" rx="2.2437" ry="2.2437" width="32" height="9" fill="#d0cfce" />
+    <path fill="var(--c1,#92d3f5)" d="M32.5,22.5s0,38,1,42,4,4,5,0c2.0308-8.123,1-42,1-42" />
+    <path fill="var(--c1,#92d3f5)" d="M22.5,15.5s10,5,10,7h7c0-1.6987,7.214-5.5616,9.3876-6.6869.3855-.2.6124-.3131.6124-.3131Z" />
+    <rect x="20" y="6.5" rx="2.2437" ry="2.2437" width="32" height="9" fill="var(--c2,#d0cfce)" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-razor-line">
     <path fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M32.5,22.5s0,38,1,42,4,4,5,0c2.0308-8.123,1-42,1-42" />

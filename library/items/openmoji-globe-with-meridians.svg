@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(221.34 590.17) scale(2.1849)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-globe-with-meridians-color">
-    <circle cx="36" cy="36" r="28" fill="#92D3F5" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <circle cx="36" cy="36" r="28" fill="var(--c1,#92d3f5)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-globe-with-meridians-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-globe-with-meridians-skin" />

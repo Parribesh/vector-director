@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-9771.98 -14765.36) scale(281.7337)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-hotel-color">
-    <rect x="17" y="17" width="38" height="38" fill="#D0CFCE" />
-    <rect x="55" y="20" width="11.5" height="35" fill="#D0CFCE" />
-    <rect x="60" y="25" width="2" height="5" fill="none" stroke="#92D3F5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
-    <rect x="60" y="35" width="2" height="5" fill="none" stroke="#92D3F5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
-    <rect x="60" y="45" width="2" height="5" fill="none" stroke="#92D3F5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
-    <rect x="5" y="20" width="12.5" height="35" fill="#D0CFCE" />
-    <rect x="10" y="25" width="2" height="5" fill="none" stroke="#92D3F5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
-    <rect x="10" y="35" width="2" height="5" fill="none" stroke="#92D3F5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
-    <rect x="10" y="45" width="2" height="5" fill="none" stroke="#92D3F5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
-    <rect x="31" y="22" width="2" height="5" fill="none" stroke="#92D3F5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
-    <rect x="39" y="22" width="2" height="5" fill="none" stroke="#92D3F5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
-    <rect x="47" y="22" width="2" height="5" fill="none" stroke="#92D3F5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
-    <rect x="23" y="22" width="2" height="5" fill="none" stroke="#92D3F5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
-    <rect x="23" y="41" width="26" height="14" fill="#9B9B9A" />
-    <rect x="21.5" y="32" width="29" height="9" fill="#FCEA2B" />
-    <rect x="31.5" y="45" width="9" height="10" fill="#92D3F5" />
+    <rect x="17" y="17" width="38" height="38" fill="var(--c2,#d0cfce)" />
+    <rect x="55" y="20" width="11.5" height="35" fill="var(--c2,#d0cfce)" />
+    <rect x="60" y="25" width="2" height="5" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <rect x="60" y="35" width="2" height="5" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <rect x="60" y="45" width="2" height="5" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <rect x="5" y="20" width="12.5" height="35" fill="var(--c2,#d0cfce)" />
+    <rect x="10" y="25" width="2" height="5" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <rect x="10" y="35" width="2" height="5" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <rect x="10" y="45" width="2" height="5" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <rect x="31" y="22" width="2" height="5" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <rect x="39" y="22" width="2" height="5" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <rect x="47" y="22" width="2" height="5" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <rect x="23" y="22" width="2" height="5" fill="none" stroke="var(--c1,#92d3f5)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <rect x="23" y="41" width="26" height="14" fill="color-mix(in srgb,var(--c2,#d0cfcf) 75.0%,black)" />
+    <rect x="21.5" y="32" width="29" height="9" fill="var(--c3,#fcea2b)" />
+    <rect x="31.5" y="45" width="9" height="10" fill="var(--c1,#92d3f5)" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-hotel-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-hotel-skin" />

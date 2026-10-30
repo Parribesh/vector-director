@@ -1,0 +1,471 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(81.81 404.84) scale(0.6689)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-ancient-axe-127057-defs7378">
+    <linearGradient id="oc-ancient-axe-127057-linearGradient4658">
+      <stop id="oc-ancient-axe-127057-stop4660" style="stop-color:#1a1a1a" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop4662" style="stop-color:#1a1a1a;stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient3829">
+      <stop id="oc-ancient-axe-127057-stop3831" style="stop-color:var(--c2,#333333)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3833" style="stop-color:var(--c2,#333333);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient3815">
+      <stop id="oc-ancient-axe-127057-stop3817" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3819" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9806" y2="286.15" gradientUnits="userSpaceOnUse" x2="-401.77" y1="291.07" x1="-105.11">
+      <stop id="oc-ancient-axe-127057-stop4131" style="stop-color:#000000" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop4133" style="stop-color:#000000;stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9808" y2="137.9" gradientUnits="userSpaceOnUse" x2="981.74" gradientTransform="matrix(1.5784 0 0 .71544 -1657.7 924.36)" y1="134.84" x1="886.93">
+      <stop id="oc-ancient-axe-127057-stop4756" style="stop-color:#1a1a1a" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop4758" style="stop-color:#1a1a1a;stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9810" y2="-167.49" gradientUnits="userSpaceOnUse" x2="957.36" y1="-168.16" x1="931.27"><stop id="oc-ancient-axe-127057-stop4660" style="stop-color:#1a1a1a" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop4662" style="stop-color:#1a1a1a;stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9812" y2="-166.95" gradientUnits="userSpaceOnUse" x2="988.99" y1="-168.43" x1="1005.2"><stop id="oc-ancient-axe-127057-stop4660" style="stop-color:#1a1a1a" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop4662" style="stop-color:#1a1a1a;stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9814" y2="-240.99" gradientUnits="userSpaceOnUse" x2="1284.5" y1="-303.09" x1="1092.9"><stop id="oc-ancient-axe-127057-stop3831" style="stop-color:var(--c2,#333333)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3833" style="stop-color:var(--c2,#333333);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9816" y2="-246.32" gradientUnits="userSpaceOnUse" x2="1309.3" y1="-251.64" x1="1405.1"><stop id="oc-ancient-axe-127057-stop4660" style="stop-color:#1a1a1a" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop4662" style="stop-color:#1a1a1a;stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9846" y2="-812" gradientUnits="userSpaceOnUse" x2="976.87" gradientTransform="matrix(.17729 -1.0721 .35442 .058607 336.34 1022.5)" y1="-562.69" x1="972.17">
+      <stop id="oc-ancient-axe-127057-stop4375" style="stop-color:color-mix(in srgb,var(--c1,#e1a500) 100.0%,black)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop4377" style="stop-color:color-mix(in srgb,var(--c1,#e1a500) 100.0%,black);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9848" y2="-728.9" gradientUnits="userSpaceOnUse" x2="978.44" y1="-730.47" x1="943.94">
+      <stop id="oc-ancient-axe-127057-stop4389" style="stop-color:color-mix(in srgb,var(--c2,#333333) 12.3%,white)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop4391" style="stop-color:color-mix(in srgb,var(--c2,#333333) 12.3%,white);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9854" y2="-436.15" gradientUnits="userSpaceOnUse" x2="1697.9" gradientTransform="translate(-157.9 99.352)" y1="-432.6" x1="1543.5"><stop id="oc-ancient-axe-127057-stop3817" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3819" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9856" y2="-436.15" gradientUnits="userSpaceOnUse" x2="1697.9" gradientTransform="translate(-3181.1 99.352)" y1="-432.6" x1="1543.5"><stop id="oc-ancient-axe-127057-stop3817" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3819" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9858" y2="-327.93" gradientUnits="userSpaceOnUse" x2="-1442.4" y1="-327.93" x1="-1367.9"><stop id="oc-ancient-axe-127057-stop3831" style="stop-color:var(--c2,#333333)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3833" style="stop-color:var(--c2,#333333);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9860" y2="-327.93" gradientUnits="userSpaceOnUse" x2="-1442.4" gradientTransform="translate(3023.2)" y1="-327.93" x1="-1367.9"><stop id="oc-ancient-axe-127057-stop3831" style="stop-color:var(--c2,#333333)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3833" style="stop-color:var(--c2,#333333);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9910" y2="-436.15" gradientUnits="userSpaceOnUse" x2="1697.9" gradientTransform="matrix(.90748 0 0 .99974 -10.044 111.72)" y1="-432.6" x1="1543.5"><stop id="oc-ancient-axe-127057-stop3817" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3819" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9912" y2="-436.15" gradientUnits="userSpaceOnUse" x2="1697.9" gradientTransform="matrix(.90748 0 0 .99974 -3020 111.72)" y1="-432.6" x1="1543.5"><stop id="oc-ancient-axe-127057-stop3817" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3819" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9914" y2="-327.93" gradientUnits="userSpaceOnUse" x2="-1442.4" gradientTransform="matrix(.90748 0 0 .99974 -133.25 12.39)" y1="-327.93" x1="-1367.9"><stop id="oc-ancient-axe-127057-stop3831" style="stop-color:var(--c2,#333333)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3833" style="stop-color:var(--c2,#333333);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9916" y2="-327.93" gradientUnits="userSpaceOnUse" x2="-1442.4" gradientTransform="matrix(.90746 -.0069613 -.0035263 .99973 2876.6 -9.6771)" y1="-327.93" x1="-1367.9"><stop id="oc-ancient-axe-127057-stop3831" style="stop-color:var(--c2,#333333)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3833" style="stop-color:var(--c2,#333333);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9954" y2="-436.15" gradientUnits="userSpaceOnUse" x2="1697.9" gradientTransform="translate(-155.36 87.18)" y1="-432.6" x1="1543.5"><stop id="oc-ancient-axe-127057-stop3817" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3819" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9956" y2="-436.15" gradientUnits="userSpaceOnUse" x2="1697.9" gradientTransform="translate(-3178.8 94.668)" y1="-432.6" x1="1543.5"><stop id="oc-ancient-axe-127057-stop3817" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3819" style="stop-color:color-mix(in srgb,var(--c1,#e16b00) 100.0%,black);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9958" y2="-327.93" gradientUnits="userSpaceOnUse" x2="-1442.4" gradientTransform="translate(-4.9565 -15.917)" y1="-327.93" x1="-1367.9"><stop id="oc-ancient-axe-127057-stop3831" style="stop-color:var(--c2,#333333)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3833" style="stop-color:var(--c2,#333333);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ancient-axe-127057-linearGradient9960" y2="-327.93" gradientUnits="userSpaceOnUse" x2="-1442.4" gradientTransform="translate(3018.5 -5.1548)" y1="-327.93" x1="-1367.9"><stop id="oc-ancient-axe-127057-stop3831" style="stop-color:var(--c2,#333333)" offset="0" />
+      <stop id="oc-ancient-axe-127057-stop3833" style="stop-color:var(--c2,#333333);stop-opacity:0" offset="1" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-ancient-axe-127057-layer1" transform="translate(169.07 -107.3)">
+    <g id="oc-ancient-axe-127057-g9493" transform="matrix(.53820 -.26381 .25285 .45109 -95.433 246.61)">
+      <g id="oc-ancient-axe-127057-g5111" style="fill:#000000" transform="matrix(.022118 -.41705 .99976 .0092267 -2.9091 1242)">
+        <g id="oc-ancient-axe-127057-g5113" style="fill:#000000" transform="translate(2173.9 -307.44)">
+          <path id="oc-ancient-axe-127057-path5115" style="opacity:.80184;fill:#000000" d="m-400 506.65c-78.82-68.15-138.74-133-136.32-234.76 1.887-79.527 75.783-139.67 153.3-193.27 8.8583-21.078-1.6268 79.971 10.174 106.71 10.697 24.238 32.121 33.299 52.961 41.697 41.742 16.821 104.82-15.547 134.35 13.368 3.8646 34.916-5.9664 48.352 0.13005 78.184-23.628 36.13-84.849 17.843-125.15 33.321-28.739 11.039-65.316 16.357-82.208 42.094-20.647 31.458 10.286 144.17-7.2294 112.65z" />
+          <path id="oc-ancient-axe-127057-path5117" style="opacity:.80184;fill:#000000" d="m-381.82 75.674c-0.52474-0.0088-1.1695 0.86766-2 2.8438-77.515 53.599-151.43 113.75-153.31 193.28-2.4147 101.77 57.497 166.6 136.31 234.75 6.4836 11.664 6.345 3.5161 4.625-12.906-68.142-61.676-122.32-123.66-120.13-216.12 1.7095-72.047 67.447-128.16 136.51-177.94-0.0136-13.841-0.28584-23.877-2-23.906z" />
+          <path id="oc-ancient-axe-127057-path5119" style="opacity:.80184;fill:#000000" d="m-400 506.65c-78.82-68.15-138.74-133-136.32-234.76 1.887-79.527 75.783-139.67 153.3-193.27 8.8583-21.078-1.6268 79.971 10.174 106.71 10.697 24.238 32.121 33.299 52.961 41.697 41.742 16.821 104.82-15.547 134.35 13.368 3.8646 34.916-5.9664 48.352 0.13005 78.184-23.628 36.13-84.849 17.843-125.15 33.321-28.739 11.039-65.316 16.357-82.208 42.094-20.647 31.458 10.286 144.17-7.2294 112.65z" />
+        </g>
+        <g id="oc-ancient-axe-127057-g5121" style="fill:#000000" transform="matrix(.13617 .81281 -.77766 .14232 2102.5 -485.79)">
+          <rect id="oc-ancient-axe-127057-rect5123" style="fill:#000000" transform="rotate(-80.61)" ry="17.133" height="866.38" width="93.932" y="627.37" x="-172.2" />
+          <rect id="oc-ancient-axe-127057-rect5125" style="fill:#000000" transform="rotate(-80.61)" ry="17.133" height="866.38" width="93.932" y="627.37" x="-172.2" />
+          <g id="oc-ancient-axe-127057-g5127" style="fill:#000000" transform="matrix(.25751 -1.5573 .78101 .12915 539.66 1769.5)">
+            <g id="oc-ancient-axe-127057-g5129" style="fill:#000000" transform="matrix(.29708 0 0 .28720 592.54 -87.912)">
+              <path id="oc-ancient-axe-127057-path5131" style="fill:#000000" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.5507-11.505-0.2406-13.552-3.6616 9.482-20.132 9.8216-30.666 9.5211-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="matrix(3.3661 0 0 3.4819 -1994.6 306.1)" />
+              <path id="oc-ancient-axe-127057-path5133" style="fill:#000000" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.5507-11.505-0.2406-13.552-3.6616 9.482-20.132 9.8216-30.666 9.5211-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="matrix(3.3661 0 0 3.4819 -1994.6 306.1)" />
+              <path id="oc-ancient-axe-127057-path5135" style="fill:#000000" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.1452-11.234-0.2406-13.823-3.6616 9.482-20.132 10.092-30.666 9.7914-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="matrix(3.3661 0 0 3.4819 -1994.6 306.1)" />
+            </g>
+            <g id="oc-ancient-axe-127057-g5137" style="fill:#000000" transform="matrix(.30777 0 0 .28720 578.32 -66.94)">
+              <path id="oc-ancient-axe-127057-path5139" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path5141" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+              <path id="oc-ancient-axe-127057-path5143" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            </g>
+            <g id="oc-ancient-axe-127057-g5145" style="fill:#000000" transform="matrix(.30510 0 0 .28720 581.77 -112.21)">
+              <path id="oc-ancient-axe-127057-path5147" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path5149" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+              <path id="oc-ancient-axe-127057-path5151" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            </g>
+          </g>
+          <g id="oc-ancient-axe-127057-g5153" style="fill:#000000" transform="matrix(.25751 -1.5573 .70585 .11672 1294.6 1894.3)">
+            <path id="oc-ancient-axe-127057-path5155" style="fill:#000000" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.5507-11.505-0.2406-13.552-3.6616 9.482-20.132 9.8216-30.666 9.5211-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="translate(-.000012926 .0000011790)" />
+            <path id="oc-ancient-axe-127057-path5157" style="fill:#000000" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.5507-11.505-0.2406-13.552-3.6616 9.482-20.132 9.8216-30.666 9.5211-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="translate(-.000012926 .0000011790)" />
+            <path id="oc-ancient-axe-127057-path5159" style="fill:#000000" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.1452-11.234-0.2406-13.823-3.6616 9.482-20.132 10.092-30.666 9.7914-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="translate(-.000012926 .0000011790)" />
+            <g id="oc-ancient-axe-127057-g5161" style="fill:#000000" transform="matrix(.30777 0 0 .28720 578.32 -66.94)">
+              <path id="oc-ancient-axe-127057-path5163" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+              <path id="oc-ancient-axe-127057-path5165" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path5167" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+            </g>
+            <g id="oc-ancient-axe-127057-g5169" style="fill:#000000" transform="matrix(.30510 0 0 .28720 581.77 -112.21)">
+              <path id="oc-ancient-axe-127057-path5171" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+              <path id="oc-ancient-axe-127057-path5173" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path5175" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+            </g>
+          </g>
+          <g id="oc-ancient-axe-127057-g5177" style="fill:#000000" transform="matrix(.25751 -1.5573 .78101 .12915 1144.1 1869.4)">
+            <g id="oc-ancient-axe-127057-g5179" style="fill:#000000" transform="matrix(.29708 0 0 .28720 592.54 -87.912)">
+              <path id="oc-ancient-axe-127057-path5181" style="fill:#000000" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.5507-11.505-0.2406-13.552-3.6616 9.482-20.132 9.8216-30.666 9.5211-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="matrix(3.3661 0 0 3.4819 -1994.6 306.1)" />
+              <path id="oc-ancient-axe-127057-path5183" style="fill:#000000" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.5507-11.505-0.2406-13.552-3.6616 9.482-20.132 9.8216-30.666 9.5211-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="matrix(3.3661 0 0 3.4819 -1994.6 306.1)" />
+              <path id="oc-ancient-axe-127057-path5185" style="fill:#000000" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.1452-11.234-0.2406-13.823-3.6616 9.482-20.132 10.092-30.666 9.7914-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="matrix(3.3661 0 0 3.4819 -1994.6 306.1)" />
+            </g>
+            <g id="oc-ancient-axe-127057-g5187" style="fill:#000000" transform="matrix(.30777 0 0 .28720 578.32 -66.94)">
+              <path id="oc-ancient-axe-127057-path5189" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+              <path id="oc-ancient-axe-127057-path5191" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path5193" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+            </g>
+            <g id="oc-ancient-axe-127057-g5195" style="fill:#000000" transform="matrix(.30510 0 0 .28720 581.77 -112.21)">
+              <path id="oc-ancient-axe-127057-path5197" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+              <path id="oc-ancient-axe-127057-path5199" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path5201" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+            </g>
+          </g>
+        </g>
+        <g id="oc-ancient-axe-127057-g5203" style="fill:#000000" transform="matrix(.089864 .99257 -.73295 .12170 1935.9 -414.52)">
+          <path id="oc-ancient-axe-127057-path5205" style="fill:#000000" d="m307.09-54.702-44.026 29.762-131.64-55.83 141.45-14.929z" />
+          <path id="oc-ancient-axe-127057-path5207" d="m307.09-54.702-44.026 29.762-131.64-55.83 141.45-14.929z" style="fill:#000000" />
+          <g id="oc-ancient-axe-127057-g5209" style="fill:#000000" transform="matrix(.10975 -.66372 .31580 .052221 372.86 622.38)">
+            <path id="oc-ancient-axe-127057-path5211" d="m974.09-647.93-23.198-55.952 21.332-201.56 23.998 198.87z" style="fill:#000000" />
+            <path id="oc-ancient-axe-127057-path5213" style="fill:#000000" d="m974.09-647.93-23.198-55.952 21.332-201.56 23.998 198.87z" />
+          </g>
+          <g id="oc-ancient-axe-127057-g5215" style="fill:#000000" transform="matrix(.055154 -.33353 .11263 .018624 295.06 375.66)">
+            <path id="oc-ancient-axe-127057-path5217" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+            <path id="oc-ancient-axe-127057-path5219" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            <path id="oc-ancient-axe-127057-path5221" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+          </g>
+          <g id="oc-ancient-axe-127057-g5223" style="fill:#000000" transform="matrix(.052364 -.31667 .061745 .010210 253.71 426.77)">
+            <g id="oc-ancient-axe-127057-g5225" style="fill:#000000" transform="matrix(1.0833 0 0 3.1343 -125.08 937.59)">
+              <rect id="oc-ancient-axe-127057-rect5227" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect5229" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect5231" ry="16.518" style="fill:#000000" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect5233" style="fill:#000000" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect5235" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            </g>
+            <g id="oc-ancient-axe-127057-g5237" style="fill:#000000" transform="translate(.88703)">
+              <rect id="oc-ancient-axe-127057-rect5239" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect5241" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect5243" style="fill:#000000" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect5245" ry="16.518" style="fill:#000000" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect5247" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            </g>
+            <g id="oc-ancient-axe-127057-g5249" style="fill:#000000" transform="translate(236.85 -10.645)">
+              <path id="oc-ancient-axe-127057-path5251" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path5253" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+              <path id="oc-ancient-axe-127057-path5255" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            </g>
+            <g id="oc-ancient-axe-127057-g5257" style="fill:#000000" transform="matrix(.91667 0 0 1 126.85 -233.06)">
+              <rect id="oc-ancient-axe-127057-rect5259" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect5261" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect5263" style="fill:#000000" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect5265" ry="16.518" style="fill:#000000" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect5267" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            </g>
+            <g id="oc-ancient-axe-127057-g5269" style="fill:#000000" transform="translate(.88703 -119.51)">
+              <rect id="oc-ancient-axe-127057-rect5271" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect5273" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect5275" ry="16.518" style="fill:#000000" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect5277" style="fill:#000000" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect5279" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            </g>
+            <g id="oc-ancient-axe-127057-g5281" style="fill:#000000" transform="translate(236.85 -134.84)">
+              <path id="oc-ancient-axe-127057-path5283" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+              <path id="oc-ancient-axe-127057-path5285" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path5287" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+            </g>
+            <g id="oc-ancient-axe-127057-g5289" style="fill:#000000" transform="matrix(.90350 0 0 1 359.94 -237.74)">
+              <path id="oc-ancient-axe-127057-path5291" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+              <path id="oc-ancient-axe-127057-path5293" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path5295" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+            </g>
+            <g id="oc-ancient-axe-127057-g5297" style="fill:#000000" transform="matrix(.91667 0 0 1 126.85 -353.7)">
+              <rect id="oc-ancient-axe-127057-rect5299" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect5301" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect5303" ry="16.518" style="fill:#000000" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect5305" style="fill:#000000" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect5307" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            </g>
+            <g id="oc-ancient-axe-127057-g5309" style="fill:#000000" transform="matrix(.90350 0 0 .89333 359.94 -394.61)">
+              <path id="oc-ancient-axe-127057-path5311" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path5313" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+              <path id="oc-ancient-axe-127057-path5315" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            </g>
+          </g>
+        </g>
+        <g id="oc-ancient-axe-127057-g5317" style="fill:#000000" transform="matrix(.34154 -.034574 .0044982 .15886 1494.1 76.288)">
+          <g id="oc-ancient-axe-127057-g5319" style="fill:#000000" transform="matrix(1.0833 0 0 3.1343 -125.08 937.59)">
+            <rect id="oc-ancient-axe-127057-rect5321" style="fill:#000000" transform="matrix(.99997 -.0076710 -.0035272 .99999 0 0)" ry="16.514" height="118.84" width="173.88" y="-381.08" x="1418" />
+            <rect id="oc-ancient-axe-127057-rect5323" style="fill:#000000" transform="matrix(.99997 -.0076710 -.0035272 .99999 0 0)" ry="16.514" height="118.84" width="173.88" y="-381.08" x="1418" />
+            <rect id="oc-ancient-axe-127057-rect5325" ry="16.514" style="fill:#000000" transform="matrix(-.99997 .0076710 -.0035272 .99999 0 0)" height="118.84" width="173.88" y="-381.08" x="-1591.9" />
+            <rect id="oc-ancient-axe-127057-rect5327" style="fill:#000000" transform="matrix(-.99997 .0076710 -.0035272 .99999 0 0)" ry="16.514" height="118.84" width="173.88" y="-381.08" x="-1591.9" />
+            <path id="oc-ancient-axe-127057-path5329" style="fill:#000000" d="m1434.3-392.07 143.9-1.1039c8.3043-0.0637 14.964 7.2503 14.932 16.399l-0.3027 85.808c-0.032 9.1488-6.9803 23.677-15.304 23.352l-143.64-5.619c-8.3239-0.32561-14.964-7.2503-14.932-16.399l0.3026-85.808c0.032-9.1488 6.7437-16.565 15.048-16.629z" />
+          </g>
+          <g id="oc-ancient-axe-127057-g5331" style="fill:#000000" transform="matrix(.90746 -.020141 -.0012188 .99973 134.67 33.343)">
+            <rect id="oc-ancient-axe-127057-rect5333" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            <rect id="oc-ancient-axe-127057-rect5335" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            <rect id="oc-ancient-axe-127057-rect5337" style="fill:#000000" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+            <rect id="oc-ancient-axe-127057-rect5339" ry="16.518" style="fill:#000000" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+            <rect id="oc-ancient-axe-127057-rect5341" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+          </g>
+          <g id="oc-ancient-axe-127057-g5343" style="fill:#000000" transform="matrix(.90746 -.020141 -.0012188 .99973 348.81 17.948)">
+            <path id="oc-ancient-axe-127057-path5345" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            <path id="oc-ancient-axe-127057-path5347" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+            <path id="oc-ancient-axe-127057-path5349" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+          </g>
+          <g id="oc-ancient-axe-127057-g5351" style="fill:#000000" transform="matrix(.83184 -.018462 -.0012188 .99973 249.26 -202.19)">
+            <rect id="oc-ancient-axe-127057-rect5353" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            <rect id="oc-ancient-axe-127057-rect5355" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            <rect id="oc-ancient-axe-127057-rect5357" style="fill:#000000" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+            <rect id="oc-ancient-axe-127057-rect5359" ry="16.518" style="fill:#000000" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+            <rect id="oc-ancient-axe-127057-rect5361" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+          </g>
+          <g id="oc-ancient-axe-127057-g5363" style="fill:#000000" transform="matrix(.90746 -.020141 -.0012188 .99973 134.82 -86.138)">
+            <rect id="oc-ancient-axe-127057-rect5365" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            <rect id="oc-ancient-axe-127057-rect5367" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            <rect id="oc-ancient-axe-127057-rect5369" ry="16.518" style="fill:#000000" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+            <rect id="oc-ancient-axe-127057-rect5371" style="fill:#000000" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+            <rect id="oc-ancient-axe-127057-rect5373" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+          </g>
+          <g id="oc-ancient-axe-127057-g5375" style="fill:#000000" transform="matrix(.90746 -.020141 -.0012188 .99973 348.97 -106.21)">
+            <path id="oc-ancient-axe-127057-path5377" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+            <path id="oc-ancient-axe-127057-path5379" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            <path id="oc-ancient-axe-127057-path5381" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+          </g>
+          <g id="oc-ancient-axe-127057-g5383" style="fill:#000000" transform="matrix(.81989 -.018197 -.0012188 .99973 460.79 -211.56)">
+            <path id="oc-ancient-axe-127057-path5385" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+            <path id="oc-ancient-axe-127057-path5387" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            <path id="oc-ancient-axe-127057-path5389" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+          </g>
+          <g id="oc-ancient-axe-127057-g5391" style="fill:#000000" transform="matrix(.83184 -.018462 -.0012188 .99973 249.41 -322.8)">
+            <path id="oc-ancient-axe-127057-path5393" style="fill:#000000" d="m1432.7-418.86 158.21 25.286c9.1846 1.468 16.518 7.3672 16.518 16.518v85.831c0 9.1512-7.3673 16.518-16.518 16.518h-158.57c-9.1512 0-16.518-7.3672-16.518-16.518v-85.831c0-9.1512 7.697-43.272 16.882-41.804z" />
+            <rect id="oc-ancient-axe-127057-rect5395" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-405.74" x="1418.3" />
+            <rect id="oc-ancient-axe-127057-rect5397" ry="16.518" style="fill:#000000" transform="scale(-1,1)" height="118.87" width="191.61" y="-398.25" x="-1605.1" />
+            <rect id="oc-ancient-axe-127057-rect5399" style="fill:#000000" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-409.49" x="-1612.3" />
+            <rect id="oc-ancient-axe-127057-rect5401" style="fill:#000000" ry="16.518" height="118.87" width="191.61" y="-398.72" x="1411.1" />
+          </g>
+          <g id="oc-ancient-axe-127057-g5403" style="fill:#000000" transform="matrix(.81989 -.018197 -.0010888 .89309 460.98 -368.4)">
+            <path id="oc-ancient-axe-127057-path5405" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            <path id="oc-ancient-axe-127057-path5407" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+            <path id="oc-ancient-axe-127057-path5409" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+          </g>
+        </g>
+        <g id="oc-ancient-axe-127057-g5411" style="fill:#000000" transform="matrix(.36437 .035541 -.0051559 .28640 1542.4 66.321)">
+          <g id="oc-ancient-axe-127057-g5413" style="fill:#000000" transform="matrix(.88164 -.21317 .11456 1.3543 185.25 354.08)">
+            <path id="oc-ancient-axe-127057-path5415" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            <path id="oc-ancient-axe-127057-path5417" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:#000000" />
+            <path id="oc-ancient-axe-127057-path5419" style="fill:#000000" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ancient-axe-127057-g4955" transform="matrix(.022118 -.61270 .99976 .013555 -2.9091 1554.7)">
+        <g id="oc-ancient-axe-127057-g4708" transform="translate(2173.9 -307.44)">
+          <path id="oc-ancient-axe-127057-path2985" style="opacity:.80184;fill:color-mix(in srgb,var(--c1,#e19200) 92.0%,black)" d="m-400 506.65c-78.82-68.15-138.74-133-136.32-234.76 1.887-79.527 75.783-139.67 153.3-193.27 8.8583-21.078-1.6268 79.971 10.174 106.71 10.697 24.238 32.121 33.299 52.961 41.697 41.742 16.821 104.82-15.547 134.35 13.368 3.8646 34.916-5.9664 48.352 0.13005 78.184-23.628 36.13-84.849 17.843-125.15 33.321-28.739 11.039-65.316 16.357-82.208 42.094-20.647 31.458 10.286 144.17-7.2294 112.65z" />
+          <path id="oc-ancient-axe-127057-path2990" d="m-381.82 75.674c-0.52474-0.0088-1.1695 0.86766-2 2.8438-77.515 53.599-151.43 113.75-153.31 193.28-2.4147 101.77 57.497 166.6 136.31 234.75 6.4836 11.664 6.345 3.5161 4.625-12.906-68.142-61.676-122.32-123.66-120.13-216.12 1.7095-72.047 67.447-128.16 136.51-177.94-0.0136-13.841-0.28584-23.877-2-23.906z" style="opacity:.80184;fill:color-mix(in srgb,var(--c2,#333333) 37.3%,white)" />
+          <path id="oc-ancient-axe-127057-path4127" style="opacity:.80184;fill:url(#oc-ancient-axe-127057-linearGradient9806)" d="m-400 506.65c-78.82-68.15-138.74-133-136.32-234.76 1.887-79.527 75.783-139.67 153.3-193.27 8.8583-21.078-1.6268 79.971 10.174 106.71 10.697 24.238 32.121 33.299 52.961 41.697 41.742 16.821 104.82-15.547 134.35 13.368 3.8646 34.916-5.9664 48.352 0.13005 78.184-23.628 36.13-84.849 17.843-125.15 33.321-28.739 11.039-65.316 16.357-82.208 42.094-20.647 31.458 10.286 144.17-7.2294 112.65z" />
+        </g>
+        <g id="oc-ancient-axe-127057-g4137" transform="matrix(.13617 .81281 -.77766 .14232 2102.5 -485.79)">
+          <rect id="oc-ancient-axe-127057-rect2985" ry="17.133" style="fill:var(--c3,#6c5353)" transform="rotate(-80.61)" height="866.38" width="93.932" y="627.37" x="-172.2" />
+          <rect id="oc-ancient-axe-127057-rect4752" ry="17.133" style="fill:url(#oc-ancient-axe-127057-linearGradient9808)" transform="rotate(-80.61)" height="866.38" width="93.932" y="627.37" x="-172.2" />
+          <g id="oc-ancient-axe-127057-g4726" transform="matrix(.25751 -1.5573 .78101 .12915 539.66 1769.5)">
+            <g id="oc-ancient-axe-127057-g4609" transform="matrix(.29708 0 0 .28720 592.54 -87.912)">
+              <path id="oc-ancient-axe-127057-path4611" style="fill:var(--c1,#e18200)" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.5507-11.505-0.2406-13.552-3.6616 9.482-20.132 9.8216-30.666 9.5211-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="matrix(3.3661 0 0 3.4819 -1994.6 306.1)" />
+              <path id="oc-ancient-axe-127057-path4656" style="fill:url(#oc-ancient-axe-127057-linearGradient9810)" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.5507-11.505-0.2406-13.552-3.6616 9.482-20.132 9.8216-30.666 9.5211-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="matrix(3.3661 0 0 3.4819 -1994.6 306.1)" />
+              <path id="oc-ancient-axe-127057-path4666" style="fill:url(#oc-ancient-axe-127057-linearGradient9812)" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.1452-11.234-0.2406-13.823-3.6616 9.482-20.132 10.092-30.666 9.7914-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="matrix(3.3661 0 0 3.4819 -1994.6 306.1)" />
+            </g>
+            <g id="oc-ancient-axe-127057-g4625" transform="matrix(.30777 0 0 .28720 578.32 -66.94)">
+              <path id="oc-ancient-axe-127057-path4627" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:var(--c1,#e18200)" />
+              <path id="oc-ancient-axe-127057-path4629" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path4631" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" />
+            </g>
+            <g id="oc-ancient-axe-127057-g4641" transform="matrix(.30510 0 0 .28720 581.77 -112.21)">
+              <path id="oc-ancient-axe-127057-path4643" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:var(--c1,#e18200)" />
+              <path id="oc-ancient-axe-127057-path4645" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path4647" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" />
+            </g>
+          </g>
+          <g id="oc-ancient-axe-127057-g4701" transform="matrix(.25751 -1.5573 .70585 .11672 1294.6 1894.3)">
+            <path id="oc-ancient-axe-127057-path4676" style="fill:var(--c1,#e18200)" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.5507-11.505-0.2406-13.552-3.6616 9.482-20.132 9.8216-30.666 9.5211-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="translate(-.000012926 .0000011790)" />
+            <path id="oc-ancient-axe-127057-path4678" style="fill:url(#oc-ancient-axe-127057-linearGradient9810)" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.5507-11.505-0.2406-13.552-3.6616 9.482-20.132 9.8216-30.666 9.5211-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="translate(-.000012926 .0000011790)" />
+            <path id="oc-ancient-axe-127057-path4680" style="fill:url(#oc-ancient-axe-127057-linearGradient9812)" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.1452-11.234-0.2406-13.823-3.6616 9.482-20.132 10.092-30.666 9.7914-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="translate(-.000012926 .0000011790)" />
+            <g id="oc-ancient-axe-127057-g4682" transform="matrix(.30777 0 0 .28720 578.32 -66.94)">
+              <path id="oc-ancient-axe-127057-path4684" style="fill:var(--c1,#e18200)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path4686" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" />
+              <path id="oc-ancient-axe-127057-path4688" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            </g>
+            <g id="oc-ancient-axe-127057-g4690" transform="matrix(.30510 0 0 .28720 581.77 -112.21)">
+              <path id="oc-ancient-axe-127057-path4692" style="fill:var(--c1,#e18200)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path4694" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" />
+              <path id="oc-ancient-axe-127057-path4696" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            </g>
+          </g>
+          <g id="oc-ancient-axe-127057-g6418" transform="matrix(.25751 -1.5573 .78101 .12915 1144.1 1869.4)">
+            <g id="oc-ancient-axe-127057-g6420" transform="matrix(.29708 0 0 .28720 592.54 -87.912)">
+              <path id="oc-ancient-axe-127057-path6422" style="fill:var(--c1,#e18200)" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.5507-11.505-0.2406-13.552-3.6616 9.482-20.132 9.8216-30.666 9.5211-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="matrix(3.3661 0 0 3.4819 -1994.6 306.1)" />
+              <path id="oc-ancient-axe-127057-path6424" style="fill:url(#oc-ancient-axe-127057-linearGradient9810)" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.5507-11.505-0.2406-13.552-3.6616 9.482-20.132 9.8216-30.666 9.5211-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="matrix(3.3661 0 0 3.4819 -1994.6 306.1)" />
+              <path id="oc-ancient-axe-127057-path6426" style="fill:url(#oc-ancient-axe-127057-linearGradient9812)" d="m941.41-185.19c-0.79132 2.0483-0.27261 10.768-0.27261 13.012 0 1.1837-0.15455 3.2386 0.0734 4.2586-0.22583 3.0157-0.20859 6.4388-0.20859 7.6141 0 12.626 12.629 15.084 29.22 15.084 16.592 0 30.469-1.7488 30.469-14.375 0-1.3149 0-5.0651-0.1563-8.375 0.1057-0.70624 0.1563-1.4609 0.1563-2.25 0-2.2424 0.1452-11.234-0.2406-13.823-3.6616 9.482-20.132 10.092-30.666 9.7914-10.14-0.28932-24.712-1.4567-28.375-10.938z" transform="matrix(3.3661 0 0 3.4819 -1994.6 306.1)" />
+            </g>
+            <g id="oc-ancient-axe-127057-g6428" transform="matrix(.30777 0 0 .28720 578.32 -66.94)">
+              <path id="oc-ancient-axe-127057-path6430" style="fill:var(--c1,#e18200)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path6432" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" />
+              <path id="oc-ancient-axe-127057-path6434" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            </g>
+            <g id="oc-ancient-axe-127057-g6436" transform="matrix(.30510 0 0 .28720 581.77 -112.21)">
+              <path id="oc-ancient-axe-127057-path6438" style="fill:var(--c1,#e18200)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path6440" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" />
+              <path id="oc-ancient-axe-127057-path6442" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            </g>
+          </g>
+        </g>
+        <g id="oc-ancient-axe-127057-g4275" transform="matrix(.089864 .99257 -.73295 .12170 1935.9 -414.52)">
+          <path id="oc-ancient-axe-127057-path2990-1" d="m307.09-54.702-44.026 29.762-131.64-55.83 141.45-14.929z" style="fill:color-mix(in srgb,var(--c1,#e1d700) 100.0%,black)" />
+          <path id="oc-ancient-axe-127057-path4371" style="fill:url(#oc-ancient-axe-127057-linearGradient9846)" d="m307.09-54.702-44.026 29.762-131.64-55.83 141.45-14.929z" />
+          <g id="oc-ancient-axe-127057-g4762" transform="matrix(.10975 -.66372 .31580 .052221 372.86 622.38)">
+            <path id="oc-ancient-axe-127057-path4381" style="fill:color-mix(in srgb,var(--c3,#ff0000) 100.0%,white)" d="m974.09-647.93-23.198-55.952 21.332-201.56 23.998 198.87z" />
+            <path id="oc-ancient-axe-127057-path4385" d="m974.09-647.93-23.198-55.952 21.332-201.56 23.998 198.87z" style="fill:url(#oc-ancient-axe-127057-linearGradient9848)" />
+          </g>
+          <g id="oc-ancient-axe-127057-g4475" transform="matrix(.055154 -.33353 .11263 .018624 295.06 375.66)">
+            <path id="oc-ancient-axe-127057-path4477" style="fill:var(--c1,#e18200)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            <path id="oc-ancient-axe-127057-path4479" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" />
+            <path id="oc-ancient-axe-127057-path4481" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+          </g>
+          <g id="oc-ancient-axe-127057-g4191" transform="matrix(.052364 -.31667 .061745 .010210 253.71 426.77)">
+            <g id="oc-ancient-axe-127057-g3877" transform="matrix(1.0833 0 0 3.1343 -125.08 937.59)">
+              <rect id="oc-ancient-axe-127057-rect3879" style="fill:color-mix(in srgb,var(--c1,#e1d700) 100.0%,black)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect3881" style="fill:url(#oc-ancient-axe-127057-linearGradient9854)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect3883" style="fill:url(#oc-ancient-axe-127057-linearGradient9856)" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect3885" ry="16.518" style="fill:url(#oc-ancient-axe-127057-linearGradient9858)" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect3887" style="fill:url(#oc-ancient-axe-127057-linearGradient9860)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            </g>
+            <g id="oc-ancient-axe-127057-g3866" transform="translate(.88703)">
+              <rect id="oc-ancient-axe-127057-rect3795" style="fill:color-mix(in srgb,var(--c1,#e1d700) 100.0%,black)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect3813" style="fill:url(#oc-ancient-axe-127057-linearGradient9854)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect3823" ry="16.518" style="fill:url(#oc-ancient-axe-127057-linearGradient9856)" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect3852" style="fill:url(#oc-ancient-axe-127057-linearGradient9858)" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect3862" style="fill:url(#oc-ancient-axe-127057-linearGradient9860)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            </g>
+            <g id="oc-ancient-axe-127057-g3847" transform="translate(236.85 -10.645)">
+              <path id="oc-ancient-axe-127057-path3022" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:var(--c1,#e18200)" />
+              <path id="oc-ancient-axe-127057-path3827" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path3837" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" />
+            </g>
+            <g id="oc-ancient-axe-127057-g3941" transform="matrix(.91667 0 0 1 126.85 -233.06)">
+              <rect id="oc-ancient-axe-127057-rect3943" style="fill:color-mix(in srgb,var(--c1,#e1d700) 100.0%,black)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect3945" style="fill:url(#oc-ancient-axe-127057-linearGradient9854)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect3947" ry="16.518" style="fill:url(#oc-ancient-axe-127057-linearGradient9856)" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect3949" style="fill:url(#oc-ancient-axe-127057-linearGradient9858)" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect3951" style="fill:url(#oc-ancient-axe-127057-linearGradient9860)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            </g>
+            <g id="oc-ancient-axe-127057-g3897" transform="translate(.88703 -119.51)">
+              <rect id="oc-ancient-axe-127057-rect3899" style="fill:color-mix(in srgb,var(--c1,#e1d700) 100.0%,black)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect3901" style="fill:url(#oc-ancient-axe-127057-linearGradient9854)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect3903" style="fill:url(#oc-ancient-axe-127057-linearGradient9856)" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect3905" ry="16.518" style="fill:url(#oc-ancient-axe-127057-linearGradient9858)" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect3907" style="fill:url(#oc-ancient-axe-127057-linearGradient9860)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            </g>
+            <g id="oc-ancient-axe-127057-g3917" transform="translate(236.85 -134.84)">
+              <path id="oc-ancient-axe-127057-path3919" style="fill:var(--c1,#e18200)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path3921" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" />
+              <path id="oc-ancient-axe-127057-path3923" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            </g>
+            <g id="oc-ancient-axe-127057-g3929" transform="matrix(.90350 0 0 1 359.94 -237.74)">
+              <path id="oc-ancient-axe-127057-path3931" style="fill:var(--c1,#e18200)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path3933" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" />
+              <path id="oc-ancient-axe-127057-path3935" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            </g>
+            <g id="oc-ancient-axe-127057-g3961" transform="matrix(.91667 0 0 1 126.85 -353.7)">
+              <rect id="oc-ancient-axe-127057-rect3963" style="fill:color-mix(in srgb,var(--c1,#e1d700) 100.0%,black)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect3965" style="fill:url(#oc-ancient-axe-127057-linearGradient9854)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+              <rect id="oc-ancient-axe-127057-rect3967" style="fill:url(#oc-ancient-axe-127057-linearGradient9856)" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect3969" ry="16.518" style="fill:url(#oc-ancient-axe-127057-linearGradient9858)" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+              <rect id="oc-ancient-axe-127057-rect3971" style="fill:url(#oc-ancient-axe-127057-linearGradient9860)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            </g>
+            <g id="oc-ancient-axe-127057-g3981" transform="matrix(.90350 0 0 .89333 359.94 -394.61)">
+              <path id="oc-ancient-axe-127057-path3983" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:var(--c1,#e18200)" />
+              <path id="oc-ancient-axe-127057-path3985" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+              <path id="oc-ancient-axe-127057-path3987" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" />
+            </g>
+          </g>
+        </g>
+        <g id="oc-ancient-axe-127057-g4418" transform="matrix(.34154 -.034574 .0044982 .15886 1494.1 76.288)">
+          <g id="oc-ancient-axe-127057-g4420" transform="matrix(1.0833 0 0 3.1343 -125.08 937.59)">
+            <rect id="oc-ancient-axe-127057-rect4422" ry="16.514" style="fill:color-mix(in srgb,var(--c1,#e1d700) 100.0%,black)" transform="matrix(.99997 -.0076710 -.0035272 .99999 0 0)" height="118.84" width="173.88" y="-381.08" x="1418" />
+            <rect id="oc-ancient-axe-127057-rect4424" ry="16.514" style="fill:url(#oc-ancient-axe-127057-linearGradient9910)" transform="matrix(.99997 -.0076710 -.0035272 .99999 0 0)" height="118.84" width="173.88" y="-381.08" x="1418" />
+            <rect id="oc-ancient-axe-127057-rect4426" style="fill:url(#oc-ancient-axe-127057-linearGradient9912)" transform="matrix(-.99997 .0076710 -.0035272 .99999 0 0)" ry="16.514" height="118.84" width="173.88" y="-381.08" x="-1591.9" />
+            <rect id="oc-ancient-axe-127057-rect4428" ry="16.514" style="fill:url(#oc-ancient-axe-127057-linearGradient9914)" transform="matrix(-.99997 .0076710 -.0035272 .99999 0 0)" height="118.84" width="173.88" y="-381.08" x="-1591.9" />
+            <path id="oc-ancient-axe-127057-rect4430" d="m1434.3-392.07 143.9-1.1039c8.3043-0.0637 14.964 7.2503 14.932 16.399l-0.3027 85.808c-0.032 9.1488-6.9803 23.677-15.304 23.352l-143.64-5.619c-8.3239-0.32561-14.964-7.2503-14.932-16.399l0.3026-85.808c0.032-9.1488 6.7437-16.565 15.048-16.629z" style="fill:url(#oc-ancient-axe-127057-linearGradient9916)" />
+          </g>
+          <g id="oc-ancient-axe-127057-g4432" transform="matrix(.90746 -.020141 -.0012188 .99973 134.67 33.343)">
+            <rect id="oc-ancient-axe-127057-rect4434" style="fill:color-mix(in srgb,var(--c1,#e1d700) 100.0%,black)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            <rect id="oc-ancient-axe-127057-rect4436" style="fill:url(#oc-ancient-axe-127057-linearGradient9854)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            <rect id="oc-ancient-axe-127057-rect4438" ry="16.518" style="fill:url(#oc-ancient-axe-127057-linearGradient9856)" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+            <rect id="oc-ancient-axe-127057-rect4440" style="fill:url(#oc-ancient-axe-127057-linearGradient9858)" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+            <rect id="oc-ancient-axe-127057-rect4442" style="fill:url(#oc-ancient-axe-127057-linearGradient9860)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+          </g>
+          <g id="oc-ancient-axe-127057-g4444" transform="matrix(.90746 -.020141 -.0012188 .99973 348.81 17.948)">
+            <path id="oc-ancient-axe-127057-path4446" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:var(--c1,#e18200)" />
+            <path id="oc-ancient-axe-127057-path4448" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            <path id="oc-ancient-axe-127057-path4450" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" />
+          </g>
+          <g id="oc-ancient-axe-127057-g4452" transform="matrix(.83184 -.018462 -.0012188 .99973 249.26 -202.19)">
+            <rect id="oc-ancient-axe-127057-rect4454" style="fill:color-mix(in srgb,var(--c1,#e1d700) 100.0%,black)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            <rect id="oc-ancient-axe-127057-rect4456" style="fill:url(#oc-ancient-axe-127057-linearGradient9854)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            <rect id="oc-ancient-axe-127057-rect4458" ry="16.518" style="fill:url(#oc-ancient-axe-127057-linearGradient9856)" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+            <rect id="oc-ancient-axe-127057-rect4460" style="fill:url(#oc-ancient-axe-127057-linearGradient9858)" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+            <rect id="oc-ancient-axe-127057-rect4462" style="fill:url(#oc-ancient-axe-127057-linearGradient9860)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+          </g>
+          <g id="oc-ancient-axe-127057-g4464" transform="matrix(.90746 -.020141 -.0012188 .99973 134.82 -86.138)">
+            <rect id="oc-ancient-axe-127057-rect4466" style="fill:color-mix(in srgb,var(--c1,#e1d700) 100.0%,black)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            <rect id="oc-ancient-axe-127057-rect4468" style="fill:url(#oc-ancient-axe-127057-linearGradient9854)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+            <rect id="oc-ancient-axe-127057-rect4470" style="fill:url(#oc-ancient-axe-127057-linearGradient9856)" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+            <rect id="oc-ancient-axe-127057-rect4472" ry="16.518" style="fill:url(#oc-ancient-axe-127057-linearGradient9858)" transform="scale(-1,1)" height="118.87" width="191.61" y="-393.57" x="-1607.4" />
+            <rect id="oc-ancient-axe-127057-rect4474" style="fill:url(#oc-ancient-axe-127057-linearGradient9860)" ry="16.518" height="118.87" width="191.61" y="-393.57" x="1415.8" />
+          </g>
+          <g id="oc-ancient-axe-127057-g4476" transform="matrix(.90746 -.020141 -.0012188 .99973 348.97 -106.21)">
+            <path id="oc-ancient-axe-127057-path4478" style="fill:var(--c1,#e18200)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            <path id="oc-ancient-axe-127057-path4480" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" />
+            <path id="oc-ancient-axe-127057-path4482" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+          </g>
+          <g id="oc-ancient-axe-127057-g4484" transform="matrix(.81989 -.018197 -.0012188 .99973 460.79 -211.56)">
+            <path id="oc-ancient-axe-127057-path4486" style="fill:var(--c1,#e18200)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            <path id="oc-ancient-axe-127057-path4488" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" />
+            <path id="oc-ancient-axe-127057-path4490" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+          </g>
+          <g id="oc-ancient-axe-127057-g4492" transform="matrix(.83184 -.018462 -.0012188 .99973 249.41 -322.8)">
+            <path id="oc-ancient-axe-127057-rect4494" d="m1432.7-418.86 158.21 25.286c9.1846 1.468 16.518 7.3672 16.518 16.518v85.831c0 9.1512-7.3673 16.518-16.518 16.518h-158.57c-9.1512 0-16.518-7.3672-16.518-16.518v-85.831c0-9.1512 7.697-43.272 16.882-41.804z" style="fill:color-mix(in srgb,var(--c1,#e1d700) 100.0%,black)" />
+            <rect id="oc-ancient-axe-127057-rect4496" style="fill:url(#oc-ancient-axe-127057-linearGradient9954)" ry="16.518" height="118.87" width="191.61" y="-405.74" x="1418.3" />
+            <rect id="oc-ancient-axe-127057-rect4498" style="fill:url(#oc-ancient-axe-127057-linearGradient9956)" transform="scale(-1,1)" ry="16.518" height="118.87" width="191.61" y="-398.25" x="-1605.1" />
+            <rect id="oc-ancient-axe-127057-rect4500" ry="16.518" style="fill:url(#oc-ancient-axe-127057-linearGradient9958)" transform="scale(-1,1)" height="118.87" width="191.61" y="-409.49" x="-1612.3" />
+            <rect id="oc-ancient-axe-127057-rect4502" style="fill:url(#oc-ancient-axe-127057-linearGradient9960)" ry="16.518" height="118.87" width="191.61" y="-398.72" x="1411.1" />
+          </g>
+          <g id="oc-ancient-axe-127057-g4504" transform="matrix(.81989 -.018197 -.0010888 .89309 460.98 -368.4)">
+            <path id="oc-ancient-axe-127057-path4506" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:var(--c1,#e18200)" />
+            <path id="oc-ancient-axe-127057-path4508" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            <path id="oc-ancient-axe-127057-path4510" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" />
+          </g>
+        </g>
+        <g id="oc-ancient-axe-127057-g4410" transform="matrix(.36437 .035541 -.0051559 .28640 1542.4 66.321)">
+          <g id="oc-ancient-axe-127057-g4698" transform="matrix(.88164 -.21317 .11456 1.3543 185.25 354.08)">
+            <path id="oc-ancient-axe-127057-path4412" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:var(--c1,#e18200)" />
+            <path id="oc-ancient-axe-127057-path4414" style="fill:url(#oc-ancient-axe-127057-linearGradient9814)" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" />
+            <path id="oc-ancient-axe-127057-path4416" d="m1178.6-289.79c-2.6637 4.6483-4.1067 9.5521-4.1067 14.643 0 28.653 45.284 51.884 101.13 51.884 55.85 0 101.11-23.231 101.11-51.884 0-5.0887-1.4204-9.9961-4.082-14.643-12.326 21.518-63.759 24.822-97.028 24.822s-84.699-3.3073-97.028-24.822z" style="fill:url(#oc-ancient-axe-127057-linearGradient9816)" />
+          </g>
+        </g>
+      </g>
+      <path id="oc-ancient-axe-127057-path8673" style="fill:#ffffff" d="m-659.61-23.156 16.289 92.982-21.584-91.897-54.23 77.266 49.719-80.244-92.982 16.289 91.897-21.584-77.266-54.23 80.244 49.719-16.289-92.982 21.584 91.897 54.23-77.266-49.719 80.244 92.982-16.289-91.897 21.584 77.266 54.23z" transform="matrix(1 0 0 .65186 668.48 569.91)" />
+    </g>
+  </g></g></svg>

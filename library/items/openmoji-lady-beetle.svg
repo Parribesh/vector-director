@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(298.22 727.10) scale(0.0493)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-lady-beetle-color">
-    <ellipse cx="36.4596" cy="21.9147" rx="11.0195" ry="11.0971" fill="#3f3f3f" />
-    <ellipse cx="36.4865" cy="40.6831" rx="16.5287" ry="17.9871" fill="#d22f27" />
+    <ellipse cx="36.4596" cy="21.9147" rx="11.0195" ry="11.0971" fill="var(--c1,#3f3f3f)" />
+    <ellipse cx="36.4865" cy="40.6831" rx="16.5287" ry="17.9871" fill="var(--c2,#d22f27)" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-lady-beetle-line">
     <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.9837,21.7274c0,3.3082,4.2257,5.9138,5.4833,6.6049" />

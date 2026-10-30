@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-8302.93 -15516.49) scale(238.9702)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-night-with-stars-color">
-    <rect x="4" y="3.9853" width="64" height="64" fill="#8967aa" />
-    <polyline fill="#9b9b9a" points="9.923 45.944 9.923 28.944 19.923 28.944 19.923 45.944" />
-    <rect x="33.9231" y="32.9444" width="13" height="35.041" fill="#9b9b9a" />
-    <polyline fill="#d0cfce" points="50.923 67.985 50.923 36.944 66.923 36.944 66.923 67.985" />
-    <polyline fill="#d0cfce" points="4.923 67.985 4.923 45.944 38.923 45.944 38.923 67.985" />
-    <rect x="8.9231" y="48.9478" width="2.9913" height="5.9965" fill="#fcea2b" />
-    <rect x="14.9231" y="48.9478" width="2.9913" height="5.9965" fill="#fcea2b" />
-    <rect x="26.9231" y="48.9478" width="2.9913" height="5.9965" fill="#fcea2b" />
-    <rect x="32.9231" y="48.9478" width="2.9913" height="5.9965" fill="#fcea2b" />
-    <rect x="54.9231" y="39.9478" width="2.9913" height="5.9965" fill="#fcea2b" />
-    <rect x="60.9231" y="49.9478" width="2.9913" height="5.9965" fill="#fcea2b" />
-    <rect x="60.9231" y="59.9478" width="2.9913" height="5.9965" fill="#fcea2b" />
-    <rect x="54.9231" y="59.9478" width="2.9913" height="5.9965" fill="#fcea2b" />
-    <rect x="32.9231" y="58.9478" width="2.9913" height="5.9965" fill="#fcea2b" />
-    <rect x="20.9231" y="58.9478" width="2.9913" height="5.9965" fill="#fcea2b" />
-    <rect x="8.9231" y="58.9478" width="2.9913" height="5.9965" fill="#fcea2b" />
-    <circle cx="22" cy="20.8424" r="2" fill="#fcea2b" />
-    <circle cx="34" cy="25.8424" r="2" fill="#fcea2b" />
-    <circle cx="33" cy="14.8424" r="2" fill="#fcea2b" />
-    <circle cx="14" cy="10.8424" r="2" fill="#fcea2b" />
-    <path fill="#fcea2b" d="M56,25.8424c-.4838.5267-9.016-2.3975-9-9,.0107-4.4,3.813-8.5541,9-9a22.1374,22.1374,0,0,0-2.0783,2.0869A10.4512,10.4512,0,0,0,51,16.8424c.0634,2.8883,1.7575,5.2225,3.1609,6.7968C55.262,24.8744,56.1843,25.6419,56,25.8424Z" />
+    <rect x="4" y="3.9853" width="64" height="64" fill="var(--c3,#8967aa)" />
+    <polyline fill="var(--c2,#9b9b9a)" points="9.923 45.944 9.923 28.944 19.923 28.944 19.923 45.944" />
+    <rect x="33.9231" y="32.9444" width="13" height="35.041" fill="var(--c2,#9b9b9a)" />
+    <polyline fill="color-mix(in srgb,var(--c2,#9a9a9a) 47.5%,white)" points="50.923 67.985 50.923 36.944 66.923 36.944 66.923 67.985" />
+    <polyline fill="color-mix(in srgb,var(--c2,#9a9a9a) 47.5%,white)" points="4.923 67.985 4.923 45.944 38.923 45.944 38.923 67.985" />
+    <rect x="8.9231" y="48.9478" width="2.9913" height="5.9965" fill="var(--c1,#fcea2b)" />
+    <rect x="14.9231" y="48.9478" width="2.9913" height="5.9965" fill="var(--c1,#fcea2b)" />
+    <rect x="26.9231" y="48.9478" width="2.9913" height="5.9965" fill="var(--c1,#fcea2b)" />
+    <rect x="32.9231" y="48.9478" width="2.9913" height="5.9965" fill="var(--c1,#fcea2b)" />
+    <rect x="54.9231" y="39.9478" width="2.9913" height="5.9965" fill="var(--c1,#fcea2b)" />
+    <rect x="60.9231" y="49.9478" width="2.9913" height="5.9965" fill="var(--c1,#fcea2b)" />
+    <rect x="60.9231" y="59.9478" width="2.9913" height="5.9965" fill="var(--c1,#fcea2b)" />
+    <rect x="54.9231" y="59.9478" width="2.9913" height="5.9965" fill="var(--c1,#fcea2b)" />
+    <rect x="32.9231" y="58.9478" width="2.9913" height="5.9965" fill="var(--c1,#fcea2b)" />
+    <rect x="20.9231" y="58.9478" width="2.9913" height="5.9965" fill="var(--c1,#fcea2b)" />
+    <rect x="8.9231" y="58.9478" width="2.9913" height="5.9965" fill="var(--c1,#fcea2b)" />
+    <circle cx="22" cy="20.8424" r="2" fill="var(--c1,#fcea2b)" />
+    <circle cx="34" cy="25.8424" r="2" fill="var(--c1,#fcea2b)" />
+    <circle cx="33" cy="14.8424" r="2" fill="var(--c1,#fcea2b)" />
+    <circle cx="14" cy="10.8424" r="2" fill="var(--c1,#fcea2b)" />
+    <path fill="var(--c1,#fcea2b)" d="M56,25.8424c-.4838.5267-9.016-2.3975-9-9,.0107-4.4,3.813-8.5541,9-9a22.1374,22.1374,0,0,0-2.0783,2.0869A10.4512,10.4512,0,0,0,51,16.8424c.0634,2.8883,1.7575,5.2225,3.1609,6.7968C55.262,24.8744,56.1843,25.6419,56,25.8424Z" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-night-with-stars-line">
     <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="50.923 66.944 50.923 36.944 66.923 36.944 66.923 66.944" />

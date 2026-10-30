@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(291.56 715.56) scale(0.2447)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-cricket-color">
-    <path fill="#5C9E31" stroke="none" d="M58,46h3c0,0-5,10-23,9c0,0-7,0-15-8c0,0,1,7-4,5s-6-5-4-12l25,4" />
-    <polygon fill="#B1CC33" stroke="none" points="39,50 56,35 54,46" />
+    <path fill="var(--c1,#5c9e31)" stroke="none" d="M58,46h3c0,0-5,10-23,9c0,0-7,0-15-8c0,0,1,7-4,5s-6-5-4-12l25,4" />
+    <polygon fill="color-mix(in srgb,var(--c1,#5c9f31) 84.0%,white)" stroke="none" points="39,50 56,35 54,46" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-cricket-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-cricket-skin" />

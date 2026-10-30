@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-579266.56 -900817.99) scale(16099.0712)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-mountain-color">
-    <path fill="#3F3F3F" d="M52,42.2c0,0-0.2-6.2-0.3-6.8s-0.7-1.6-1-2.1L48.2,29L42,24.5l-7.2,5.4l2.6,4.5l4.9-0.4l10.2,13.3L52,42.2z" />
-    <polyline fill="#9B9B9A" points="50,39 53.4,48.1 60,56 12,56 16,49 18,37 25,18 29,22 33,25 37,33 42,33 50,39" />
+    <path fill="var(--c1,#3f3f3f)" d="M52,42.2c0,0-0.2-6.2-0.3-6.8s-0.7-1.6-1-2.1L48.2,29L42,24.5l-7.2,5.4l2.6,4.5l4.9-0.4l10.2,13.3L52,42.2z" />
+    <polyline fill="color-mix(in srgb,var(--c1,#3f3f3f) 52.1%,white)" points="50,39 53.4,48.1 60,56 12,56 16,49 18,37 25,18 29,22 33,25 37,33 42,33 50,39" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-mountain-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-mountain-skin" />

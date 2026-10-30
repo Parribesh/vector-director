@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-3140.70 -5005.29) scale(95.5882)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-classical-building-color">
-    <rect x="18.54" y="26" width="34.92" height="25.95" fill="#9b9b9a" />
+    <rect x="18.54" y="26" width="34.92" height="25.95" fill="var(--c1,#9b9b9a)" />
     <rect x="12" y="56" width="48" height="4" fill="#fff" stroke-miterlimit="10" />
     <rect x="14.13" y="22" width="43.74" height="4" fill="#fff" stroke-miterlimit="10" />
     <rect x="15.72" y="52" width="40.55" height="4" fill="#fff" stroke-miterlimit="10" />

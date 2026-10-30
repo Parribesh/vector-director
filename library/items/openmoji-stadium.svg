@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-18115.47 -24335.50) scale(511.5409)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-stadium-color">
-    <polygon fill="#D0CFCE" points="66,34 62,49 10,49 6,34" />
-    <path fill="#D0CFCE" d="M66,34c0-10.4934-19.5066-8-30-8S6,23.5066,6,34H66z" />
-    <path fill="#D0CFCE" d="M14,31c0-10.4934,15.704-6,22-6s22-4.4934,22,6H14z" />
-    <path fill="#D0CFCE" d="M25,33.5733c0-18.3823,8.4816-9.1724,11-9.1724c2.5184,0,12-9.2099,12,9.1724H25z" />
-    <path fill="#92D3F5" d="M41,49c0-10.4934-2.9013-12-5-12s-5,1.5066-5,12H41z" />
+    <polygon fill="var(--c1,#d0cfce)" points="66,34 62,49 10,49 6,34" />
+    <path fill="var(--c1,#d0cfce)" d="M66,34c0-10.4934-19.5066-8-30-8S6,23.5066,6,34H66z" />
+    <path fill="var(--c1,#d0cfce)" d="M14,31c0-10.4934,15.704-6,22-6s22-4.4934,22,6H14z" />
+    <path fill="var(--c1,#d0cfce)" d="M25,33.5733c0-18.3823,8.4816-9.1724,11-9.1724c2.5184,0,12-9.2099,12,9.1724H25z" />
+    <path fill="var(--c2,#92d3f5)" d="M41,49c0-10.4934-2.9013-12-5-12s-5,1.5066-5,12H41z" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-stadium-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-stadium-skin" />

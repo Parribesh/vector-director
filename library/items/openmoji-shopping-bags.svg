@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(218.36 591.77) scale(2.2675)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-shopping-bags-color">
-    <line x1="25.7466" x2="36.0014" y1="21.0015" y2="21.0015" fill="#EA5A47" stroke="none" />
-    <polyline fill="#FCEA2B" stroke="none" points="36.0015,60.9598 61.0015,60.9598 56.0015,20.0932 53.4318,20.0932 18.5712,20.0932 16.0015,20.0932 11.0015,60.9598 36.0015,60.9598" />
-    <line x1="46.2563" x2="36.0016" y1="21.0015" y2="21.0015" fill="#EA5A47" stroke="none" />
+    <line x1="25.7466" x2="36.0014" y1="21.0015" y2="21.0015" fill="var(--c1,#ea5a47)" stroke="none" />
+    <polyline fill="var(--c2,#fcea2b)" stroke="none" points="36.0015,60.9598 61.0015,60.9598 56.0015,20.0932 53.4318,20.0932 18.5712,20.0932 16.0015,20.0932 11.0015,60.9598 36.0015,60.9598" />
+    <line x1="46.2563" x2="36.0016" y1="21.0015" y2="21.0015" fill="var(--c1,#ea5a47)" stroke="none" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-shopping-bags-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-shopping-bags-skin" />

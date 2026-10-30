@@ -19,21 +19,21 @@
   </style>
   <g stroke="#1F2B1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
     <g class="pr-body">
-      <path class="pr-tail" d="M 268,700 Q 230,760 196,800 Q 222,790 250,752 Q 236,792 226,816 Q 262,780 286,712 Z" fill="#3E9B4F"/>
-      <ellipse cx="300" cy="672" rx="44" ry="62" fill="#5CC46A"/>
-      <path class="pr-wing" d="M 270,640 Q 252,690 270,736 Q 300,718 306,664 Q 296,636 270,640 Z" fill="#3E9B4F"/>
-      <path class="pr-wing-up" d="M 282,640 Q 240,580 200,560 Q 230,612 268,664 Z" fill="#3E9B4F"/>
+      <path class="pr-tail" d="M 268,700 Q 230,760 196,800 Q 222,790 250,752 Q 236,792 226,816 Q 262,780 286,712 Z" fill="var(--c1,#3e9b4f)"/>
+      <ellipse cx="300" cy="672" rx="44" ry="62" fill="color-mix(in srgb,var(--c1,#3e9b4f) 76.2%,white)"/>
+      <path class="pr-wing" d="M 270,640 Q 252,690 270,736 Q 300,718 306,664 Q 296,636 270,640 Z" fill="var(--c1,#3e9b4f)"/>
+      <path class="pr-wing-up" d="M 282,640 Q 240,580 200,560 Q 230,612 268,664 Z" fill="var(--c1,#3e9b4f)"/>
       <g class="speaker pr-head">
-        <circle cx="318" cy="606" r="36" fill="#5CC46A"/>
+        <circle cx="318" cy="606" r="36" fill="color-mix(in srgb,var(--c1,#3e9b4f) 76.2%,white)"/>
         <path d="M 290,628 Q 316,646 346,628" fill="none" stroke="#1F2B1A" stroke-width="5"/>
-        <path d="M 292,634 Q 316,652 344,634" fill="none" stroke="#F28BA8" stroke-width="4"/>
+        <path d="M 292,634 Q 316,652 344,634" fill="none" stroke="var(--c2,#f28ba8)" stroke-width="4"/>
         <circle cx="330" cy="598" r="7" fill="#FFFFFF" stroke-width="3"/>
         <circle cx="332" cy="598" r="3.5" fill="#1F2B1A" stroke="none"/>
-        <path d="M 344,596 Q 376,592 378,616 Q 368,612 352,616 Z" fill="#E23744"/>
-        <path class="pr-jaw" d="M 352,616 Q 366,614 368,624 Q 358,628 350,622 Z" fill="#B81E2C"/>
+        <path d="M 344,596 Q 376,592 378,616 Q 368,612 352,616 Z" fill="color-mix(in srgb,var(--c2,#f28ba8) 74.0%,black)"/>
+        <path class="pr-jaw" d="M 352,616 Q 366,614 368,624 Q 358,628 350,622 Z" fill="color-mix(in srgb,var(--c2,#f28ba7) 56.2%,black)"/>
       </g>
     </g>
-    <g class="pr-feet" fill="none" stroke="#8C7A6A" stroke-width="5">
+    <g class="pr-feet" fill="none" stroke="var(--c3,#8c7a6a)" stroke-width="5">
       <path d="M 292,728 L 288,716 M 300,730 L 300,716 M 310,728 L 312,716"/>
     </g>
   </g>

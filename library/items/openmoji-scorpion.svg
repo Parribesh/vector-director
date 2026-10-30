@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(291.04 714.78) scale(0.2514)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-scorpion-color">
-    <path fill="#EA5A47" stroke="none" d="M39.8231,26.896c0,0,9.7765,0.248,9.8779-3.7507c0.1014-3.9987,1.6859-6.6916-0.7748-8.0222 C45,13,44.8635,21.0219,45.7904,23.0461S38,25,38,25L39.8231,26.896z" />
-    <path fill="#EA5A47" stroke="none" d="M32,27c0,0-10,0-10-4s-1-6,1-8s4,6,3,8s7,2,7,2L32,27z" />
-    <path fill="#D22F27" stroke="none" d="M41.9643,55.8624c0,0-2.1556-6.898,2.8023-3.0179s-3.0179,9.9158-6.7902,6.898 c-3.7723-3.0179-9.808-18.5383-5.4968-33.1965c0,0,3.449-5.1735,6.0357,0c2.5867,5.1735,1.1643,20.6939,0.151,24.1429 c-1.0133,3.449-1.0133,6.0357,2.4357,7.3291" />
-    <rect x="31" y="34" width="9" height="4" fill="#EA5A47" stroke="none" />
-    <rect x="31" y="43" width="9" height="4" fill="#EA5A47" stroke="none" />
+    <path fill="var(--c1,#ea5a47)" stroke="none" d="M39.8231,26.896c0,0,9.7765,0.248,9.8779-3.7507c0.1014-3.9987,1.6859-6.6916-0.7748-8.0222 C45,13,44.8635,21.0219,45.7904,23.0461S38,25,38,25L39.8231,26.896z" />
+    <path fill="var(--c1,#ea5a47)" stroke="none" d="M32,27c0,0-10,0-10-4s-1-6,1-8s4,6,3,8s7,2,7,2L32,27z" />
+    <path fill="color-mix(in srgb,var(--c1,#ea5a47) 82.1%,black)" stroke="none" d="M41.9643,55.8624c0,0-2.1556-6.898,2.8023-3.0179s-3.0179,9.9158-6.7902,6.898 c-3.7723-3.0179-9.808-18.5383-5.4968-33.1965c0,0,3.449-5.1735,6.0357,0c2.5867,5.1735,1.1643,20.6939,0.151,24.1429 c-1.0133,3.449-1.0133,6.0357,2.4357,7.3291" />
+    <rect x="31" y="34" width="9" height="4" fill="var(--c1,#ea5a47)" stroke="none" />
+    <rect x="31" y="43" width="9" height="4" fill="var(--c1,#ea5a47)" stroke="none" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-scorpion-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-scorpion-skin" />

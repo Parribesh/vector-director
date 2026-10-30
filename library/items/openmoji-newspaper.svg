@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(213.24 596.89) scale(2.3769)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-newspaper-color">
-    <path fill="#9B9B9A" stroke="none" d="M58.9041,56h2.4417C63.0344,56,64,54.9933,64,53.3365v-0.3782v-42H13.0408v13.2772" />
-    <path fill="#9B9B9A" stroke="none" d="M59,56h2.3957C63.0526,56,64,54.9933,64,53.3365v-0.3782v-42H14v16.1541" />
-    <path fill="#9B9B9A" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M59,56h2.3957C63.0526,56,64,54.9933,64,53.3365v-0.3782v-42H14" />
-    <rect x="9" y="16" width="50" height="40" fill="#D0CFCE" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <path fill="var(--c1,#9b9b9a)" stroke="none" d="M58.9041,56h2.4417C63.0344,56,64,54.9933,64,53.3365v-0.3782v-42H13.0408v13.2772" />
+    <path fill="var(--c1,#9b9b9a)" stroke="none" d="M59,56h2.3957C63.0526,56,64,54.9933,64,53.3365v-0.3782v-42H14v16.1541" />
+    <path fill="var(--c1,#9b9b9a)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M59,56h2.3957C63.0526,56,64,54.9933,64,53.3365v-0.3782v-42H14" />
+    <rect x="9" y="16" width="50" height="40" fill="color-mix(in srgb,var(--c1,#9a9a9a) 47.5%,white)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-newspaper-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-newspaper-skin" />

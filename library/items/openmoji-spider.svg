@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(296.03 722.97) scale(0.1103)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-spider-color">
-    <ellipse cx="36.22" cy="29.93" rx="8.644" ry="11.3" fill="#9b9b9a" stroke-width="1.33" />
-    <circle cx="36.22" cy="45.89" r="4.654" fill="#9b9b9a" stroke-width="1.33" />
+    <ellipse cx="36.22" cy="29.93" rx="8.644" ry="11.3" fill="var(--c1,#9b9b9a)" stroke-width="1.33" />
+    <circle cx="36.22" cy="45.89" r="4.654" fill="var(--c1,#9b9b9a)" stroke-width="1.33" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-spider-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-spider-skin" />

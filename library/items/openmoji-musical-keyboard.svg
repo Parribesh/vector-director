@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(272.05 684.21) scale(0.7665)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-musical-keyboard-color">
     <rect x="13.6299" y="13.0801" width="45.6611" height="45.6621" fill="#FFFFFF" stroke="none" />
-    <rect x="32.8642" y="12.2618" width="7.0732" height="30.5028" fill="#3F3F3F" stroke="none" />
-    <rect x="46.0632" y="12.1986" width="6.8837" height="30.7554" fill="#3F3F3F" stroke="none" />
-    <rect x="19.6653" y="11.8539" width="7.5783" height="31.3528" fill="#3F3F3F" stroke="none" />
+    <rect x="32.8642" y="12.2618" width="7.0732" height="30.5028" fill="var(--c1,#3f3f3f)" stroke="none" />
+    <rect x="46.0632" y="12.1986" width="6.8837" height="30.7554" fill="var(--c1,#3f3f3f)" stroke="none" />
+    <rect x="19.6653" y="11.8539" width="7.5783" height="31.3528" fill="var(--c1,#3f3f3f)" stroke="none" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-musical-keyboard-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-musical-keyboard-skin" />

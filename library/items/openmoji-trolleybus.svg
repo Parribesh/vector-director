@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-720.60 -666.61) scale(26.8580)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-trolleybus-color">
-    <rect x="31" y="21" width="14" height="3" fill="#3f3f3f" />
-    <path fill="#d0cfce" d="M18,48h-.0853A2.9232,2.9232,0,0,1,15,45.0853V26.9147A2.9232,2.9232,0,0,1,17.9147,24H58.0853A2.9232,2.9232,0,0,1,61,26.9147V45.0853A2.9232,2.9232,0,0,1,58.0853,48H58" />
-    <rect x="15" y="38" width="45" height="9" fill="#61b2e4" />
-    <rect x="17" y="27" width="8" height="9" fill="#92d3f5" />
-    <rect x="30" y="27" width="7" height="7" fill="#92d3f5" />
-    <rect x="40" y="27" width="7" height="7" fill="#92d3f5" />
-    <rect x="50" y="27" width="7" height="7" fill="#92d3f5" />
+    <rect x="31" y="21" width="14" height="3" fill="color-mix(in srgb,var(--c2,#d0d0d0) 29.8%,black)" />
+    <path fill="var(--c2,#d0cfce)" d="M18,48h-.0853A2.9232,2.9232,0,0,1,15,45.0853V26.9147A2.9232,2.9232,0,0,1,17.9147,24H58.0853A2.9232,2.9232,0,0,1,61,26.9147V45.0853A2.9232,2.9232,0,0,1,58.0853,48H58" />
+    <rect x="15" y="38" width="45" height="9" fill="color-mix(in srgb,var(--c1,#92d3f5) 82.9%,black)" />
+    <rect x="17" y="27" width="8" height="9" fill="var(--c1,#92d3f5)" />
+    <rect x="30" y="27" width="7" height="7" fill="var(--c1,#92d3f5)" />
+    <rect x="40" y="27" width="7" height="7" fill="var(--c1,#92d3f5)" />
+    <rect x="50" y="27" width="7" height="7" fill="var(--c1,#92d3f5)" />
     <rect x="16" y="38" width="5" height="3" fill="#fff" />
-    <circle cx="54" cy="48" r="4" fill="#d0cfce" />
-    <circle cx="22" cy="48" r="4" fill="#d0cfce" />
+    <circle cx="54" cy="48" r="4" fill="var(--c2,#d0cfce)" />
+    <circle cx="22" cy="48" r="4" fill="var(--c2,#d0cfce)" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-trolleybus-line">
     <line x1="50" x2="26.1209" y1="48" y2="48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />

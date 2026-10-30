@@ -1,0 +1,769 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(231.79 424.12) scale(0.4967)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-ilmenskie-cave-background-hill-1-209817-defs6">
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient24" y2="143.79" gradientUnits="userSpaceOnUse" x2="-19.719" gradientTransform="matrix(.07312 .79664 .79664 -.07312 -.017052 492.66)" y1="143.79" x1="-340.91">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop26" style="stop-color:color-mix(in srgb,var(--c1,#2f487e) 51.6%,black)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop28" style="stop-color:color-mix(in srgb,var(--c1,#2e697e) 82.5%,black)" offset=".64710" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop32" style="stop-color:color-mix(in srgb,var(--c1,#2d737e) 99.5%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient46" y2="142.7" gradientUnits="userSpaceOnUse" x2="-.1033" gradientTransform="matrix(.07304 .79664 .79664 -.07304 -.016665 492.66)" y1="142.7" x1="-333.72">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop48" style="stop-color:#13213d" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop50" style="stop-color:color-mix(in srgb,var(--c1,#274a7e) 51.6%,black)" offset=".21960" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop54" style="stop-color:color-mix(in srgb,var(--c1,#24587e) 60.3%,black)" offset=".47060" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop56" style="stop-color:color-mix(in srgb,var(--c1,#21667e) 75.4%,black)" offset=".74510" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop58" style="stop-color:color-mix(in srgb,var(--c1,#20717e) 93.7%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient72" y2="142.63" gradientUnits="userSpaceOnUse" x2="17.588" gradientTransform="matrix(.07304 .79664 .79664 -.07304 -.016910 492.66)" y1="142.63" x1="-327.03">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop74" style="stop-color:color-mix(in srgb,var(--c1,#2f487e) 51.6%,black)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop76" style="stop-color:color-mix(in srgb,var(--c1,#2e697e) 82.5%,black)" offset=".64710" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop80" style="stop-color:color-mix(in srgb,var(--c1,#2d737e) 99.5%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient94" y2="141.88" gradientUnits="userSpaceOnUse" x2="33.412" gradientTransform="matrix(.07312 .79664 .79664 -.07312 -.016756 492.66)" y1="141.88" x1="-320.69">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop96" style="stop-color:#0a1836" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop98" style="stop-color:#0c1d3a" offset=".19220" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop102" style="stop-color:color-mix(in srgb,var(--c1,#21507e) 54.8%,black)" offset=".40780" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop104" style="stop-color:color-mix(in srgb,var(--c1,#27617e) 69.8%,black)" offset=".64310" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop106" style="stop-color:color-mix(in srgb,var(--c1,#2c717e) 90.5%,black)" offset=".89020" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop108" style="stop-color:color-mix(in srgb,var(--c1,#2d767e) 99.5%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient122" y2="146.22" gradientUnits="userSpaceOnUse" x2="47.265" gradientTransform="matrix(.07304 .79664 .79664 -.07304 -.016603 492.66)" y1="146.22" x1="-314.87">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop124" style="stop-color:#01182f" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop126" style="stop-color:#011d34" offset=".20390" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop128" style="stop-color:#022c43" offset=".4549" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop130" style="stop-color:color-mix(in srgb,var(--c1,#075e7e) 72.2%,black)" offset=".72550" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop132" style="stop-color:color-mix(in srgb,var(--c1,#0a677e) 97.6%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient146" y2="189.98" gradientUnits="userSpaceOnUse" x2="183.86" gradientTransform="matrix(.2088 .77232 .77232 -.2088 -.017205 492.66)" y1="189.98" x1="-247.15">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop148" style="stop-color:#01182f" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop150" style="stop-color:#011d34" offset=".20390" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop152" style="stop-color:#022c43" offset=".4549" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop154" style="stop-color:color-mix(in srgb,var(--c1,#075e7e) 72.2%,black)" offset=".72550" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop156" style="stop-color:color-mix(in srgb,var(--c1,#0a677e) 97.6%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient170" y2="195.04" gradientUnits="userSpaceOnUse" x2="191.03" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="-9.0386" x1="111.87">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop172" style="stop-color:color-mix(in srgb,var(--c1,#2d737e) 99.5%,white)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop174" style="stop-color:color-mix(in srgb,var(--c1,#2e697e) 82.5%,black)" offset=".3529" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop176" style="stop-color:color-mix(in srgb,var(--c1,#2f487e) 51.6%,black)" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop178" style="stop-color:color-mix(in srgb,var(--c1,#2f487e) 51.6%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient192" y2="191.16" gradientUnits="userSpaceOnUse" x2="188.62" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="-20.795" x1="106.4">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop194" style="stop-color:color-mix(in srgb,var(--c1,#20717e) 93.7%,black)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop196" style="stop-color:color-mix(in srgb,var(--c1,#21667e) 75.4%,black)" offset=".25490" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop198" style="stop-color:color-mix(in srgb,var(--c1,#24587e) 60.3%,black)" offset=".52940" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop200" style="stop-color:color-mix(in srgb,var(--c1,#274a7e) 51.6%,black)" offset=".78040" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop202" style="stop-color:#13213d" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop204" style="stop-color:#13213d" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient218" y2="188.4" gradientUnits="userSpaceOnUse" x2="183.54" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="-30.522" x1="98.621">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop220" style="stop-color:color-mix(in srgb,var(--c1,#1c7f93) 100.0%,white)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop222" style="stop-color:color-mix(in srgb,var(--c1,#1b7c91) 100.0%,white)" offset=".0157" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop224" style="stop-color:color-mix(in srgb,var(--c1,#16607e) 82.5%,black)" offset=".32550" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop226" style="stop-color:color-mix(in srgb,var(--c1,#124f7e) 59.5%,black)" offset="0.6" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop228" style="stop-color:#071b39" offset=".83140" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop230" style="stop-color:#061433" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop232" style="stop-color:#061433" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient246" y2="184.86" gradientUnits="userSpaceOnUse" x2="181.69" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="-40.116" x1="94.426">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop248" style="stop-color:color-mix(in srgb,var(--c1,#2d767e) 99.5%,white)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop250" style="stop-color:color-mix(in srgb,var(--c1,#2c717e) 90.5%,black)" offset=".1098" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop252" style="stop-color:color-mix(in srgb,var(--c1,#27617e) 69.8%,black)" offset=".35690" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop254" style="stop-color:color-mix(in srgb,var(--c1,#21507e) 54.8%,black)" offset=".59220" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop256" style="stop-color:#0c1d3a" offset=".80780" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop258" style="stop-color:#0a1836" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop260" style="stop-color:#0a1836" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient274" y2="180.92" gradientUnits="userSpaceOnUse" x2="178.78" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="-49.16" x1="89.537">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop276" style="stop-color:color-mix(in srgb,var(--c1,#216e7f) 100.0%,white)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop278" style="stop-color:color-mix(in srgb,var(--c1,#1e637e) 80.2%,black)" offset=".2471" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop280" style="stop-color:color-mix(in srgb,var(--c1,#18517e) 57.9%,black)" offset=".55290" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop282" style="stop-color:#081b39" offset=".8118" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop284" style="stop-color:#061433" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop286" style="stop-color:#061433" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient300" y2="181.41" gradientUnits="userSpaceOnUse" x2="-1.1749" gradientTransform="matrix(.12552 .79008 .79008 -.12552 -.016906 492.66)" y1="181.41" x1="-169.94">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop302" style="stop-color:#01182f" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop304" style="stop-color:#011d34" offset=".20390" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop306" style="stop-color:#022c43" offset=".4549" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop308" style="stop-color:color-mix(in srgb,var(--c1,#075e7e) 72.2%,black)" offset=".72550" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop310" style="stop-color:color-mix(in srgb,var(--c1,#0a677e) 97.6%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient324" y2="177.74" gradientUnits="userSpaceOnUse" x2="41.262" gradientTransform="matrix(.12456 .79024 .79024 -.12456 -.016825 492.66)" y1="177.74" x1="-149.34">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop326" style="stop-color:#01182f" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop328" style="stop-color:#011d34" offset=".20390" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop330" style="stop-color:#022c43" offset=".4549" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop332" style="stop-color:color-mix(in srgb,var(--c1,#075e7e) 72.2%,black)" offset=".72550" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop334" style="stop-color:color-mix(in srgb,var(--c1,#0a677e) 97.6%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient348" y2="262.88" gradientUnits="userSpaceOnUse" x2="111.16" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="145.88" x1="77.674">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop350" style="stop-color:color-mix(in srgb,var(--c1,#32777e) 91.3%,black)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop352" style="stop-color:color-mix(in srgb,var(--c1,#2f487e) 51.6%,black)" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop354" style="stop-color:color-mix(in srgb,var(--c1,#2f487e) 51.6%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient368" y2="261.49" gradientUnits="userSpaceOnUse" x2="111.88" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="135.24" x1="75.748">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop370" style="stop-color:color-mix(in srgb,var(--c1,#0c737f) 100.0%,white)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop372" style="stop-color:color-mix(in srgb,var(--c1,#0c6f7e) 96.0%,black)" offset=".051" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop374" style="stop-color:color-mix(in srgb,var(--c1,#10637e) 73.8%,black)" offset=".31760" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop376" style="stop-color:color-mix(in srgb,var(--c1,#16537e) 58.7%,black)" offset=".5686" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop378" style="stop-color:#0e223e" offset=".79610" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop380" style="stop-color:#0f1d3a" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop382" style="stop-color:#0f1d3a" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient396" y2="260.17" gradientUnits="userSpaceOnUse" x2="112.72" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="126.04" x1="74.318">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop398" style="stop-color:color-mix(in srgb,var(--c1,#2d6a7e) 99.5%,white)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop400" style="stop-color:color-mix(in srgb,var(--c1,#2b667e) 92.1%,black)" offset=".0824" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop402" style="stop-color:color-mix(in srgb,var(--c1,#22587e) 68.3%,black)" offset=".34120" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop404" style="stop-color:#0b2440" offset=".58820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop406" style="stop-color:#041533" offset=".81570" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop408" style="stop-color:#01102f" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient422" y2="258.7" gradientUnits="userSpaceOnUse" x2="113.5" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="118.02" x1="73.234">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop424" style="stop-color:color-mix(in srgb,var(--c1,#0a677e) 97.6%,black)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop426" style="stop-color:color-mix(in srgb,var(--c1,#075e7e) 72.2%,black)" offset=".27450" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop428" style="stop-color:#022c43" offset=".54510" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop430" style="stop-color:#011d34" offset=".79610" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop432" style="stop-color:#01182f" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient446" y2="257.26" gradientUnits="userSpaceOnUse" x2="114.27" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="111.16" x1="72.453">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop448" style="stop-color:color-mix(in srgb,var(--c1,#375c7e) 80.2%,black)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop450" style="stop-color:color-mix(in srgb,var(--c1,#315a7e) 65.9%,black)" offset=".17650" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop452" style="stop-color:#0f283b" offset=".48630" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop454" style="stop-color:#051c2c" offset=".76860" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop456" style="stop-color:#011727" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient470" y2="242.43" gradientUnits="userSpaceOnUse" x2="111.58" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="93.656" x1="68.981">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop472" style="stop-color:color-mix(in srgb,var(--c1,#375c7e) 80.2%,black)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop474" style="stop-color:color-mix(in srgb,var(--c1,#315a7e) 65.9%,black)" offset=".17650" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop476" style="stop-color:#0f283b" offset=".48630" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop478" style="stop-color:#051c2c" offset=".76860" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop480" style="stop-color:#011727" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient494" y2="418.72" gradientUnits="userSpaceOnUse" x2="182.93" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="118.54" x1="138.46">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop496" style="stop-color:color-mix(in srgb,var(--c1,#32777e) 91.3%,black)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop498" style="stop-color:color-mix(in srgb,var(--c1,#2f487e) 51.6%,black)" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop500" style="stop-color:color-mix(in srgb,var(--c1,#2f487e) 51.6%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient514" y2="391.57" gradientUnits="userSpaceOnUse" x2="179.27" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="83.244" x1="132.05">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop516" style="stop-color:color-mix(in srgb,var(--c1,#277389) 100.0%,white)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop518" style="stop-color:color-mix(in srgb,var(--c1,#266f86) 100.0%,white)" offset=".0275" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop520" style="stop-color:color-mix(in srgb,var(--c1,#255f7e) 81.0%,black)" offset="0.298" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop522" style="stop-color:color-mix(in srgb,var(--c1,#26557e) 62.7%,black)" offset=".55690" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop524" style="stop-color:color-mix(in srgb,var(--c1,#26497e) 52.4%,black)" offset=".79220" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop526" style="stop-color:#13213d" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop528" style="stop-color:#13213d" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient542" y2="460.64" gradientUnits="userSpaceOnUse" x2="190.62" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="144.27" x1="140.58">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop544" style="stop-color:color-mix(in srgb,var(--c1,#0c737f) 100.0%,white)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop546" style="stop-color:color-mix(in srgb,var(--c1,#0c6f7e) 96.0%,black)" offset=".051" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop548" style="stop-color:color-mix(in srgb,var(--c1,#10637e) 73.8%,black)" offset=".31760" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop550" style="stop-color:color-mix(in srgb,var(--c1,#16537e) 58.7%,black)" offset=".5686" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop552" style="stop-color:#0e223e" offset=".79610" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop554" style="stop-color:#0f1d3a" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop556" style="stop-color:#0f1d3a" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient570" y2="390.69" gradientUnits="userSpaceOnUse" x2="177" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="66.744" x1="124.12">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop572" style="stop-color:color-mix(in srgb,var(--c1,#25707f) 100.0%,white)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop574" style="stop-color:color-mix(in srgb,var(--c1,#246c7e) 94.4%,black)" offset=".0667" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop576" style="stop-color:color-mix(in srgb,var(--c1,#215e7e) 72.2%,black)" offset=".3294" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop578" style="stop-color:color-mix(in srgb,var(--c1,#1d4f7e) 55.6%,black)" offset=".58040" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop580" style="stop-color:#0c1d3a" offset=".8118" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop582" style="stop-color:#0a1836" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient596" y2="362.38" gradientUnits="userSpaceOnUse" x2="175" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="103.9" x1="131.51">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop598" style="stop-color:color-mix(in srgb,var(--c1,#0c737f) 100.0%,white)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop600" style="stop-color:color-mix(in srgb,var(--c1,#0a667e) 77.8%,black)" offset=".27060" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop602" style="stop-color:#062f48" offset=".5686" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop604" style="stop-color:#061b38" offset=".81960" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop606" style="stop-color:#061433" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop608" style="stop-color:#061433" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient622" y2="386.22" gradientUnits="userSpaceOnUse" x2="175.69" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="52.471" x1="117.85">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop624" style="stop-color:color-mix(in srgb,var(--c1,#2d6a7e) 99.5%,white)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop626" style="stop-color:color-mix(in srgb,var(--c1,#2b667e) 92.1%,black)" offset=".0824" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop628" style="stop-color:color-mix(in srgb,var(--c1,#22587e) 68.3%,black)" offset=".34120" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop630" style="stop-color:#0b2440" offset=".58820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop632" style="stop-color:#041533" offset=".81570" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop634" style="stop-color:#01102f" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient648" y2="376" gradientUnits="userSpaceOnUse" x2="176.91" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="70.324" x1="123.94">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop650" style="stop-color:var(--c1,#2d5d7e)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop652" style="stop-color:color-mix(in srgb,var(--c1,#27587e) 79.4%,black)" offset=".1529" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop654" style="stop-color:color-mix(in srgb,var(--c1,#1d527e) 61.1%,black)" offset=".33330" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop656" style="stop-color:#09233c" offset=".52940" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop658" style="stop-color:#031a32" offset=".73730" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop660" style="stop-color:#01182f" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient674" y2="320.4" gradientUnits="userSpaceOnUse" x2="165.17" gradientTransform="matrix(.8 0 0 -.8 -.016890 492.66)" y1="79.147" x1="123.37">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop676" style="stop-color:var(--c1,#2d5d7e)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop678" style="stop-color:color-mix(in srgb,var(--c1,#27597e) 79.4%,black)" offset=".1529" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop680" style="stop-color:color-mix(in srgb,var(--c1,#1d537e) 61.1%,black)" offset=".33330" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop682" style="stop-color:#09253c" offset=".52940" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop684" style="stop-color:#031c32" offset=".73730" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop686" style="stop-color:#011a2f" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient700" y2="61.108" gradientUnits="userSpaceOnUse" x2="-203.3" gradientTransform="matrix(-.1172 .79136 .79136 .1172 -.017122 492.66)" y1="61.108" x1="-627.65">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop702" style="stop-color:color-mix(in srgb,var(--c1,#2f487e) 51.6%,black)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop704" style="stop-color:color-mix(in srgb,var(--c1,#284d7e) 54.8%,black)" offset=".21960" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop708" style="stop-color:color-mix(in srgb,var(--c1,#1d587e) 65.1%,black)" offset=".4745" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop710" style="stop-color:color-mix(in srgb,var(--c1,#13647e) 81.0%,black)" offset="0.749" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop712" style="stop-color:color-mix(in srgb,var(--c1,#0b6e7f) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient726" y2="58.894" gradientUnits="userSpaceOnUse" x2="-156.34" gradientTransform="matrix(-.12112 .7908 .7908 .12112 -.016977 492.66)" y1="58.894" x1="-592.42">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop728" style="stop-color:#13213d" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop730" style="stop-color:color-mix(in srgb,var(--c1,#26477e) 52.4%,black)" offset=".2157" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop734" style="stop-color:color-mix(in srgb,var(--c1,#26507e) 63.5%,black)" offset=".45880" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop736" style="stop-color:color-mix(in srgb,var(--c1,#24587e) 83.3%,black)" offset=".72940" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop738" style="stop-color:color-mix(in srgb,var(--c1,#276689) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient752" y2="54.463" gradientUnits="userSpaceOnUse" x2="-236.08" gradientTransform="matrix(-.12496 .79016 .79016 .12496 -.017006 492.66)" y1="54.463" x1="-683.83">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop754" style="stop-color:#0f1d3a" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop756" style="stop-color:#0e223f" offset=".22750" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop760" style="stop-color:color-mix(in srgb,var(--c1,#154d7e) 61.1%,black)" offset=".49020" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop762" style="stop-color:color-mix(in srgb,var(--c1,#0e567e) 81.0%,black)" offset=".77650" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop764" style="stop-color:color-mix(in srgb,var(--c1,#0a5d7e) 100.0%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient778" y2="54.141" gradientUnits="userSpaceOnUse" x2="-132.85" gradientTransform="matrix(-.12888 .78952 .78952 .12888 -.016851 492.66)" y1="54.141" x1="-591.66">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop780" style="stop-color:#0a1836" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop782" style="stop-color:#0d1d3b" offset=".21180" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop784" style="stop-color:color-mix(in srgb,var(--c1,#22497e) 58.7%,black)" offset=".46670" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop786" style="stop-color:color-mix(in srgb,var(--c1,#28557e) 77.8%,black)" offset=".74510" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop788" style="stop-color:var(--c1,#2d5d7e)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient802" y2="50.624" gradientUnits="userSpaceOnUse" x2="-184.85" gradientTransform="matrix(-.13272 .78888 .78888 .13272 -.016890 492.66)" y1="50.624" x1="-551.23">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop804" style="stop-color:#061433" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop806" style="stop-color:#0a183a" offset=".2078" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop810" style="stop-color:color-mix(in srgb,var(--c1,#21397e) 61.1%,black)" offset=".498" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop812" style="stop-color:color-mix(in srgb,var(--c1,#2a3d7e) 86.5%,black)" offset=".84710" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop814" style="stop-color:color-mix(in srgb,var(--c1,#2d407e) 99.2%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient828" y2="48.082" gradientUnits="userSpaceOnUse" x2="-68.143" gradientTransform="matrix(-.13656 .78824 .78824 .13656 -.016855 492.66)" y1="48.082" x1="-541.52">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop830" style="stop-color:#01102f" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop832" style="stop-color:#041534" offset=".2" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop834" style="stop-color:#0c2343" offset=".44310" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop836" style="stop-color:color-mix(in srgb,var(--c1,#24527e) 72.2%,black)" offset=".7098" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop838" style="stop-color:color-mix(in srgb,var(--c1,#2c5c7e) 99.2%,black)" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop840" style="stop-color:var(--c1,#2d5d7e)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient854" y2="45.022" gradientUnits="userSpaceOnUse" x2="-65.316" gradientTransform="matrix(-.13664 .78824 .78824 .13664 -.016953 492.66)" y1="45.022" x1="-498.94">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop856" style="stop-color:#01102f" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop858" style="stop-color:#031332" offset=".26270" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop860" style="stop-color:#091d3c" offset=".47060" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop862" style="stop-color:color-mix(in srgb,var(--c1,#1d4a7e) 61.1%,black)" offset=".66670" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop864" style="stop-color:color-mix(in srgb,var(--c1,#27567e) 79.4%,black)" offset=".84710" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop866" style="stop-color:var(--c1,#2d5d7e)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient880" y2="245.07" gradientUnits="userSpaceOnUse" x2="-233.65" gradientTransform="matrix(.23408 .76496 .76496 -.23408 -.016630 492.66)" y1="245.07" x1="-346.27">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop882" style="stop-color:#01102f" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop884" style="stop-color:#031534" offset=".17650" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop886" style="stop-color:#0a2442" offset=".38820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop888" style="stop-color:color-mix(in srgb,var(--c1,#1d547e) 71.4%,black)" offset=".6196" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop890" style="stop-color:color-mix(in srgb,var(--c1,#26617e) 96.8%,black)" offset=".86270" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop892" style="stop-color:color-mix(in srgb,var(--c1,#2d748f) 99.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient906" y2="244.86" gradientUnits="userSpaceOnUse" x2="-225.29" gradientTransform="matrix(.23416 .76496 .76496 -.23416 -.017281 492.66)" y1="244.86" x1="-344.45">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop908" style="stop-color:#13213d" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop910" style="stop-color:color-mix(in srgb,var(--c1,#26477e) 52.4%,black)" offset=".2157" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop914" style="stop-color:color-mix(in srgb,var(--c1,#26507e) 63.5%,black)" offset=".45880" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop916" style="stop-color:color-mix(in srgb,var(--c1,#24587e) 83.3%,black)" offset=".72940" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop918" style="stop-color:color-mix(in srgb,var(--c1,#276689) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient932" y2="245.12" gradientUnits="userSpaceOnUse" x2="-215.45" gradientTransform="matrix(.234 .76504 .76504 -.234 -.017111 492.66)" y1="245.12" x1="-342.54">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop934" style="stop-color:#0a1836" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop936" style="stop-color:#0d1d3b" offset=".21180" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop938" style="stop-color:color-mix(in srgb,var(--c1,#22497e) 58.7%,black)" offset=".46670" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop940" style="stop-color:color-mix(in srgb,var(--c1,#28557e) 77.8%,black)" offset=".74510" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop942" style="stop-color:var(--c1,#2d5d7e)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient956" y2="244.96" gradientUnits="userSpaceOnUse" x2="-210.16" gradientTransform="matrix(.23408 .76496 .76496 -.23408 -.016478 492.66)" y1="244.96" x1="-341.14">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop958" style="stop-color:#01102f" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop960" style="stop-color:#041534" offset=".2" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop962" style="stop-color:#0c2343" offset=".44310" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop964" style="stop-color:color-mix(in srgb,var(--c1,#24527e) 72.2%,black)" offset=".7098" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop966" style="stop-color:color-mix(in srgb,var(--c1,#2c5c7e) 99.2%,black)" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop968" style="stop-color:var(--c1,#2d5d7e)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient982" y2="244.52" gradientUnits="userSpaceOnUse" x2="-203.54" gradientTransform="matrix(.23408 .76496 .76496 -.23408 -.017328 492.66)" y1="244.52" x1="-339.55">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop984" style="stop-color:#061433" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop986" style="stop-color:#0a183a" offset=".2078" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop990" style="stop-color:color-mix(in srgb,var(--c1,#21397e) 61.1%,black)" offset=".498" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop992" style="stop-color:color-mix(in srgb,var(--c1,#2a3d7e) 86.5%,black)" offset=".84710" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop994" style="stop-color:color-mix(in srgb,var(--c1,#2d407e) 99.2%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient1008" y2="245.94" gradientUnits="userSpaceOnUse" x2="-173.54" gradientTransform="matrix(.234 .76504 .76504 -.234 -.017008 492.66)" y1="245.94" x1="-320.62">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1010" style="stop-color:#01102f" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1012" style="stop-color:#031534" offset=".17650" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1014" style="stop-color:#0a2442" offset=".38820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1016" style="stop-color:color-mix(in srgb,var(--c1,#1d547e) 71.4%,black)" offset=".6196" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1018" style="stop-color:color-mix(in srgb,var(--c1,#26617e) 96.8%,black)" offset=".86270" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1020" style="stop-color:color-mix(in srgb,var(--c1,#2d748f) 99.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient1034" y2="305.84" gradientUnits="userSpaceOnUse" x2="-304.95" gradientTransform="matrix(.23408 .76496 .76496 -.23408 -.017227 492.66)" y1="305.84" x1="-364.69">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1036" style="stop-color:#01102f" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1038" style="stop-color:#031534" offset=".17650" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1040" style="stop-color:#0a2442" offset=".38820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1042" style="stop-color:color-mix(in srgb,var(--c1,#1d547e) 71.4%,black)" offset=".6196" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1044" style="stop-color:color-mix(in srgb,var(--c1,#26617e) 96.8%,black)" offset=".86270" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1046" style="stop-color:color-mix(in srgb,var(--c1,#2d748f) 99.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient1060" y2="305.99" gradientUnits="userSpaceOnUse" x2="-298.21" gradientTransform="matrix(.234 .76504 .76504 -.234 -.016824 492.66)" y1="305.99" x1="-362.68">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1062" style="stop-color:#13213d" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1064" style="stop-color:color-mix(in srgb,var(--c1,#22477e) 52.4%,black)" offset=".2" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1068" style="stop-color:color-mix(in srgb,var(--c1,#194c7e) 63.5%,black)" offset=".4235" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1070" style="stop-color:color-mix(in srgb,var(--c1,#11507e) 83.3%,black)" offset=".6706" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1072" style="stop-color:color-mix(in srgb,var(--c1,#0d5e8a) 100.0%,white)" offset=".92940" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1074" style="stop-color:color-mix(in srgb,var(--c1,#0d6695) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient1088" y2="306.24" gradientUnits="userSpaceOnUse" x2="-292.32" gradientTransform="matrix(.23408 .76496 .76496 -.23408 -.016890 492.66)" y1="306.24" x1="-360.82">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1090" style="stop-color:#0a1836" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1092" style="stop-color:#0d1d3b" offset=".21180" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1094" style="stop-color:color-mix(in srgb,var(--c1,#22497e) 58.7%,black)" offset=".46670" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1096" style="stop-color:color-mix(in srgb,var(--c1,#28557e) 77.8%,black)" offset=".74510" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1098" style="stop-color:var(--c1,#2d5d7e)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient1112" y2="306.45" gradientUnits="userSpaceOnUse" x2="-287.32" gradientTransform="matrix(.23416 .76496 .76496 -.23416 -.016964 492.66)" y1="306.45" x1="-359.14">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1114" style="stop-color:#01102f" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1116" style="stop-color:#041534" offset=".2" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1118" style="stop-color:#0c2343" offset=".44310" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1120" style="stop-color:color-mix(in srgb,var(--c1,#24527e) 72.2%,black)" offset=".7098" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1122" style="stop-color:color-mix(in srgb,var(--c1,#2c5c7e) 99.2%,black)" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1124" style="stop-color:var(--c1,#2d5d7e)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient1138" y2="306.2" gradientUnits="userSpaceOnUse" x2="-283.14" gradientTransform="matrix(.23408 .76496 .76496 -.23408 -.017003 492.66)" y1="306.2" x1="-357.73">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1140" style="stop-color:#061433" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1142" style="stop-color:#09193a" offset=".2235" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1146" style="stop-color:color-mix(in srgb,var(--c1,#1c3e7e) 61.1%,black)" offset=".53330" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1148" style="stop-color:color-mix(in srgb,var(--c1,#22477e) 86.5%,black)" offset="0.902" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1150" style="stop-color:color-mix(in srgb,var(--c1,#23477e) 94.4%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient1164" y2="307.21" gradientUnits="userSpaceOnUse" x2="-268.75" gradientTransform="matrix(.234 .76504 .76504 -.234 -.016511 492.66)" y1="307.21" x1="-345.69">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1166" style="stop-color:#01102f" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1168" style="stop-color:#031534" offset=".17650" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1170" style="stop-color:#0a2442" offset=".38820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1172" style="stop-color:color-mix(in srgb,var(--c1,#1d547e) 71.4%,black)" offset=".6196" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1174" style="stop-color:color-mix(in srgb,var(--c1,#26617e) 96.8%,black)" offset=".86270" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1176" style="stop-color:color-mix(in srgb,var(--c1,#2d748f) 99.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient1190" y2="63.978" gradientUnits="userSpaceOnUse" x2="-302.99" gradientTransform="matrix(-.11728 .79136 .79136 .11728 -.016767 492.66)" y1="63.978" x1="-624.18">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1192" style="stop-color:color-mix(in srgb,var(--c1,#2f487e) 51.6%,black)" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1194" style="stop-color:color-mix(in srgb,var(--c1,#2f4a7e) 55.6%,black)" offset=".2431" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1198" style="stop-color:color-mix(in srgb,var(--c1,#2f527e) 66.7%,black)" offset=".52160" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1200" style="stop-color:color-mix(in srgb,var(--c1,#2d597e) 86.5%,black)" offset=".82350" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1202" style="stop-color:var(--c1,#2d5d7e)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient1216" y2="62.905" gradientUnits="userSpaceOnUse" x2="-283.37" gradientTransform="matrix(-.11728 .79136 .79136 .11728 -.016795 492.66)" y1="62.905" x1="-616.99">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1218" style="stop-color:#13213d" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1220" style="stop-color:color-mix(in srgb,var(--c1,#28477e) 52.4%,black)" offset=".2353" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1224" style="stop-color:color-mix(in srgb,var(--c1,#2b507e) 63.5%,black)" offset="0.502" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1226" style="stop-color:color-mix(in srgb,var(--c1,#2c587e) 83.3%,black)" offset=".79610" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1228" style="stop-color:var(--c1,#2d5d7e)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient1242" y2="62.834" gradientUnits="userSpaceOnUse" x2="-265.69" gradientTransform="matrix(-.1172 .79136 .79136 .1172 -.016678 492.66)" y1="62.834" x1="-610.29">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1244" style="stop-color:#061433" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1246" style="stop-color:#09183a" offset=".1804" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1250" style="stop-color:color-mix(in srgb,var(--c1,#1c397e) 61.1%,black)" offset=".4235" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1252" style="stop-color:color-mix(in srgb,var(--c1,#233c7e) 86.5%,black)" offset=".71760" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1254" style="stop-color:color-mix(in srgb,var(--c1,#2d4992) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient1268" y2="62.062" gradientUnits="userSpaceOnUse" x2="-249.9" gradientTransform="matrix(-.11728 .79136 .79136 .11728 -.016865 492.66)" y1="62.062" x1="-604">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1270" style="stop-color:#0a1836" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1272" style="stop-color:#0d1d3b" offset=".21960" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1276" style="stop-color:color-mix(in srgb,var(--c1,#22497e) 58.7%,black)" offset=".4745" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1278" style="stop-color:color-mix(in srgb,var(--c1,#28557e) 77.8%,black)" offset="0.749" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1280" style="stop-color:var(--c1,#2d5d7e)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient1294" y2="66.404" gradientUnits="userSpaceOnUse" x2="-236.02" gradientTransform="matrix(-.11728 .79136 .79136 .11728 -.016958 492.66)" y1="66.404" x1="-598.16">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1296" style="stop-color:#061433" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1298" style="stop-color:#0a183a" offset=".2078" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1302" style="stop-color:color-mix(in srgb,var(--c1,#21397e) 61.1%,black)" offset=".498" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1304" style="stop-color:color-mix(in srgb,var(--c1,#2a3d7e) 86.5%,black)" offset=".84710" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1306" style="stop-color:color-mix(in srgb,var(--c1,#2d407e) 99.2%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-ilmenskie-cave-background-hill-1-209817-linearGradient1320" y2="160" gradientUnits="userSpaceOnUse" x2="-108.94" gradientTransform="matrix(.0204 .79976 .79976 -.0204 -.017065 492.66)" y1="160" x1="-539.93">
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1322" style="stop-color:#01102f" offset="0" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1324" style="stop-color:#041534" offset=".2" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1326" style="stop-color:#0c2343" offset=".44310" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1328" style="stop-color:color-mix(in srgb,var(--c1,#24527e) 72.2%,black)" offset=".7098" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1330" style="stop-color:color-mix(in srgb,var(--c1,#2c5c7e) 99.2%,black)" offset=".98820" />
+      <stop id="oc-ilmenskie-cave-background-hill-1-209817-stop1332" style="stop-color:var(--c1,#2d5d7e)" offset="1" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-ilmenskie-cave-background-hill-1-209817-g10" transform="matrix(1.25 0 0 -1.25 0 615.82)">
+    <g id="oc-ilmenskie-cave-background-hill-1-209817-g12">
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g14">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g16">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g22">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path34" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient24)" d="m142.5 375.58c5.144-8.774 10.211-19.36 15.199-31.762 7.227-18 10.988-34.664 11.281-50 0.321-17.547-3.8-34.254-12.359-50.117-9.254-17.148-17.43-28.563-24.52-34.242-2.933-2.375-5.976-4-9.121-4.879-2.16-0.613-4.972-0.961-8.441-1.043-4.801-0.106-16.504 2.453-35.117 7.683-16.321 4.586-25.696 7.438-28.121 8.559-1.442 0.691-3.121 2.227-5.039 4.602-2.536 3.199-4.348 6.824-5.442 10.879-3.734 9.918-6.84 19.414-9.32 28.48-4.746 17.465-6.426 33.117-5.039 46.961 1.414 14.238 3.758 26.84 7.039 37.797 1.148 3.867 2.746 8.68 4.801 14.441 2.933 8.16 4.757 13.321 5.48 15.481 5.438 16.16 10.758 29.027 15.957 38.597 8.32 15.387 16.774 23.723 25.363 25 9.094 1.387 17.852-2.504 26.278-11.679 6.933-7.571 13.402-18.438 19.402-32.598 2.293-5.414 6.199-12.801 11.719-22.16z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g36">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g38">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g44">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path60" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient46)" d="m136.18 376.22c1.414-2.613 3.574-6.48 6.48-11.601 5.68-10.238 10.574-21.707 14.68-34.399 5.359-16.585 7.918-31.75 7.679-45.48-0.238-15.867-4.16-30.773-11.757-44.723-8.082-14.879-15.336-25-21.762-30.359-4.586-3.84-10.012-5.906-16.281-6.199-3.918-0.188-14.532 2.039-31.84 6.679-15.117 4.055-24.84 6.907-29.16 8.563-1.731 0.637-3.614 2.09-5.641 4.359-2.426 2.719-4.266 5.84-5.52 9.36-1.519 3.972-2.89 7.625-4.117 10.961-2.32 6.343-4.281 12.371-5.883 18.078-4.878 17.547-6.597 32.988-5.16 46.32 1.414 13.387 3.336 24.387 5.762 33 0.746 2.641 3.774 11.399 9.078 26.281 0.696 1.973 2.32 6.133 4.883 12.481 2.984 7.41 4.719 11.758 5.199 13.039 4.481 11.547 9 20.613 13.559 27.199 5.976 8.613 12.336 13.559 19.082 14.84 8.531 1.625 17.078-2.453 25.64-12.238 7.04-8.11 13.333-19.067 18.879-32.883 1.731-4.371 3.797-8.797 6.2-13.278z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g62">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g64">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g70">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path82" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient72)" d="m142.94 353.74c6.215-11.789 10.883-24.16 14-37.121 3.868-16.078 5.723-30.121 5.563-42.121-0.188-15.278-3.508-28.797-9.961-40.559-6.695-12.187-13.469-20.613-20.32-25.281-4.481-3.039-9.918-4.801-16.321-5.277-3.039-0.215-12.547 1.691-28.519 5.718-14.559 3.68-24.641 6.508-30.238 8.481-2.215 0.801-4.84 2.504-7.879 5.117-3.496 2.988-5.883 5.922-7.161 8.801-4.402 9.867-7.375 17.695-8.921 23.48-3.84 14.399-5.254 30.465-4.239 48.2 0.637 11.093 3.68 22.375 9.117 33.839 6.536 12.106 11.055 21.481 13.563 28.121 2.773 7.282 4.84 12.719 6.199 16.321 2.293 6.32 4.039 11.105 5.238 14.359 2.161 5.813 4.122 10.492 5.883 14.039 4.934 10.082 10.559 15.867 16.879 17.36 8.028 1.894 16.36-2.372 25-12.797 7.254-8.696 13.375-19.75 18.36-33.16 1.601-4.27 3.746-8.961 6.441-14.082 1.543-2.934 3.984-7.411 7.316-13.438z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g84">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g86">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g92">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path110" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient94)" d="m143.26 342.9c6.933-13.441 11.375-26.734 13.32-39.883 1.949-13.172 2.242-25.277 0.883-36.316-1.52-12.43-5.16-23.789-10.922-34.082-5.785-10.426-11.199-17.945-16.238-22.559-4.321-4-8.907-6.254-13.762-6.761-2.184-0.215-10.586 1.402-25.199 4.839-14.399 3.387-24.84 6.176-31.321 8.36-2.453 0.855-4.785 2.148-7 3.883-2.371 1.867-4.199 3.972-5.48 6.32-5.305 9.547-9.184 18.25-11.641 26.117-4.879 15.867-6.078 31.961-3.597 48.281 1.492 9.735 4.906 20.039 10.238 30.918 3.039 5.868 5.293 10.243 6.762 13.121 2.664 5.176 4.734 9.629 6.199 13.36 2.879 7.203 4.945 12.441 6.199 15.722 0.988 2.614 2.481 7.2 4.481 13.758 1.894 6.16 3.453 10.801 4.679 13.922 4.082 10.211 9.176 16.184 15.282 17.918 7.519 2.133 15.664-2.32 24.437-13.359 7.387-9.332 13.32-20.481 17.801-33.442 1.441-4.211 3.668-9.172 6.679-14.879 1.735-3.253 4.469-8.332 8.2-15.238z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g112">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g114">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g120">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path134" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient122)" d="m86.504 412.42c7.012 2.347 14.934-2.293 23.758-13.922 7.574-10 13.347-21.238 17.32-33.719 1.309-4.16 3.629-9.387 6.961-15.68 1.918-3.574 4.988-9.254 9.199-17.039 7.707-15.121 11.856-29.347 12.442-42.679 0.507-11.121-0.282-21.68-2.36-31.68-2.16-10.59-5.707-20.176-10.64-28.762-4.692-8.265-9.176-14.492-13.442-18.679-4.183-4.11-8.359-6.454-12.519-7.04-1.387-0.187-8.692 1.133-21.918 3.958-14.27 3.066-25.055 5.8-32.364 8.203-2.879 0.957-5.464 2.156-7.757 3.597-2.403 1.52-4.215 3.149-5.442 4.879-3.304 4.723-6.027 14.082-8.16 28.082-2.293 15.305-2.613 29.266-0.957 41.879 1.199 9.387 3.785 19.613 7.758 30.68 1.441 4.055 5.121 13.176 11.039 27.359 2.773 6.59 4.816 11.617 6.121 15.082 1.094 2.985 2.348 7.399 3.762 13.239 1.597 6.773 2.773 11.363 3.519 13.761 3.199 10.321 7.758 16.481 13.68 18.481z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g136">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g138">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g144">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path158" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient146)" d="m86.863 404.98c6.535 2.563 14.239-2.265 23.121-14.48 7.786-10.692 13.387-22.024 16.797-34 1.176-4.106 3.629-9.586 7.364-16.438 2.132-3.922 5.57-10.215 10.316-18.882 8.613-16.825 12.402-31.958 11.363-45.399-1.281-16.426-5.933-32.055-13.961-46.879-7.707-14.265-15.695-22.855-23.961-25.762-9.492 1.415-19.371 3.215-29.64 5.403-20.481 4.398-32.571 8.558-36.278 12.48-3.789 3.973-6.496 13.227-8.121 27.758-1.625 14.426-1.535 28.027 0.282 40.801 1.464 10.32 5.453 23.305 11.957 38.961 7.066 15.758 11.496 26.144 13.281 31.16 1.066 2.957 2.066 7.172 3 12.641 1.359 7.945 2.16 12.464 2.398 13.558 2.297 10.481 6.321 16.84 12.082 19.078z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g160">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g162">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g168">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path180" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient170)" d="m138.86 492.42c5.84-1.039 11.547-6.973 17.121-17.801 3.438-6.695 6.973-15.734 10.598-27.121 1.707-5.305 3.988-12.293 6.84-20.957 2.137-7.707 3.64-16.524 4.519-26.442 0.856-9.652-0.41-20.535-3.796-32.64-1.762-6.293-3.95-12.867-6.563-19.719-0.773-2.773-2.039-5.266-3.801-7.48-1.304-1.625-2.449-2.668-3.437-3.122-23.735-7.171-38.16-10.64-43.282-10.398-4.773 0.184-8.746 1.641-11.917 4.359-4.801 4.055-10.297 12.121-16.481 24.2-5.734 11.175-8.426 22.867-8.082 35.082 0.293 10.691 2.977 22.254 8.043 34.679 3.492 8.559 7.023 15.852 10.598 21.879 3.839 6.426 6.558 11.52 8.16 15.281 4.215 9.786 8.707 17.25 13.48 22.399 5.813 6.293 11.813 8.894 18 7.801z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g182">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g184">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g190">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path206" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient192)" d="m138.58 487.26c4.586-1.016 8.883-4.559 12.883-10.641 3.066-4.613 6.094-10.984 9.078-19.121 0.16-0.399 1.309-3.453 3.441-9.16 1.68-4.399 2.758-7.321 3.239-8.758 3.496-10.348 5.496-16.496 6-18.442 1.601-6.027 2.839-13.718 3.722-23.078 0.879-9.308-0.414-20.027-3.883-32.16-1.117-3.949-2.492-8.121-4.117-12.519-0.855-2.321-1.828-4.856-2.922-7.602-0.878-2.426-2.16-4.559-3.839-6.398-1.387-1.547-2.668-2.536-3.84-2.961-2.906-1.094-9.559-2.95-19.961-5.563-11.84-2.984-19.09-4.383-21.758-4.199-4.293 0.32-7.988 1.84-11.082 4.562-4.348 3.813-9.227 10.973-14.641 21.481-5.066 9.812-7.636 20.238-7.718 31.277-0.028 9.575 1.839 20.106 5.601 31.602 2.906 8.801 6.32 16.719 10.238 23.758 4.641 8.32 7.586 14.027 8.84 17.121 3.867 9.547 8.242 17.094 13.121 22.64 5.891 6.719 11.758 9.442 17.598 8.161z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g208">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g210">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g216">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path234" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient218)" d="m138.26 482.1c4.32-1.148 8.136-5.254 11.441-12.32 1.149-2.508 2.442-5.801 3.879-9.879 0.777-2.265 1.922-5.629 3.441-10.082l4.122-11.437c1.679-4.668 4.707-11.254 9.078-19.762 3.629-8.055 5.613-15.961 5.961-23.719 0.558-12.375-0.52-23.547-3.239-33.519-1.07-3.895-3.148-9.309-6.242-16.243-0.906-1.972-2.547-3.972-4.918-6-2.109-1.785-3.922-2.933-5.441-3.437-3.785-1.309-10.68-3.148-20.68-5.523-10.934-2.559-17.441-3.747-19.519-3.559-4.375 0.426-8.067 1.734-11.083 3.922-4.636 3.332-9.199 9.293-13.679 17.879-4.321 8.265-6.492 17.734-6.52 28.398-0.027 8.348 1.336 18.106 4.082 29.281 2.211 8.961 5.493 17.508 9.84 25.641 1.172 2.16 2.879 5.25 5.117 9.277 1.868 3.496 3.364 6.723 4.481 9.684 3.492 9.25 7.734 16.863 12.722 22.84 5.969 7.144 11.692 10 17.157 8.558z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g236">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g238">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g244">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path262" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient246)" d="m137.98 476.94c4.161-1.281 7.586-5.508 10.278-12.679 1.547-4.082 3.574-10.547 6.082-19.403 0.961-2.691 2.332-6.371 4.121-11.039 0.984-2.613 2.359-5.746 4.117-9.398 1.016-2.028 2.52-5.106 4.52-9.242 3.574-7.653 5.828-14.879 6.761-21.68 1.598-11.414 0.668-22.613-2.801-33.598-1.734-5.469-4.441-11.469-8.121-18-0.906-1.629-2.171-3.082-3.796-4.359-1.52-1.176-3.122-2.028-4.801-2.563-4.403-1.437-11.535-3.238-21.403-5.398-10-2.188-15.746-3.188-17.238-3-3.308 0.426-6.414 2.066-9.32 4.918-3.414 3.281-7.055 8.601-10.918 15.961-3.867 7.226-6.27 15.187-7.203 23.879-0.852 7.679-0.571 16.093 0.84 25.242 1.441 9.144 4.574 18.348 9.402 27.598 2.586 4.773 4.48 8.281 5.68 10.523 2.105 3.945 3.664 7.371 4.679 10.277 3.145 8.961 7.282 16.641 12.399 23.039 6.027 7.547 11.601 10.524 16.722 8.922z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g264">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g266">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g272">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path288" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient274)" d="m137.7 471.78c4.027-1.465 7.094-5.828 9.199-13.078 0.481-1.656 1.254-4.856 2.321-9.602 0.906-4.082 1.718-7.16 2.441-9.242 0.824-2.371 2.184-5.918 4.078-10.637 3.922-9.949 6.375-16.347 7.36-19.203 2.613-7.757 4.293-14.918 5.043-21.476 1.039-8.828 0.718-18.551-0.961-29.16-1.547-9.707-3.469-16.188-5.762-19.442-0.824-1.172-2.078-2.281-3.758-3.32-1.547-0.961-3.32-1.762-5.32-2.399-5.012-1.546-12.399-3.296-22.16-5.242-9.039-1.785-14.028-2.597-14.961-2.437-2.825 0.449-5.653 2.144-8.481 5.078-2.879 2.988-5.89 7.387-9.039 13.199-3.277 6.082-5.625 12.817-7.039 20.199-1.332 6.989-1.801 14.348-1.398 22.082 0.504 9.282 3.449 19.133 8.839 29.559 2.934 5.359 5.051 9.281 6.36 11.762 2.32 4.32 3.945 7.918 4.879 10.8 2.801 8.637 6.812 16.372 12.039 23.2 6.109 7.972 11.547 11.093 16.32 9.359z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g290">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g292">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g298">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path312" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient300)" d="m137.38 466.62c3.922-1.652 6.625-6.133 8.121-13.441 0.16-0.825 0.664-3.985 1.519-9.477 0.614-3.816 1.266-6.762 1.957-8.844 1.204-3.543 4.149-10.851 8.844-21.918 4.317-10.988 6.946-20.082 7.879-27.281 1.145-8.934 1.121-18.414-0.082-28.438-1.226-10.109-3.144-16.519-5.758-19.242-2.558-2.664-10.84-5.386-24.84-8.16l-20.242-3.32c-5.625 2.137-11.011 8.215-16.16 18.242-5.387 10.453-8.453 21.414-9.199 32.879-0.613 9.387 2.082 19.879 8.082 31.48 3.305 5.973 5.703 10.305 7.199 13 2.586 4.719 4.293 8.508 5.121 11.36 2.426 8.265 6.317 16.066 11.68 23.398 6.16 8.403 11.453 11.656 15.879 9.762z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g314">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g316">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g322">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path336" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient324)" d="m130.5 449.9c2.641-0.988 5.305-5.855 8-14.601 1.437-4.641 3.066-10.508 4.879-17.598 0.215-0.617 2.84-5.723 7.879-15.32 4.269-8.137 6.656-14.336 7.16-18.602 0.535-4.559-1.399-9.359-5.797-14.398-2.375-2.696-5.52-5.641-9.441-8.84-1.735-1.656-7.254-3.414-16.559-5.281l-13.441-2.282c-2.641 0.774-4.707 1.387-6.2 1.84-2.695 0.856-4.894 1.801-6.601 2.84-4.906 2.961-7.305 7.52-7.199 13.68 0.16 9.761 3.238 20.547 9.238 32.363 1.707 3.359 4.027 7.477 6.961 12.359 2.668 4.453 4.281 7.278 4.84 8.481 3.359 8.344 5.922 14.265 7.679 17.758 3.039 6.054 5.907 8.586 8.602 7.601z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g338">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g340">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g346">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path356" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient348)" d="m42.383 345.34c3.308 15.894 9.734 26.429 19.281 31.601 7.652 4.16 16.066 4.492 25.238 1 7.176-2.746 13.387-8.652 18.641-17.719 4.668-8.109 7.625-16.855 8.879-26.242l-49.639-73.72c-9.199 7.222-16.051 18.777-20.558 34.64-4.746 16.719-5.36 33.535-1.84 50.438z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g358">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g360">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g366">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path384" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient368)" d="m46.102 343.94c2.32 14.106 7.761 23.696 16.32 28.762 6.906 4.105 14.547 4.84 22.922 2.199 3.679-1.148 7.133-3.133 10.359-5.961 3.227-2.773 6-6.187 8.32-10.238 3.52-6.082 5.813-10.27 6.879-12.563 2.243-4.878 3.469-9.293 3.68-13.238-12.293-18.133-19.25-28.226-20.879-30.281-1.012-1.281-6.012-8.52-15-21.719-4.504-6.613-8.906-13.094-13.199-19.441-4.375 3.465-8.32 8.386-11.84 14.761-3.625 6.559-6.348 13.852-8.16 21.879-1.492 6.829-2.133 14.282-1.922 22.36 0.215 6.801 1.055 14.625 2.52 23.48z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g386">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g388">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g394">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path410" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient396)" d="m49.781 342.5c1.469 12.347 5.977 21.015 13.524 26 6.133 4.055 12.957 5.176 20.476 3.359 3.817-0.933 7.348-2.679 10.602-5.238 3.387-2.668 6.226-6.039 8.519-10.121 1.52-2.692 4.082-6.664 7.68-11.918 2.856-4.695 4.227-8.945 4.121-12.762l-8.519-12.359c-6.082-8.746-10.133-14.399-12.161-16.961-3.253-4.078-12.507-17.36-27.761-39.84-4.024 3.199-7.703 7.895-11.039 14.082-3.493 6.531-6.012 13.68-7.559 21.438-1.199 6.269-1.426 13.535-0.68 21.8 1.254 9.762 2.184 17.266 2.797 22.52z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g412">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g414">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g420">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path434" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient422)" d="m53.504 341.1c0.664 10.586 4.266 18.348 10.801 23.282 5.386 4.023 11.371 5.504 17.957 4.437 3.922-0.64 7.508-2.133 10.761-4.48 3.575-2.559 6.481-5.918 8.719-10.078 0.883-1.602 2.215-3.493 4-5.68 1.016-1.227 2.52-3.055 4.52-5.481 3.441-4.453 4.972-8.574 4.601-12.359l-7.519-10.723c-5.629-7.89-9.961-13.757-13-17.597-4.879-6.16-14-19.016-27.36-38.563-3.679 2.934-7.082 7.403-10.203 13.403-3.359 6.48-5.679 13.48-6.957 21-0.961 5.812-0.773 12.878 0.559 21.199 1.945 12.105 2.988 19.32 3.121 21.64z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g436">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g438">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g444">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path458" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient446)" d="m80.703 365.78c4-0.293 7.68-1.535 11.039-3.719 3.68-2.375 6.641-5.707 8.883-10 0.852-1.629 2.25-3.441 4.199-5.441 1.117-1.149 2.84-2.84 5.16-5.078 3.973-4.137 5.653-8.094 5.039-11.883-7.066-10.023-13.851-19.145-20.359-27.359-4.055-5.121-9.762-12.868-17.121-23.239-3.68-5.175-6.945-9.84-9.801-14-3.359 2.692-6.492 6.934-9.398 12.719-3.227 6.426-5.36 13.281-6.403 20.559-0.773 5.441-0.144 12.308 1.883 20.601 2.266 9.465 3.399 16.387 3.399 20.762-0.028 8.824 2.707 15.68 8.199 20.559 4.586 4.078 9.68 5.918 15.281 5.519z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g460">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g462">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g468">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path482" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient470)" d="m71.145 346.78c2.824 6.188 6.21 9.348 10.16 9.481 4.078 0.132 7.851-0.829 11.32-2.879 3.758-2.243 6.758-5.575 9-10 0.824-1.629 2.305-3.364 4.437-5.203 1.227-1.067 3.149-2.614 5.762-4.637 4.559-3.817 6.387-7.629 5.481-11.442-5.309-7.332-12.028-16.121-20.16-26.359-5.094-6.402-11.04-14.32-17.84-23.762-3.387-4.691-6.282-8.758-8.68-12.199-2.988 2.453-5.84 6.465-8.563 12.039-3.093 6.375-5.039 13.082-5.839 20.121-0.371 3.387 0.054 6.586 1.281 9.602 0.746 1.863 2.215 4.344 4.398 7.437 2.215 3.2 3.696 5.668 4.442 7.403 1.281 3.011 1.773 6.16 1.48 9.437-0.695 7.68 0.414 14.668 3.321 20.961z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g484">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g486">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g492">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path502" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient494)" d="m147.06 384.98c12.454 1.602 22.934-1.746 31.442-10.039 14.531-14.16 25.652-36.32 33.359-66.48 4.586-18.055 7.149-31.492 7.68-40.321 0.855-13.894-1.184-29.199-6.117-45.918-4.133-13.949-12.469-28.734-25-44.363-9.977-12.426-20.227-22.758-30.762-31-10.961-2.426-27.082-3.332-48.359-2.719-8.215 0.243-15.653 0.68-22.321 1.321-6.402 0.613-10.265 1.242-11.601 1.879-1.547 0.75-3.813 3.386-6.801 7.922-3.543 5.335-6.824 11.558-9.84 18.679-8.371 19.895-12.199 40.582-11.48 62.078 0.668 20.188 4.816 38.215 12.441 54.082 3.973 8.239 8.508 15.172 13.602 20.801 2.824 7.758 6.757 15.227 11.797 22.399 4.8 6.879 13.015 16.828 24.64 29.839 11.469 12.829 23.906 20.106 37.32 21.84z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g504">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g506">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g512">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path530" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient514)" d="m174.14 371.82c6.16-5.199 11.652-11.801 16.48-19.801 4.613-7.597 8.773-16.73 12.48-27.398 2.211-6.453 4.145-13.172 5.797-20.16 2.293-9.653 3.907-17.586 4.84-23.801 1.227-8.266 1.735-16.133 1.52-23.598-0.184-5.867-0.957-12.254-2.317-19.16-1.386-7.066-3.32-14.265-5.8-21.601-4.403-13.094-12.415-26.825-24.04-41.2-9.546-11.761-18.921-21.082-28.121-27.961-10.402-2.691-25.625-3.718-45.679-3.078-7.547 0.266-14.469 0.731-20.762 1.399-5.895 0.613-9.438 1.215-10.641 1.801-1.597 0.746-4.05 4.093-7.359 10.039-3.867 6.988-7.559 15.336-11.078 25.039-3.309 9.281-5.629 19.496-6.961 30.64-1.305 10.989-1.492 21.629-0.559 31.922 1.571 17.117 5.637 31.531 12.2 43.238 2.132 3.868 4.664 7.629 7.597 11.282 2.906 3.359 4.789 5.613 5.641 6.758 3.281 8.269 7.242 16.066 11.883 23.402 5.812 9.199 13.343 18.851 22.597 28.961 10.403 11.277 21.575 18.012 33.52 20.199 11.281 2.027 20.867-0.281 28.762-6.922z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g532">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g534">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g540">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path558" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient542)" d="m169.74 368.66c6.535-4.641 12.281-10.879 17.242-18.719 4.797-7.547 9.2-17.121 13.2-28.719 2.214-6.402 4.132-13.308 5.757-20.722 2-9.117 3.387-17.145 4.161-24.078 0.96-8.535 1.175-16.746 0.64-24.641-0.371-5.785-1.437-12.398-3.199-19.84-1.785-7.492-4-14.668-6.641-21.519-4.718-12.321-12.441-25.012-23.16-38.082-9.066-11.039-17.558-19.332-25.48-24.879-9.84-2.961-24.145-4.094-42.918-3.399-6.879 0.239-13.293 0.707-19.242 1.399-5.387 0.613-8.625 1.176-9.719 1.679-1.442 0.696-3.774 4.321-7 10.883-3.707 7.547-7.492 16.918-11.36 28.117-5.945 17.387-6.558 40.188-1.839 68.403 2.398 14.398 6 26.476 10.8 36.238 2 4.055 6 10.399 12 19.039 3.305 7.442 7.145 14.426 11.52 20.961 5.359 8.027 12.027 16.238 20 24.641 9.199 9.679 19.051 15.625 29.558 17.84 9.868 2.105 18.43 0.574 25.68-4.602z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g560">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g562">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g568">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path584" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient570)" d="m165.38 365.5c6.933-4 12.949-9.852 18.039-17.559 4.91-7.441 9.535-17.492 13.883-30.16 2.211-6.508 4.105-13.586 5.679-21.238 1.786-8.723 2.973-16.817 3.559-24.281 0.668-8.856 0.574-17.426-0.281-25.719-0.614-5.817-2-12.656-4.157-20.524-2.187-8.023-4.667-15.199-7.441-21.519-5.039-11.547-12.453-23.184-22.242-34.918-8.586-10.293-16.211-17.574-22.879-21.84-9.332-3.227-22.734-4.48-40.199-3.762-6.215 0.27-12.106 0.746-17.68 1.442-4.883 0.64-7.801 1.187-8.762 1.64-1.918 0.907-4.8 4.442-8.64 10.598-5.172 8.27-9.719 18.293-13.637 30.082-6.16 18.641-5.121 43.281 3.117 73.918 3.121 11.441 7 21.59 11.641 30.441 2.508 4.829 6.922 11.95 13.242 21.36 3.227 6.508 6.918 12.679 11.078 18.519 4.856 6.774 10.652 13.547 17.399 20.321 8.082 8.109 16.64 13.293 25.679 15.562 8.59 2.156 16.121 1.371 22.602-2.363z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g586">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g588">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g594">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path610" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient596)" d="m141.58 362.54c7.359 2.293 13.84 2.226 19.441-0.203 7.36-3.172 13.653-8.614 18.879-16.321 4.934-7.25 9.774-17.812 14.52-31.679 2.269-6.559 4.148-13.825 5.64-21.797 3.387-18.137 3.95-35.215 1.68-51.242-0.797-5.868-2.48-12.934-5.039-21.2-2.613-8.558-5.371-15.734-8.281-21.519-5.414-10.774-12.52-21.36-21.317-31.762-8.054-9.465-14.8-15.73-20.242-18.797-8.879-3.496-21.386-4.855-37.519-4.082-5.574 0.266-10.946 0.762-16.121 1.481-4.371 0.613-6.985 1.121-7.84 1.519-1.145 0.559-3.254 4.746-6.321 12.559-3.226 8.16-7.21 19.586-11.957 34.281-4.187 13.039-5.136 28.149-2.839 45.32 1.73 12.879 4.679 24.2 8.839 33.961 4.321 10.719 7.438 18.254 9.36 22.598 3.094 7.043 7.012 14.187 11.758 21.441 6.507 11.575 15.015 22.266 25.519 32.079 7.067 6.589 14.348 11.042 21.84 13.363z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g612">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g614">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g620">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path636" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient622)" d="m131.42 347.3c12 7.785 21.855 10.601 29.562 8.441 7.278-2.027 13.172-6.773 17.68-14.242 3.387-5.653 7.758-16.492 13.117-32.52 3.281-9.894 5.535-20.586 6.762-32.078 1.492-14.426 1.094-28.402-1.199-41.922-1.016-5.945-2.934-13.16-5.762-21.64-3.012-9.012-5.973-16.09-8.879-21.239-5.68-10.027-12.265-19.453-19.762-28.281-7.199-8.453-12.89-13.64-17.078-15.558-8.133-3.707-19.359-5.161-33.679-4.36-4.829 0.266-9.547 0.774-14.161 1.52-3.707 0.586-5.933 1.05-6.679 1.398-1.121 0.402-2.231 0.922-3.321 1.563-2.054 1.172-4.066 2.797-6.043 4.879-6.05 6.398-11.199 16.464-15.437 30.199-4.481 14.398-3.961 33.226 1.559 56.48 2.082 8.852 4.668 17.281 7.761 25.281 2.746 7.145 5.227 12.321 7.438 15.52 2.429 3.52 5.109 8.773 8.043 15.762 3.199 7.597 7.078 15.011 11.636 22.238 7.176 11.387 16.657 20.906 28.442 28.559z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g638">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g640">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g646">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path662" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient648)" d="m133.82 337.94c10.852 7.145 19.774 9.735 26.758 7.762 6.586-1.895 11.91-6.254 15.961-13.082 3.094-5.199 7.039-15.133 11.84-29.801 2.988-9.012 5.027-18.812 6.121-29.398 1.359-13.2 1-26.016-1.082-38.442-0.906-5.441-2.641-12.054-5.199-19.84-2.719-8.238-5.399-14.718-8.039-19.441-5.149-9.199-11.11-17.84-17.883-25.918-6.504-7.762-11.653-12.508-15.438-14.242-7.336-3.414-17.48-4.758-30.441-4.039-4.348 0.242-8.613 0.707-12.801 1.402-3.359 0.531-5.359 0.957-6 1.278-1.012 0.375-2.012 0.839-3 1.402-1.867 1.094-3.691 2.598-5.48 4.519-5.465 5.84-10.133 15.067-14 27.68-4.028 13.199-3.547 30.453 1.441 51.758 1.895 8.109 4.227 15.828 7 23.16 2.48 6.563 4.719 11.309 6.719 14.242 2.242 3.25 4.668 8.067 7.281 14.438 2.906 6.988 6.414 13.789 10.52 20.402 6.48 10.426 15.054 19.145 25.722 26.16z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g664">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g666">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g672">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path688" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient674)" d="m87.023 257.38c2.239 5.144 4.254 8.863 6.039 11.16 2 2.558 4.188 6.332 6.563 11.316 2.586 5.442 5.719 10.75 9.398 15.922 5.84 8.188 13.536 15.012 23.082 20.481 9.758 5.597 17.758 7.625 24 6.078 5.918-1.465 10.704-4.864 14.36-10.2 2.746-4.027 6.293-11.8 10.64-23.32 2.665-7.117 4.493-14.801 5.477-23.039 1.203-10.348 0.867-20.371-1-30.078-0.824-4.27-2.383-9.441-4.68-15.52-2.453-6.48-4.851-11.562-7.199-15.242-4.586-7.199-9.918-13.961-16-20.281-5.867-6.078-10.492-9.801-13.879-11.16-6.613-2.664-15.719-3.719-27.32-3.16-9.066 0.453-14.695 1.16-16.879 2.121-3.203 1.332-5.734 2.867-7.602 4.601-4.906 4.586-9.093 11.813-12.558 21.68-3.629 10.348-3.203 23.852 1.277 40.52 1.68 6.347 3.774 12.386 6.281 18.121z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g690">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g692">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g698">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path714" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient700)" d="m86.664 304.18c15.973-2.184 30.785-11.36 44.438-27.52 13.867-16.398 23.679-28.934 29.441-37.598 6-9.015 10.68-18.425 14.039-28.242 6.109-7.172 11.52-15.918 16.242-26.238 9.094-20 14.024-42.723 14.801-68.16 0.86-27.096-3.7-53.178-13.68-78.244-3.6-9.012-7.5-16.879-11.72-23.598-3.57-5.707-6.28-9.027-8.12-9.961-1.6-0.801-6.21-1.586-13.84-2.359-7.92-0.801-16.78-1.36-26.6-1.68-25.38-0.774-44.609 0.371-57.676 3.437-12.535 10.344-24.761 23.379-36.679 39.082-14.934 19.704-24.856 38.344-29.762 55.918-5.895 21.098-8.332 40.387-7.32 57.883 0.429 7.465 1.507 15.692 3.242 24.68 1.094 5.601 3.066 14.305 5.918 26.121 9.148 37.945 22.402 65.891 39.762 83.84 4.851 5.012 10.492 8.613 16.917 10.797 6.508 2.215 13.376 2.828 20.602 1.84z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g716">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g718">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g724">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path740" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient726)" d="m128.62 270.86c11.012-12.746 19.984-24.918 26.918-36.519 5.519-9.227 10.254-19.051 14.199-29.481 1.016-1.437 3.242-4.289 6.68-8.558 3.519-4.586 6.562-9.305 9.121-14.161 7.812-14.773 12.652-32.957 14.519-54.558 1.122-12.988 0.895-26.399-0.679-40.242-1.574-14.024-4.348-26.907-8.321-38.637-4.16-12.242-8.558-22.75-13.199-31.52-3.92-7.524-6.84-11.751-8.76-12.684-1.44-0.719-5.68-1.465-12.72-2.238-7.49-0.829-15.74-1.403-24.76-1.719-23.89-0.828-42.022 0.453-54.397 3.84-10.961 8.64-22.145 20.386-33.559 35.238-13.867 18.105-23.426 35.426-28.68 51.961-2.933 9.226-5.242 18.293-6.922 27.199-1.597 8.719-2.503 16.774-2.718 24.16-0.266 9.36 0.332 19.281 1.801 29.762 1.093 7.707 3.011 17.707 5.757 30 2.028 9.117 4.336 17.586 6.922 25.398 4.399 13.414 9.36 24.918 14.879 34.52 5.762 10.082 12.305 18.398 19.641 24.961 9.414 8.371 20.84 11.277 34.281 8.719 14.266-2.746 27.598-11.227 40-25.442z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g742">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g744">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g750">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path766" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient752)" d="m125.46 266.94c9.547-10.613 17.504-20.972 23.879-31.082 5.226-8.265 9.785-17.066 13.679-26.398 1.442-2.16 3.747-5.653 6.922-10.481 2.852-4.531 5.317-9.039 7.399-13.519 5.734-12.321 10.027-27.547 12.879-45.68 5.652-35.547 4.922-64.293-2.2-86.238-4.61-14.111-9.11-25.923-13.52-35.443-3.84-8.293-6.62-12.867-8.36-13.718-1.3-0.641-5.17-1.36-11.6-2.161-7.09-0.851-14.73-1.441-22.92-1.761-22.39-0.879-39.46 0.547-51.194 4.281-9.442 7.012-19.563 17.48-30.36 31.398-12.8 16.481-22.015 32.481-27.64 48-3.149 8.641-5.774 17.696-7.883 27.161-2.105 9.359-3.383 17.695-3.84 25-0.637 9.921-0.387 20.281 0.762 31.082 0.906 8.691 2.558 18.8 4.961 30.32 1.945 9.387 4.226 18.078 6.84 26.078 4.8 14.641 10.05 26.723 15.757 36.242 5.922 9.895 12.774 17.746 20.563 23.559 8.664 6.508 18.891 8.453 30.68 5.84 12.504-2.774 24.238-10.266 35.199-22.481z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g768">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g770">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g776">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path790" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient778)" d="m91.742 282.62c10.746-2.879 20.949-9.426 30.602-19.641 8.027-8.504 14.945-17.039 20.758-25.597 4.96-7.336 9.375-15.11 13.242-23.321 7.547-11.949 12.812-20.922 15.801-26.922 5.519-11.171 10.132-23.984 13.839-38.437 9.864-38.481 11.106-69.535 3.719-93.16-4.69-14.857-10.1-27.497-16.24-37.923-4.58-7.758-8.02-12.211-10.32-13.359-1.149-0.586-4.629-1.266-10.442-2.04-6.641-0.882-13.668-1.48-21.082-1.8-20.824-0.934-36.812 0.64-47.957 4.718-7.949 5.387-17.043 14.563-27.281 27.52-11.653 14.801-20.481 29.469-26.481 44-3.304 7.949-6.265 17-8.879 27.16-2.585 9.895-4.242 18.508-4.961 25.84-1.039 10.453-1.148 21.254-0.32 32.402 0.696 9.438 2.094 19.653 4.199 30.641 1.895 9.812 4.161 18.73 6.801 26.758 5.172 15.972 10.696 28.652 16.559 38.039 6.082 9.734 13.242 17.109 21.48 22.121 7.762 4.719 16.75 5.719 26.961 3z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g792">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g794">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g800">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path816" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient802)" d="m93.184 275.9c8.961-2.961 17.64-8.574 26.039-16.84 12.507-12.347 22.64-25.828 30.402-40.441 5.652-9.149 10.332-18.16 14.039-27.039 2.32-5.496 6.039-14.988 11.16-28.481 4.957-12.265 8.481-26.535 10.559-42.8 2.719-21.653 1.586-40.692-3.399-57.121-5.68-18.563-10.42-32.977-14.24-43.243-3.68-9.867-6.2-15.133-7.56-15.801-1.01-0.507-4.13-1.148-9.36-1.918-6.16-0.933-12.57-1.562-19.24-1.882-19.22-0.957-34.115 0.761-44.678 5.16-6.504 3.84-14.547 11.734-24.121 23.68-10.504 13.066-18.984 26.414-25.437 40.042-3.442 7.278-6.746 16.317-9.922 27.118-3.039 10.402-5.039 19.308-6 26.718-2.664 20.188-1.984 41.735 2.043 64.641 1.758 9.922 4 19.07 6.719 27.441 5.652 17.469 11.425 30.774 17.32 39.918 6.238 9.707 13.746 16.575 22.519 20.602 6.641 3.043 14.36 3.121 23.161 0.242z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g818">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g820">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g826">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path842" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient828)" d="m86.344 266.34c6-1.891 12.32-5.118 18.961-9.68 14.05-9.652 25.359-21.652 33.918-36 5.414-9.09 10.027-18.426 13.839-28 3.497-8.773 6.708-15.398 9.641-19.879 2.613-4.027 5.574-10.559 8.879-19.601 3.656-10.079 6.723-20.68 9.203-31.797 6.559-29.309 7.184-53.043 1.879-71.203-5.06-17.337-11.2-30.032-18.39-38.083-2.35-2.64-4.77-4.707-7.25-6.199-1.3-0.777-2.62-1.414-3.96-1.922-0.85-0.453-3.5-1.054-7.96-1.8-5.46-0.934-11.08-1.571-16.83-1.918-17.1-0.989-30.5 0.867-40.208 5.558-4.957 2.402-11.73 8.934-20.32 19.602-8.957 11.121-16.824 23-23.597 35.64-3.442 6.481-6.961 15.399-10.563 26.758-3.383 10.695-5.68 19.789-6.879 27.281-2.746 17.067-3.226 34.68-1.437 52.84 1.437 14.535 4.117 28.012 8.039 40.442 6.371 20.187 11.597 33.851 15.679 41 5.332 9.386 12.348 15.371 21.039 17.961 4.536 1.332 9.973 0.996 16.321-1.004z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g844">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g846">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g852">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path868" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient854)" d="m52.184 236.02c4.824 8.618 11.171 14.11 19.039 16.481 8.32 2.508 18.949-0.746 31.879-9.758 12.695-8.855 22.921-19.855 30.679-33 4.91-8.348 9.082-16.906 12.524-25.68 3.144-8.054 6.039-14.136 8.679-18.242 2.371-3.68 5.051-9.668 8.039-17.961 3.309-9.222 6.094-18.945 8.36-29.156 5.922-26.856 6.48-48.602 1.679-65.242-4.585-15.891-10.132-27.535-16.64-34.918-2.133-2.403-4.317-4.281-6.559-5.641-1.172-0.719-2.359-1.32-3.558-1.801-0.774-0.398-3.176-0.949-7.2-1.64-4.96-0.852-10.043-1.426-15.242-1.719-15.441-0.934-27.547 0.746-36.32 5.039-4.481 2.188-10.613 8.172-18.398 17.961-8.083 10.184-15.188 21.078-21.321 32.68-3.121 5.949-6.308 14.121-9.558 24.519-3.067 9.813-5.137 18.149-6.204 25-2.48 15.629-2.906 31.774-1.277 48.442 1.277 13.304 3.692 25.664 7.238 37.078 5.786 18.535 10.508 31.054 14.161 37.558z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g870">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g872">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g878">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path894" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient880)" d="m115.54 265.82c8.719-1.574 16.32-9.691 22.801-24.359 6.906-15.625 10.453-32.801 10.64-51.52 0.184-18.398-2.855-32.254-9.121-41.558l-59.359 57.199c-0.879 8.453 0.066 17.426 2.84 26.918 2.718 9.226 6.547 16.961 11.48 23.203 6.344 8.105 13.254 11.477 20.719 10.117z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g896">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g898">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g904">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path920" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient906)" d="m117.42 258.82c7.922-3.144 14.48-11.277 19.683-24.398 3.465-8.774 6.024-16.094 7.68-21.961 2.184-7.946 3.371-15.332 3.559-22.16 0.187-8.266-0.574-16.067-2.282-23.399-1.679-7.176-4.05-13.027-7.117-17.562-5.121 4.91-10.363 9.922-15.722 15.043-10.719 10.211-16.664 15.8-17.84 16.757-1.145 0.961-5.625 5.133-13.438 12.52l-11.363 10.84c-0.691 3.894-0.586 8.496 0.32 13.801 0.43 2.453 1.508 7.132 3.243 14.039 1.144 4.668 2.96 9.16 5.437 13.48 2.563 4.508 5.297 7.817 8.203 9.922 6.453 4.695 13 5.719 19.641 3.078h-0.004z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g922">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g924">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g930">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path944" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient932)" d="m91.305 244.1c2.691 4.348 5.547 7.465 8.558 9.36 5.867 3.679 11.895 4.054 18.078 1.121 7.254-3.442 12.895-10.988 16.922-22.641 1.707-4.906 4.184-11.894 7.442-20.961 2.453-7.758 3.84-14.824 4.156-21.199 0.348-7.918-0.293-15.519-1.918-22.801-1.52-6.906-3.68-12.465-6.481-16.679-18.214 17.386-29.187 27.601-32.917 30.64-2.321 1.895-7.094 6.215-14.321 12.961l-10.121 9.52c-0.933 3.652-0.668 8.148 0.801 13.48 2 6.078 3.359 10.625 4.078 13.641 1.121 4.691 3.027 9.211 5.723 13.558z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g946">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g948">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g954">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path970" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient956)" d="m117.46 248.94c6.773-2.906 11.597-9.371 14.48-19.398 0.637-2.27 3.133-8.934 7.481-20 3.012-7.656 4.73-14.414 5.156-20.281 0.508-7.625 0.016-15.04-1.477-22.243-1.414-6.636-3.402-11.906-5.96-15.797-15.922 15.118-26.68 24.973-32.282 29.559-3.492 2.852-8.547 7.305-15.16 13.359l-8.918 8.2c-1.121 3.547-0.68 7.949 1.32 13.199 1.2 2.91 2.106 5.094 2.719 6.562 1.094 2.614 1.84 4.825 2.238 6.641 1.043 4.641 2.829 8.68 5.364 12.117 2.344 3.176 5.156 5.629 8.437 7.36 5.496 2.882 11.028 3.121 16.602 0.722z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g972">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g974">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g980">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path996" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient982)" d="m129.02 227.14c0.961-4.238 3.469-10.597 7.52-19.078 3.574-7.441 5.625-13.894 6.16-19.359 0.692-7.309 0.332-14.52-1.082-21.641-1.277-6.375-3.078-11.336-5.398-14.882-13.625 12.855-24.161 22.32-31.602 28.402-4.664 3.785-10.012 8.371-16.039 13.758l-7.68 6.922c-1.386 3.464-0.785 7.757 1.801 12.878 1.52 2.801 2.641 4.907 3.359 6.321 1.254 2.48 2.079 4.625 2.481 6.441 1.012 4.746 2.867 8.797 5.559 12.156 2.425 3.016 5.347 5.227 8.761 6.641 4.801 1.949 9.641 1.613 14.52-1 5.84-3.172 9.719-9.023 11.64-17.559z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g998">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g1000">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g1006">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path1022" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient1008)" d="m125.66 217.9c0.746-4.75 3.254-10.789 7.52-18.121 4.16-7.121 6.546-13.266 7.16-18.441 0.851-7.012 0.625-14.039-0.68-21.078-1.121-6.11-2.707-10.762-4.762-13.961-11.332 10.558-21.668 19.64-31 27.242-5.812 4.746-11.437 9.465-16.879 14.16l-6.441 5.637c-1.625 3.414-0.867 7.601 2.281 12.562 1.813 2.692 3.145 4.719 4 6.078 1.442 2.375 2.348 4.469 2.719 6.282 1.066 5.281 2.906 9.949 5.52 14 2.773 4.242 5.816 6.828 9.121 7.761 4.425 1.227 8.414 0.532 11.961-2.082 4.8-3.492 7.961-10.172 9.48-20.039z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g1024">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g1026">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g1032">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path1048" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient1034)" d="m155.54 199.74c5.172-1.414 9.348-7.055 12.519-16.922 3.387-10.504 4.762-21.824 4.122-33.957-0.641-11.519-2.84-20.68-6.602-27.48l-31.48 38.398c-0.321 6.508 0.253 12.973 1.718 19.402 1.653 7.145 4.094 12.411 7.321 15.797 4.136 4.293 8.269 5.879 12.402 4.762z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g1050">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g1052">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g1058">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path1076" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient1060)" d="m144.22 193.26c3.812 3.546 7.613 4.707 11.402 3.48 4.637-1.547 8.223-6.762 10.758-15.641 1.601-5.625 2.785-10.652 3.558-15.082 0.907-5.332 1.336-10.437 1.282-15.316-0.106-5.734-0.707-11.16-1.801-16.281-1.09-5.016-2.531-9.149-4.317-12.403-2.722 3.309-5.507 6.684-8.363 10.121-5.68 6.852-8.824 10.602-9.437 11.243-0.614 0.636-2.989 3.437-7.121 8.398l-6.039 7.281c-0.293 2.692-0.133 5.879 0.48 9.559 0.293 1.84 1 5.121 2.117 9.84 0.723 3.199 1.723 6.082 3 8.64 1.309 2.559 2.801 4.614 4.481 6.161z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g1078">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g1080">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g1086">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path1100" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient1088)" d="m145.26 191.58c3.496 2.824 6.933 3.547 10.32 2.16 4.188-1.707 7.242-6.508 9.16-14.402 0.828-3.36 2.028-8.16 3.602-14.399 1.172-5.332 1.773-10.215 1.801-14.64 0.023-5.493-0.497-10.786-1.563-15.879-1.012-4.828-2.332-8.75-3.957-11.762-9.656 11.68-15.48 18.535-17.48 20.559-1.227 1.253-3.762 4.148-7.602 8.683l-5.359 6.399c-0.426 2.507-0.176 5.64 0.757 9.398 1.254 4.242 2.11 7.426 2.563 9.563 0.691 3.199 1.746 6.05 3.16 8.558 1.305 2.402 2.84 4.32 4.598 5.762z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g1102">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g1104">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g1110">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path1126" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient1112)" d="m146.34 189.9c3.094 2.133 6.148 2.426 9.16 0.879 3.68-1.894 6.199-6.281 7.558-13.16 0.321-1.547 1.547-6.133 3.68-13.758 1.492-5.226 2.281-9.883 2.36-13.961 0.109-5.281-0.332-10.441-1.321-15.48-0.933-4.668-2.144-8.375-3.636-11.121-8.454 10.16-14.176 16.761-17.161 19.8-1.839 1.895-4.519 4.868-8.043 8.922l-4.718 5.52c-0.559 2.426-0.227 5.48 1 9.16 1.972 6 2.988 9.105 3.039 9.316 0.695 3.254 1.789 6.11 3.281 8.563 1.359 2.265 2.961 4.039 4.801 5.32z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g1128">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g1130">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g1136">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path1152" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient1138)" d="m147.38 188.18c2.691 1.468 5.359 1.347 8-0.36 3.148-2.078 5.148-6.066 6-11.961 0.426-2.933 1.668-7.289 3.719-13.078 1.816-5.066 2.8-9.492 2.96-13.281 0.215-5.067-0.16-10.094-1.121-15.078-0.824-4.453-1.918-7.95-3.277-10.481-7.226 8.614-12.828 14.946-16.801 19-2.48 2.531-5.332 5.598-8.558 9.199l-4.082 4.641c-0.668 2.371-0.243 5.371 1.281 9 2.16 5.066 3.332 8.066 3.519 9 0.668 3.332 1.786 6.188 3.36 8.559 1.414 2.16 3.082 3.773 5 4.84z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g1154">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g1156">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g1162">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path1178" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient1164)" d="m154.78 180.14c2.641-2.293 4.16-5.878 4.563-10.757 0.265-3.336 1.492-7.481 3.679-12.442 2.161-4.879 3.36-9.094 3.602-12.64 0.293-4.852 0-9.731-0.883-14.641-0.746-4.293-1.734-7.574-2.961-9.84-6.023 7.067-11.519 13.149-16.476 18.242-3.121 3.172-6.137 6.321-9.043 9.438l-3.399 3.762c-0.801 2.347-0.281 5.281 1.559 8.8 2.426 4.641 3.762 7.559 4 8.758 0.64 3.414 1.773 6.266 3.402 8.563 1.492 2.132 3.223 3.586 5.199 4.359 2.239 0.879 4.493 0.344 6.758-1.602z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g1180">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g1182">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g1188">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path1204" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient1190)" d="m64.703 230.06c8.535 3.465 17.961 1.746 28.281-5.16 8.532-5.734 17.387-14.762 26.559-27.082 3.519-4.719 9.066-10.973 16.641-18.758 7.066-7.281 14.492-16.375 22.281-27.281 11.277-15.762 18.867-31.066 22.758-45.922 4.453-16.933 4.402-34.133-0.161-51.597-4.9-18.854-10.13-31.881-15.68-39.084-2.32-3.012-4.89-5.305-7.72-6.879-1.97-1.121-4.62-2.133-7.96-3.039-4.61-1.254-16.6-1.536-35.96-0.84-16.931 0.613-26.717 1.172-29.357 1.679-1.574 0.321-3.559 1.426-5.957 3.321-3.227 2.504-5.844 5.586-7.844 9.238-5.973 8.773-11.238 17.281-15.797 25.52-8.746 15.812-14.082 30.613-16 44.402-1.976 14.156-2.68 26.957-2.121 38.398 0.215 4 0.641 9.055 1.281 15.16 0.879 8.532 1.426 13.973 1.637 16.321 1.523 17.066 3.656 30.84 6.402 41.32 4.454 16.902 10.692 27 18.719 30.277v0.004z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g1206">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g1208">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g1214">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path1230" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient1216)" d="m94.625 217.1c8.746-6.187 17.449-15.347 26.117-27.48 2.719-3.84 5.774-7.652 9.16-11.441 1.973-2.184 4.989-5.426 9.039-9.719 7.922-8.614 15.387-18.614 22.403-30 9.117-14.852 15.199-28.985 18.238-42.399 3.492-15.441 3.199-30.84-0.879-46.203-4.32-16.376-8.97-27.923-13.96-34.642-3.57-4.828-8.37-8.109-14.4-9.839-3.76-1.121-14.58-1.469-32.48-1.043-15.54 0.347-25.676 0.812-30.399 1.402-1.84 0.238-4 1.211-6.481 2.918-3.011 2.055-5.531 4.641-7.558 7.762-2.453 3.492-4.664 6.718-6.641 9.679-3.734 5.625-7.051 11.024-9.957 16.2-8.883 15.867-14.203 30.453-15.961 43.757-1.789 13.364-2.519 24.524-2.199 33.481 0.106 2.91 0.973 12.121 2.598 27.641 0.242 2.109 0.84 6.535 1.8 13.281 1.172 8.133 1.84 12.773 2 13.922 1.602 12.265 3.84 22.132 6.719 29.597 3.762 9.789 8.774 16.106 15.043 18.961 7.918 3.629 17.184 1.68 27.801-5.84z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g1232">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g1234">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g1240">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path1256" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient1242)" d="m56.582 194.98c2.426 10.961 6.535 17.907 12.32 20.84 7.336 3.735 16.442 1.574 27.321-6.48 9.093-6.774 17.652-16.078 25.679-27.918 2.563-3.762 5.762-7.813 9.602-12.16 2.187-2.481 5.613-6.254 10.281-11.321 8.824-10 16.293-20.933 22.399-32.801 7.546-14.691 12.668-27.89 15.359-39.597 3.414-14.906 3.375-28.828-0.117-41.762-3.62-13.444-8.21-23.229-13.76-29.362-3.65-4.028-8.53-7.012-14.64-8.961-2.9-0.934-12.59-1.332-29.08-1.199-15.01 0.132-25.463 0.492-31.358 1.082-2.371 0.265-5.332 1.304-8.879 3.117-4.105 2.082-7.121 4.375-9.039 6.883-2.375 2.933-4.387 5.531-6.039 7.796-3.016 4.137-5.734 8.442-8.16 12.922-7.121 13.067-12.293 28.332-15.52 45.801-2 10.934-1.707 22.613 0.879 35.039 3.492 13.309 5.668 23.481 6.52 30.52l2.199 17.359c0.723 6.695 1.281 11.762 1.68 15.199 0.718 6.133 1.507 11.133 2.359 15z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g1258">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g1260">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g1266">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path1282" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient1268)" d="m97.824 201.5c9.414-7.305 17.824-16.731 25.238-28.278 2.403-3.761 5.735-8.054 10-12.882 2.454-2.774 6.309-7.067 11.563-12.879 9.918-11.414 17.383-23.281 22.398-35.602 5.012-12.32 8.161-24.012 9.442-35.078 1.437-12.43 0.586-24.32-2.563-35.68-3.14-11.522-6.62-20.112-10.44-25.764-3.25-4.907-7.17-8.172-11.76-9.801-2.08-0.746-10.62-1.172-25.64-1.281-14.77-0.106-25.57 0.136-32.396 0.722-2.613 0.239-5.187 0.934-7.723 2.078-2.746 1.282-5.027 2.911-6.839 4.883-7.465 8.078-13.293 15.621-17.477 22.637-8.508 14.266-13.48 29.617-14.922 46.043-0.851 9.84 0.039 20.664 2.68 32.48 1.547 6.426 2.695 11.211 3.441 14.36 1.36 5.652 2.321 10.465 2.879 14.437 1.254 8.961 2.012 14.535 2.281 16.723 0.344 2.773 0.719 7.598 1.118 14.48 0.375 6.399 0.789 11.266 1.242 14.598 1.547 10.883 5.094 17.883 10.64 21 6.797 3.84 15.746 1.441 26.84-7.199z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g1284">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g1286">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g1292">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path1308" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient1294)" d="m99.465 193.66c9.703-7.891 17.957-17.438 24.758-28.641 2.269-3.73 5.761-8.25 10.48-13.558 2.719-3.039 7.039-7.84 12.961-14.399 11.094-12.882 18.492-25.722 22.199-38.519 3.094-10.696 4.828-21.133 5.199-31.321 0.376-10.828-0.812-20.988-3.558-30.48-2.613-9.148-5.492-16.266-8.641-21.359-3.093-4.961-6.586-8.215-10.48-9.762-1.309-0.508-8.719-0.945-22.238-1.32-14.586-0.399-25.723-0.293-33.403 0.32-3.039 0.215-5.84 0.762-8.398 1.641-2.696 0.878-4.828 2.027-6.403 3.441-4.343 3.785-9.199 12.227-14.558 25.32-5.867 14.317-9.492 27.813-10.879 40.481-1.039 9.437-0.945 20 0.277 31.679 0.508 4.747 1.949 14.481 4.321 29.2 1.226 7.894 2.015 13.265 2.363 16.121 0.344 3.144 0.504 7.718 0.476 13.718 0 6.934 0.067 11.653 0.204 14.161 0.664 10.824 3.652 17.89 8.957 21.199 6.269 3.945 15.054 1.305 26.363-7.922z" />
+          </g>
+        </g>
+      </g>
+      <g id="oc-ilmenskie-cave-background-hill-1-209817-g1310">
+        <g id="oc-ilmenskie-cave-background-hill-1-209817-g1312">
+          <g id="oc-ilmenskie-cave-background-hill-1-209817-g1318">
+            <path id="oc-ilmenskie-cave-background-hill-1-209817-path1334" style="fill-rule:evenodd;fill:url(#oc-ilmenskie-cave-background-hill-1-209817-linearGradient1320)" d="m101.1 185.82c10.054-8.531 18.16-18.199 24.32-29 2.109-3.707 5.789-8.453 11.043-14.238 2.984-3.336 7.812-8.641 14.48-15.922 12.348-14.32 19.598-28.133 21.758-41.438 2.641-16.269 1.828-32.562-2.441-48.882-4.13-15.684-9.88-25.895-17.24-30.645-9.57-0.879-19.58-1.465-30.04-1.758-20.96-0.586-33.691 0.586-38.199 3.52-4.613 2.984-9.426 11.347-14.437 25.078-4.989 13.629-8.121 26.867-9.403 39.723-1.011 10.371-0.211 23.918 2.403 40.64 3.144 16.985 5 28.133 5.558 33.438 0.321 3.121 0.293 7.453-0.078 13-0.535 8.027-0.816 12.613-0.84 13.761-0.269 10.719 2.133 17.84 7.2 21.36 5.734 4.027 14.375 1.148 25.918-8.641z" />
+          </g>
+        </g>
+      </g>
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1336" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#276689) 100.0%,white)" d="m48.824 282.54-4.84-7.563c-3.894-6.371-7.453-12.851-10.679-19.437-3.227-6.617-7.723-17.707-13.481-33.281-2.855-7.786-5.402-14.922-7.64-21.403 0.48 2.43 1.238 5.723 2.281 9.883 2.133 8.266 4.691 16.68 7.68 25.238 3.226 9.254 8.132 19.336 14.718 30.242 5.895 9.731 9.879 15.172 11.961 16.321z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1338" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#276689) 100.0%,white)" d="m45.062 260.94c4.321 6.985 5.266 8.387 2.84 4.199-6.984-11.894-13.64-26.945-19.961-45.16-3.144-9.121-5.597-17.039-7.359-23.758 1.176 14.161 6.387 30.438 15.641 48.84 2.855 5.68 5.8 10.973 8.839 15.879z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1340" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#276689) 100.0%,white)" d="m43.863 248.06-2.121-6.48c-1.707-5.121-3.277-9.68-4.719-13.68-1.121-3.226-3.359-10.133-6.718-20.722-2.535-7.68-3.297-8.532-2.282-2.559 1.039 6.055 3.985 15.105 8.84 27.16l7 16.281z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1342" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#276689) 100.0%,white)" d="m10.023 194.06-0.121-4.8c-0.16-3.68-0.437-6.747-0.84-9.2-0.292-1.976-0.917-6.535-1.878-13.679-0.801-5.336-1.2-5.95-1.2-1.844 0 4.375 0.52 9.883 1.559 16.519 0.746 4.829 1.574 9.164 2.48 13.004z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1344" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#276689) 100.0%,white)" d="m143.22 261.42c-1.282 2.027-3.68 5.133-7.2 9.32-3.359 3.918-5.199 6.094-5.519 6.52 4.293-4.696 7.801-8.668 10.519-11.922 3.918-4.692 8.332-10.387 13.239-17.078 5.843-7.973 10.308-14.801 13.402-20.481 2.691-4.961 4.813-9.961 6.359-15 0.481-1.574 1.641-3.492 3.481-5.762 3.226-4 4.945-6.144 5.16-6.437 6.078-8.563 10.906-18.735 14.481-30.52 1.785-5.922 2.96-10.976 3.519-15.16-0.695 2.746-1.613 6.051-2.762 9.918-2.32 7.707-4.652 14.348-7 19.922-2.105 5.039-5.652 10.199-10.64 15.48-2.344 2.426-3.957 4.133-4.84 5.118-1.438 1.629-2.293 2.961-2.559 4-1.066 4.054-2.441 7.828-4.121 11.32-2.344 4.48-4.398 8.535-6.16 12.16-2.105 4.32-5.586 9.785-10.437 16.399-5.84 7.976-8.817 12.043-8.922 12.203z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1346" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#276689) 100.0%,white)" d="m35.781 102.74c-0.636 7.707-0.398 17.492 0.723 29.359l1.098 8.719c-1.551-15.828-1.184-32.535 1.101-50.117 1.227-9.363 2.641-17.043 4.238-23.043-0.933 2.75-1.933 6.266-3 10.562-2.132 8.586-3.519 16.758-4.16 24.52z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1348" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#276689) 100.0%,white)" d="m114.5 201.94c1.625-2.105 4.144-5.386 7.558-9.84 3.122-3.839 6.133-7.121 9.04-9.839 5.707-5.309 12.628-13.493 20.761-24.559 4.078-5.551 7.586-10.551 10.52-15-9.121 13.012-17.36 23.023-24.719 30.039-5.816 4.773-9.242 7.84-10.281 9.199-4.852 7.199-8.949 13.094-12.281 17.68-6.211 8.508-11.946 14.519-17.2 18.039 5.121-2.824 10.657-8.066 16.602-15.719z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1350" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#288d8b) 100.0%,white)" d="m103.62 349.58c-4.617-5.254-8.336-9.945-11.16-14.082 6.773 11.574 15.238 21.387 25.398 29.441 5.094 4.028 9.492 6.895 13.199 8.602-9.039-5.496-18.187-13.481-27.437-23.961z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1352" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#288d8b) 100.0%,white)" d="m178.3 369.54c0.531 1.543 3.519-1.508 8.957-9.16 4.718-6.614 8.695-12.817 11.922-18.602 2.16-3.84 4.863-11.226 8.117-22.16 1.601-5.359 2.816-9.801 3.64-13.32-0.961 2.961-2.011 6.054-3.16 9.281-2.211 6.238-4.691 12.773-7.437 19.598-2.75 6.8-7.242 14.562-13.481 23.281l-8.562 11.082h0.004z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1354" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#288d8b) 100.0%,white)" d="m215.78 284.82c1.551-4.265 2.348-12.426 2.403-24.48 0.027-3.864-0.039-6.973-0.2-9.321-0.136-2.343-0.203-1.945-0.203 1.203 0 3.704-0.547 11.172-1.636 22.399-0.829 8.453-0.95 11.855-0.364 10.199z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1356" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#288d8b) 100.0%,white)" d="m55.223 370.98c-4.879-6.211-8.586-15.519-11.121-27.918-1.25-6.187-2.024-11.761-2.321-16.722-0.238 12.562 1.364 23.148 4.801 31.761 2.426 6.079 5.309 10.375 8.641 12.879z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1358" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#288d8b) 100.0%,white)" d="m76.703 437.66c1.094 0.961 0.625-0.012-1.398-2.918-1.977-2.828-4.082-5.574-6.321-8.242-1.867-2.238-4.136-5.985-6.8-11.238-0.856-1.707-3.266-6.735-7.243-15.082-3.226-6.879-7.519-17.184-12.879-30.918 0.774 3.039 2.016 7.039 3.719 12 3.524 10.105 8.203 20.984 14.043 32.64 3.414 6.801 6.735 12.278 9.957 16.438 1.977 2.586 4.281 5.027 6.922 7.32z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1360" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#288d8b) 100.0%,white)" d="m85.582 440.78c1.121 0 1.016-0.441-0.32-1.32-1.332-0.879-2.653-1.387-3.957-1.52-1.414-0.16-1.453 0.281-0.121 1.321 1.304 1.011 2.773 1.519 4.398 1.519z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1362" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#288d8b) 100.0%,white)" d="m74.145 424.5c1.597 1.441 3.144 2.43 4.636 2.961 1.496 0.508 1.762 0.281 0.801-0.68-5.918-5.922-9.934-10.785-12.039-14.601-2.105-3.813-6.215-12.786-12.32-26.918 1.359 4.398 3.281 9.839 5.761 16.32 1.758 4.613 4.039 9.305 6.84 14.078 2.586 4.402 4.692 7.348 6.321 8.84z" />
+      <path id="oc-ilmenskie-cave-background-hill-1-209817-path1364" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c1,#288d8b) 100.0%,white)" d="m146.26 486.58h0.883c0.906-0.375 2.132-1.52 3.679-3.442 2.051-2.531 4.293-6.238 6.719-11.121 2.75-5.519 4.988-11.16 6.719-16.918 1.578-5.14 4.492-14.433 8.742-27.879-1.168 3.34-3.172 8.766-6.02 16.278-2.773 7.359-4.625 12.668-5.558 15.922-1.176 4-3.641 9.199-7.403 15.597-3.281 5.602-5.867 9.457-7.761 11.563z" />
+    </g>
+  </g></g></svg>

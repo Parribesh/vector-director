@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-1.21 245.27) scale(8.3669)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-bow-and-arrow-color">
     <g id="openmoji-bow-and-arrow-_1F3F9">
-      <path fill="none" stroke="#a57939" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8" d="M51.88,55.5863A27.0167,27.0167,0,0,0,16.3837,20.09" />
-      <path fill="#d22f27" d="M31.1285,40.8418l-7.098,7.098v6.8521a.6024.6024,0,0,0,1.0283.4259l5.8933-5.8933a.6027.6027,0,0,0,.1764-.4259Z" />
-      <path fill="#ea5a47" d="M31.1285,40.8418l-7.098,7.098H17.1784a.6024.6024,0,0,1-.4259-1.0283l5.8933-5.8933a.6027.6027,0,0,1,.4259-.1764Z" />
+      <path fill="none" stroke="var(--c1,#a57939)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8" d="M51.88,55.5863A27.0167,27.0167,0,0,0,16.3837,20.09" />
+      <path fill="var(--c2,#d22f27)" d="M31.1285,40.8418l-7.098,7.098v6.8521a.6024.6024,0,0,0,1.0283.4259l5.8933-5.8933a.6027.6027,0,0,0,.1764-.4259Z" />
+      <path fill="color-mix(in srgb,var(--c1,#a57a39) 71.2%,white)" d="M31.1285,40.8418l-7.098,7.098H17.1784a.6024.6024,0,0,1-.4259-1.0283l5.8933-5.8933a.6027.6027,0,0,1,.4259-.1764Z" />
     </g>
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-bow-and-arrow-line">

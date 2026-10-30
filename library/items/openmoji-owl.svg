@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(210.71 581.44) scale(2.4354)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-owl-color">
-    <path fill="#9B9B9A" stroke="#9B9B9A" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8" d="M30,29l-3,2c-9.5,4.375-2,30-2,30s8.75-9.25,15.875-10.125S51.75,36.75,50,32l-2-4" />
-    <path fill="#9B9B9A" stroke="none" d="M30,30c0,0-6.5-5.5-0.25-14.75c0,0-0.75-3.25-2.75-3.25s5-3,6,1c0,0,7-3,11,0c0,0,5.25-3.5,7.125-1.75 C51.125,11.25,47,14,49,16s4,10-1,14" />
-    <path fill="#A57939" stroke="none" d="M40,30c0,0-10,0-10-7.875c0-8.7341,8.1907-4.7359,9-3.125c0,0,7-6,9.125,1.5C50.1834,27.7649,40,30,40,30z" />
-    <path fill="#A57939" stroke="none" d="M25.0192,59c0,0-0.8782-7,1.9027-9S40,40,37,35" />
+    <path fill="var(--c1,#9b9b9a)" stroke="var(--c1,#9b9b9a)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8" d="M30,29l-3,2c-9.5,4.375-2,30-2,30s8.75-9.25,15.875-10.125S51.75,36.75,50,32l-2-4" />
+    <path fill="var(--c1,#9b9b9a)" stroke="none" d="M30,30c0,0-6.5-5.5-0.25-14.75c0,0-0.75-3.25-2.75-3.25s5-3,6,1c0,0,7-3,11,0c0,0,5.25-3.5,7.125-1.75 C51.125,11.25,47,14,49,16s4,10-1,14" />
+    <path fill="var(--c2,#a57939)" stroke="none" d="M40,30c0,0-10,0-10-7.875c0-8.7341,8.1907-4.7359,9-3.125c0,0,7-6,9.125,1.5C50.1834,27.7649,40,30,40,30z" />
+    <path fill="var(--c2,#a57939)" stroke="none" d="M25.0192,59c0,0-0.8782-7,1.9027-9S40,40,37,35" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-owl-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-owl-skin" />

@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(275.51 692.93) scale(0.6803)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-takeout-box-color">
     <polygon fill="#fff" points="21.034 22.2869 51.6288 22.7558 51 29 53.4409 28.9432 51.2771 47.255 20.7996 47.255 18.6805 29.8624 21.7073 29.9668 21.034 22.2869" />
-    <polygon fill="#d22f27" points="51 27 53.8816 26.9791 53.4409 28.9432 51 29 51 27" />
-    <polygon fill="#d22f27" points="18.1605 26.8731 21 27 21 29 18.3379 28.4996 18.1605 26.8731" />
-    <polygon fill="#d22f27" points="20.8124 48.6146 51.3126 48.8138 51.0471 50.2741 21.0116 50.2409 20.8124 48.6146" />
+    <polygon fill="var(--c1,#d22f27)" points="51 27 53.8816 26.9791 53.4409 28.9432 51 29 51 27" />
+    <polygon fill="var(--c1,#d22f27)" points="18.1605 26.8731 21 27 21 29 18.3379 28.4996 18.1605 26.8731" />
+    <polygon fill="var(--c1,#d22f27)" points="20.8124 48.6146 51.3126 48.8138 51.0471 50.2741 21.0116 50.2409 20.8124 48.6146" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-takeout-box-line">
     <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="17.712 29.958 20.562 54.5 51.437 54.5 54.287 29.958" />

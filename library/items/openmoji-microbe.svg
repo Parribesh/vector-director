@@ -11,19 +11,19 @@
     <line x1="53.5637" x2="46.1941" y1="23.304" y2="28.4683" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-microbe-color">
-    <path fill="#ea5a47" d="M50.4876,36a15,15,0,1,1-15-15A15,15,0,0,1,50.4876,36Z" />
-    <path fill="#d22f27" d="M45.2977,24.67A16.9861,16.9861,0,0,1,30.4876,50c-.1382,0-.2728-.0143-.41-.0176A14.9871,14.9871,0,0,0,45.2977,24.67Z" />
+    <path fill="color-mix(in srgb,var(--c1,#d23027) 79.2%,white)" d="M50.4876,36a15,15,0,1,1-15-15A15,15,0,0,1,50.4876,36Z" />
+    <path fill="var(--c1,#d22f27)" d="M45.2977,24.67A16.9861,16.9861,0,0,1,30.4876,50c-.1382,0-.2728-.0143-.41-.0176A14.9871,14.9871,0,0,0,45.2977,24.67Z" />
     <g>
-      <line x1="41.8399" x2="39.4284" y1="16.6916" y2="24.2091" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-      <line x1="28.6898" x2="31.1575" y1="15.8364" y2="23.8356" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-      <line x1="17.1486" x2="24.5405" y1="23.0523" y2="28.2994" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-      <line x1="14.7102" x2="22.605" y1="36.2342" y2="36.2046" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-      <line x1="18.4115" x2="24.7811" y1="48.696" y2="44.0317" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-      <line x1="29.1353" x2="32.0468" y1="55.3084" y2="47.2909" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-      <line x1="42.2854" x2="40.3177" y1="56.1636" y2="49.1644" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-      <line x1="52.839" x2="46.9347" y1="48.3171" y2="43.7006" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-      <line x1="57.765" x2="48.8702" y1="35.7658" y2="35.7954" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-      <line x1="53.5637" x2="46.1941" y1="23.304" y2="28.4683" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+      <line x1="41.8399" x2="39.4284" y1="16.6916" y2="24.2091" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+      <line x1="28.6898" x2="31.1575" y1="15.8364" y2="23.8356" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+      <line x1="17.1486" x2="24.5405" y1="23.0523" y2="28.2994" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+      <line x1="14.7102" x2="22.605" y1="36.2342" y2="36.2046" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+      <line x1="18.4115" x2="24.7811" y1="48.696" y2="44.0317" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+      <line x1="29.1353" x2="32.0468" y1="55.3084" y2="47.2909" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+      <line x1="42.2854" x2="40.3177" y1="56.1636" y2="49.1644" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+      <line x1="52.839" x2="46.9347" y1="48.3171" y2="43.7006" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+      <line x1="57.765" x2="48.8702" y1="35.7658" y2="35.7954" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+      <line x1="53.5637" x2="46.1941" y1="23.304" y2="28.4683" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
     </g>
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-microbe-line">
@@ -51,14 +51,14 @@
     </g>
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-microbe-color-foreground">
-    <line x1="40.6342" x2="39.4284" y1="20.4504" y2="24.2091" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-    <line x1="29.5983" x2="31.1575" y1="18.7815" y2="23.8356" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-    <line x1="20.0936" x2="24.5405" y1="25.1428" y2="28.2994" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-    <line x1="17.9889" x2="22.605" y1="36.2342" y2="36.2046" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-    <line x1="21.3182" x2="24.7811" y1="46.5675" y2="44.0317" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-    <line x1="30.2262" x2="31.5468" y1="52.3042" y2="48.2909" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-    <line x1="41.4029" x2="40.3177" y1="53.0246" y2="49.1644" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-    <line x1="50.2062" x2="46.9347" y1="46.2585" y2="43.7006" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-    <line x1="53.9311" x2="48.8702" y1="35.7785" y2="35.7954" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
-    <line x1="50.5516" x2="46.1941" y1="25.4148" y2="28.4683" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+    <line x1="40.6342" x2="39.4284" y1="20.4504" y2="24.2091" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+    <line x1="29.5983" x2="31.1575" y1="18.7815" y2="23.8356" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+    <line x1="20.0936" x2="24.5405" y1="25.1428" y2="28.2994" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+    <line x1="17.9889" x2="22.605" y1="36.2342" y2="36.2046" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+    <line x1="21.3182" x2="24.7811" y1="46.5675" y2="44.0317" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+    <line x1="30.2262" x2="31.5468" y1="52.3042" y2="48.2909" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+    <line x1="41.4029" x2="40.3177" y1="53.0246" y2="49.1644" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+    <line x1="50.2062" x2="46.9347" y1="46.2585" y2="43.7006" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+    <line x1="53.9311" x2="48.8702" y1="35.7785" y2="35.7954" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
+    <line x1="50.5516" x2="46.1941" y1="25.4148" y2="28.4683" fill="none" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" />
   </g></g></svg>

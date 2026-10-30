@@ -51,7 +51,7 @@ def main(argv: list[str] | None = None) -> None:
     st.add_argument("--model", default=None)
     st.add_argument("--out", default=".")
     lb = sub.add_parser("library", help="(M2) build the gallery")
-    lb.add_argument("action", choices=["seed", "openmoji", "openclipart", "label", "thumbs", "embed", "eval"])
+    lb.add_argument("action", choices=["seed", "openmoji", "openclipart", "label", "thumbs", "embed", "tidy", "eval"])
     lb.add_argument("--sadhu", default="../sadhu", help="seed: a sadhu checkout")
     lb.add_argument("--openmoji", default="data/raw/openmoji", help="openmoji: the unpacked download")
     lb.add_argument("--heights", default=None, help="openmoji: JSON of id -> height_cm")
@@ -140,13 +140,15 @@ def _library(args: argparse.Namespace) -> None:
                 heights = json.loads(Path(args.heights).read_text()) if args.heights else None
                 print(lib.seed_openmoji(reg, root / "color", meta, page, heights))
             else:
-                print("thumbs", lib.make_thumbs(reg, page))
+                print("thumbs", lib.make_thumbs(reg, page, [i for i in reg.items if not reg.thumb_path(i).exists()]))
             browser.close()
     elif args.action == "label":
         from vector_director.m1_harness.llm import make_llm
         from vector_director.m2_retrieval.sources import label_openclipart
 
         print(label_openclipart(reg, make_llm("gemini", "gemini-3.8-flash")))
+    elif args.action == "tidy":
+        print(lib.tidy(reg, VectorRetriever(reg, ClipEmbedder())))
     elif args.action == "embed":
         print("embedded", VectorRetriever(reg, ClipEmbedder()).build())
     elif args.action == "eval":

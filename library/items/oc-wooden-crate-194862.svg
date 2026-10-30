@@ -1,0 +1,301 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(136.16 413.21) scale(2.1848)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-wooden-crate-194862-defs4">
+    <linearGradient id="oc-wooden-crate-194862-linearGradient7904">
+      <stop id="oc-wooden-crate-194862-stop7906" style="stop-color:color-mix(in srgb,var(--c2,#9f7449) 90.7%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop7908" style="stop-color:color-mix(in srgb,var(--c2,#8e6e49) 98.4%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop7910" style="stop-color:color-mix(in srgb,var(--c2,#8c673f) 81.4%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient7898">
+      <stop id="oc-wooden-crate-194862-stop7900" style="stop-color:color-mix(in srgb,var(--c2,#8c6c4b) 50.7%,black)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop7902" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 79.3%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5465">
+      <stop id="oc-wooden-crate-194862-stop5467" style="stop-color:color-mix(in srgb,var(--c2,#936f49) 96.7%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5469" style="stop-color:color-mix(in srgb,var(--c2,#8c6c49) 95.7%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5439">
+      <stop id="oc-wooden-crate-194862-stop5441" style="stop-color:color-mix(in srgb,var(--c2,#9f7449) 58.2%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5447" style="stop-color:color-mix(in srgb,var(--c2,#9f7649) 75.8%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop5443" style="stop-color:color-mix(in srgb,var(--c2,#9e7449) 92.3%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5415">
+      <stop id="oc-wooden-crate-194862-stop5417" style="stop-color:var(--c2,#8c6b49)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5419" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 77.9%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5389">
+      <stop id="oc-wooden-crate-194862-stop5391" style="stop-color:color-mix(in srgb,var(--c2,#9f7649) 82.4%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5397" style="stop-color:color-mix(in srgb,var(--c2,#987249) 94.5%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop5393" style="stop-color:color-mix(in srgb,var(--c2,#8e6d49) 98.4%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5564" y2="393.31" gradientUnits="userSpaceOnUse" x2="484.84" gradientTransform="translate(124.3 51.5)" y1="393.31" x1="429.6"><stop id="oc-wooden-crate-194862-stop5417" style="stop-color:var(--c2,#8c6b49)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5419" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 77.9%,black)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5566" fx="447.76" fy="375.67" gradientUnits="userSpaceOnUse" cy="389.9" cx="457.22" gradientTransform="matrix(1.5556 .57250 -.19941 .54182 -51.959 -31.614)" r="27.617"><stop id="oc-wooden-crate-194862-stop5417" style="stop-color:var(--c2,#8c6b49)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5419" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 77.9%,black)" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5568" y2="393.31" gradientUnits="userSpaceOnUse" x2="484.84" gradientTransform="translate(104.3 61.5)" y1="393.31" x1="429.6"><stop id="oc-wooden-crate-194862-stop5417" style="stop-color:var(--c2,#8c6b49)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5419" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 77.9%,black)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5570" fx="447.76" fy="375.67" gradientUnits="userSpaceOnUse" cy="389.9" cx="457.22" gradientTransform="matrix(1.5556 .57250 -.19941 .54182 -71.959 -21.614)" r="27.617"><stop id="oc-wooden-crate-194862-stop5417" style="stop-color:var(--c2,#8c6b49)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5419" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 77.9%,black)" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5572" y2="455.31" gradientUnits="userSpaceOnUse" x2="432.67" gradientTransform="translate(173.12 -27.522)" y1="471.26" x1="423.47"><stop id="oc-wooden-crate-194862-stop7906" style="stop-color:color-mix(in srgb,var(--c2,#9f7449) 90.7%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop7908" style="stop-color:color-mix(in srgb,var(--c2,#8e6e49) 98.4%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop7910" style="stop-color:color-mix(in srgb,var(--c2,#8c673f) 81.4%,black)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5574" fx="428.2" fy="470.89" gradientUnits="userSpaceOnUse" cy="462.09" cx="413.2" gradientTransform="matrix(1.614 .53176 -.30506 .92594 58.361 -214.49)" r="19.99"><stop id="oc-wooden-crate-194862-stop5417" style="stop-color:var(--c2,#8c6b49)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5419" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 77.9%,black)" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5576" y2="435.83" gradientUnits="userSpaceOnUse" x2="429.6" gradientTransform="translate(173.12 -27.522)" y1="447.02" x1="419.24"><stop id="oc-wooden-crate-194862-stop7906" style="stop-color:color-mix(in srgb,var(--c2,#9f7449) 90.7%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop7908" style="stop-color:color-mix(in srgb,var(--c2,#8e6e49) 98.4%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop7910" style="stop-color:color-mix(in srgb,var(--c2,#8c673f) 81.4%,black)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5578" gradientUnits="userSpaceOnUse" cy="442.91" cx="415.75" gradientTransform="matrix(1.921 .88627 -.40840 .88523 -28.915 -345.16)" r="19.99"><stop id="oc-wooden-crate-194862-stop5417" style="stop-color:var(--c2,#8c6b49)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5419" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 77.9%,black)" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5580" y2="421.65" gradientUnits="userSpaceOnUse" x2="435.74" gradientTransform="translate(173.12 -27.522)" y1="432.85" x1="425.38"><stop id="oc-wooden-crate-194862-stop7906" style="stop-color:color-mix(in srgb,var(--c2,#9f7449) 90.7%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop7908" style="stop-color:color-mix(in srgb,var(--c2,#8e6e49) 98.4%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop7910" style="stop-color:color-mix(in srgb,var(--c2,#8c673f) 81.4%,black)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5582" gradientUnits="userSpaceOnUse" cy="425.2" cx="415.75" gradientTransform="matrix(1 0 0 .97490 173.12 -16.85)" r="19.99"><stop id="oc-wooden-crate-194862-stop5417" style="stop-color:var(--c2,#8c6b49)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5419" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 77.9%,black)" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5584" y2="460.47" gradientUnits="userSpaceOnUse" x2="445.05" gradientTransform="translate(83.169 -23.234)" y1="472.61" x1="439.17"><stop id="oc-wooden-crate-194862-stop7900" style="stop-color:color-mix(in srgb,var(--c2,#8c6c4b) 50.7%,black)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop7902" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 79.3%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5586" y2="439.75" gradientUnits="userSpaceOnUse" x2="453.81" gradientTransform="translate(83.169 -23.234)" y1="458.95" x1="447.77"><stop id="oc-wooden-crate-194862-stop7900" style="stop-color:color-mix(in srgb,var(--c2,#8c6c4b) 50.7%,black)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop7902" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 79.3%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5588" y2="418.83" gradientUnits="userSpaceOnUse" x2="459.87" gradientTransform="translate(83.169 -23.234)" y1="439.29" x1="446.47"><stop id="oc-wooden-crate-194862-stop7900" style="stop-color:color-mix(in srgb,var(--c2,#8c6c4b) 50.7%,black)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop7902" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 79.3%,black)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5590" gradientUnits="userSpaceOnUse" cy="423.43" cx="464.88" gradientTransform="matrix(1 0 0 .92310 83.169 9.3276)" r="23.031"><stop id="oc-wooden-crate-194862-stop7906" style="stop-color:color-mix(in srgb,var(--c2,#9f7449) 90.7%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop7908" style="stop-color:color-mix(in srgb,var(--c2,#8e6e49) 98.4%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop7910" style="stop-color:color-mix(in srgb,var(--c2,#8c673f) 81.4%,black)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5592" gradientUnits="userSpaceOnUse" cy="441.14" cx="464.88" gradientTransform="matrix(1.6662 -.69233 .35420 .85244 -382.78 363.71)" r="23.031"><stop id="oc-wooden-crate-194862-stop7906" style="stop-color:color-mix(in srgb,var(--c2,#9f7449) 90.7%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop7908" style="stop-color:color-mix(in srgb,var(--c2,#8e6e49) 98.4%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop7910" style="stop-color:color-mix(in srgb,var(--c2,#8c673f) 81.4%,black)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5594" fx="480.79" fy="449.01" gradientUnits="userSpaceOnUse" cy="458.86" cx="464.88" gradientTransform="matrix(1.6662 -.69233 .35420 .85244 -389.05 366.32)" r="23.031"><stop id="oc-wooden-crate-194862-stop7906" style="stop-color:color-mix(in srgb,var(--c2,#9f7449) 90.7%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop7908" style="stop-color:color-mix(in srgb,var(--c2,#8e6e49) 98.4%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop7910" style="stop-color:color-mix(in srgb,var(--c2,#8c673f) 81.4%,black)" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5596" y2="455.31" gradientUnits="userSpaceOnUse" x2="432.67" gradientTransform="translate(122.82)" y1="471.26" x1="423.47"><stop id="oc-wooden-crate-194862-stop5417" style="stop-color:var(--c2,#8c6b49)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5419" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 77.9%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5598" y2="460.47" gradientUnits="userSpaceOnUse" x2="445.05" gradientTransform="translate(122.82)" y1="472.61" x1="439.17"><stop id="oc-wooden-crate-194862-stop5467" style="stop-color:color-mix(in srgb,var(--c2,#936f49) 96.7%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5469" style="stop-color:color-mix(in srgb,var(--c2,#8c6c49) 95.7%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5600" y2="439.75" gradientUnits="userSpaceOnUse" x2="453.81" gradientTransform="translate(122.82)" y1="458.95" x1="447.77"><stop id="oc-wooden-crate-194862-stop5467" style="stop-color:color-mix(in srgb,var(--c2,#936f49) 96.7%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5469" style="stop-color:color-mix(in srgb,var(--c2,#8c6c49) 95.7%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5602" y2="418.83" gradientUnits="userSpaceOnUse" x2="459.87" gradientTransform="translate(122.82)" y1="439.29" x1="446.47"><stop id="oc-wooden-crate-194862-stop5467" style="stop-color:color-mix(in srgb,var(--c2,#936f49) 96.7%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5469" style="stop-color:color-mix(in srgb,var(--c2,#8c6c49) 95.7%,black)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5604" gradientUnits="userSpaceOnUse" cy="423.43" cx="464.88" gradientTransform="matrix(1 0 0 .92310 122.82 32.561)" r="23.031"><stop id="oc-wooden-crate-194862-stop5441" style="stop-color:color-mix(in srgb,var(--c2,#9f7449) 58.2%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5447" style="stop-color:color-mix(in srgb,var(--c2,#9f7649) 75.8%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop5443" style="stop-color:color-mix(in srgb,var(--c2,#9e7449) 92.3%,white)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5606" gradientUnits="userSpaceOnUse" cy="441.14" cx="464.88" gradientTransform="matrix(1.6662 -.69233 .35420 .85244 -343.13 386.94)" r="23.031"><stop id="oc-wooden-crate-194862-stop5441" style="stop-color:color-mix(in srgb,var(--c2,#9f7449) 58.2%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5447" style="stop-color:color-mix(in srgb,var(--c2,#9f7649) 75.8%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop5443" style="stop-color:color-mix(in srgb,var(--c2,#9e7449) 92.3%,white)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5608" fx="480.79" fy="449.01" gradientUnits="userSpaceOnUse" cy="458.86" cx="464.88" gradientTransform="matrix(1.6662 -.69233 .35420 .85244 -349.41 389.55)" r="23.031"><stop id="oc-wooden-crate-194862-stop5441" style="stop-color:color-mix(in srgb,var(--c2,#9f7449) 58.2%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5447" style="stop-color:color-mix(in srgb,var(--c2,#9f7649) 75.8%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop5443" style="stop-color:color-mix(in srgb,var(--c2,#9e7449) 92.3%,white)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5610" fx="428.2" fy="470.89" gradientUnits="userSpaceOnUse" cy="462.09" cx="413.2" gradientTransform="matrix(1.614 .53176 -.30506 .92594 8.056 -186.97)" r="19.99"><stop id="oc-wooden-crate-194862-stop5391" style="stop-color:color-mix(in srgb,var(--c2,#9f7649) 82.4%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5397" style="stop-color:color-mix(in srgb,var(--c2,#987249) 94.5%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop5393" style="stop-color:color-mix(in srgb,var(--c2,#8e6d49) 98.4%,white)" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5612" y2="435.83" gradientUnits="userSpaceOnUse" x2="429.6" gradientTransform="translate(122.82)" y1="450" x1="417.33"><stop id="oc-wooden-crate-194862-stop5417" style="stop-color:var(--c2,#8c6b49)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5419" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 77.9%,black)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5614" gradientUnits="userSpaceOnUse" cy="442.91" cx="415.75" gradientTransform="matrix(1.921 .88627 -.40840 .88523 -79.22 -317.64)" r="19.99"><stop id="oc-wooden-crate-194862-stop5391" style="stop-color:color-mix(in srgb,var(--c2,#9f7649) 82.4%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5397" style="stop-color:color-mix(in srgb,var(--c2,#987249) 94.5%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop5393" style="stop-color:color-mix(in srgb,var(--c2,#8e6d49) 98.4%,white)" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-wooden-crate-194862-linearGradient5616" y2="421.65" gradientUnits="userSpaceOnUse" x2="435.74" gradientTransform="translate(122.82)" y1="437.6" x1="420.4"><stop id="oc-wooden-crate-194862-stop5417" style="stop-color:var(--c2,#8c6b49)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5419" style="stop-color:color-mix(in srgb,var(--c2,#8c6b49) 77.9%,black)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-wooden-crate-194862-radialGradient5618" gradientUnits="userSpaceOnUse" cy="425.2" cx="415.75" gradientTransform="matrix(1 0 0 .97490 122.82 10.672)" r="19.99"><stop id="oc-wooden-crate-194862-stop5391" style="stop-color:color-mix(in srgb,var(--c2,#9f7649) 82.4%,white)" offset="0" />
+      <stop id="oc-wooden-crate-194862-stop5397" style="stop-color:color-mix(in srgb,var(--c2,#987249) 94.5%,white)" offset=".5" />
+      <stop id="oc-wooden-crate-194862-stop5393" style="stop-color:color-mix(in srgb,var(--c2,#8e6d49) 98.4%,white)" offset="1" />
+    </radialGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-wooden-crate-194862-layer1" transform="translate(-515.63 -337.99)">
+    <g id="oc-wooden-crate-194862-g4549" transform="matrix(1.3969 0 0 1.3969 -199.03 -187.78)">
+      <path id="oc-wooden-crate-194862-path7944" d="m593.8 460.75 12.128-7.1597v-3.5433l-36.677-21.187-15.361 5.4494-0.12825 3.3358z" style="fill:url(#oc-wooden-crate-194862-linearGradient5564)" />
+      <path id="oc-wooden-crate-194862-path7946" style="fill:url(#oc-wooden-crate-194862-radialGradient5566)" d="m593.65 457.14 12.274-7.0866-39.892-23.031-12.274 7.0866z" />
+      <path id="oc-wooden-crate-194862-path7936" style="fill:url(#oc-wooden-crate-194862-linearGradient5568)" d="m573.8 470.75 12.128-7.1597v-3.5433l-36.677-21.187-15.361 5.4494-0.12825 3.3358z" />
+      <path id="oc-wooden-crate-194862-path7938" d="m573.65 467.14 12.274-7.0866-39.892-23.031-12.274 7.0866z" style="fill:url(#oc-wooden-crate-194862-radialGradient5570)" />
+      <path id="oc-wooden-crate-194862-path7912" d="m572.04 429.56-3.1423-12.402 3.0686-1.7716 39.892 23.031 0.13683 12.342-3.313 1.8917z" style="fill:url(#oc-wooden-crate-194862-linearGradient5572)" />
+      <path id="oc-wooden-crate-194862-path7914" style="fill:url(#oc-wooden-crate-194862-radialGradient5574)" d="m568.88 429.56 0.0144-12.402 39.892 23.031-0.0144 12.402z" />
+      <path id="oc-wooden-crate-194862-path7916" d="m572.04 411.85-3.1423-12.402 3.0686-1.7716 39.892 23.032 0.0737 12.847-3.1322 1.3961z" style="fill:url(#oc-wooden-crate-194862-linearGradient5576)" />
+      <path id="oc-wooden-crate-194862-path7918" style="fill:url(#oc-wooden-crate-194862-radialGradient5578)" d="m568.88 411.85 0.0144-12.402 39.892 23.032-0.0144 12.402z" />
+      <path id="oc-wooden-crate-194862-path7920" d="m572.04 394.13-3.1423-12.402 3.0686-1.7716 39.892 23.031 0.0737 12.271-3.162 1.8831z" style="fill:url(#oc-wooden-crate-194862-linearGradient5580)" />
+      <path id="oc-wooden-crate-194862-path7922" style="fill:url(#oc-wooden-crate-194862-radialGradient5582)" d="m568.88 394.13 0.0144-12.402 39.892 23.031-0.0144 12.402z" />
+      <path id="oc-wooden-crate-194862-path7766" d="m521.9 442.71 0.0737 12.279 3.1317 1.89 42.897-26.571 2.9949-12.401-3.0686-1.7716z" style="fill:url(#oc-wooden-crate-194862-linearGradient5584)" />
+      <path id="oc-wooden-crate-194862-path7768" d="m521.9 424.99 0.0737 12.789 3.0005 1.3879 43.028-26.579 2.9949-12.401-3.0686-1.7717z" style="fill:url(#oc-wooden-crate-194862-linearGradient5586)" />
+      <path id="oc-wooden-crate-194862-path7770" d="m521.9 407.28 0.0291 12.297 3.1696 1.7867 42.904-26.486 2.9948-12.401-3.0686-1.7716z" style="fill:url(#oc-wooden-crate-194862-linearGradient5588)" />
+      <path id="oc-wooden-crate-194862-path7772" style="fill:url(#oc-wooden-crate-194862-radialGradient5590)" d="m524.97 409.05 0.0408 12.402 46.029-26.575-0.0408-12.402z" />
+      <path id="oc-wooden-crate-194862-path7774" style="fill:url(#oc-wooden-crate-194862-radialGradient5592)" d="m524.97 426.77 0.0408 12.402 46.029-26.575-0.0408-12.402z" />
+      <path id="oc-wooden-crate-194862-path7776" style="fill:url(#oc-wooden-crate-194862-radialGradient5594)" d="m524.97 444.48 0.0408 12.402 46.029-26.575-0.0408-12.402z" />
+      <path id="oc-wooden-crate-194862-path7370" style="fill:url(#oc-wooden-crate-194862-linearGradient5596)" d="m521.73 457.09-3.1423-12.402 3.0686-1.7716 39.892 23.031 0.13683 12.342-3.313 1.8917z" />
+      <path id="oc-wooden-crate-194862-path7372" style="fill:url(#oc-wooden-crate-194862-linearGradient5598)" d="m561.55 465.94 0.0737 12.279 3.1317 1.89 42.897-26.571 2.9949-12.401-3.0686-1.7716z" />
+      <path id="oc-wooden-crate-194862-path7374" style="fill:url(#oc-wooden-crate-194862-linearGradient5600)" d="m561.55 448.23 0.0737 12.789 3.0005 1.3879 43.028-26.579 2.9949-12.401-3.0686-1.7717z" />
+      <path id="oc-wooden-crate-194862-path7376" style="fill:url(#oc-wooden-crate-194862-linearGradient5602)" d="m561.55 430.51 0.0291 12.297 3.1696 1.7867 42.904-26.486 2.9948-12.401-3.0686-1.7716z" />
+      <path id="oc-wooden-crate-194862-path7384" d="m564.62 432.28 0.0408 12.402 46.029-26.575-0.0408-12.402z" style="fill:url(#oc-wooden-crate-194862-radialGradient5604)" />
+      <path id="oc-wooden-crate-194862-path7386" d="m564.62 450 0.0408 12.402 46.029-26.575-0.0408-12.402z" style="fill:url(#oc-wooden-crate-194862-radialGradient5606)" />
+      <path id="oc-wooden-crate-194862-path7388" d="m564.62 467.72 0.0408 12.402 46.029-26.575-0.0408-12.402z" style="fill:url(#oc-wooden-crate-194862-radialGradient5608)" />
+      <path id="oc-wooden-crate-194862-path7390" d="m518.58 457.09 0.0144-12.402 39.892 23.031-0.0144 12.402z" style="fill:url(#oc-wooden-crate-194862-radialGradient5610)" />
+      <path id="oc-wooden-crate-194862-path7392" style="fill:url(#oc-wooden-crate-194862-linearGradient5612)" d="m521.73 439.37-3.1423-12.402 3.0686-1.7716 39.892 23.032 0.0737 12.847-3.1322 1.3961z" />
+      <path id="oc-wooden-crate-194862-path7394" d="m518.58 439.37 0.0144-12.402 39.892 23.032-0.0144 12.402z" style="fill:url(#oc-wooden-crate-194862-radialGradient5614)" />
+      <path id="oc-wooden-crate-194862-path7402" style="fill:url(#oc-wooden-crate-194862-linearGradient5616)" d="m521.73 421.65-3.1423-12.402 3.0686-1.7716 39.892 23.031 0.0737 12.271-3.162 1.8831z" />
+      <path id="oc-wooden-crate-194862-path7404" d="m518.58 421.65 0.0144-12.402 39.892 23.031-0.0144 12.402z" style="fill:url(#oc-wooden-crate-194862-radialGradient5618)" />
+      <g id="oc-wooden-crate-194862-g7514" transform="matrix(0 -.46410 .46410 0 361.52 640.86)">
+        <path id="oc-wooden-crate-194862-path7516" style="fill:color-mix(in srgb,var(--c1,#484848) 95.6%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" transform="matrix(1.0532 0 0 1.0532 -23.435 -22.04)" />
+        <path id="oc-wooden-crate-194862-path7518" style="fill:color-mix(in srgb,var(--c1,#484848) 73.2%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" />
+        <g id="oc-wooden-crate-194862-g7520" style="stroke:var(--c1,#484848);stroke-width:0.6" transform="translate(.12627 -.12627)">
+          <path id="oc-wooden-crate-194862-path7522" d="m440.33 417.21 3.1015 1.7906" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" />
+          <path id="oc-wooden-crate-194862-path7524" d="m440.33 419.01 3.1015-1.7906" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" />
+        </g>
+        <g id="oc-wooden-crate-194862-g7526" transform="translate(.18940 -.37881)">
+          <path id="oc-wooden-crate-194862-path7528" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" d="m440.33 417.21 3.1015 1.7906" />
+          <path id="oc-wooden-crate-194862-path7530" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" d="m440.33 419.01 3.1015-1.7906" />
+        </g>
+      </g>
+      <g id="oc-wooden-crate-194862-g7532" transform="matrix(0 -.46410 .46410 0 361.52 658.73)">
+        <path id="oc-wooden-crate-194862-path7534" style="fill:color-mix(in srgb,var(--c1,#484848) 95.6%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" transform="matrix(1.0532 0 0 1.0532 -23.435 -22.04)" />
+        <path id="oc-wooden-crate-194862-path7536" style="fill:color-mix(in srgb,var(--c1,#484848) 73.2%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" />
+        <g id="oc-wooden-crate-194862-g7538" style="stroke:var(--c1,#484848);stroke-width:0.6" transform="translate(.12627 -.12627)">
+          <path id="oc-wooden-crate-194862-path7540" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" d="m440.33 417.21 3.1015 1.7906" />
+          <path id="oc-wooden-crate-194862-path7542" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" d="m440.33 419.01 3.1015-1.7906" />
+        </g>
+        <g id="oc-wooden-crate-194862-g7544" transform="translate(.18940 -.37881)">
+          <path id="oc-wooden-crate-194862-path7546" d="m440.33 417.21 3.1015 1.7906" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" />
+          <path id="oc-wooden-crate-194862-path7548" d="m440.33 419.01 3.1015-1.7906" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" />
+        </g>
+      </g>
+      <g id="oc-wooden-crate-194862-g7550" transform="matrix(0 -.46410 .46410 0 361.52 676.34)">
+        <path id="oc-wooden-crate-194862-path7552" style="fill:color-mix(in srgb,var(--c1,#484848) 95.6%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" transform="matrix(1.0532 0 0 1.0532 -23.435 -22.04)" />
+        <path id="oc-wooden-crate-194862-path7554" style="fill:color-mix(in srgb,var(--c1,#484848) 73.2%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" />
+        <g id="oc-wooden-crate-194862-g7556" style="stroke:var(--c1,#484848);stroke-width:0.6" transform="translate(.12627 -.12627)">
+          <path id="oc-wooden-crate-194862-path7558" d="m440.33 417.21 3.1015 1.7906" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" />
+          <path id="oc-wooden-crate-194862-path7560" d="m440.33 419.01 3.1015-1.7906" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" />
+        </g>
+        <g id="oc-wooden-crate-194862-g7562" transform="translate(.18940 -.37881)">
+          <path id="oc-wooden-crate-194862-path7564" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" d="m440.33 417.21 3.1015 1.7906" />
+          <path id="oc-wooden-crate-194862-path7566" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" d="m440.33 419.01 3.1015-1.7906" />
+        </g>
+      </g>
+      <g id="oc-wooden-crate-194862-g7568" transform="matrix(0 -.46410 .46410 0 327.68 621.58)">
+        <path id="oc-wooden-crate-194862-path7570" style="fill:color-mix(in srgb,var(--c1,#484848) 95.6%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" transform="matrix(1.0532 0 0 1.0532 -23.435 -22.04)" />
+        <path id="oc-wooden-crate-194862-path7572" style="fill:color-mix(in srgb,var(--c1,#484848) 73.2%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" />
+        <g id="oc-wooden-crate-194862-g7574" style="stroke:var(--c1,#484848);stroke-width:0.6" transform="translate(.12627 -.12627)">
+          <path id="oc-wooden-crate-194862-path7576" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" d="m440.33 417.21 3.1015 1.7906" />
+          <path id="oc-wooden-crate-194862-path7578" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" d="m440.33 419.01 3.1015-1.7906" />
+        </g>
+        <g id="oc-wooden-crate-194862-g7580" transform="translate(.18940 -.37881)">
+          <path id="oc-wooden-crate-194862-path7582" d="m440.33 417.21 3.1015 1.7906" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" />
+          <path id="oc-wooden-crate-194862-path7584" d="m440.33 419.01 3.1015-1.7906" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" />
+        </g>
+      </g>
+      <g id="oc-wooden-crate-194862-g7586" transform="matrix(0 -.46410 .46410 0 327.68 639.44)">
+        <path id="oc-wooden-crate-194862-path7588" style="fill:color-mix(in srgb,var(--c1,#484848) 95.6%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" transform="matrix(1.0532 0 0 1.0532 -23.435 -22.04)" />
+        <path id="oc-wooden-crate-194862-path7590" style="fill:color-mix(in srgb,var(--c1,#484848) 73.2%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" />
+        <g id="oc-wooden-crate-194862-g7592" style="stroke:var(--c1,#484848);stroke-width:0.6" transform="translate(.12627 -.12627)">
+          <path id="oc-wooden-crate-194862-path7594" d="m440.33 417.21 3.1015 1.7906" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" />
+          <path id="oc-wooden-crate-194862-path7596" d="m440.33 419.01 3.1015-1.7906" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" />
+        </g>
+        <g id="oc-wooden-crate-194862-g7598" transform="translate(.18940 -.37881)">
+          <path id="oc-wooden-crate-194862-path7600" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" d="m440.33 417.21 3.1015 1.7906" />
+          <path id="oc-wooden-crate-194862-path7602" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" d="m440.33 419.01 3.1015-1.7906" />
+        </g>
+      </g>
+      <g id="oc-wooden-crate-194862-g7604" transform="matrix(0 -.46410 .46410 0 327.68 657.06)">
+        <path id="oc-wooden-crate-194862-path7606" style="fill:color-mix(in srgb,var(--c1,#484848) 95.6%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" transform="matrix(1.0532 0 0 1.0532 -23.435 -22.04)" />
+        <path id="oc-wooden-crate-194862-path7608" style="fill:color-mix(in srgb,var(--c1,#484848) 73.2%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" />
+        <g id="oc-wooden-crate-194862-g7610" style="stroke:var(--c1,#484848);stroke-width:0.6" transform="translate(.12627 -.12627)">
+          <path id="oc-wooden-crate-194862-path7612" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" d="m440.33 417.21 3.1015 1.7906" />
+          <path id="oc-wooden-crate-194862-path7614" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" d="m440.33 419.01 3.1015-1.7906" />
+        </g>
+        <g id="oc-wooden-crate-194862-g7616" transform="translate(.18940 -.37881)">
+          <path id="oc-wooden-crate-194862-path7618" d="m440.33 417.21 3.1015 1.7906" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" />
+          <path id="oc-wooden-crate-194862-path7620" d="m440.33 419.01 3.1015-1.7906" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" />
+        </g>
+      </g>
+      <g id="oc-wooden-crate-194862-g7622" transform="matrix(0 -.46410 -.46410 0 762.17 641.5)">
+        <path id="oc-wooden-crate-194862-path7624" style="fill:color-mix(in srgb,var(--c1,#484848) 95.6%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" transform="matrix(1.0532 0 0 1.0532 -23.435 -22.04)" />
+        <path id="oc-wooden-crate-194862-path7626" style="fill:color-mix(in srgb,var(--c1,#484848) 73.2%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" />
+        <g id="oc-wooden-crate-194862-g7628" style="stroke:var(--c1,#484848);stroke-width:0.6" transform="translate(.12627 -.12627)">
+          <path id="oc-wooden-crate-194862-path7630" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" d="m440.33 417.21 3.1015 1.7906" />
+          <path id="oc-wooden-crate-194862-path7632" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" d="m440.33 419.01 3.1015-1.7906" />
+        </g>
+        <g id="oc-wooden-crate-194862-g7634" transform="translate(.18940 -.37881)">
+          <path id="oc-wooden-crate-194862-path7636" d="m440.33 417.21 3.1015 1.7906" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" />
+          <path id="oc-wooden-crate-194862-path7638" d="m440.33 419.01 3.1015-1.7906" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" />
+        </g>
+      </g>
+      <g id="oc-wooden-crate-194862-g7640" transform="matrix(0 -.46410 -.46410 0 762.17 659.37)">
+        <path id="oc-wooden-crate-194862-path7642" style="fill:color-mix(in srgb,var(--c1,#484848) 95.6%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" transform="matrix(1.0532 0 0 1.0532 -23.435 -22.04)" />
+        <path id="oc-wooden-crate-194862-path7644" style="fill:color-mix(in srgb,var(--c1,#484848) 73.2%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" />
+        <g id="oc-wooden-crate-194862-g7646" style="stroke:var(--c1,#484848);stroke-width:0.6" transform="translate(.12627 -.12627)">
+          <path id="oc-wooden-crate-194862-path7648" d="m440.33 417.21 3.1015 1.7906" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" />
+          <path id="oc-wooden-crate-194862-path7650" d="m440.33 419.01 3.1015-1.7906" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" />
+        </g>
+        <g id="oc-wooden-crate-194862-g7652" transform="translate(.18940 -.37881)">
+          <path id="oc-wooden-crate-194862-path7654" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" d="m440.33 417.21 3.1015 1.7906" />
+          <path id="oc-wooden-crate-194862-path7656" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" d="m440.33 419.01 3.1015-1.7906" />
+        </g>
+      </g>
+      <g id="oc-wooden-crate-194862-g7658" transform="matrix(0 -.46410 -.46410 0 762.17 676.98)">
+        <path id="oc-wooden-crate-194862-path7660" style="fill:color-mix(in srgb,var(--c1,#484848) 95.6%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" transform="matrix(1.0532 0 0 1.0532 -23.435 -22.04)" />
+        <path id="oc-wooden-crate-194862-path7662" style="fill:color-mix(in srgb,var(--c1,#484848) 73.2%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" />
+        <g id="oc-wooden-crate-194862-g7664" style="stroke:var(--c1,#484848);stroke-width:0.6" transform="translate(.12627 -.12627)">
+          <path id="oc-wooden-crate-194862-path7666" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" d="m440.33 417.21 3.1015 1.7906" />
+          <path id="oc-wooden-crate-194862-path7668" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" d="m440.33 419.01 3.1015-1.7906" />
+        </g>
+        <g id="oc-wooden-crate-194862-g7670" transform="translate(.18940 -.37881)">
+          <path id="oc-wooden-crate-194862-path7672" d="m440.33 417.21 3.1015 1.7906" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" />
+          <path id="oc-wooden-crate-194862-path7674" d="m440.33 419.01 3.1015-1.7906" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" />
+        </g>
+      </g>
+      <g id="oc-wooden-crate-194862-g7676" transform="matrix(0 -.46410 -.46410 0 801.9 618.28)">
+        <path id="oc-wooden-crate-194862-path7678" style="fill:color-mix(in srgb,var(--c1,#484848) 95.6%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" transform="matrix(1.0532 0 0 1.0532 -23.435 -22.04)" />
+        <path id="oc-wooden-crate-194862-path7680" style="fill:color-mix(in srgb,var(--c1,#484848) 73.2%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" />
+        <g id="oc-wooden-crate-194862-g7682" style="stroke:var(--c1,#484848);stroke-width:0.6" transform="translate(.12627 -.12627)">
+          <path id="oc-wooden-crate-194862-path7684" d="m440.33 417.21 3.1015 1.7906" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" />
+          <path id="oc-wooden-crate-194862-path7686" d="m440.33 419.01 3.1015-1.7906" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" />
+        </g>
+        <g id="oc-wooden-crate-194862-g7688" transform="translate(.18940 -.37881)">
+          <path id="oc-wooden-crate-194862-path7690" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" d="m440.33 417.21 3.1015 1.7906" />
+          <path id="oc-wooden-crate-194862-path7692" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" d="m440.33 419.01 3.1015-1.7906" />
+        </g>
+      </g>
+      <g id="oc-wooden-crate-194862-g7694" transform="matrix(0 -.46410 -.46410 0 801.9 636.15)">
+        <path id="oc-wooden-crate-194862-path7696" style="fill:color-mix(in srgb,var(--c1,#484848) 95.6%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" transform="matrix(1.0532 0 0 1.0532 -23.435 -22.04)" />
+        <path id="oc-wooden-crate-194862-path7698" style="fill:color-mix(in srgb,var(--c1,#484848) 73.2%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" />
+        <g id="oc-wooden-crate-194862-g7700" style="stroke:var(--c1,#484848);stroke-width:0.6" transform="translate(.12627 -.12627)">
+          <path id="oc-wooden-crate-194862-path7702" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" d="m440.33 417.21 3.1015 1.7906" />
+          <path id="oc-wooden-crate-194862-path7704" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" d="m440.33 419.01 3.1015-1.7906" />
+        </g>
+        <g id="oc-wooden-crate-194862-g7706" transform="translate(.18940 -.37881)">
+          <path id="oc-wooden-crate-194862-path7708" d="m440.33 417.21 3.1015 1.7906" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" />
+          <path id="oc-wooden-crate-194862-path7710" d="m440.33 419.01 3.1015-1.7906" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" />
+        </g>
+      </g>
+      <g id="oc-wooden-crate-194862-g7712" transform="matrix(0 -.46410 -.46410 0 801.9 653.77)">
+        <path id="oc-wooden-crate-194862-path7714" style="fill:color-mix(in srgb,var(--c1,#484848) 95.6%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" transform="matrix(1.0532 0 0 1.0532 -23.435 -22.04)" />
+        <path id="oc-wooden-crate-194862-path7716" style="fill:color-mix(in srgb,var(--c1,#484848) 73.2%,white)" d="m444.84 418.11c0 1.0118-1.3271 1.832-2.9642 1.832s-2.9642-0.82019-2.9642-1.832 1.3271-1.832 2.9642-1.832 2.9642 0.82019 2.9642 1.832z" />
+        <g id="oc-wooden-crate-194862-g7718" style="stroke:var(--c1,#484848);stroke-width:0.6" transform="translate(.12627 -.12627)">
+          <path id="oc-wooden-crate-194862-path7720" d="m440.33 417.21 3.1015 1.7906" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" />
+          <path id="oc-wooden-crate-194862-path7722" d="m440.33 419.01 3.1015-1.7906" style="stroke-linejoin:round;stroke:var(--c1,#484848);stroke-linecap:round;stroke-width:0.6;fill:none" />
+        </g>
+        <g id="oc-wooden-crate-194862-g7724" transform="translate(.18940 -.37881)">
+          <path id="oc-wooden-crate-194862-path7726" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" d="m440.33 417.21 3.1015 1.7906" />
+          <path id="oc-wooden-crate-194862-path7728" style="stroke-linejoin:round;stroke:color-mix(in srgb,var(--c1,#484848) 89.1%,white);stroke-linecap:round;stroke-width:.25268;fill:none" d="m440.33 419.01 3.1015-1.7906" />
+        </g>
+      </g>
+    </g>
+  </g></g></svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(48.58 422.52) scale(0.7191)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-wheelbarrow-2-254643-defs14">
+    <linearGradient id="oc-wheelbarrow-2-254643-linearGradient801" y2="147.35001" gradientUnits="userSpaceOnUse" y1="149.38" gradientTransform="matrix(0.3703081,0,0,1.1662877,527.58409,-7.1337488)" x2="456.39999" x1="407.87"><stop stop-color="var(--c2,#d5dfff)" offset="0" id="oc-wheelbarrow-2-254643-stop7" />
+      <stop stop-color="#FFF" offset="1" id="oc-wheelbarrow-2-254643-stop9" />
+    </linearGradient>
+    <linearGradient id="oc-wheelbarrow-2-254643-linearGradient795">
+      <stop stop-color="var(--c2,#d5dfff)" offset="0" id="oc-wheelbarrow-2-254643-stop7" />
+      <stop stop-color="#FFF" offset="1" id="oc-wheelbarrow-2-254643-stop9" />
+    </linearGradient>
+    <linearGradient id="oc-wheelbarrow-2-254643-grad" gradientUnits="userSpaceOnUse" x1="103.083" y1="111.276" x2="92.551102" y2="107.764" gradientTransform="matrix(0.99614143,0,0,2.2525522,703.84172,-75.047171)">
+      <stop stop-color="var(--c3,#f00)" offset="0" id="oc-wheelbarrow-2-254643-stop7-8" />
+      <stop stop-color="#ff0" offset="1" id="oc-wheelbarrow-2-254643-stop9-0" />
+    </linearGradient>
+    <linearGradient id="oc-wheelbarrow-2-254643-gradbase" gradientUnits="userSpaceOnUse">
+      <stop stop-color="color-mix(in srgb,var(--c3,#ff590b) 64.3%,black)" stop-opacity="0.9961" offset="0" id="oc-wheelbarrow-2-254643-stop7-0" />
+      <stop stop-color="#fff" offset="1" id="oc-wheelbarrow-2-254643-stop9-3" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-wheelbarrow-2-254643-g4413" transform="matrix(345.83723,0,0,345.83723,-4888.4092,-2359.3813)">
+    <path style="fill:var(--c1,#96877d);stroke:#000000;stroke-width:0.01" d="m 14.566667,7.8953333 c -0.05533,-0.1746666 -0.266,-0.366 -0.368667,-0.41 l -0.0053,-0.094 c 0.0553,-0.022 0.188633,-0.1273333 0.2493,-0.186 0.416,0.1993334 0.981333,-0.083333 1.242,-0.3766666 l 0.1,0.060667 -0.05,0.066667 -0.05267,-0.028 c -0.064,0.077333 -0.302,0.3013333 -0.374,0.3486667 C 15.404,7.3013333 15.536667,7.318 15.573333,7.316 15.806,7.1493333 15.988667,7 16.077333,6.9886667 l 0.07467,0.1 -0.06667,0.047333 -0.05267,-0.030667 c -0.249334,0.2053334 -0.532,0.654 -0.643334,0.9533334 C 15.234667,8.0253333 14.68,8.0473333 14.566667,7.8953333 Z" id="oc-wheelbarrow-2-254643-path145" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.01" d="m 15.307333,7.2766667 c -0.036,-0.00933 -0.06667,-0.019333 -0.086,-0.03 C 15.176667,7.288 15.066,7.324 14.924667,7.33" id="oc-wheelbarrow-2-254643-path147" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.01" d="M 14.588667,7.834 C 14.551333,7.6273333 14.610667,7.3986667 14.716,7.3293333 14.946,7.482 15.34,7.482 15.572667,7.3153333" id="oc-wheelbarrow-2-254643-path149" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.01" d="m 14.588667,7.726 c 0.177333,-0.00533 0.562666,0.024667 0.656666,0.038667 0.094,0.014 0.252,0.052667 0.23,0.1" id="oc-wheelbarrow-2-254643-path151" />
+    <path style="fill:none;stroke:#000000;stroke-width:0.01" d="M 14.670667,7.6966667 14.722,7.646 14.67067,7.595333 l -0.05067,0.05 0.05067,0.051333 z" id="oc-wheelbarrow-2-254643-path153" />
+    <path style="fill:var(--c1,#96877d);stroke:#000000;stroke-width:0.01" d="m 14.392,7.4626667 0.022,0 6.67e-4,0.1513333 c 0.0047,0.00133 0.0093,0.004 0.01333,0.00667 l 0.130667,-0.075333 0.01133,0.019333 -0.131333,0.076 c 6.66e-4,0.00467 0.0013,0.01 6.66e-4,0.014667 L 14.57,7.7306667 14.558667,7.75 l -0.132,-0.074667 c -0.0033,0.00333 -0.008,0.00667 -0.01267,0.008 l 0,0.1506667 -0.022,0 0,-0.1513333 c -0.0047,-0.00133 -0.0093,-0.004 -0.01333,-0.00667 L 14.248,7.7513333 14.236667,7.732 14.368,7.656 C 14.367333,7.65133 14.3667,7.646 14.367333,7.641333 L 14.236667,7.566 14.248,7.5466667 14.379333,7.622 c 0.0033,-0.00333 0.008,-0.00667 0.01267,-0.008 l 0,-0.1513333 0,0 z" id="oc-wheelbarrow-2-254643-path157" />
+    <path style="fill:var(--c1,#96877d);stroke:#000000;stroke-width:0.01" d="M 14.589333,7.8333333 C 14.542,7.8813333 14.476,7.9106667 14.402667,7.9106667 14.257333,7.9106667 14.14,7.7933333 14.14,7.648 c 0,-0.1453333 0.117333,-0.2626667 0.262667,-0.2626667 0.08533,0 0.160666,0.040667 0.208666,0.1033334 C 14.598,7.522 14.582,7.596 14.580667,7.6293333 14.571333,7.5386667 14.495333,7.468 14.402,7.468 c -0.09933,0 -0.179333,0.080667 -0.179333,0.1793333 0,0.099333 0.08067,0.1793334 0.179333,0.1793334 0.08267,0 0.154667,-0.058 0.175333,-0.1346667 6.67e-4,0.034667 0.002,0.114 0.012,0.1413333 z" id="oc-wheelbarrow-2-254643-path159" />
+  </g></g></svg>

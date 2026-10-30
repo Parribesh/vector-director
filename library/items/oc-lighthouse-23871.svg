@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(244.46 424.12) scale(0.3770)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-defs1572">
+    <linearGradient id="oc-lighthouse-23871-linearGradient1669">
+      <stop id="oc-lighthouse-23871-stop1670" style="stop-color:var(--c1,#fd5a00)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1671" style="stop-color:var(--c2,#fffa7d)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1655">
+      <stop id="oc-lighthouse-23871-stop1656" style="stop-color:color-mix(in srgb,var(--c2,#ffe900) 99.2%,black)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1657" style="stop-color:#fffaff" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1651">
+      <stop id="oc-lighthouse-23871-stop1652" style="stop-color:var(--c3,#6b6b6a)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1653" style="stop-color:color-mix(in srgb,var(--c3,#6a6a6a) 44.3%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1625">
+      <stop id="oc-lighthouse-23871-stop1626" style="stop-color:#000000" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1627" style="stop-color:color-mix(in srgb,var(--c3,#6c6a6a) 59.7%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1618">
+      <stop id="oc-lighthouse-23871-stop1619" style="stop-color:color-mix(in srgb,var(--c3,#6a6a6a) 85.9%,white)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1620" style="stop-color:#f0f0f0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1607">
+      <stop id="oc-lighthouse-23871-stop1608" style="stop-color:color-mix(in srgb,var(--c1,#fd0000) 53.4%,black)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1609" style="stop-color:color-mix(in srgb,var(--c1,#ff0000) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1610" y2="327.69" gradientUnits="userSpaceOnUse" x2="402.79" gradientTransform="scale(1.211 .82578)" y1="327.69" x1="281.4"><stop id="oc-lighthouse-23871-stop1608" style="stop-color:color-mix(in srgb,var(--c1,#fd0000) 53.4%,black)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1609" style="stop-color:color-mix(in srgb,var(--c1,#ff0000) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1611" y2="571.21" gradientUnits="userSpaceOnUse" x2="296.52" gradientTransform="scale(1.6452 .60785)" y1="571.21" x1="207.13"><stop id="oc-lighthouse-23871-stop1608" style="stop-color:color-mix(in srgb,var(--c1,#fd0000) 53.4%,black)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1609" style="stop-color:color-mix(in srgb,var(--c1,#ff0000) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-lighthouse-23871-radialGradient1612" gradientUnits="userSpaceOnUse" cy="457.25" cx="171.35" gradientTransform="scale(2.0644 .48441)" r="60.914"><stop id="oc-lighthouse-23871-stop1608" style="stop-color:color-mix(in srgb,var(--c1,#fd0000) 53.4%,black)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1609" style="stop-color:color-mix(in srgb,var(--c1,#ff0000) 100.0%,white)" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1617" y2="821.12" gradientUnits="userSpaceOnUse" y1="827.31" gradientTransform="matrix(1.23 0 0 .81299 -269.72 -139.19)" x2="382.47" x1="244.96"><stop id="oc-lighthouse-23871-stop1619" style="stop-color:color-mix(in srgb,var(--c3,#6a6a6a) 85.9%,white)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1620" style="stop-color:#f0f0f0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1628" y2="644.08" gradientUnits="userSpaceOnUse" y1="656.08" gradientTransform="matrix(1.2043 0 0 .83038 -269.72 -139.19)" x2="428.95" x1="311.6"><stop id="oc-lighthouse-23871-stop1626" style="stop-color:#000000" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1627" style="stop-color:color-mix(in srgb,var(--c3,#6c6a6a) 59.7%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1629" y2="605.57" gradientUnits="userSpaceOnUse" y1="605.57" gradientTransform="matrix(1.9222 0 0 .52022 -269.72 -139.19)" x2="273.07" x1="159.39"><stop id="oc-lighthouse-23871-stop1619" style="stop-color:color-mix(in srgb,var(--c3,#6a6a6a) 85.9%,white)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1620" style="stop-color:#f0f0f0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1638" y2="539.75" gradientUnits="userSpaceOnUse" y1="477.82" gradientTransform="matrix(.59248 0 0 1.6878 -316.86 -130.02)" x2="624.77" x1="686.6"><stop id="oc-lighthouse-23871-stop1626" style="stop-color:#000000" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1627" style="stop-color:color-mix(in srgb,var(--c3,#6c6a6a) 59.7%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1642" y2="741.23" gradientUnits="userSpaceOnUse" y1="657.18" gradientTransform="matrix(.81650 0 0 1.2247 -316.86 -130.02)" x2="468.58" x1="555.85">
+      <stop id="oc-lighthouse-23871-stop1644" style="stop-color:color-mix(in srgb,var(--c1,#fd7869) 32.4%,black)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1645" style="stop-color:color-mix(in srgb,var(--c1,#fd9700) 59.7%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1647" y2="4022" gradientUnits="userSpaceOnUse" y1="4022" gradientTransform="matrix(4.393 0 0 .22763 -269.72 -139.19)" x2="123.1" x1="67.065"><stop id="oc-lighthouse-23871-stop1652" style="stop-color:var(--c3,#6b6b6a)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1653" style="stop-color:color-mix(in srgb,var(--c3,#6a6a6a) 44.3%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1648" y2="4268.8" gradientUnits="userSpaceOnUse" y1="4268.8" gradientTransform="matrix(4.6099 0 0 .21693 -269.72 -139.19)" x2="119.87" x1="61.068"><stop id="oc-lighthouse-23871-stop1652" style="stop-color:var(--c3,#6b6b6a)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1653" style="stop-color:color-mix(in srgb,var(--c3,#6a6a6a) 44.3%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1649" y2="4507.3" gradientUnits="userSpaceOnUse" y1="4507.3" gradientTransform="matrix(4.8062 0 0 .20806 -269.72 -139.19)" x2="117.43" x1="56.119"><stop id="oc-lighthouse-23871-stop1652" style="stop-color:var(--c3,#6b6b6a)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1653" style="stop-color:color-mix(in srgb,var(--c3,#6a6a6a) 44.3%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1650" y2="224.17" gradientUnits="userSpaceOnUse" y1="224.17" gradientTransform="matrix(.60999 0 0 1.6394 -269.72 -139.19)" x2="859.86" x1="509.34"><stop id="oc-lighthouse-23871-stop1652" style="stop-color:var(--c3,#6b6b6a)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1653" style="stop-color:color-mix(in srgb,var(--c3,#6a6a6a) 44.3%,white)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-lighthouse-23871-radialGradient1654" spreadMethod="reflect" gradientUnits="userSpaceOnUse" cy="281.55" cx="409.99" gradientTransform="scale(1.019 .98131)" r="3.7361"><stop id="oc-lighthouse-23871-stop1656" style="stop-color:color-mix(in srgb,var(--c2,#ffe900) 99.2%,black)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1657" style="stop-color:#fffaff" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-lighthouse-23871-radialGradient1661" spreadMethod="reflect" gradientUnits="userSpaceOnUse" cy="107.4" cx="1119.8" gradientTransform="scale(.40175 2.4891)" r=".88543"><stop id="oc-lighthouse-23871-stop1656" style="stop-color:color-mix(in srgb,var(--c2,#ffe900) 99.2%,black)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1657" style="stop-color:#fffaff" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-lighthouse-23871-radialGradient1662" spreadMethod="reflect" gradientUnits="userSpaceOnUse" cy="104.85" cx="968.33" gradientTransform="scale(.39207 2.5506)" r=".84410"><stop id="oc-lighthouse-23871-stop1656" style="stop-color:color-mix(in srgb,var(--c2,#ffe900) 99.2%,black)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1657" style="stop-color:#fffaff" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient1668" y2="684.93" spreadMethod="reflect" gradientUnits="userSpaceOnUse" y1="685.12" gradientTransform="scale(2.8601 .34964)" x2="143.33" x1="136.01"><stop id="oc-lighthouse-23871-stop1670" style="stop-color:var(--c1,#fd5a00)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1671" style="stop-color:var(--c2,#fffa7d)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient672" y2="111.14" gradientUnits="userSpaceOnUse" y1="111.14" gradientTransform="matrix(.59761 0 0 1.6733 -269.72 -139.19)" x2="704.58" x1="690.08"><stop id="oc-lighthouse-23871-stop1626" style="stop-color:#000000" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1627" style="stop-color:color-mix(in srgb,var(--c3,#6c6a6a) 59.7%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient2445" y2="849.71" spreadMethod="reflect" gradientUnits="userSpaceOnUse" x2="143.44" gradientTransform="scale(2.8601 .34964)" y1="849.9" x1="136.12"><stop id="oc-lighthouse-23871-stop1670" style="stop-color:var(--c1,#fd5a00)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1671" style="stop-color:var(--c2,#fffa7d)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient2447" y2="507.34" spreadMethod="reflect" gradientUnits="userSpaceOnUse" x2="240.05" gradientTransform="scale(1.7168 .58248)" y1="507.46" x1="235.44"><stop id="oc-lighthouse-23871-stop1670" style="stop-color:var(--c1,#fd5a00)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1671" style="stop-color:var(--c2,#fffa7d)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient2449" y2="650.62" spreadMethod="reflect" gradientUnits="userSpaceOnUse" x2="195.03" gradientTransform="scale(2.0976 .47673)" y1="650.93" x1="183.19"><stop id="oc-lighthouse-23871-stop1670" style="stop-color:var(--c1,#fd5a00)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1671" style="stop-color:var(--c2,#fffa7d)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-23871-linearGradient2451" y2="537.68" gradientUnits="userSpaceOnUse" x2="364.26" gradientTransform="matrix(1.2732 0 0 .78540 -269.72 -139.19)" y1="543.02" x1="245.52"><stop id="oc-lighthouse-23871-stop1619" style="stop-color:color-mix(in srgb,var(--c3,#6a6a6a) 85.9%,white)" offset="0" />
+      <stop id="oc-lighthouse-23871-stop1620" style="stop-color:#f0f0f0" offset="1" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-g1685" transform="matrix(.93482 0 0 .87923 -240.66 -93.156)">
+    <path id="oc-lighthouse-23871-path1684" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient2445)" d="m448.93 297.18c-1.19 0.49-2.02-0.08-2.3-0.9-9.84 5.54-21.64-4.24-32.69-4.24-13.42-0.01-23.14 8.11-31.91 3.42-0.15 0.9-0.74 2.04-1.84 1.72 10.57 6.2 21.97-3.37 33.61-3.27 11.67 0.26 22.79 12.09 35.13 3.27z" />
+    <path id="oc-lighthouse-23871-path1683" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient2447)" d="m400.76 290.22v8.8h25.95v-8.8h-25.95z" />
+    <path id="oc-lighthouse-23871-path1672" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient2449)" d="m373.43 299.02v18.54h81.54v-18.54h-81.54z" />
+    <path id="oc-lighthouse-23871-path1673" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient1668)" d="m379.86 237.69c1.19-0.49 2.02 0.08 2.3 0.9 9.84-5.54 21.64 4.23 32.69 4.24 13.42 0.01 23.14-8.11 31.91-3.42 0.15-0.9 0.74-2.04 1.84-1.72-10.57-6.2-21.97 3.36-33.61 3.27-11.67-0.26-22.79-12.09-35.13-3.27z" />
+    <path id="oc-lighthouse-23871-path1659" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-radialGradient1661)" d="m454.75 267.8c0 16.64-3.08 30.14-6.88 30.14s-3.8-60.28 0-60.28 6.88 13.49 6.88 30.14z" />
+    <path id="oc-lighthouse-23871-path1660" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-radialGradient1662)" d="m374.69 267.41c0 16.65 2.93 30.14 6.55 30.14s3.62-60.28 0-60.28-6.55 13.5-6.55 30.14z" />
+    <path id="oc-lighthouse-23871-path1614" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-radialGradient1654)" d="m453.84 276.83a36.04 34.706 0 1 1 -72.08 0 36.04 34.706 0 1 1 72.08 0z" transform="matrix(.87788 0 0 .90655 47.251 16.062)" />
+  </g>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-g666" transform="matrix(.87556 0 0 .86571 -215.53 -88.912)">
+    <path id="oc-lighthouse-23871-path1578" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-radialGradient1612)" d="m492.47 222.02h-156.62c0-20.3 35.06-36.75 78.31-36.75s78.31 16.45 78.31 36.75z" />
+    <path id="oc-lighthouse-23871-path1586" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient1610)" d="m340.76 220.48v100.24h147v-100.24h-147zm4.73 4.26v92.78h37.8v-92.78h-37.8zm42.52 0v92.77h52.56v-92.77h-52.56zm57.29 0v92.78h37.8v-92.78h-37.8z" />
+    <rect id="oc-lighthouse-23871-rect1606" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient1611)" height="54.333" width="147.05" y="320.04" x="340.77" />
+  </g>
+  <path xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-path1574" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient1650)" d="m64.361 228.3l-23.386 574.63h213.82l-26.74-574.63h-163.7z" />
+  <path xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-path1605" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient1629)" d="m41.845 175.85c-2.875 0-5.189 2.1-5.189 4.7v49.73c0 2.61 2.314 4.71 5.189 4.71h208.14c2.88 0 5.2-2.1 5.2-4.71v-49.73c0-2.6-2.32-4.7-5.19-4.7h-208.14zm9.355 7.57c-4.471 0-8.071 3.26-8.071 7.31v28.75c0 4.06 3.6 7.32 8.071 7.32 4.472 0 8.072-3.26 8.072-7.32v-28.75c0-4.05-3.6-7.31-8.072-7.31zm27.099 0c-4.472 0-8.072 3.26-8.072 7.31v28.75c0 4.06 3.6 7.32 8.072 7.32 4.471 0 8.071-3.26 8.071-7.32v-28.75c0-4.05-3.6-7.31-8.071-7.31zm27.101 0c-4.48 0-8.075 3.26-8.075 7.31v28.75c0 4.06 3.595 7.32 8.075 7.32 4.47 0 8.07-3.26 8.07-7.32v-28.75c0-4.05-3.6-7.31-8.07-7.31zm27.67 0c-4.47 0-8.07 3.26-8.07 7.31v28.75c0 4.06 3.6 7.32 8.07 7.32s8.07-3.26 8.07-7.32v-28.75c0-4.05-3.6-7.31-8.07-7.31zm28.83 0c-4.47 0-8.07 3.26-8.07 7.31v28.75c0 4.06 3.6 7.32 8.07 7.32s8.07-3.26 8.07-7.32v-28.75c0-4.05-3.6-7.31-8.07-7.31zm28.25 0c-4.47 0-8.07 3.26-8.07 7.31v28.75c0 4.06 3.6 7.32 8.07 7.32s8.07-3.26 8.07-7.32v-28.75c0-4.05-3.6-7.31-8.07-7.31zm26.52 0c-4.47 0-8.07 3.26-8.07 7.31v28.75c0 4.06 3.6 7.32 8.07 7.32s8.07-3.26 8.07-7.32v-28.75c0-4.05-3.6-7.31-8.07-7.31zm24.22 0c-4.47 0-8.07 3.26-8.07 7.31v28.75c0 4.06 3.6 7.32 8.07 7.32s8.07-3.26 8.07-7.32v-28.75c0-4.05-3.6-7.31-8.07-7.31z" />
+  <path xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-path1622" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient2451)" d="m63.317 234.42l-4.004 107.45 174.2-0.67-4.67-106.12-165.52-0.66z" />
+  <path xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-path1623" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient1617)" d="m54.641 470.01l-4.672 128.81h194.88l-6-128.81h-184.21z" />
+  <rect xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-rect1613" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c3,#6b6969) 55.1%,black)" height="38.862" width="8.009" y="249.77" x="152.08" />
+  <path xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-path1624" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient1628)" d="m59.313 341.87l-5.34 127.48 184.88-0.67-6.01-126.81h-173.53z" />
+  <rect xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-rect1615" style="fill-rule:evenodd;fill:#010000" height="40.172" width="8.009" y="366.51" x="153.42" />
+  <path xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-path1631" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient1642)" d="m101.97 674.86c-18.759 0-33.861 15.97-33.861 35.8l0.996 66.34h67.095l-1-66.34c0-19.83-12.48-35.8-31.24-35.8h-1.99z" />
+  <path xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-path1632" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient1638)" d="m101.97 674.86c-18.759 0-33.861 15.97-33.861 35.8l0.996 66.34h6.861l-0.996-66.34c0-19.83 16.324-31.87 28.99-35.8h-1.99z" />
+  <rect xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-rect1639" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient1647)" height="12.756" width="246.17" y="776.34" x="24.898" />
+  <rect xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-rect1640" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient1648)" height="12.756" width="271.07" y="786.82" x="11.794" />
+  <rect xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-rect1641" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient1649)" height="12.756" width="294.66" y="798.62" x="0" />
+  <path xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-path1646" style="stroke:#000000;stroke-width:1pt;fill:none" d="m105.06 677.3l1.31 96.97" />
+  <rect xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-rect670" style="fill-rule:evenodd;fill:url(#oc-lighthouse-23871-linearGradient672)" height="24.259" width="8.6639" y="46.785" x="142.68" />
+  <rect xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-23871-rect671" style="fill-rule:evenodd;fill:color-mix(in srgb,var(--c3,#6a6a6a) 85.2%,white)" height="58.915" width="3.4656" y="0" x="151.34" /></g></svg>

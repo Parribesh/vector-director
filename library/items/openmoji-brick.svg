@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(279.84 700.18) scale(0.5523)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-brick-color">
     <g>
-      <rect x="15" y="45" width="17" height="9" fill="#d22f27" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-      <rect x="33" y="46" width="16" height="8" fill="#d22f27" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-      <rect x="40" y="36" width="17" height="9" fill="#d22f27" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-      <rect x="23" y="37" width="16" height="7" fill="#d22f27" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-      <rect x="15" y="27" width="17" height="9" fill="#d22f27" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-      <rect x="32" y="27" width="17" height="9" fill="#d22f27" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-      <rect x="40" y="18" width="17" height="9" fill="#d22f27" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-      <rect x="23" y="18" width="17" height="9" fill="#d22f27" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+      <rect x="15" y="45" width="17" height="9" fill="var(--c1,#d22f27)" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+      <rect x="33" y="46" width="16" height="8" fill="var(--c1,#d22f27)" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+      <rect x="40" y="36" width="17" height="9" fill="var(--c1,#d22f27)" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+      <rect x="23" y="37" width="16" height="7" fill="var(--c1,#d22f27)" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+      <rect x="15" y="27" width="17" height="9" fill="var(--c1,#d22f27)" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+      <rect x="32" y="27" width="17" height="9" fill="var(--c1,#d22f27)" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+      <rect x="40" y="18" width="17" height="9" fill="var(--c1,#d22f27)" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+      <rect x="23" y="18" width="17" height="9" fill="var(--c1,#d22f27)" stroke="var(--c1,#d22f27)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
     </g>
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-brick-line">

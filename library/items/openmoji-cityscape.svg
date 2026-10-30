@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-28625.96 -43738.68) scale(804.6635)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-cityscape-color">
     <rect x="5.6907" y="53.327" rx="0.9683" ry="0.9683" width="60.4284" height="1.9367" fill="#fff" />
-    <polyline fill="#9b9b9a" points="10.6667 33.8141 10.6667 17.25 20.4103 17.25 20.4103 33.8141" />
-    <rect x="34.0513" y="21.1474" width="12.6667" height="34.1026" fill="#9b9b9a" />
-    <polyline fill="#d0cfce" points="50.6154 55.25 50.6154 25.0449 66.2051 25.0449 66.2051 55.25" />
-    <polyline fill="#d0cfce" points="5.7949 55.25 5.7949 33.8141 38.9231 33.8141 38.9231 55.25" />
+    <polyline fill="var(--c1,#9b9b9a)" points="10.6667 33.8141 10.6667 17.25 20.4103 17.25 20.4103 33.8141" />
+    <rect x="34.0513" y="21.1474" width="12.6667" height="34.1026" fill="var(--c1,#9b9b9a)" />
+    <polyline fill="color-mix(in srgb,var(--c1,#9a9a9a) 47.5%,white)" points="50.6154 55.25 50.6154 25.0449 66.2051 25.0449 66.2051 55.25" />
+    <polyline fill="color-mix(in srgb,var(--c1,#9a9a9a) 47.5%,white)" points="5.7949 55.25 5.7949 33.8141 38.9231 33.8141 38.9231 55.25" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-cityscape-line">
     <polyline fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.9744" points="50.6154 55 50.6154 25.0449 66.2051 25.0449 66.2051 55" />

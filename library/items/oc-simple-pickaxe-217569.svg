@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(133.96 423.82) scale(1.8522)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-simple-pickaxe-217569-defs4953">
+    <linearGradient id="oc-simple-pickaxe-217569-linearGradient3837" x1="315.71429" y1="352.36218" x2="316.42856" y2="598.07648" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.33826592,0,0,0.27572872,143.22423,-724.23027)"><stop style="stop-color:var(--c1,#7d4d13);stop-opacity:1;" offset="0" id="oc-simple-pickaxe-217569-stop3833" />
+      <stop style="stop-color:color-mix(in srgb,var(--c1,#db8113) 77.5%,white);stop-opacity:0;" offset="1" id="oc-simple-pickaxe-217569-stop3835" />
+    </linearGradient>
+    <linearGradient id="oc-simple-pickaxe-217569-linearGradient3831">
+      <stop style="stop-color:var(--c1,#7d4d13);stop-opacity:1;" offset="0" id="oc-simple-pickaxe-217569-stop3833" />
+      <stop style="stop-color:color-mix(in srgb,var(--c1,#db8113) 77.5%,white);stop-opacity:0;" offset="1" id="oc-simple-pickaxe-217569-stop3835" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-simple-pickaxe-217569-layer1" transform="translate(-158.92943,-475.33977)">
+    <path id="oc-simple-pickaxe-217569-path3865" d="m 254.6822,477.29272 c -4.39572,-2.54971 -8.20292,-2.22529 -12.28015,0.0259 l 0.0145,16.2519 12.30604,0 z" style="fill:var(--c1,#7d4d13);fill-opacity:1;fill-rule:nonzero;stroke:color-mix(in srgb,var(--c1,#7d4d13) 79.2%,black);stroke-width:0.33826593;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path style="fill:var(--c1,#7d4d13);fill-opacity:1;fill-rule:nonzero;stroke:color-mix(in srgb,var(--c1,#7d4d13) 79.2%,black);stroke-width:0.33826593;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 242.52772,477.54455 c 3.97322,2.27771 7.95145,2.91865 12.08437,0 l 0,157.92404 -12.08437,0 z" id="oc-simple-pickaxe-217569-rect3810" />
+    <path style="fill:var(--c2,#848484);fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 338.21037,512.54491 c 0,5.56383 -41.52903,-10.61876 -90.96937,-10.61876 -49.44035,0 -88.31157,16.45487 -88.31157,10.89103 0,-5.56382 38.87122,-31.03944 88.31157,-31.03944 49.44034,0 90.96937,25.20334 90.96937,30.76717 z" id="oc-simple-pickaxe-217569-path3812" />
+    <path style="fill:var(--c1,#7d4d13);fill-opacity:1;fill-rule:nonzero;stroke:color-mix(in srgb,var(--c1,#7d4d13) 79.2%,black);stroke-width:0.33826593;stroke-opacity:1" d="m 240.59649,569.67856 15.94682,0 0,69.10289 c -5.06419,2.26274 -10.3311,2.70102 -15.94682,0 z" id="oc-simple-pickaxe-217569-rect3827" />
+    <rect style="fill:url(#oc-simple-pickaxe-217569-linearGradient3837);fill-opacity:1;fill-rule:nonzero;stroke:none" id="oc-simple-pickaxe-217569-rect3829" width="9.1815033" height="56.327438" x="243.97913" y="-628.49188" transform="scale(1,-1)" />
+    <rect style="fill:var(--c1,#7d4d13);fill-opacity:1;fill-rule:nonzero;stroke:var(--c1,#7d4d13);stroke-width:0.02773939;stroke-opacity:1" id="oc-simple-pickaxe-217569-rect3871" width="11.721956" height="0.63218987" x="242.70892" y="569.39557" />
+    <g id="oc-simple-pickaxe-217569-g3879" transform="matrix(0.33826592,0,0,0.33826592,143.22423,452.22609)">
+      <path id="oc-simple-pickaxe-217569-rect3861" d="m 286.78574,81.483925 c 16.42857,3.131687 32.85714,3.398561 49.28571,0 l 0,7.025473 -49.28571,0 z" style="fill:color-mix(in srgb,var(--c2,#848484) 86.2%,white);fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect style="fill:color-mix(in srgb,var(--c2,#848484) 86.4%,black);fill-opacity:1;fill-rule:nonzero;stroke:none" id="oc-simple-pickaxe-217569-rect3825" width="49.285713" height="59.999992" x="286.78574" y="87.933617" />
+    </g>
+    <path style="fill:#ffffff;fill-opacity:0.19680852;fill-rule:nonzero;stroke:none" d="m 245.88793,500.57697 c -43.9936,0 -79.61883,13.02609 -86.93434,11.97673 -0.0175,0.0924 -0.0211,0.18066 -0.0211,0.26427 0,5.56383 38.86821,-10.88793 88.30855,-10.88793 49.44034,0 90.97239,16.17692 90.97239,10.61309 0,-0.80838 -0.88676,-2.03063 -2.537,-3.53065 0.77566,0.88779 1.18393,1.62885 1.18393,2.17759 0,5.56383 -41.53204,-10.6131 -90.97239,-10.6131 z" id="oc-simple-pickaxe-217569-path3874" />
+  </g></g></svg>

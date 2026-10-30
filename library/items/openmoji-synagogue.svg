@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-3817.66 -6328.85) scale(117.6475)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-synagogue-color">
-    <path fill="#F4AA41" stroke="none" stroke-miterlimit="10" stroke-width="2" d="M52,33.7806V60H18V33.7806 c0-0.3181,0.1513-0.6173,0.4076-0.8057l15.9731-11.744c0.3555-0.3077,0.8831-0.3077,1.2386,0l15.9731,11.744 C51.8487,33.1634,52,33.4625,52,33.7806z" />
-    <rect x="8" y="39" width="10" height="21" fill="#F4AA41" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
-    <rect x="52" y="39" width="10" height="21" fill="#F4AA41" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
-    <path fill="#A57939" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M39,60h-8v-6c0-1.6569,1.3431-3,3-3h2c1.6569,0,3,1.3431,3,3V60z" />
-    <polygon fill="#3F3F3F" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="57,30 52,39 62,39" />
-    <polygon fill="#3F3F3F" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="13,30 8,39 18,39" />
+    <path fill="var(--c1,#f4aa41)" stroke="none" stroke-miterlimit="10" stroke-width="2" d="M52,33.7806V60H18V33.7806 c0-0.3181,0.1513-0.6173,0.4076-0.8057l15.9731-11.744c0.3555-0.3077,0.8831-0.3077,1.2386,0l15.9731,11.744 C51.8487,33.1634,52,33.4625,52,33.7806z" />
+    <rect x="8" y="39" width="10" height="21" fill="var(--c1,#f4aa41)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <rect x="52" y="39" width="10" height="21" fill="var(--c1,#f4aa41)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <path fill="color-mix(in srgb,var(--c1,#f4a941) 72.1%,black)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M39,60h-8v-6c0-1.6569,1.3431-3,3-3h2c1.6569,0,3,1.3431,3,3V60z" />
+    <polygon fill="var(--c2,#3f3f3f)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="57,30 52,39 62,39" />
+    <polygon fill="var(--c2,#3f3f3f)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="13,30 8,39 18,39" />
     <polygon fill="#FFFFFF" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="35,27 26.3397,42 43.6603,42" />
-    <polygon fill="#D0CFCE" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="35,47 43.6603,32 26.3397,32" />
-    <polygon fill="#D0CFCE" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="35,27 26.3397,42 43.6603,42" />
+    <polygon fill="color-mix(in srgb,var(--c2,#3f3f3f) 25.0%,white)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="35,47 43.6603,32 26.3397,32" />
+    <polygon fill="color-mix(in srgb,var(--c2,#3f3f3f) 25.0%,white)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="35,27 26.3397,42 43.6603,42" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-synagogue-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-synagogue-skin" />

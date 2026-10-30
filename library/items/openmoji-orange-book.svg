@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(251.69 653.83) scale(1.2686)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-orange-book-color">
-    <rect x="18" y="12" width="42" height="47.5" fill="#f4aa41" />
-    <path fill="#e27022" d="m14.6366,12h2.4693c1.0419,0,1.8866.8447,1.8866,1.8866l-1,43.7268c0,1.0419.1553,1.8866-.8866,1.8866h-2.4693c-1.0419,0-1.8866-.8447-1.8866-1.8866V13.8866c0-1.0419.8447-1.8866,1.8866-1.8866Z" />
+    <rect x="18" y="12" width="42" height="47.5" fill="var(--c1,#f4aa41)" />
+    <path fill="color-mix(in srgb,var(--c1,#f4aa41) 84.0%,black)" d="m14.6366,12h2.4693c1.0419,0,1.8866.8447,1.8866,1.8866l-1,43.7268c0,1.0419.1553,1.8866-.8866,1.8866h-2.4693c-1.0419,0-1.8866-.8447-1.8866-1.8866V13.8866c0-1.0419.8447-1.8866,1.8866-1.8866Z" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-orange-book-line">
     <line x1="18" x2="18" y1="13" y2="59" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />

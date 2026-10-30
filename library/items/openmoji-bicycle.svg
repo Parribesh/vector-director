@@ -21,10 +21,10 @@
     <polygon fill="#fff" points="30.9117 33.2459 38.5365 33.3774 35.7758 39.5561 30.9117 33.2459" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-bicycle-color-foreground">
-    <line x1="21.1" x2="22.8" y1="46" y2="24.6" fill="none" stroke="#ea5a47" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" />
-    <line x1="36" x2="23" y1="45" y2="30" fill="none" stroke="#ea5a47" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" />
-    <line x1="45" x2="53" y1="30" y2="46" fill="none" stroke="#ea5a47" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" />
-    <line x1="23" x2="44" y1="30" y2="30" fill="none" stroke="#ea5a47" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" />
-    <line x1="46" x2="36" y1="28.4" y2="45" fill="none" stroke="#ea5a47" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" />
-    <line x1="36" x2="53" y1="45" y2="46" fill="none" stroke="#ea5a47" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" />
+    <line x1="21.1" x2="22.8" y1="46" y2="24.6" fill="none" stroke="var(--c1,#ea5a47)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" />
+    <line x1="36" x2="23" y1="45" y2="30" fill="none" stroke="var(--c1,#ea5a47)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" />
+    <line x1="45" x2="53" y1="30" y2="46" fill="none" stroke="var(--c1,#ea5a47)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" />
+    <line x1="23" x2="44" y1="30" y2="30" fill="none" stroke="var(--c1,#ea5a47)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" />
+    <line x1="46" x2="36" y1="28.4" y2="45" fill="none" stroke="var(--c1,#ea5a47)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" />
+    <line x1="36" x2="53" y1="45" y2="46" fill="none" stroke="var(--c1,#ea5a47)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1" />
   </g></g></svg>

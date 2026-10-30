@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(251.79 653.83) scale(1.2686)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-notebook-with-decorative-cover-color">
-    <rect x="17.5625" y="12" width="42.4375" height="47.5" fill="#fcea2b" />
-    <rect x="12" y="12" width="5.9479" height="47.5" fill="#f1b31c" />
+    <rect x="17.5625" y="12" width="42.4375" height="47.5" fill="var(--c1,#fcea2b)" />
+    <rect x="12" y="12" width="5.9479" height="47.5" fill="color-mix(in srgb,var(--c1,#fcea2b) 90.9%,black)" />
     <rect x="17.5729" y="23.8761" width="42.4167" height="13.8125" fill="#fff" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-notebook-with-decorative-cover-line">

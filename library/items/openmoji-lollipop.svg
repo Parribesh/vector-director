@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(278.18 696.99) scale(0.5438)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-lollipop-color">
-    <circle cx="8.627" cy="51.48" r="18" transform="rotate(-45)" fill="#ea5a47" stroke-width="1.2" />
+    <circle cx="8.627" cy="51.48" r="18" transform="rotate(-45)" fill="var(--c1,#ea5a47)" stroke-width="1.2" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-lollipop-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-lollipop-skin" />

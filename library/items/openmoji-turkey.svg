@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(110.34 433.20) scale(4.9466)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-turkey-color">
-    <path fill="#EA5A47" stroke="#EA5A47" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M29.5,28.25C29,24.5,30,27,32.75,21s-1-8-1-8C23,5,18,19,18,19c2-4,7-2,7-2l-1,3l2,2l-3.9167,2.8333l-3,4.0833L18,33 c0,0-0.1667,2.25,2,3s11-1,11-1L29.5,28.25z" />
-    <path fill="#A57939" stroke="#A57939" stroke-miterlimit="10" stroke-width="2" d="M43,49c-2,3-8.9355,5.6585-16.4047,4.6317 C22,53,15.125,49,17,42c4.2595-15.902,22-10,22-10s0.5-15.75,9.75-16.375s-2,10.75-2,10.75S51,21,55,23s-1.75,6-4.875,6.5 S57,28,59,30s0.375,3-6,4s7-1,7,2s-7,4-7,4s3.5-0.75,5.25,2.125s-6,2.875-6,2.875S60,48,58,51s-11-1-11-3" />
+    <path fill="var(--c1,#ea5a47)" stroke="var(--c1,#ea5a47)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M29.5,28.25C29,24.5,30,27,32.75,21s-1-8-1-8C23,5,18,19,18,19c2-4,7-2,7-2l-1,3l2,2l-3.9167,2.8333l-3,4.0833L18,33 c0,0-0.1667,2.25,2,3s11-1,11-1L29.5,28.25z" />
+    <path fill="color-mix(in srgb,var(--c1,#ea5a47) 73.1%,black)" stroke="color-mix(in srgb,var(--c1,#ea5a47) 73.1%,black)" stroke-miterlimit="10" stroke-width="2" d="M43,49c-2,3-8.9355,5.6585-16.4047,4.6317 C22,53,15.125,49,17,42c4.2595-15.902,22-10,22-10s0.5-15.75,9.75-16.375s-2,10.75-2,10.75S51,21,55,23s-1.75,6-4.875,6.5 S57,28,59,30s0.375,3-6,4s7-1,7,2s-7,4-7,4s3.5-0.75,5.25,2.125s-6,2.875-6,2.875S60,48,58,51s-11-1-11-3" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-turkey-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-turkey-skin" />

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(235.58 620.92) scale(1.7894)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-handbag-color">
-    <polygon fill="#6A462F" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="61,60.9583 11,60.9583 13,28.5 59,28.5" />
-    <rect x="21.9545" y="31.943" width="9.2099" height="9.2099" fill="#D0CFCE" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
-    <rect x="42.8843" y="31.943" width="9.2099" height="9.2099" fill="#D0CFCE" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <polygon fill="var(--c2,#6a462f)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="61,60.9583 11,60.9583 13,28.5 59,28.5" />
+    <rect x="21.9545" y="31.943" width="9.2099" height="9.2099" fill="var(--c1,#d0cfce)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+    <rect x="42.8843" y="31.943" width="9.2099" height="9.2099" fill="var(--c1,#d0cfce)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-handbag-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-handbag-skin" />

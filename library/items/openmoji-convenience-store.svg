@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-2060.61 -2927.29) scale(66.4962)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-convenience-store-color">
-    <rect x="9" y="38" width="53" height="17" fill="#E27022" />
-    <rect x="14" y="45" width="10" height="10" fill="#92D3F5" />
-    <rect x="28" y="45" width="10" height="10" fill="#92D3F5" />
-    <rect x="38" y="45" width="10" height="10" fill="#92D3F5" />
-    <rect x="48" y="45" width="10" height="10" fill="#92D3F5" />
+    <rect x="9" y="38" width="53" height="17" fill="var(--c2,#e27022)" />
+    <rect x="14" y="45" width="10" height="10" fill="var(--c1,#92d3f5)" />
+    <rect x="28" y="45" width="10" height="10" fill="var(--c1,#92d3f5)" />
+    <rect x="38" y="45" width="10" height="10" fill="var(--c1,#92d3f5)" />
+    <rect x="48" y="45" width="10" height="10" fill="var(--c1,#92d3f5)" />
     <ellipse cx="19" cy="37" rx="7" ry="5" fill="#FFFFFF" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-convenience-store-hair" />

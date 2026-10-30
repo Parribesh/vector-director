@@ -129,7 +129,7 @@ def seed_openclipart(reg: Registry, folder: Path, page) -> dict[str, int]:
             continue
         old = reg.items.get(item_id)
         words = meta["name"].replace("-", " ")
-        reg.add(Item(id=item_id, name=old.name if old else words, tags=old.tags if old else meta["queries"], height_cm=old.height_cm if old else 100, drawn_cm=100,
+        reg.add(Item(id=item_id, name=old.name if old else words, description=old.description if old else "", tags=old.tags if old else meta["queries"], height_cm=old.height_cm if old else 100, drawn_cm=100,
                      source=f"openclipart {OPENCLIPART}/detail/{clip}", license=OPENCLIPART_LICENSE, status=old.status if old else "candidate"), svg)  # fmt: skip
         counts["added"] += 1
     reg.save()
@@ -166,7 +166,7 @@ def _sheet(reg: Registry, ids: list[str], cols: int = 6, cell: int = 200) -> byt
     return out.getvalue()
 
 
-def label_openclipart(reg: Registry, llm, per_sheet: int = 30) -> dict[str, int]:
+def label_openclipart(reg: Registry, llm, per_sheet: int = 24) -> dict[str, int]:
     """Looks at every unlabelled download: keeps what suits the show, with a name, words and real size.
     The rest leave the gallery, and stay in data/raw if the rules change."""
     from concurrent.futures import ThreadPoolExecutor
@@ -188,7 +188,7 @@ def label_openclipart(reg: Registry, llm, per_sheet: int = 30) -> dict[str, int]
 
     def one(ids: list[str]):
         try:
-            return ids, Sheet.model_validate_json(llm.ask(LABEL_SYSTEM, f"Label pictures 1 to {len(ids)}.", Sheet, images=[_sheet(reg, ids)], max_tokens=8000).text).items
+            return ids, Sheet.model_validate_json(llm.ask(LABEL_SYSTEM, f"Label pictures 1 to {len(ids)}.", Sheet, images=[_sheet(reg, ids)], max_tokens=24000).text).items
         except Exception as e:  # noqa: BLE001
             print("sheet failed:", e, flush=True)
             return ids, []
@@ -206,9 +206,7 @@ def label_openclipart(reg: Registry, llm, per_sheet: int = 30) -> dict[str, int]
                     it.name, it.description, it.height_cm = lab.name, lab.description, lab.height_cm
                     counts["kept"] += 1
                 else:
-                    del reg.items[item_id]
-                    reg.svg_path(item_id).unlink(missing_ok=True)
-                    reg.thumb_path(item_id).unlink(missing_ok=True)
+                    reg.refuse(item_id)
                     counts["dropped"] += 1
             reg.save()
             print(f"sheet {n}/{len(sheets)} {counts}", flush=True)

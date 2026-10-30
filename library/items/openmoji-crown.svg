@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(265.51 673.58) scale(0.9581)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-crown-color">
     <rect x="4" y="51.624" width="64" height="7.2668" fill="#FFFFFF" />
     <circle cx="35.9962" cy="16.008" r="5" fill="#FFFFFF" />
-    <rect x="4" y="51.624" width="64" height="7.2668" fill="#F1B31C" />
-    <path fill="#FCEA2B" d="M7,11c2.7614,0,5,2.2386,5,5s-2.2386,5-5,5" />
-    <path fill="#FCEA2B" d="M65,21c-2.7614,0-5-2.2386-5-5s2.2386-5,5-5" />
-    <path fill="#FCEA2B" d="M64.9674,17.4945c0,9.0811-7.3617,16.4428-16.4428,16.4428H48.238 c-9.0811,0-11.4428-7.3617-11.4428-16.4428h-2.0738c0,9.0811-2.3617,16.4428-11.4428,16.4428h0.1643 c-5.3121,0-10.0359-2.519-13.0419-6.4277C8.2681,24.7363,7,21.2635,7,17.4945V11v40.624h58V11" />
-    <circle cx="35.9962" cy="16.008" r="5" fill="#FCEA2B" />
+    <rect x="4" y="51.624" width="64" height="7.2668" fill="color-mix(in srgb,var(--c1,#fcea2b) 90.9%,black)" />
+    <path fill="var(--c1,#fcea2b)" d="M7,11c2.7614,0,5,2.2386,5,5s-2.2386,5-5,5" />
+    <path fill="var(--c1,#fcea2b)" d="M65,21c-2.7614,0-5-2.2386-5-5s2.2386-5,5-5" />
+    <path fill="var(--c1,#fcea2b)" d="M64.9674,17.4945c0,9.0811-7.3617,16.4428-16.4428,16.4428H48.238 c-9.0811,0-11.4428-7.3617-11.4428-16.4428h-2.0738c0,9.0811-2.3617,16.4428-11.4428,16.4428h0.1643 c-5.3121,0-10.0359-2.519-13.0419-6.4277C8.2681,24.7363,7,21.2635,7,17.4945V11v40.624h58V11" />
+    <circle cx="35.9962" cy="16.008" r="5" fill="var(--c1,#fcea2b)" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-crown-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-crown-skin" />

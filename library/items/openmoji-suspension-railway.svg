@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(-785.67 -853.26) scale(30.1574)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-suspension-railway-color">
-    <rect x="13.5" y="28.5" width="43" height="24" fill="#fcea2b" stroke="#fcea2b" stroke-linejoin="round" />
-    <line x1="14" x2="56" y1="47.5" y2="47.5" fill="none" stroke="#61b2e4" stroke-linejoin="round" stroke-width="2" />
-    <rect x="16.5" y="32.5" width="13" height="10" fill="#d0cfce" stroke="#d0cfce" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <rect x="40.5" y="32.5" width="13" height="10" fill="#d0cfce" stroke="#d0cfce" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-    <rect x="30.5" y="32.5" width="4" height="10" fill="#9b9b9a" stroke="#9b9b9a" stroke-linecap="round" stroke-linejoin="round" />
-    <rect x="35.5" y="32.5" width="4" height="10" fill="#9b9b9a" stroke="#9b9b9a" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="13.5" y="28.5" width="43" height="24" fill="var(--c2,#fcea2b)" stroke="var(--c2,#fcea2b)" stroke-linejoin="round" />
+    <line x1="14" x2="56" y1="47.5" y2="47.5" fill="none" stroke="var(--c3,#61b2e4)" stroke-linejoin="round" stroke-width="2" />
+    <rect x="16.5" y="32.5" width="13" height="10" fill="var(--c1,#d0cfce)" stroke="var(--c1,#d0cfce)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="40.5" y="32.5" width="13" height="10" fill="var(--c1,#d0cfce)" stroke="var(--c1,#d0cfce)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="30.5" y="32.5" width="4" height="10" fill="color-mix(in srgb,var(--c1,#d0cfcf) 75.0%,black)" stroke="color-mix(in srgb,var(--c1,#d0cfcf) 75.0%,black)" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="35.5" y="32.5" width="4" height="10" fill="color-mix(in srgb,var(--c1,#d0cfcf) 75.0%,black)" stroke="color-mix(in srgb,var(--c1,#d0cfcf) 75.0%,black)" stroke-linecap="round" stroke-linejoin="round" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-suspension-railway-line">
     <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0324" d="M14.146,29H55.854A1.146,1.146,0,0,1,57,30.146V52a0,0,0,0,1,0,0H13a0,0,0,0,1,0,0V30.146A1.146,1.146,0,0,1,14.146,29Z" />

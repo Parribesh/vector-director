@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(218.71 583.32) scale(2.2581)"><g xmlns="http://www.w3.org/2000/svg" id="openmoji-backpack-color">
-    <path fill="#D22F27" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M56,31.0833c0-11.0457-8.9543-20-20-20s-20,8.9543-20,20v33.875h40V31.0833z" />
-    <path fill="#EA5A47" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M51.6465,52.9649v7.6214H20.3535v-7.492v1.9266v-24.416c0-8.6413,7.0052-15.6465,15.6465-15.6465s15.6465,7.0052,15.6465,15.6465 v24.416" />
+    <path fill="var(--c1,#d22f27)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M56,31.0833c0-11.0457-8.9543-20-20-20s-20,8.9543-20,20v33.875h40V31.0833z" />
+    <path fill="color-mix(in srgb,var(--c1,#d23027) 79.2%,white)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M51.6465,52.9649v7.6214H20.3535v-7.492v1.9266v-24.416c0-8.6413,7.0052-15.6465,15.6465-15.6465s15.6465,7.0052,15.6465,15.6465 v24.416" />
   </g>
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-backpack-hair" />
   <g xmlns="http://www.w3.org/2000/svg" id="openmoji-backpack-skin" />

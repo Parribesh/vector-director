@@ -12,6 +12,7 @@ art by height_cm / drawn_cm.
 
 from __future__ import annotations
 
+import colorsys
 import io
 import json
 import re
@@ -42,6 +43,7 @@ class Item:
     source: str = ""
     license: str = ""
     status: str = "approved"  # approved | candidate
+    palette: dict[str, str] = field(default_factory=dict)  # recolour with --c1, --c2... : see recolorable()
 
     def text(self) -> str:
         """What keyword search and CLIP's text side read."""
@@ -67,10 +69,30 @@ class Registry:
     def thumb_path(self, item_id: str) -> Path:
         return self.root / "thumbs" / f"{item_id}.png"
 
+    def merged(self) -> dict[str, str]:
+        """Items folded into another by `vd library tidy`, or refused (None): a re-seed leaves them out."""
+        path = self.root / "merged.json"
+        return json.loads(path.read_text()) if path.exists() else {}
+
     def add(self, item: Item, svg: str) -> None:
+        if item.id in self.merged():
+            return
+        if item.kind == "prop":
+            svg, item.palette = recolorable(svg)
         self.svg_path(item.id).parent.mkdir(parents=True, exist_ok=True)
         self.svg_path(item.id).write_text(svg)
         self.items[item.id] = item
+
+    def drop(self, item_id: str) -> None:
+        del self.items[item_id]
+        self.svg_path(item_id).unlink(missing_ok=True)
+        self.thumb_path(item_id).unlink(missing_ok=True)
+
+    def refuse(self, item_id: str) -> None:
+        """Looked at and turned down: gone, and a re-seed leaves it out."""
+        self.drop(item_id)
+        path = self.root / "merged.json"
+        path.write_text(json.dumps({**self.merged(), item_id: None}, indent=1))
 
     def update(self, item_id: str, **fields) -> Item:
         """An edit. Raises ValueError on anything that would break a stage."""
@@ -86,6 +108,93 @@ class Registry:
                 setattr(item, k, fields[k])
         self.save()
         return item
+
+
+COLOUR = re.compile(r'((?:fill|stroke|stop-color)(?:=")|(?:fill|stroke|stop-color):\s*)#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})\b')
+
+
+def _rgb(hex_colour: str) -> tuple[float, float, float]:
+    h = hex_colour if len(hex_colour) == 6 else "".join(c * 2 for c in hex_colour)
+    return tuple(int(h[i : i + 2], 16) / 255 for i in (0, 2, 4))
+
+
+def _shade(rgb: tuple[float, ...], base: tuple[float, ...], n: int) -> str:
+    """A shade of --c<n>, as a mix with black or white, whose fallback gives back exactly this colour."""
+    to_hex = lambda c: "".join(f"{round(max(0.0, min(1.0, v)) * 255):02x}" for v in c)
+    if max(rgb) <= max(base):
+        p = max(max(rgb) / max(max(base), 1e-3), 0.01)
+        return f"color-mix(in srgb,var(--c{n},#{to_hex(v / p for v in rgb)}) {p * 100:.1f}%,black)"
+    p = max(min((1 - min(rgb)) / max(1 - min(base), 1e-3), 1.0), 0.01)
+    return f"color-mix(in srgb,var(--c{n},#{to_hex((v - (1 - p)) / p for v in rgb)}) {p * 100:.1f}%,white)"
+
+
+def recolorable(svg: str, groups: int = 3) -> tuple[str, dict[str, str]]:
+    """Turns an item's main colours into CSS variables, so one drawing can be any colour: set --c1 on
+    its group. Shades of a colour follow it (a mix with black or white), and with nothing set it looks
+    exactly as it was drawn. Outlines and near-whites stay put."""
+    counts: dict[str, int] = {}
+    for _, value in COLOUR.findall(svg):
+        counts[value.lower()] = counts.get(value.lower(), 0) + 1
+    bases: list[dict] = []
+    for value, _ in sorted(counts.items(), key=lambda kv: -kv[1]):
+        h, l, sat = colorsys.rgb_to_hls(*_rgb(value))
+        if l < 0.16 or l > 0.93:
+            continue
+        grey = sat < 0.12
+        for b in bases:
+            if b["grey"] == grey and (grey or min(abs(b["h"] - h), 1 - abs(b["h"] - h)) < 30 / 360):
+                b["shades"][value] = l
+                break
+        else:
+            if len(bases) < groups:
+                bases.append({"hex": value, "h": h, "l": l, "grey": grey, "shades": {value: l}})
+    swap: dict[str, str] = {}
+    palette: dict[str, str] = {}
+    for n, b in enumerate(bases, start=1):
+        palette[f"c{n}"] = f"#{b['hex']}"
+        base = _rgb(b["hex"])
+        for value in b["shades"]:
+            swap[value] = f"var(--c{n},#{b['hex']})" if value == b["hex"] else _shade(_rgb(value), base, n)
+    return COLOUR.sub(lambda m: m.group(1) + swap.get(m.group(2).lower(), "#" + m.group(2)), svg), palette
+
+
+def tidy(reg: Registry, vectors) -> dict[str, int]:
+    """One item per kind. Pictures that are nearly the same become one, and Sadhu's variants of an asset
+    (chair in wood, cane, plastic) become one for each view, since colour now does that job."""
+    import numpy as np
+
+    def family(item_id: str) -> tuple[str, float]:
+        it = reg.items[item_id]
+        if it.source.startswith("sadhu engine"):
+            return f"asset:{it.tags[0]}:{item_id.split('-')[2] if len(item_id.split('-')) > 3 else ''}", 0.88
+        return it.source.split()[0], 0.93
+
+    merged, idx = reg.merged(), {i: k for k, i in enumerate(map(str, vectors.ids))}
+    groups: dict[str, list[str]] = {}
+    for i, it in reg.items.items():
+        if it.kind == "prop" and i in idx:
+            groups.setdefault(family(i)[0], []).append(i)
+    rank = lambda i: (reg.items[i].status != "approved", not reg.items[i].description, reg.svg_path(i).stat().st_size)
+    dropped = 0
+    for members in groups.values():
+        kept: list[str] = []
+        for i in sorted(members, key=rank):
+            near = next((k for k in kept if float(np.dot(vectors.image[idx[i]], vectors.image[idx[k]])) >= family(i)[1]), None)
+            if near:
+                merged[i] = near
+                reg.drop(i)
+                dropped += 1
+            else:
+                kept.append(i)
+    (reg.root / "merged.json").write_text(json.dumps(merged, indent=0))
+    recoloured = 0
+    for i, it in reg.items.items():
+        if it.kind == "prop" and not it.palette:
+            svg, it.palette = recolorable(reg.svg_path(i).read_text())
+            reg.svg_path(i).write_text(svg)
+            recoloured += bool(it.palette)
+    reg.save()
+    return {"merged": dropped, "recoloured": recoloured, "left": len(reg.items)}
 
 
 def slug(text: str) -> str:
@@ -190,7 +299,7 @@ def make_thumbs(reg: Registry, page, only: list[str] | None = None, size: int = 
 
     page.set_viewport_size({"width": size, "height": size})
     made = 0
-    for item_id in only or list(reg.items):
+    for item_id in reg.items if only is None else only:
         svg = reg.svg_path(item_id).read_text()
         page.set_content(f'<!doctype html><body style="margin:0;background:#fff"><div style="width:{size}px;height:{size}px">{svg}</div></body>')
         page.evaluate(
