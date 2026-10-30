@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <!-- A goat lying down, chewing, facing left. Character space: centre x=300, ground y=730.
+       States: bleat = head up, mouth open. -->
+  <style>
+    @keyframes goat-chew { from { transform: translateY(0); } to { transform: translateY(3px); } }
+    .goat-jaw { animation: goat-chew .32s ease-in-out infinite alternate; }
+    @keyframes goat-ear { 0%, 85%, 100% { transform: rotate(0); } 90% { transform: rotate(14deg); } 95% { transform: rotate(-4deg); } }
+    .goat-ear { transform-box: fill-box; transform-origin: 0% 30%; animation: goat-ear 4s ease-in-out infinite; }
+    @keyframes goat-tail { from { transform: rotate(-10deg); } to { transform: rotate(16deg); } }
+    .goat-tail { transform-box: fill-box; transform-origin: 0% 100%; animation: goat-tail .5s ease-in-out infinite alternate; }
+    .goat-head { transform-box: fill-box; transform-origin: 90% 100%; transition: transform .3s; }
+    [data-state~="bleat"] .goat-head { transform: rotate(16deg); }
+    [data-state~="bleat"] .goat-jaw { animation: none; transform: translateY(8px); }
+  </style>
+  <g stroke="#3A2E25" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="300" cy="728" rx="120" ry="10" fill="#000" opacity=".16" stroke="none"/>
+    <path class="goat-tail" d="M 410,656 Q 426,640 422,628" fill="none" stroke-width="7"/>
+    <ellipse cx="322" cy="682" rx="98" ry="46" fill="#F3EEE4"/>
+    <path d="M 300,650 Q 330,640 360,660 Q 340,676 312,668 Z" fill="#C9A27A" stroke="none"/>
+    <path d="M 380,690 Q 396,680 404,700 Q 390,708 380,700 Z" fill="#C9A27A" stroke="none"/>
+    <rect x="236" y="708" width="54" height="18" rx="9" fill="#F3EEE4"/>
+    <rect x="226" y="712" width="16" height="13" rx="4" fill="#3A2E25"/>
+    <rect x="350" y="712" width="48" height="16" rx="8" fill="#ECE5D8"/>
+    <g class="goat-head">
+      <path d="M 268,672 Q 250,640 252,612 L 286,612 Q 290,646 300,668 Z" fill="#F3EEE4"/>
+      <path d="M 238,584 Q 244,552 268,548 M 252,584 Q 262,552 288,552" fill="none" stroke="#8B7355" stroke-width="9"/>
+      <path d="M 262,574 Q 230,562 206,586 Q 186,610 194,632 Q 204,648 222,644 Q 244,638 268,620 Q 284,600 262,574 Z" fill="#F3EEE4"/>
+      <path class="goat-jaw" d="M 198,630 Q 206,652 228,648 Q 214,640 204,628 Z" fill="#E6DCCB"/>
+      <path class="goat-jaw" d="M 206,650 L 202,668 L 214,654 Z" fill="#D8CDBA"/>
+      <path class="goat-ear" d="M 272,592 Q 300,590 306,604 Q 290,612 272,604 Z" fill="#E3D6C2"/>
+      <ellipse cx="232" cy="596" rx="8" ry="7" fill="#F7E7A6"/>
+      <rect x="226" y="594" width="12" height="3.5" rx="1.5" fill="#2A221B" stroke="none"/>
+      <circle cx="202" cy="620" r="2.5" fill="#3A2E25" stroke="none"/>
+    </g>
+  </g>
+</svg>

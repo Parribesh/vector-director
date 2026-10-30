@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <!-- Mithu, a rose-ringed parakeet, perched and facing right. Character space: centre x=300,
+       perch (feet) at y=730. States: talk = beak chatters, fly = wings flap and the body tilts. -->
+  <style>
+    @keyframes pr-bob { 0%, 70%, 100% { transform: rotate(0); } 80% { transform: rotate(-10deg); } 90% { transform: rotate(4deg); } }
+    .pr-head { transform-box: fill-box; transform-origin: 30% 90%; animation: pr-bob 3.2s ease-in-out infinite; }
+    @keyframes pr-beak { from { transform: rotate(0); } to { transform: rotate(22deg); } }
+    .pr-jaw { transform-box: fill-box; transform-origin: 0% 0%; }
+    [data-state~="talk"] .pr-jaw { animation: pr-beak .12s ease-in-out infinite alternate; }
+    [data-state~="talk"] .pr-head { animation: pr-bob .8s ease-in-out infinite; }
+    .pr-wing-up { display: none; }
+    @keyframes pr-flap { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    [data-state~="fly"] .pr-wing-up { display: inline; animation: pr-flap .16s linear infinite; }
+    [data-state~="fly"] .pr-wing { animation: pr-flap .16s linear infinite reverse; }
+    [data-state~="fly"] .pr-body { transform: rotate(-18deg); transform-box: fill-box; transform-origin: 50% 50%; }
+    [data-state~="fly"] .pr-feet { display: none; }
+    @keyframes pr-tail { from { transform: rotate(-3deg); } to { transform: rotate(4deg); } }
+    .pr-tail { transform-box: fill-box; transform-origin: 100% 0%; animation: pr-tail 1.6s ease-in-out infinite alternate; }
+  </style>
+  <g stroke="#1F2B1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <g class="pr-body">
+      <path class="pr-tail" d="M 268,700 Q 230,760 196,800 Q 222,790 250,752 Q 236,792 226,816 Q 262,780 286,712 Z" fill="#3E9B4F"/>
+      <ellipse cx="300" cy="672" rx="44" ry="62" fill="#5CC46A"/>
+      <path class="pr-wing" d="M 270,640 Q 252,690 270,736 Q 300,718 306,664 Q 296,636 270,640 Z" fill="#3E9B4F"/>
+      <path class="pr-wing-up" d="M 282,640 Q 240,580 200,560 Q 230,612 268,664 Z" fill="#3E9B4F"/>
+      <g class="speaker pr-head">
+        <circle cx="318" cy="606" r="36" fill="#5CC46A"/>
+        <path d="M 290,628 Q 316,646 346,628" fill="none" stroke="#1F2B1A" stroke-width="5"/>
+        <path d="M 292,634 Q 316,652 344,634" fill="none" stroke="#F28BA8" stroke-width="4"/>
+        <circle cx="330" cy="598" r="7" fill="#FFFFFF" stroke-width="3"/>
+        <circle cx="332" cy="598" r="3.5" fill="#1F2B1A" stroke="none"/>
+        <path d="M 344,596 Q 376,592 378,616 Q 368,612 352,616 Z" fill="#E23744"/>
+        <path class="pr-jaw" d="M 352,616 Q 366,614 368,624 Q 358,628 350,622 Z" fill="#B81E2C"/>
+      </g>
+    </g>
+    <g class="pr-feet" fill="none" stroke="#8C7A6A" stroke-width="5">
+      <path d="M 292,728 L 288,716 M 300,730 L 300,716 M 310,728 L 312,716"/>
+    </g>
+  </g>
+</svg>

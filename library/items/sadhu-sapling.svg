@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <!-- Bholu's mango sapling: three years old, two leaves, one caterpillar. Character space:
+       centre x=300, ground y=730. State drop = the good leaf falls off. -->
+  <style>
+    @keyframes sp-sway { from { transform: rotate(-3deg); } to { transform: rotate(3deg); } }
+    .sp-plant { transform-box: fill-box; transform-origin: 50% 100%; animation: sp-sway 2.6s ease-in-out infinite alternate; }
+    @keyframes sp-fall { 0% { transform: translate(0, 0) rotate(0); opacity: 1; } 30% { transform: translate(24px, 40px) rotate(40deg); }
+                         60% { transform: translate(-10px, 80px) rotate(-20deg); } 100% { transform: translate(14px, 118px) rotate(70deg); opacity: 1; } }
+    .sp-leaf2 { transform-box: fill-box; transform-origin: 0% 50%; }
+    [data-state~="drop"] .sp-leaf2 { animation: sp-fall 1.6s ease-in forwards; }
+    @keyframes sp-crawl { from { transform: translateX(0); } to { transform: translateX(4px); } }
+    .sp-bug { animation: sp-crawl .5s ease-in-out infinite alternate; }
+  </style>
+  <g stroke="#3A2E25" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 240,730 Q 300,700 360,730 Z" fill="#8C5E3A"/>
+    <g class="sp-plant">
+      <path d="M 300,724 Q 296,680 304,640 Q 308,616 302,600" fill="none" stroke="#6E8B3D" stroke-width="6"/>
+      <g>
+        <path d="M 300,640 Q 270,620 244,632 Q 268,652 300,640 Z" fill="#9BBF4E"/>
+        <g class="sp-bug">
+          <circle cx="258" cy="632" r="6" fill="#7BC043" stroke-width="2.5"/>
+          <circle cx="268" cy="630" r="6" fill="#7BC043" stroke-width="2.5"/>
+          <circle cx="278" cy="630" r="7" fill="#8CD150" stroke-width="2.5"/>
+          <circle cx="281" cy="628" r="1.6" fill="#3A2E25" stroke="none"/>
+        </g>
+      </g>
+      <path class="sp-leaf2" d="M 303,604 Q 336,590 356,604 Q 332,622 303,604 Z" fill="#6CB33F"/>
+    </g>
+  </g>
+</svg>
