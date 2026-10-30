@@ -36,6 +36,13 @@ def main(argv: list[str] | None = None) -> None:
     ev.add_argument("--judge-provider", default=None, choices=providers, help="default: --provider")
     ev.add_argument("--judge-model", default=None)
     ev.add_argument("--out", default=None, help="run dir (default experiments/m1/<name>)")
+    pp = sub.add_parser("prop", help="(M1) draw one prop for a stage, with its real size")
+    pp.add_argument("prompt")
+    pp.add_argument("--slug", required=True, help="file name and id prefix")
+    pp.add_argument("--height-cm", type=float, required=True)
+    pp.add_argument("--provider", default="gemini", choices=providers)
+    pp.add_argument("--model", default=None)
+    pp.add_argument("--out", default=".")
     pr = sub.add_parser("prompts", help="(M1) write the synthetic eval prompt set")
     pr.add_argument("--n", type=int, default=50)
     pr.add_argument("--seed", type=int, default=0)
@@ -58,6 +65,34 @@ def main(argv: list[str] | None = None) -> None:
         print(f"wrote {args.n} prompts to {args.out}")
     elif args.cmd == "eval":
         _eval(args)
+    elif args.cmd == "prop":
+        _prop(args)
+
+
+def _prop(args: argparse.Namespace) -> None:
+    from pathlib import Path
+
+    from playwright.sync_api import sync_playwright
+
+    from vector_director.m1_harness.llm import make_llm
+    from vector_director.m1_harness.prop import make_prop
+
+    llm = make_llm(args.provider, args.model)
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch()
+        prop = make_prop(args.prompt, args.slug, args.height_cm, llm, browser.new_page())
+        browser.close()
+    out = Path(args.out)
+    out.mkdir(parents=True, exist_ok=True)
+    (out / f"{prop.slug}.svg").write_text(prop.svg)
+    (out / f"{prop.slug}.png").write_bytes(prop.png)
+    (out / f"{prop.slug}.json").write_text(json.dumps(prop.meta, indent=2, ensure_ascii=False))
+    print(
+        json.dumps(
+            {"slug": prop.slug, "svg": str(out / f"{prop.slug}.svg"), **prop.meta},
+            ensure_ascii=False,
+        )
+    )
 
 
 def _eval(args: argparse.Namespace) -> None:
