@@ -51,7 +51,7 @@ def main(argv: list[str] | None = None) -> None:
     st.add_argument("--model", default=None)
     st.add_argument("--out", default=".")
     lb = sub.add_parser("library", help="(M2) build the gallery")
-    lb.add_argument("action", choices=["seed", "openmoji", "thumbs", "embed", "eval"])
+    lb.add_argument("action", choices=["seed", "openmoji", "openclipart", "label", "thumbs", "embed", "eval"])
     lb.add_argument("--sadhu", default="../sadhu", help="seed: a sadhu checkout")
     lb.add_argument("--openmoji", default="data/raw/openmoji", help="openmoji: the unpacked download")
     lb.add_argument("--heights", default=None, help="openmoji: JSON of id -> height_cm")
@@ -66,6 +66,7 @@ def main(argv: list[str] | None = None) -> None:
     sv = sub.add_parser("serve", help="(M2) the gallery over local HTTP, for Studio")
     sv.add_argument("--root", default="library")
     sv.add_argument("--port", type=int, default=8772)
+    sv.add_argument("--sadhu", default=None, help="a sadhu checkout: turns on the director")
     pr = sub.add_parser("prompts", help="(M1) write the synthetic eval prompt set")
     pr.add_argument("--n", type=int, default=50)
     pr.add_argument("--seed", type=int, default=0)
@@ -100,7 +101,7 @@ def main(argv: list[str] | None = None) -> None:
     elif args.cmd == "serve":
         from vector_director.m2_retrieval.serve import serve
 
-        serve(args.root, args.port)
+        serve(args.root, args.port, args.sadhu)
     elif args.cmd == "set":
         _set(args)
 
@@ -119,12 +120,20 @@ def _library(args: argparse.Namespace) -> None:
     )
 
     reg = lib.Registry(args.root)
-    if args.action in ("seed", "openmoji", "thumbs"):
+    if args.action == "openclipart":
+        from vector_director.m2_retrieval.sources import download_openclipart
+
+        print(download_openclipart(Path("data/raw/openclipart")))
+    if args.action in ("seed", "openmoji", "openclipart", "thumbs"):
         with sync_playwright() as pw:
             browser = pw.chromium.launch()
             page = browser.new_page()
             if args.action == "seed":
                 print(lib.seed_sadhu(reg, Path(args.sadhu), page))
+            elif args.action == "openclipart":
+                from vector_director.m2_retrieval.sources import seed_openclipart
+
+                print(seed_openclipart(reg, Path("data/raw/openclipart"), page))
             elif args.action == "openmoji":
                 root = Path(args.openmoji)
                 meta = json.loads((root / "openmoji.json").read_text())
@@ -133,6 +142,11 @@ def _library(args: argparse.Namespace) -> None:
             else:
                 print("thumbs", lib.make_thumbs(reg, page))
             browser.close()
+    elif args.action == "label":
+        from vector_director.m1_harness.llm import make_llm
+        from vector_director.m2_retrieval.sources import label_openclipart
+
+        print(label_openclipart(reg, make_llm("gemini", "gemini-3.8-flash")))
     elif args.action == "embed":
         print("embedded", VectorRetriever(reg, ClipEmbedder()).build())
     elif args.action == "eval":

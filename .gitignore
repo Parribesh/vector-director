@@ -17,3 +17,5 @@ checkpoints/
 renders/
 library/vectors.npz
 library/thumbs/
+runs/
+.cache/
