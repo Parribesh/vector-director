@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(144.23 421.29) scale(0.6489)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-classic-viking-shield-169242-defs4747">
+    <linearGradient id="oc-classic-viking-shield-169242-linearGradient4581-4">
+      <stop id="oc-classic-viking-shield-169242-stop4583-5" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 42.3%,white)" offset="0" />
+      <stop id="oc-classic-viking-shield-169242-stop4585-3" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 73.1%,white)" offset=".29558" />
+      <stop id="oc-classic-viking-shield-169242-stop4587-0" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 90.4%,white)" offset=".51485" />
+      <stop id="oc-classic-viking-shield-169242-stop4589-9" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 89.2%,black)" offset=".76966" />
+      <stop id="oc-classic-viking-shield-169242-stop4591-9" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 22.2%,black)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-classic-viking-shield-169242-radialGradient7120" gradientUnits="userSpaceOnUse" cy="278.82" cx="422.5" r="189.23">
+      <stop id="oc-classic-viking-shield-169242-stop6850" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 42.3%,white)" offset="0" />
+      <stop id="oc-classic-viking-shield-169242-stop6852" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 73.1%,white)" offset=".92511" />
+      <stop id="oc-classic-viking-shield-169242-stop6854" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 90.4%,white)" offset=".95351" />
+      <stop id="oc-classic-viking-shield-169242-stop6856" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 89.2%,black)" offset=".97130" />
+      <stop id="oc-classic-viking-shield-169242-stop6858" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 22.2%,black)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-classic-viking-shield-169242-radialGradient7122" gradientUnits="userSpaceOnUse" cy="278.22" cx="421.62" r="189.23">
+      <stop id="oc-classic-viking-shield-169242-stop4233-3" style="stop-color:#ffffff" offset="0" />
+      <stop id="oc-classic-viking-shield-169242-stop4235-2" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 90.1%,black)" offset=".98516" />
+      <stop id="oc-classic-viking-shield-169242-stop4237-2" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 73.9%,black)" offset=".99044" />
+      <stop id="oc-classic-viking-shield-169242-stop4239-6" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 98.1%,white)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-classic-viking-shield-169242-radialGradient7124" gradientUnits="userSpaceOnUse" cy="147.12" cx="221.06" r="2.6973"><stop id="oc-classic-viking-shield-169242-stop4583-5" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 42.3%,white)" offset="0" />
+      <stop id="oc-classic-viking-shield-169242-stop4585-3" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 73.1%,white)" offset=".29558" />
+      <stop id="oc-classic-viking-shield-169242-stop4587-0" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 90.4%,white)" offset=".51485" />
+      <stop id="oc-classic-viking-shield-169242-stop4589-9" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 89.2%,black)" offset=".76966" />
+      <stop id="oc-classic-viking-shield-169242-stop4591-9" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 22.2%,black)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-classic-viking-shield-169242-radialGradient7140" gradientUnits="userSpaceOnUse" cy="201.51" cx="450.38" r="189.23">
+      <stop id="oc-classic-viking-shield-169242-stop6550-2" style="stop-color:#ffffff" offset="0" />
+      <stop id="oc-classic-viking-shield-169242-stop6552-1" style="stop-color:#ffffff;stop-opacity:0" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-classic-viking-shield-169242-radialGradient7142" gradientUnits="userSpaceOnUse" cy="278.22" cx="421.62" r="189.23">
+      <stop id="oc-classic-viking-shield-169242-stop6407" style="stop-color:color-mix(in srgb,var(--c2,#6b5144) 53.3%,black)" offset="0" />
+      <stop id="oc-classic-viking-shield-169242-stop6413" style="stop-color:color-mix(in srgb,var(--c2,#6b5044) 69.2%,black)" offset=".5" />
+      <stop id="oc-classic-viking-shield-169242-stop6409" style="stop-color:var(--c2,#6b4f44)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-classic-viking-shield-169242-radialGradient7144" gradientUnits="userSpaceOnUse" cy="278.22" cx="421.62" r="189.23">
+      <stop id="oc-classic-viking-shield-169242-stop3184-6-0" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 38.4%,black)" offset="0" />
+      <stop id="oc-classic-viking-shield-169242-stop6455" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 49.8%,black)" offset=".60017" />
+      <stop id="oc-classic-viking-shield-169242-stop3192-2-3" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 98.0%,black)" offset=".72592" />
+      <stop id="oc-classic-viking-shield-169242-stop3194-0-2" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 82.8%,black)" offset=".90665" />
+      <stop id="oc-classic-viking-shield-169242-stop3186-3-9" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 51.7%,black)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-classic-viking-shield-169242-radialGradient7146" gradientUnits="userSpaceOnUse" cy="177.76" cx="475.06" r="189.23">
+      <stop id="oc-classic-viking-shield-169242-stop6646-3" style="stop-color:#ffffff" offset="0" />
+      <stop id="oc-classic-viking-shield-169242-stop6648-6" style="stop-color:#ffffff;stop-opacity:0" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-classic-viking-shield-169242-radialGradient7148" gradientUnits="userSpaceOnUse" cy="278.22" cx="421.62" r="196.56"><stop id="oc-classic-viking-shield-169242-stop4583-5" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 42.3%,white)" offset="0" />
+      <stop id="oc-classic-viking-shield-169242-stop4585-3" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 73.1%,white)" offset=".29558" />
+      <stop id="oc-classic-viking-shield-169242-stop4587-0" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 90.4%,white)" offset=".51485" />
+      <stop id="oc-classic-viking-shield-169242-stop4589-9" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 89.2%,black)" offset=".76966" />
+      <stop id="oc-classic-viking-shield-169242-stop4591-9" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 22.2%,black)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-classic-viking-shield-169242-radialGradient7150" gradientUnits="userSpaceOnUse" cy="278.22" cx="421.62" r="196.63">
+      <stop id="oc-classic-viking-shield-169242-stop4563-4" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 42.3%,white)" offset="0" />
+      <stop id="oc-classic-viking-shield-169242-stop4565-6" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 73.1%,white);stop-opacity:0" offset=".71796" />
+      <stop id="oc-classic-viking-shield-169242-stop4567-8" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 90.4%,white)" offset=".86975" />
+      <stop id="oc-classic-viking-shield-169242-stop4569-6" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 89.2%,black)" offset=".92836" />
+      <stop id="oc-classic-viking-shield-169242-stop4571-6" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 22.2%,black)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-classic-viking-shield-169242-radialGradient7152" gradientUnits="userSpaceOnUse" cy="278.22" cx="421.62" r="189.23">
+      <stop id="oc-classic-viking-shield-169242-stop4533-0" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 42.3%,white)" offset="0" />
+      <stop id="oc-classic-viking-shield-169242-stop4543-2" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 73.1%,white)" offset=".29558" />
+      <stop id="oc-classic-viking-shield-169242-stop4541-5" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 90.4%,white)" offset=".51485" />
+      <stop id="oc-classic-viking-shield-169242-stop4539-6" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 89.2%,black)" offset=".67998" />
+      <stop id="oc-classic-viking-shield-169242-stop4535-9" style="stop-color:color-mix(in srgb,var(--c1,#cbcbcb) 22.2%,black)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-classic-viking-shield-169242-radialGradient7162" gradientUnits="userSpaceOnUse" cy="189.04" cx="470.46" gradientTransform="matrix(.50594 .057846 -.055444 .48493 247.93 76.757)" r="189.23">
+      <stop id="oc-classic-viking-shield-169242-stop6502" style="stop-color:#ffffff" offset="0" />
+      <stop id="oc-classic-viking-shield-169242-stop6504" style="stop-color:#ffffff;stop-opacity:0" offset="1" />
+    </radialGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-classic-viking-shield-169242-layer4" transform="translate(-114.53 -242.85)">
+    <g id="oc-classic-viking-shield-169242-g3462">
+      <g id="oc-classic-viking-shield-169242-g7096">
+        <path id="oc-classic-viking-shield-169242-path3343-8-8-8" style="opacity:.5;fill:url(#oc-classic-viking-shield-169242-radialGradient7120)" d="m610.85 278.22c0 104.51-84.723 189.23-189.23 189.23s-189.23-84.723-189.23-189.23 84.723-189.23 189.23-189.23 189.23 84.723 189.23 189.23z" transform="translate(-67.012 204.7)" />
+        <g id="oc-classic-viking-shield-169242-g7010">
+          <path id="oc-classic-viking-shield-169242-path4230" d="m206.12 366.03 16.701 14.379" style="stroke-linejoin:round;stroke:var(--c1,#cbcbcb);stroke-linecap:round;stroke-width:1px;fill:none" />
+          <path id="oc-classic-viking-shield-169242-path4230-8" d="m492.4 576.36 17.918 12.308" style="stroke-linejoin:round;stroke:var(--c1,#cbcbcb);stroke-linecap:round;stroke-width:1px;fill:none" />
+          <path id="oc-classic-viking-shield-169242-path4230-8-2" d="m518.34 451.03 21.67-3.7875" style="stroke-linejoin:round;stroke:var(--c1,#cbcbcb);stroke-linecap:round;stroke-width:1px;fill:none" />
+          <path id="oc-classic-viking-shield-169242-path4230-8-2-1" d="m449.6 345.81 13.878-17.128" style="stroke-linejoin:round;stroke:var(--c1,#cbcbcb);stroke-linecap:round;stroke-width:1px;fill:none" />
+          <path id="oc-classic-viking-shield-169242-path4230-8-2-1-8" d="m329.03 318.22-3.28-21.913" style="stroke-linejoin:round;stroke:var(--c1,#cbcbcb);stroke-linecap:round;stroke-width:1px;fill:none" />
+          <path id="oc-classic-viking-shield-169242-path4230-8-2-1-3" d="m381.81 647.83 2.3419 21.294" style="stroke-linejoin:round;stroke:var(--c1,#cbcbcb);stroke-linecap:round;stroke-width:1px;fill:none" />
+          <path id="oc-classic-viking-shield-169242-path4230-8-2-1-3-6" d="m252.4 615.24-12.902 17.4" style="stroke-linejoin:round;stroke:var(--c1,#cbcbcb);stroke-linecap:round;stroke-width:1px;fill:none" />
+          <path id="oc-classic-viking-shield-169242-path4230-8-2-1-3-6-6" d="m189.09 502.03-22.256 1.5726" style="stroke-linejoin:round;stroke:var(--c1,#cbcbcb);stroke-linecap:round;stroke-width:1px;fill:none" />
+        </g>
+        <g id="oc-classic-viking-shield-169242-g6998">
+          <path id="oc-classic-viking-shield-169242-path3343-8" style="opacity:.5;fill:url(#oc-classic-viking-shield-169242-radialGradient7122)" d="m610.85 278.22c0 104.51-84.723 189.23-189.23 189.23s-189.23-84.723-189.23-189.23 84.723-189.23 189.23-189.23 189.23 84.723 189.23 189.23z" transform="translate(-67.012 204.7)" />
+          <g id="oc-classic-viking-shield-169242-g4787" transform="translate(-192.97 273.16)">
+            <path id="oc-classic-viking-shield-169242-path4217" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7124)" d="m223.76 147.12c0 1.4897-1.2076 2.6973-2.6973 2.6973s-2.6973-1.2076-2.6973-2.6973 1.2076-2.6973 2.6973-2.6973 2.6973 1.2076 2.6973 2.6973z" transform="matrix(1.3478 0 0 1.3478 105.96 -95.753)" />
+            <path id="oc-classic-viking-shield-169242-path4217-7" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7124)" d="m223.76 147.12c0 1.4897-1.2076 2.6973-2.6973 2.6973s-2.6973-1.2076-2.6973-2.6973 1.2076-2.6973 2.6973-2.6973 2.6973 1.2076 2.6973 2.6973z" transform="matrix(.33842 1.3046 1.3046 -.33842 429.83 67.102)" />
+            <path id="oc-classic-viking-shield-169242-path4217-7-8" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7124)" d="m223.76 147.12c0 1.4897-1.2076 2.6973-2.6973 2.6973s-2.6973-1.2076-2.6973-2.6973 1.2076-2.6973 2.6973-2.6973 2.6973 1.2076 2.6973 2.6973z" transform="matrix(1.1676 .67327 .67327 -1.1676 363.46 195.06)" />
+            <path id="oc-classic-viking-shield-169242-path4217-7-8-3" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7124)" d="m223.76 147.12c0 1.4897-1.2076 2.6973-2.6973 2.6973s-2.6973-1.2076-2.6973-2.6973 1.2076-2.6973 2.6973-2.6973 2.6973 1.2076 2.6973 2.6973z" transform="matrix(1.3131 -.30378 -.30378 -1.3131 400.1 322.43)" />
+            <path id="oc-classic-viking-shield-169242-path4217-7-8-3-5" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7124)" d="m223.76 147.12c0 1.4897-1.2076 2.6973-2.6973 2.6973s-2.6973-1.2076-2.6973-2.6973 1.2076-2.6973 2.6973-2.6973 2.6973 1.2076 2.6973 2.6973z" transform="matrix(.69354 -1.1557 -1.1557 -.69354 532.93 391.8)" />
+            <path id="oc-classic-viking-shield-169242-path4217-7-8-3-7" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7124)" d="m223.76 147.12c0 1.4897-1.2076 2.6973-2.6973 2.6973s-2.6973-1.2076-2.6973-2.6973 1.2076-2.6973 2.6973-2.6973 2.6973 1.2076 2.6973 2.6973z" transform="matrix(-.77634 1.1018 1.1018 .77634 589.68 26.165)" />
+            <path id="oc-classic-viking-shield-169242-path4217-7-8-3-7-4" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7124)" d="m223.76 147.12c0 1.4897-1.2076 2.6973-2.6973 2.6973s-2.6973-1.2076-2.6973-2.6973 1.2076-2.6973 2.6973-2.6973 2.6973 1.2076 2.6973 2.6973z" transform="matrix(-1.2949 .37405 .37405 1.2949 674.32 79.739)" />
+            <path id="oc-classic-viking-shield-169242-path4217-7-8-3-7-4-3" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7124)" d="m223.76 147.12c0 1.4897-1.2076 2.6973-2.6973 2.6973s-2.6973-1.2076-2.6973-2.6973 1.2076-2.6973 2.6973-2.6973 2.6973 1.2076 2.6973 2.6973z" transform="matrix(-1.1281 -.73751 -.73751 1.1281 729.82 230.97)" />
+          </g>
+        </g>
+        <path id="oc-classic-viking-shield-169242-path3343-8-8" style="opacity:.5;fill:url(#oc-classic-viking-shield-169242-radialGradient7140)" d="m610.85 278.22c0 104.51-84.723 189.23-189.23 189.23s-189.23-84.723-189.23-189.23 84.723-189.23 189.23-189.23 189.23 84.723 189.23 189.23z" transform="translate(-67.012 204.7)" />
+      </g>
+      <path id="oc-classic-viking-shield-169242-path3343-1" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7142)" d="m610.85 278.22c0 104.51-84.723 189.23-189.23 189.23s-189.23-84.723-189.23-189.23 84.723-189.23 189.23-189.23 189.23 84.723 189.23 189.23z" transform="matrix(.88077 0 0 .88077 -16.744 237.87)" />
+      <path id="oc-classic-viking-shield-169242-path3343-1-2" style="opacity:.4;fill:var(--c2,#6b4f44)" d="m610.85 278.22a189.23 189.23 0 1 1 -378.47 0 189.23 189.23 0 1 1 378.47 0z" transform="matrix(.62280 -.62280 .62280 .62280 -81.256 572.23)" />
+      <path id="oc-classic-viking-shield-169242-path3343-1-3" style="opacity:.1;fill:var(--c2,#6b4f44)" d="m610.85 278.22a189.23 189.23 0 1 1 -378.47 0 189.23 189.23 0 1 1 378.47 0z" transform="matrix(.62280 -.62280 .62280 .62280 -81.256 572.23)" />
+      <path id="oc-classic-viking-shield-169242-path3343-1-77" style="stroke:color-mix(in srgb,var(--c1,#cbcbcb) 79.3%,black);stroke-width:2.2707;fill:none" d="m610.85 278.22c0 104.51-84.723 189.23-189.23 189.23s-189.23-84.723-189.23-189.23 84.723-189.23 189.23-189.23 189.23 84.723 189.23 189.23z" transform="matrix(.88077 0 0 .88077 -16.744 237.87)" />
+      <g id="oc-classic-viking-shield-169242-g6729">
+        <path id="oc-classic-viking-shield-169242-path3343-1-7" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7144)" d="m610.85 278.22c0 104.51-84.723 189.23-189.23 189.23s-189.23-84.723-189.23-189.23 84.723-189.23 189.23-189.23 189.23 84.723 189.23 189.23z" transform="matrix(.32042 0 0 .32042 219.51 393.78)" />
+        <path id="oc-classic-viking-shield-169242-path3343-1-7-2" style="opacity:.5;fill:url(#oc-classic-viking-shield-169242-radialGradient7146)" d="m610.85 278.22c0 104.51-84.723 189.23-189.23 189.23s-189.23-84.723-189.23-189.23 84.723-189.23 189.23-189.23 189.23 84.723 189.23 189.23z" transform="matrix(.32042 0 0 .32042 219.51 393.78)" />
+        <g id="oc-classic-viking-shield-169242-g4203" transform="translate(-10.352 229.52)">
+          <path id="oc-classic-viking-shield-169242-path3343-1-7-4" style="stroke-linejoin:round;stroke:url(#oc-classic-viking-shield-169242-radialGradient7148);stroke-linecap:round;stroke-dasharray:14.65518408, 14.65518408;stroke-width:14.655;fill:none" d="m610.85 278.22c0 104.51-84.723 189.23-189.23 189.23s-189.23-84.723-189.23-189.23 84.723-189.23 189.23-189.23 189.23 84.723 189.23 189.23z" transform="matrix(.20471 0 0 .20471 278.72 196.38)" />
+          <path id="oc-classic-viking-shield-169242-path3343-1-7-4-3" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7150)" d="m610.85 278.22c0 104.51-84.723 189.23-189.23 189.23s-189.23-84.723-189.23-189.23 84.723-189.23 189.23-189.23 189.23 84.723 189.23 189.23z" transform="matrix(.20268 0 0 .20268 279.5 197.01)" />
+          <path id="oc-classic-viking-shield-169242-path3343-1-7-4-3-3" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7152)" d="m610.85 278.22c0 104.51-84.723 189.23-189.23 189.23s-189.23-84.723-189.23-189.23 84.723-189.23 189.23-189.23 189.23 84.723 189.23 189.23z" transform="matrix(.19076 0 0 .19076 284.53 200.33)" />
+        </g>
+        <g id="oc-classic-viking-shield-169242-g5122" transform="translate(-.0000036004 -.0000041905)">
+          <path id="oc-classic-viking-shield-169242-path4217-5" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7124)" d="m223.76 147.12c0 1.4897-1.2076 2.6973-2.6973 2.6973s-2.6973-1.2076-2.6973-2.6973 1.2076-2.6973 2.6973-2.6973 2.6973 1.2076 2.6973 2.6973z" transform="matrix(1.3478 0 0 1.3478 8.2221 297.84)" />
+          <path id="oc-classic-viking-shield-169242-path4217-9" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7124)" d="m223.76 147.12c0 1.4897-1.2076 2.6973-2.6973 2.6973s-2.6973-1.2076-2.6973-2.6973 1.2076-2.6973 2.6973-2.6973 2.6973 1.2076 2.6973 2.6973z" transform="matrix(1.3478 0 0 1.3478 72.642 332.09)" />
+          <path id="oc-classic-viking-shield-169242-path4217-96" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7124)" d="m223.76 147.12c0 1.4897-1.2076 2.6973-2.6973 2.6973s-2.6973-1.2076-2.6973-2.6973 1.2076-2.6973 2.6973-2.6973 2.6973 1.2076 2.6973 2.6973z" transform="matrix(1.3478 0 0 1.3478 105.29 270.68)" />
+          <path id="oc-classic-viking-shield-169242-path4217-59" style="fill:url(#oc-classic-viking-shield-169242-radialGradient7124)" d="m223.76 147.12c0 1.4897-1.2076 2.6973-2.6973 2.6973s-2.6973-1.2076-2.6973-2.6973 1.2076-2.6973 2.6973-2.6973 2.6973 1.2076 2.6973 2.6973z" transform="matrix(1.3478 0 0 1.3478 39.478 237.78)" />
+        </g>
+        <path id="oc-classic-viking-shield-169242-path3343-1-7-4-3-3-8" style="opacity:.8;fill:url(#oc-classic-viking-shield-169242-radialGradient7162)" d="m610.85 278.22c0 104.51-84.723 189.23-189.23 189.23s-189.23-84.723-189.23-189.23 84.723-189.23 189.23-189.23 189.23 84.723 189.23 189.23z" transform="matrix(.19076 0 0 .19076 274.18 429.85)" />
+      </g>
+    </g>
+  </g></g></svg>

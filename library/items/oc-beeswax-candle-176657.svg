@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(168.41 387.21) scale(0.3608)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-beeswax-candle-176657-defs9638">
+    <linearGradient id="oc-beeswax-candle-176657-linearGradient10168" y2="644.45" gradientUnits="userSpaceOnUse" x2="460" gradientTransform="matrix(.83365 0 0 .83365 119.96 136.14)" y1="644.45" x1="240">
+      <stop id="oc-beeswax-candle-176657-stop10164" style="stop-color:color-mix(in srgb,var(--c1,#ffc900) 100.0%,black)" offset="0" />
+      <stop id="oc-beeswax-candle-176657-stop10166" style="stop-color:color-mix(in srgb,var(--c1,#ffc900) 46.7%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-beeswax-candle-176657-linearGradient10178" y2="678.43" gradientUnits="userSpaceOnUse" x2="269.15" gradientTransform="matrix(.83365 0 0 .83365 119.96 136.14)" y1="679.86" x1="249.54">
+      <stop id="oc-beeswax-candle-176657-stop10174" style="stop-color:color-mix(in srgb,var(--c1,#e3ff00) 100.0%,black)" offset="0" />
+      <stop id="oc-beeswax-candle-176657-stop10176" style="stop-color:var(--c1,#ffa900)" offset="1" />
+    </linearGradient>
+    </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-beeswax-candle-176657-layer1">
+    <g id="oc-beeswax-candle-176657-g10204" transform="translate(-52.528)">
+      <path id="oc-beeswax-candle-176657-path10198" style="opacity:.44231;fill:color-mix(in srgb,var(--c1,#ffff00) 100.0%,black)" d="m595.99 253.33c0 162.35-107.19 293.95-239.41 293.95s-239.41-131.61-239.41-293.95c0-162.35 107.19-293.95 239.41-293.95s239.41 131.61 239.41 293.95z" transform="matrix(.83365 0 0 .83365 119.96 136.14)" />
+      <path id="oc-beeswax-candle-176657-rect9644" d="m320.04 434.65c0-51.687 184.06-49.275 183.4 0v457.31c0 80.951-183.4 73.691-183.4 0z" style="fill:url(#oc-beeswax-candle-176657-linearGradient10168)" />
+      <path id="oc-beeswax-candle-176657-path9647" style="fill:color-mix(in srgb,var(--c1,#f8ff58) 100.0%,black)" d="m442.45 369.5c0 21.2-42.965 38.386-95.964 38.386-53 0-95.964-17.186-95.964-38.386s42.965-38.386 95.964-38.386c53 0 95.964 17.186 95.964 38.386z" transform="matrix(.83365 0 0 .83365 123.33 131.09)" />
+      <path id="oc-beeswax-candle-176657-path10157" d="m412.18 407.13c-44.183 0-80.004 14.318-80.004 31.991 0 1.1324 0.15597 2.2586 0.44287 3.3606 4.2153-16.087 38.228-28.631 79.561-28.631s75.346 12.544 79.561 28.631c0.2869-1.1021 0.44287-2.2282 0.44287-3.3606 0-17.673-35.821-31.991-80.004-31.991z" style="fill:var(--c1,#ffa900)" />
+      <path id="oc-beeswax-candle-176657-path10170" d="m327.12 458.49v443.79c4.7592 12.415 13.918 24.341 38.737 34.527z" style="fill:url(#oc-beeswax-candle-176657-linearGradient10178)" />
+      <path id="oc-beeswax-candle-176657-path10180" d="m406.28 442.49c0-40.136 2.1237-80.577 43.79-84.632" style="stroke:#000000;stroke-width:4.1682;fill:none" />
+      <path id="oc-beeswax-candle-176657-path10187" d="m418.2 160.16c-35.438 0-64.165 110.91-64.165 171.37 0 57.964 26.427 62.363 59.84 62.628-26.429-0.37722-47.049-4.8477-47.049-51.139 0-49.377 23.47-139.97 52.416-139.97 28.945 0 52.416 90.597 52.416 139.97 0 46.198-20.54 50.746-46.893 51.139 32.356-0.46345 57.6-5.9533 57.6-62.628 0-60.453-28.727-171.37-64.165-171.37z" style="opacity:.73894;fill:color-mix(in srgb,var(--c1,#fbff00) 100.0%,black)" />
+      <path id="oc-beeswax-candle-176657-path10185" d="m418.2 203.01c-28.945 0-52.416 90.597-52.416 139.97 0 49.377 23.47 51.165 52.416 51.165 28.945 0 52.416-1.7876 52.416-51.165s-23.47-139.97-52.416-139.97zm-0.18236 29.178c24.437 0 44.261 76.483 44.261 118.17 0 41.686-19.825 43.193-44.261 43.193-24.437 0-44.235-1.5071-44.235-43.193s19.799-118.17 44.235-118.17z" style="opacity:.73894;fill:color-mix(in srgb,var(--c1,#ffc500) 100.0%,black)" />
+      <path id="oc-beeswax-candle-176657-path10182" d="m462.45 350.95c0 41.686-19.81 43.206-44.247 43.206s-44.247-1.5193-44.247-43.206c0-41.686 19.81-118.16 44.247-118.16s44.247 76.478 44.247 118.16z" style="opacity:.87168;fill:color-mix(in srgb,var(--c1,#ff3d00) 100.0%,black)" />
+    </g>
+  </g></g></svg>

@@ -34,7 +34,7 @@ PRICES_PER_MTOK = {
 DEFAULT_MODELS = {
     # provider: (generator model, vision judge model)
     "anthropic": ("claude-opus-5-5", "claude-opus-5-5"),
-    "gemini": ("gemini-2.5-flash", "gemini-2.5-flash"),
+    "gemini": ("gemini-3.8-flash", "gemini-3.8-flash"),
     "ollama": ("qwen2.5-coder:7b", "qwen2.5vl:7b"),
 }
 

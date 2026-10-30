@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(141.93 424.12) scale(3.4110)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-hammer-22095-defs3">
+    <linearGradient id="oc-hammer-22095-linearGradient2943">
+      <stop id="oc-hammer-22095-stop2944" style="stop-color:var(--c1,#ae6600)" offset="0" />
+      <stop id="oc-hammer-22095-stop2945" style="stop-color:color-mix(in srgb,var(--c1,#ae4d00) 67.8%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-hammer-22095-linearGradient2946" y2="50.194" gradientUnits="userSpaceOnUse" x2="89.5" gradientTransform="matrix(1.0429 0 0 1.1079 -.33058 -7.2726)" y1="31.594" x1="75.558"><stop id="oc-hammer-22095-stop2944" style="stop-color:var(--c1,#ae6600)" offset="0" />
+      <stop id="oc-hammer-22095-stop2945" style="stop-color:color-mix(in srgb,var(--c1,#ae4d00) 67.8%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-hammer-22095-linearGradient2950" y2="88.389" gradientUnits="userSpaceOnUse" x2="19.932" gradientTransform="matrix(1.0791 0 0 1.0708 -.33058 -7.2726)" y1="81.981" x1="12.285"><stop id="oc-hammer-22095-stop2944" style="stop-color:var(--c1,#ae6600)" offset="0" />
+      <stop id="oc-hammer-22095-stop2945" style="stop-color:color-mix(in srgb,var(--c1,#ae4d00) 67.8%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-hammer-22095-linearGradient3575" y2="16.656" gradientUnits="userSpaceOnUse" x2="78.539" gradientTransform="scale(.47699 2.0965)" y1="44.17" x1="89.212">
+      <stop id="oc-hammer-22095-stop3573" style="stop-color:color-mix(in srgb,var(--c2,#c2b6c2) 49.0%,black)" offset="0" />
+      <stop id="oc-hammer-22095-stop3574" style="stop-color:color-mix(in srgb,var(--c2,#c2bebb) 75.3%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-hammer-22095-linearGradient3579" y2="32" gradientUnits="userSpaceOnUse" x2="13.505" gradientTransform="scale(1.4778 .67669)" y1="48.408" x1="22.109">
+      <stop id="oc-hammer-22095-stop3577" style="stop-color:var(--c2,#bfc2c2)" offset="0" />
+      <stop id="oc-hammer-22095-stop3578" style="stop-color:color-mix(in srgb,var(--c2,#bfbfbf) 31.3%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-hammer-22095-linearGradient3583" y2="39.59" gradientUnits="userSpaceOnUse" x2="14.544" gradientTransform="scale(.73893 1.3533)" y1="68.808" x1="37.454">
+      <stop id="oc-hammer-22095-stop3581" style="stop-color:color-mix(in srgb,var(--c2,#b9bbc2) 85.6%,black)" offset="0" />
+      <stop id="oc-hammer-22095-stop3582" style="stop-color:var(--c2,#bfc2c2)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-hammer-22095-linearGradient3587" y2="36.794" gradientUnits="userSpaceOnUse" x2="20.688" gradientTransform="scale(.96342 1.038)" y1="50.474" x1="17.041">
+      <stop id="oc-hammer-22095-stop3585" style="stop-color:color-mix(in srgb,var(--c2,#c2c1be) 82.0%,black)" offset="0" />
+      <stop id="oc-hammer-22095-stop3588" style="stop-color:color-mix(in srgb,var(--c2,#c2c2c2) 94.8%,black)" offset=".5" />
+      <stop id="oc-hammer-22095-stop3586" style="stop-color:color-mix(in srgb,var(--c2,#c2c1be) 82.0%,black)" offset="1" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-hammer-22095-layer1" transform="translate(-4.4125 -7.3997)">
+    <path id="oc-hammer-22095-path1061" style="fill-rule:evenodd;fill:url(#oc-hammer-22095-linearGradient3583)" d="m5.9782 51.6c0.9523 0.017 23.13 5.306 23.13 5.306 1.103 13.205 2.206 26.65 1.388 40.095-1.434 0.626-21.353-2.989-22.787-4.363-0.4701-1.276-1.9806-39.282-1.7306-41.038z" />
+    <path id="oc-hammer-22095-path1074" style="fill-rule:evenodd;fill:url(#oc-hammer-22095-linearGradient2946)" d="m43.263 70.175c20.318-19.271 47.925-46.19 52.839-51.512 3.638-4.973-3.151-16.02-13.824-8.9847-1.592 0.8797-26.363 20.566-42.995 35.152l3.98 25.345z" />
+    <path id="oc-hammer-22095-path1063" style="fill-rule:evenodd;fill:url(#oc-hammer-22095-linearGradient3579)" d="m31.754 33.668c-1.428 0.549-19.599-4.58-21.2-5.861 0.16-0.88 7.924-7.222 8.559-7.211s19.757 3.92 20.077 4.56c-1.438 3.931-4.397 5.781-7.436 8.512z" />
+    <path id="oc-hammer-22095-path1065" style="fill-rule:evenodd;fill:url(#oc-hammer-22095-linearGradient3587)" d="m5.8761 51.645s7.6189-18.126 4.5459-24.053c-0.08 0.72 20.122 6.321 21.882 5.921 3.757 3.081-1.83 22.009-3.824 23.92l-22.604-5.788z" />
+    <path id="oc-hammer-22095-path1062" style="fill-rule:evenodd;fill:url(#oc-hammer-22095-linearGradient3575)" d="m28.608 57.154c0.8-1.521 6.132-14.189 3.2-23.545 3.195-2.762 5.349-5.285 7.423-8.527 0.868 0.543 6.217 58.463 5.725 59.486-0.159 0.798-13.907 12.964-14.615 12.493 0.733-1.751-1.093-39.107-1.733-39.907z" />
+    <path id="oc-hammer-22095-path1696" style="fill-rule:evenodd;fill:url(#oc-hammer-22095-linearGradient2950)" d="m27.693 82.231c-0.033-7.142-8.144-15.082-14.916-12.777-2.723 1.047-5.8653 2.094-7.9599 9.844-2.723 9.426 9.0069 14.872 14.034 12.149 3.421-0.977 8.562-6.354 8.842-9.216z" />
+  </g></g></svg>

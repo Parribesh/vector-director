@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(120.68 391.91) scale(0.7087)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-raffle-basket-161053-defs7355">
+    <linearGradient id="oc-raffle-basket-161053-linearGradient3679">
+      <stop id="oc-raffle-basket-161053-stop3681" style="stop-color:var(--c1,#552200)" offset="0" />
+      <stop id="oc-raffle-basket-161053-stop3683" style="stop-color:color-mix(in srgb,var(--c1,#a74200) 82.7%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-raffle-basket-161053-linearGradient4930" y2="190.92" gradientUnits="userSpaceOnUse" x2="164.52" y1="159.56" x1="86.549">
+      <stop id="oc-raffle-basket-161053-stop4182-4" style="stop-color:color-mix(in srgb,var(--c1,#bf0000) 80.0%,white)" offset="0" />
+      <stop id="oc-raffle-basket-161053-stop4184-1" style="stop-color:color-mix(in srgb,var(--c1,#bd0000) 80.8%,white)" offset=".5149" />
+      <stop id="oc-raffle-basket-161053-stop4186-7" style="stop-color:color-mix(in srgb,var(--c1,#b70000) 83.5%,white)" offset=".7003" />
+      <stop id="oc-raffle-basket-161053-stop4188-1" style="stop-color:color-mix(in srgb,var(--c1,#ae0000) 87.8%,white)" offset=".8325" />
+      <stop id="oc-raffle-basket-161053-stop4190-1" style="stop-color:color-mix(in srgb,var(--c1,#a20000) 94.5%,white)" offset=".9387" />
+      <stop id="oc-raffle-basket-161053-stop4192-1" style="stop-color:color-mix(in srgb,var(--c1,#990000) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-raffle-basket-161053-linearGradient4928" y2="182.07" gradientUnits="userSpaceOnUse" x2="107.32" y1="103.26" x1="75.962">
+      <stop id="oc-raffle-basket-161053-stop4257-7" style="stop-color:var(--c2,#993399)" offset="0" />
+      <stop id="oc-raffle-basket-161053-stop4259-0" style="stop-color:color-mix(in srgb,var(--c2,#993299) 98.7%,black)" offset=".5149" />
+      <stop id="oc-raffle-basket-161053-stop4261-6" style="stop-color:color-mix(in srgb,var(--c2,#992d99) 94.1%,black)" offset=".7003" />
+      <stop id="oc-raffle-basket-161053-stop4263-0" style="stop-color:color-mix(in srgb,var(--c2,#992499) 86.9%,black)" offset=".8325" />
+      <stop id="oc-raffle-basket-161053-stop4265-8" style="stop-color:color-mix(in srgb,var(--c2,#991299) 75.8%,black)" offset=".9387" />
+      <stop id="oc-raffle-basket-161053-stop4267-5" style="stop-color:color-mix(in srgb,var(--c2,#990099) 66.7%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-raffle-basket-161053-linearGradient4914" y2="138.73" gradientUnits="userSpaceOnUse" x2="80.179" gradientTransform="matrix(.9239 .3827 -.3827 .9239 102.73 -115.52)" y1="138.73" x1="171.6">
+      <stop id="oc-raffle-basket-161053-stop4212-1" style="stop-color:var(--c3,#009933)" offset="0" />
+      <stop id="oc-raffle-basket-161053-stop4214-9" style="stop-color:color-mix(in srgb,var(--c3,#009932) 98.7%,black)" offset=".5149" />
+      <stop id="oc-raffle-basket-161053-stop4216-6" style="stop-color:color-mix(in srgb,var(--c3,#00992d) 94.1%,black)" offset=".7003" />
+      <stop id="oc-raffle-basket-161053-stop4218-4" style="stop-color:color-mix(in srgb,var(--c3,#009924) 86.9%,black)" offset=".8325" />
+      <stop id="oc-raffle-basket-161053-stop4220-8" style="stop-color:color-mix(in srgb,var(--c3,#009912) 75.8%,black)" offset=".9387" />
+      <stop id="oc-raffle-basket-161053-stop4222-0" style="stop-color:color-mix(in srgb,var(--c3,#009900) 66.7%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-raffle-basket-161053-linearGradient4912" y2="58.735" gradientUnits="userSpaceOnUse" x2="187.5" y1="132.46" x1="218.01">
+      <stop id="oc-raffle-basket-161053-stop4242-6" style="stop-color:#99CC33" offset="0" />
+      <stop id="oc-raffle-basket-161053-stop4244-3" style="stop-color:#97CA31" offset=".5149" />
+      <stop id="oc-raffle-basket-161053-stop4246-7" style="stop-color:#90C32A" offset=".7003" />
+      <stop id="oc-raffle-basket-161053-stop4248-9" style="stop-color:#85B81F" offset=".8325" />
+      <stop id="oc-raffle-basket-161053-stop4250-7" style="stop-color:#74A70E" offset=".9387" />
+      <stop id="oc-raffle-basket-161053-stop4252-4" style="stop-color:#669900" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-raffle-basket-161053-linearGradient4922" y2="157.91" gradientUnits="userSpaceOnUse" x2="209.19" y1="188.42" x1="134.61">
+      <stop id="oc-raffle-basket-161053-stop4197-4" style="stop-color:color-mix(in srgb,var(--c1,#ff8000) 80.0%,white)" offset="0" />
+      <stop id="oc-raffle-basket-161053-stop4199-0" style="stop-color:color-mix(in srgb,var(--c1,#fd7e00) 80.8%,white)" offset=".5149" />
+      <stop id="oc-raffle-basket-161053-stop4201-8" style="stop-color:color-mix(in srgb,var(--c1,#f47a00) 83.5%,white)" offset=".7003" />
+      <stop id="oc-raffle-basket-161053-stop4203-5" style="stop-color:color-mix(in srgb,var(--c1,#e87400) 87.8%,white)" offset=".8325" />
+      <stop id="oc-raffle-basket-161053-stop4205-1" style="stop-color:color-mix(in srgb,var(--c1,#d86c00) 94.5%,white)" offset=".9387" />
+      <stop id="oc-raffle-basket-161053-stop4207-6" style="stop-color:color-mix(in srgb,var(--c1,#cc6600) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-raffle-basket-161053-linearGradient4920" y2="102.69" gradientUnits="userSpaceOnUse" x2="219.41" y1="178.11" x1="186.36">
+      <stop id="oc-raffle-basket-161053-stop4227-0" style="stop-color:color-mix(in srgb,var(--c1,#ffcc00) 100.0%,white)" offset="0" />
+      <stop id="oc-raffle-basket-161053-stop4229-2" style="stop-color:color-mix(in srgb,var(--c1,#fdca00) 100.0%,white)" offset=".5149" />
+      <stop id="oc-raffle-basket-161053-stop4231-2" style="stop-color:color-mix(in srgb,var(--c1,#f6c300) 100.0%,white)" offset=".7003" />
+      <stop id="oc-raffle-basket-161053-stop4233-9" style="stop-color:color-mix(in srgb,var(--c1,#ebb800) 100.0%,white)" offset=".8325" />
+      <stop id="oc-raffle-basket-161053-stop4235-7" style="stop-color:color-mix(in srgb,var(--c1,#daa700) 100.0%,white)" offset=".9387" />
+      <stop id="oc-raffle-basket-161053-stop4237-5" style="stop-color:color-mix(in srgb,var(--c1,#cc9900) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-raffle-basket-161053-linearGradient4460-7" y2="187.05" gradientUnits="userSpaceOnUse" x2="56.863" gradientTransform="matrix(.9239 .3827 -.3827 .9239 102.73 -115.52)" y1="127.55" x1="116.36">
+      <stop id="oc-raffle-basket-161053-stop4152-9" style="stop-color:#009999" offset="0" />
+      <stop id="oc-raffle-basket-161053-stop4154-3" style="stop-color:#009797" offset=".5149" />
+      <stop id="oc-raffle-basket-161053-stop4156-2" style="stop-color:#009090" offset=".7003" />
+      <stop id="oc-raffle-basket-161053-stop4158-4" style="stop-color:#008585" offset=".8325" />
+      <stop id="oc-raffle-basket-161053-stop4160-3" style="stop-color:#007474" offset=".9387" />
+      <stop id="oc-raffle-basket-161053-stop4162-7" style="stop-color:#006666" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-raffle-basket-161053-linearGradient4462-1" y2="241.52" gradientUnits="userSpaceOnUse" x2="69.824" gradientTransform="matrix(.9239 .3827 -.3827 .9239 102.73 -115.52)" y1="156.52" x1="69.824">
+      <stop id="oc-raffle-basket-161053-stop4167-2" style="stop-color:#0066CC" offset="0" />
+      <stop id="oc-raffle-basket-161053-stop4169-0" style="stop-color:#0064CA" offset=".5149" />
+      <stop id="oc-raffle-basket-161053-stop4171-2" style="stop-color:#005DC3" offset=".7003" />
+      <stop id="oc-raffle-basket-161053-stop4173-1" style="stop-color:#0052B8" offset=".8325" />
+      <stop id="oc-raffle-basket-161053-stop4175-7" style="stop-color:#0041A7" offset=".9387" />
+      <stop id="oc-raffle-basket-161053-stop4177-5" style="stop-color:#003399" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-raffle-basket-161053-linearGradient8172" y2="16" gradientUnits="userSpaceOnUse" x2="18" gradientTransform="matrix(16.634 0 0 16.634 -25.446 -22.259)" y1="40.841" x1="27.666"><stop id="oc-raffle-basket-161053-stop3681" style="stop-color:var(--c1,#552200)" offset="0" />
+      <stop id="oc-raffle-basket-161053-stop3683" style="stop-color:color-mix(in srgb,var(--c1,#a74200) 82.7%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-raffle-basket-161053-linearGradient8256" y2="35" gradientUnits="userSpaceOnUse" x2="45" gradientTransform="matrix(16.634 0 0 16.634 -25.446 -22.259)" y1="30" x1="9"><stop id="oc-raffle-basket-161053-stop3681" style="stop-color:var(--c1,#552200)" offset="0" />
+      <stop id="oc-raffle-basket-161053-stop3683" style="stop-color:color-mix(in srgb,var(--c1,#a74200) 82.7%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-raffle-basket-161053-linearGradient8259" y2="19.469" gradientUnits="userSpaceOnUse" x2="37" gradientTransform="matrix(16.634 0 0 18.341 -25.446 -42.639)" y1="16" x1="25"><stop id="oc-raffle-basket-161053-stop3681" style="stop-color:var(--c1,#552200)" offset="0" />
+      <stop id="oc-raffle-basket-161053-stop3683" style="stop-color:color-mix(in srgb,var(--c1,#a74200) 82.7%,white)" offset="1" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-raffle-basket-161053-layer1" transform="translate(0 -552.36)">
+    <g id="oc-raffle-basket-161053-g8787" transform="matrix(.76446 0 0 .76446 -48.931 466.39)">
+      <path id="oc-raffle-basket-161053-path4026" style="fill-rule:evenodd;fill:#000000;fill-opacity:.76860" d="m38 41.5c0 1.933-6.492 3.5-14.5 3.5s-14.5-1.567-14.5-3.5 6.492-3.5 14.5-3.5 14.5 1.567 14.5 3.5z" transform="matrix(14.163 0 0 14.963 61.652 63.177)" />
+      <path id="oc-raffle-basket-161053-path2895" style="color:#000000;fill:url(#oc-raffle-basket-161053-linearGradient8259)" d="m467.34 176.31c97.24 82.884 94.327 182.13 122.68 276.27h-66.537c-4.91-99.72-34.15-193.69-116.44-275.12l60.299-1.1463z" />
+      <path id="oc-raffle-basket-161053-path2869" style="fill-rule:evenodd;fill:url(#oc-raffle-basket-161053-linearGradient8256)" d="m689.82 493.4c0 54.353-82.197 118.51-291.8 120.78-194.37 2.1106-297.92-69.411-297.92-123.76 0-54.353 169.47-72.722 297.92-73.066 111.62-0.29825 291.8 21.695 291.8 76.048z" />
+      <g id="oc-raffle-basket-161053-g4916-8" transform="matrix(-.96610 .25818 -.25818 -.96610 1457.9 271.61)">
+        <polygon id="oc-raffle-basket-161053-polygon4224-4-7" style="fill:url(#oc-raffle-basket-161053-linearGradient4914)" points="108.54 79.972 146.81 64.12 223.35 41.703 146.81 10" transform="translate(927.48 8.4084)" />
+        <polygon id="oc-raffle-basket-161053-polygon4254-5-1" style="fill:url(#oc-raffle-basket-161053-linearGradient4912)" points="185.08 79.97 146.81 64.12 223.35 41.703 255.05 118.24" transform="translate(927.48 8.4084)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g5264" transform="translate(-660 333.13)">
+        <polygon id="oc-raffle-basket-161053-polygon4164" style="fill:url(#oc-raffle-basket-161053-linearGradient4460-7)" points="108.54 79.972 92.688 118.24 70.271 41.702 146.81 10" transform="translate(893.23 208.14)" />
+        <polygon id="oc-raffle-basket-161053-polygon4224" style="fill:url(#oc-raffle-basket-161053-linearGradient4914)" points="108.54 79.972 146.81 64.12 223.35 41.703 146.81 10" transform="translate(893.23 208.14)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g4936" transform="translate(-457.14 381.7)">
+        <polygon id="oc-raffle-basket-161053-polygon4164-9" style="fill:url(#oc-raffle-basket-161053-linearGradient4460-7)" points="146.81 10 108.54 79.972 92.688 118.24 70.271 41.702" transform="translate(804.62 142.69)" />
+        <polygon id="oc-raffle-basket-161053-polygon4179-4" style="fill:url(#oc-raffle-basket-161053-linearGradient4462-1)" points="70.271 41.702 92.688 118.24 108.54 156.51 38.569 118.24" transform="translate(804.62 142.69)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g4916" transform="translate(-582.86 498.84)">
+        <polygon id="oc-raffle-basket-161053-polygon4224-4" style="fill:url(#oc-raffle-basket-161053-linearGradient4914)" points="108.54 79.972 146.81 64.12 223.35 41.703 146.81 10" transform="translate(927.48 8.4084)" />
+        <polygon id="oc-raffle-basket-161053-polygon4254-5" style="fill:url(#oc-raffle-basket-161053-linearGradient4912)" points="185.08 79.97 146.81 64.12 223.35 41.703 255.05 118.24" transform="translate(927.48 8.4084)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g4932" transform="translate(-734.29 161.7)">
+        <polygon id="oc-raffle-basket-161053-polygon4194-1" style="fill:url(#oc-raffle-basket-161053-linearGradient4930)" points="185.08 156.51 146.81 172.36 70.271 194.78 146.81 226.48" transform="translate(893.19 248.41)" />
+        <polygon id="oc-raffle-basket-161053-polygon4269-5" style="fill:url(#oc-raffle-basket-161053-linearGradient4928)" points="146.81 172.36 108.54 156.51 38.569 118.24 70.271 194.78" transform="translate(893.19 248.41)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g5256" transform="translate(-380 -38.298)">
+        <polygon id="oc-raffle-basket-161053-polygon4194" style="fill:url(#oc-raffle-basket-161053-linearGradient4930)" points="146.81 226.48 185.08 156.51 146.81 172.36 70.271 194.78" transform="translate(807.51 456.71)" />
+        <polygon id="oc-raffle-basket-161053-polygon4209" style="fill:url(#oc-raffle-basket-161053-linearGradient4922)" points="223.34 194.78 200.93 118.24 185.08 156.51 146.81 226.48" transform="translate(807.51 456.71)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g5246" transform="translate(-691.43 -15.441)">
+        <polygon id="oc-raffle-basket-161053-polygon4239" style="fill:url(#oc-raffle-basket-161053-linearGradient4920)" points="255.05 118.24 223.34 194.78 200.93 118.24 185.08 79.97" transform="translate(873.23 479.56)" />
+        <polygon id="oc-raffle-basket-161053-polygon4254" style="fill:url(#oc-raffle-basket-161053-linearGradient4912)" points="223.35 41.703 255.05 118.24 185.08 79.97 146.81 64.12" transform="translate(873.23 479.56)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g4924" transform="translate(-891.43 233.13)">
+        <polygon id="oc-raffle-basket-161053-polygon4209-5" style="fill:url(#oc-raffle-basket-161053-linearGradient4922)" points="200.93 118.24 185.08 156.51 146.81 226.48 223.34 194.78" transform="translate(987.48 159.84)" />
+        <polygon id="oc-raffle-basket-161053-polygon4239-1" style="fill:url(#oc-raffle-basket-161053-linearGradient4920)" points="200.93 118.24 185.08 79.97 255.05 118.24 223.34 194.78" transform="translate(987.48 159.84)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g5272" transform="translate(-420 -246.87)">
+        <polygon id="oc-raffle-basket-161053-polygon4179" style="fill:url(#oc-raffle-basket-161053-linearGradient4462-1)" points="92.688 118.24 108.54 156.51 38.569 118.24 70.271 41.702" transform="translate(876.08 739.56)" />
+        <polygon id="oc-raffle-basket-161053-polygon4269" style="fill:url(#oc-raffle-basket-161053-linearGradient4928)" points="146.81 172.36 108.54 156.51 38.569 118.24 70.271 194.78" transform="translate(876.08 739.56)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g5246-2-0" transform="matrix(-.85434 .51971 -.51971 -.85434 1502.9 478.4)">
+        <polygon id="oc-raffle-basket-161053-polygon4239-14-6" style="fill:url(#oc-raffle-basket-161053-linearGradient4920)" points="255.05 118.24 223.34 194.78 200.93 118.24 185.08 79.97" transform="translate(873.23 479.56)" />
+        <polygon id="oc-raffle-basket-161053-polygon4254-6-2" style="fill:url(#oc-raffle-basket-161053-linearGradient4912)" points="223.35 41.703 255.05 118.24 185.08 79.97 146.81 64.12" transform="translate(873.23 479.56)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g5272-6" transform="matrix(-.96610 .25818 -.25818 -.96610 1502.4 1208.6)">
+        <polygon id="oc-raffle-basket-161053-polygon4179-5" style="fill:url(#oc-raffle-basket-161053-linearGradient4462-1)" points="92.688 118.24 108.54 156.51 38.569 118.24 70.271 41.702" transform="translate(876.08 739.56)" />
+        <polygon id="oc-raffle-basket-161053-polygon4269-2" style="fill:url(#oc-raffle-basket-161053-linearGradient4928)" points="146.81 172.36 108.54 156.51 38.569 118.24 70.271 194.78" transform="translate(876.08 739.56)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g5264-3" transform="matrix(-.96610 .25818 -.25818 -.96610 1666.7 531.79)">
+        <polygon id="oc-raffle-basket-161053-polygon4164-3" style="fill:url(#oc-raffle-basket-161053-linearGradient4460-7)" points="108.54 79.972 92.688 118.24 70.271 41.702 146.81 10" transform="translate(893.23 208.14)" />
+        <polygon id="oc-raffle-basket-161053-polygon4224-2" style="fill:url(#oc-raffle-basket-161053-linearGradient4914)" points="108.54 79.972 146.81 64.12 223.35 41.703 146.81 10" transform="translate(893.23 208.14)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g5256-6" transform="matrix(-.96610 .25818 -.25818 -.96610 1300.6 882.91)">
+        <polygon id="oc-raffle-basket-161053-polygon4194-19" style="fill:url(#oc-raffle-basket-161053-linearGradient4930)" points="146.81 226.48 185.08 156.51 146.81 172.36 70.271 194.78" transform="translate(807.51 456.71)" />
+        <polygon id="oc-raffle-basket-161053-polygon4209-1" style="fill:url(#oc-raffle-basket-161053-linearGradient4922)" points="223.34 194.78 200.93 118.24 185.08 156.51 146.81 226.48" transform="translate(807.51 456.71)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g5256-6-7" transform="matrix(-.89185 -.45233 .45233 -.89185 1087 1518)">
+        <polygon id="oc-raffle-basket-161053-polygon4194-19-1" style="fill:url(#oc-raffle-basket-161053-linearGradient4930)" points="70.271 194.78 146.81 226.48 185.08 156.51 146.81 172.36" transform="translate(807.51 456.71)" />
+        <polygon id="oc-raffle-basket-161053-polygon4209-1-1" style="fill:url(#oc-raffle-basket-161053-linearGradient4922)" points="146.81 226.48 223.34 194.78 200.93 118.24 185.08 156.51" transform="translate(807.51 456.71)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g4924-0" transform="matrix(-.96610 .25818 -.25818 -.96610 1790.3 562.93)">
+        <polygon id="oc-raffle-basket-161053-polygon4209-5-7" style="fill:url(#oc-raffle-basket-161053-linearGradient4922)" points="200.93 118.24 185.08 156.51 146.81 226.48 223.34 194.78" transform="translate(987.48 159.84)" />
+        <polygon id="oc-raffle-basket-161053-polygon4239-1-3" style="fill:url(#oc-raffle-basket-161053-linearGradient4920)" points="200.93 118.24 185.08 79.97 255.05 118.24 223.34 194.78" transform="translate(987.48 159.84)" />
+      </g>
+      <g id="oc-raffle-basket-161053-g5246-2" transform="matrix(-.96610 .25818 -.25818 -.96610 1678.4 874.71)">
+        <polygon id="oc-raffle-basket-161053-polygon4239-14" style="fill:url(#oc-raffle-basket-161053-linearGradient4920)" points="223.34 194.78 200.93 118.24 185.08 79.97 255.05 118.24" transform="translate(873.23 479.56)" />
+        <polygon id="oc-raffle-basket-161053-polygon4254-6" style="fill:url(#oc-raffle-basket-161053-linearGradient4912)" points="255.05 118.24 185.08 79.97 146.81 64.12 223.35 41.703" transform="translate(873.23 479.56)" />
+      </g>
+      <path id="oc-raffle-basket-161053-path2872" style="fill-rule:evenodd;fill:url(#oc-raffle-basket-161053-linearGradient8172)" d="m457.99 173.71c-33.203-5.6044-50.942 3.6387-84.211 3.6387-198.04 66.015-187.09 241.85-202.21 393.5-46.917-24.027-71.215-54.304-71.215-80.572 0 91.631 103.49 238.11 297.86 236 209.6-2.276 294.68-148.7 291.62-232.88 0 54.353-82.019 118.32-291.62 120.6-70.065 0.76083-128.28-8.2383-174.14-22.352 9.6656-175.59 19.386-359.74 249.51-414.3-4.3062-2.2497-9.5889-3.2169-15.595-3.6387z" />
+      <path id="oc-raffle-basket-161053-path4228" d="m12.125 33.75 0.8125-8.0625c0.22911 2.8542-0.76278 6.0572 0.6875 8.5625l-1.5-0.5z" style="fill-opacity:.32589;color:#000000;fill:#ffffff" transform="matrix(16.634 0 0 16.634 -25.732 8.4377)" />
+      <path id="oc-raffle-basket-161053-path4226" d="m8.1875 31.25c3.4307 3.4963 5.1848 3.1606 7.5625 4.25-2.709-0.071-2.48 2.261-1.75 3.5-2.129-1.539-4.1535-3.392-5.8125-7.75z" style="fill-opacity:.32589;color:#000000;fill:#ffffff" transform="matrix(16.634 0 0 16.634 -26.874 5.0092)" />
+    </g>
+  </g></g></svg>

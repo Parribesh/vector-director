@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(138.85 394.70) scale(0.5344)"><radialGradient xmlns="http://www.w3.org/2000/svg" id="oc-cartoon-sheep-181218-SVGID_1_" gradientUnits="userSpaceOnUse" cy="599.56" cx="134.02" r="16.025">
+	<stop stop-color="#fff" offset="0" />
+	<stop stop-color="#F0ECEB" offset="0" />
+	<stop stop-color="var(--c2,#decebb)" offset=".2196" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#dea764) 80.2%,black)" offset=".7159" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#de8b34) 68.9%,black)" offset="1" />
+</radialGradient>
+<path xmlns="http://www.w3.org/2000/svg" d="m102.52 581.64s1.237 45.06 27.773 45.682 32.713 1.852 31.477-46.289l-29.01-40.127-30.24 40.74z" fill="url(#oc-cartoon-sheep-181218-SVGID_1_)" />
+<radialGradient xmlns="http://www.w3.org/2000/svg" id="oc-cartoon-sheep-181218-SVGID_2_" gradientUnits="userSpaceOnUse" cy="521.94" cx="472.34" r="36.684">
+	<stop stop-color="#fff" offset="0" />
+	<stop stop-color="#F0ECEB" offset="0" />
+	<stop stop-color="var(--c2,#decebb)" offset=".2196" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#dea764) 80.2%,black)" offset=".7159" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#de8b34) 68.9%,black)" offset="1" />
+</radialGradient>
+<path xmlns="http://www.w3.org/2000/svg" d="m432.71 525.49s46.289 47.519 71.596 22.826 29.011-22.219-25.922-55.547l-27.773-4.311-17.91 37.03z" fill="url(#oc-cartoon-sheep-181218-SVGID_2_)" />
+<radialGradient xmlns="http://www.w3.org/2000/svg" id="oc-cartoon-sheep-181218-SVGID_3_" gradientUnits="userSpaceOnUse" cy="273.66" cx="460.83" r="84.93">
+	<stop stop-color="#fff" offset="0" />
+	<stop stop-color="#F0ECEB" offset=".0112" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#ddc9bb) 44.1%,white)" offset=".0807" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#edd4bb) 97.1%,white)" offset=".3533" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#ecc9a3) 100.0%,white)" offset=".6061" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#ebc194) 100.0%,white)" offset=".8295" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#ebbe8e) 100.0%,white)" offset="1" />
+</radialGradient>
+<path xmlns="http://www.w3.org/2000/svg" d="m408.03 107.03s29.618-12.958 49.37 8.643 12.969 8.021 11.731 24.685 51.844 24.685 89.49 62.953 27.773 16.045-9.258 55.547-41.972 43.208-68.508 51.229-19.138 13.576-14.198 56.162l-5.555 1.859-70.359-17.908-25.3-49.989 46.289-89.49 16.042-62.338-19.74-41.35z" fill="url(#oc-cartoon-sheep-181218-SVGID_3_)" />
+<radialGradient xmlns="http://www.w3.org/2000/svg" id="oc-cartoon-sheep-181218-SVGID_4_" gradientUnits="userSpaceOnUse" cy="387.83" cx="207.51" r="222.52">
+	<stop stop-color="#fff" offset="0" />
+	<stop stop-color="#FEFCFD" offset=".2192" />
+	<stop stop-color="#FAF1F7" offset=".4851" />
+	<stop stop-color="color-mix(in srgb,var(--c1,#eecbe1) 63.5%,white)" offset=".7739" />
+	<stop stop-color="var(--c1,#edcbe0)" offset="1" />
+</radialGradient>
+<path xmlns="http://www.w3.org/2000/svg" d="m457.94 115.02s11.073 22.157-11.081 34.464 26.465 30.768 20.932 66.45-9.851 40.004-49.232 40.615 6.77 74.457-71.994 62.147 93.525-4.918 120.6 46.159 14.169 40.604-3.073 59.684c0 0-3.082 18.458 12.303 35.078 0 0 14.161 30.769-13.54 49.841 0 0-11.08 20.302-63.995 12.917 0 0-35.692-1.844-66.461-9.843 0 0-36.293-6.771-81.837 15.384 0 0-56.603 14.146-91.681 55.987 0 0-44.915 17.851-58.447-12.295 0 0-25.242-43.692-48.625-51.077 0 0-37.53-39.39-30.146-89.223 0 0 8-74.46 61.528-86.763 0 0 13.547-9.851 63.387-14.769 0 0 22.775-6.77 25.85-16.614l116.29-142.15 58.454-43.689 49.233-20.302 22.146-3.081c0.02 0 22.78-6.154 39.4 11.08z" fill="url(#oc-cartoon-sheep-181218-SVGID_4_)" />
+<radialGradient xmlns="http://www.w3.org/2000/svg" id="oc-cartoon-sheep-181218-SVGID_5_" gradientUnits="userSpaceOnUse" cy="197.46" cx="264.79" r="143.81">
+	<stop stop-color="#fff" offset="0" />
+	<stop stop-color="color-mix(in srgb,var(--c1,#edc5db) 99.2%,black)" offset="0" />
+	<stop stop-color="color-mix(in srgb,var(--c1,#edc0d8) 97.9%,black)" offset=".1174" />
+	<stop stop-color="color-mix(in srgb,var(--c1,#edafcf) 95.4%,black)" offset=".3053" />
+	<stop stop-color="color-mix(in srgb,var(--c1,#ed92bf) 91.1%,black)" offset=".5402" />
+	<stop stop-color="color-mix(in srgb,var(--c1,#ed60a7) 86.1%,black)" offset=".81" />
+	<stop stop-color="color-mix(in srgb,var(--c1,#ed2597) 82.7%,black)" offset="1" />
+</radialGradient>
+<path xmlns="http://www.w3.org/2000/svg" d="m411.73 100.86s-117.89-78.38-211.7-25.922-80.232 51.229-82.083 114.8-4.325 69.741 45.052 116.03 66.042 58.632 136.4 17.897 60.486-33.328 51.229-99.984l-3.088-15.427c0-0.01 60.49-46.91 64.19-107.4z" fill="url(#oc-cartoon-sheep-181218-SVGID_5_)" />
+<path xmlns="http://www.w3.org/2000/svg" opacity=".6" stroke="color-mix(in srgb,var(--c1,#edbbd6) 100.0%,black)" d="m299.4 218.74c1.229 65.072-55.8 53.396-55.8 53.396-46.651-7.106-40.518-56.473-40.518-56.473 9.822-68.75 84.716-55.25 84.716-55.25 112.95 44.195 42.97 138.73 42.97 138.73-96.99 95.764-182.93-9.822-182.93-9.822-79.798-128.92 31.82-202.05 31.82-202.05 108.63-81.468 232.07 17.28 232.07 17.28s-10.184 62.027-62.953 99.984" fill="none" />
+<radialGradient xmlns="http://www.w3.org/2000/svg" id="oc-cartoon-sheep-181218-SVGID_6_" gradientUnits="userSpaceOnUse" cy="208.23" cx="268.54" r="30.042">
+	<stop stop-color="#fff" offset="0" />
+	<stop stop-color="var(--c3,#b7d338)" offset="0" />
+	<stop stop-color="color-mix(in srgb,var(--c3,#b5d338) 99.5%,black)" offset=".3122" />
+	<stop stop-color="color-mix(in srgb,var(--c3,#b1d339) 97.2%,black)" offset=".4907" />
+	<stop stop-color="color-mix(in srgb,var(--c3,#abd33c) 92.4%,black)" offset=".6355" />
+	<stop stop-color="color-mix(in srgb,var(--c3,#9fd33f) 86.3%,black)" offset=".7623" />
+	<stop stop-color="color-mix(in srgb,var(--c3,#89d345) 78.7%,black)" offset=".8761" />
+	<stop stop-color="#439538" offset=".9775" />
+</radialGradient>
+<path xmlns="http://www.w3.org/2000/svg" d="m268.54 179.21c0-2.958 10.372 18.053 9.388 19.015 0.984-0.962 24.171 2.408 20.975 3.045 3.197-0.637-13.583 15.72-15.174 14.801 1.591 0.919 5.555 24.013 3.573 20.896 1.982 3.117-18.762-7.786-18.762-9.869 0 2.083-20.743 12.986-18.761 9.869-1.982 3.117 1.981-19.977 3.573-20.896-1.591 0.919-18.371-15.438-15.174-14.801-3.197-0.637 19.991-4.007 20.975-3.045-0.99-0.96 9.38-21.97 9.38-19.01z" fill="url(#oc-cartoon-sheep-181218-SVGID_6_)" />
+<radialGradient xmlns="http://www.w3.org/2000/svg" id="oc-cartoon-sheep-181218-SVGID_7_" gradientUnits="userSpaceOnUse" cy="189.73" cx="499.37" r="13.576">
+	<stop stop-color="#fff" offset="0" />
+	<stop stop-color="#040000" offset="1" />
+</radialGradient>
+<path xmlns="http://www.w3.org/2000/svg" d="m512.94 189.74c0 7.497-6.075 13.576-13.575 13.576s-13.576-6.079-13.576-13.576c0-7.5 6.076-13.58 13.576-13.58s13.58 6.07 13.58 13.58z" fill="url(#oc-cartoon-sheep-181218-SVGID_7_)" />
+<path xmlns="http://www.w3.org/2000/svg" stroke="color-mix(in srgb,var(--c1,#ed1c41) 35.4%,black)" d="m524.33 227.38s-4.933 33.946 27.158 30.243" fill="none" />
+<radialGradient xmlns="http://www.w3.org/2000/svg" id="oc-cartoon-sheep-181218-SVGID_8_" gradientUnits="userSpaceOnUse" cy="240.82" cx="384.17" r="18.991">
+	<stop stop-color="#fff" offset="0" />
+	<stop stop-color="#FEFCFD" offset=".2157" />
+	<stop stop-color="#FAF0F6" offset=".4912" />
+	<stop stop-color="color-mix(in srgb,var(--c1,#edcbe0) 67.3%,white)" offset=".7978" />
+	<stop stop-color="var(--c1,#edcbe0)" offset="1" />
+</radialGradient>
+<ellipse xmlns="http://www.w3.org/2000/svg" cy="241.12" cx="384.42" rx="19.904" ry="20.83" fill="url(#oc-cartoon-sheep-181218-SVGID_8_)" />
+<radialGradient xmlns="http://www.w3.org/2000/svg" id="oc-cartoon-sheep-181218-SVGID_9_" gradientUnits="userSpaceOnUse" cy="428.92" cx="233.59" r="70.352">
+	<stop stop-color="#fff" offset="0" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#fcebbb) 64.7%,white)" offset=".1484" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#fae5a4) 100.0%,white)" offset=".3067" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#f8da7b) 100.0%,white)" offset=".4626" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#f6d258) 100.0%,white)" offset=".6127" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#f5cd3d) 100.0%,white)" offset=".7555" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#f4c928) 100.0%,white)" offset=".888" />
+	<stop stop-color="color-mix(in srgb,var(--c2,#f3c81e) 100.0%,white)" offset="1" />
+</radialGradient>
+<path xmlns="http://www.w3.org/2000/svg" d="m220.17 358.34c-1.316-7.414 34.565 33.632 32.468 37.132 2.097-3.5 56.233-9.793 48.986-5.699 7.247-4.094-20.692 42.702-25.278 42.355 4.585 0.347 27.296 49.905 20.541 44.828 6.755 5.077-46.391-7.045-48.083-10.965 1.692 3.92-38.405 40.835-36.279 33.4-2.126 7.435-7.03-46.839-4.441-49.11-2.589 2.271-50.101-24.475-42.984-24.193-7.117-0.281 43.005-21.719 45.349-19.397-2.36-2.31 8.39-55.75 9.71-48.34z" fill="url(#oc-cartoon-sheep-181218-SVGID_9_)" />
+<radialGradient xmlns="http://www.w3.org/2000/svg" id="oc-cartoon-sheep-181218-SVGID_10_" gradientUnits="userSpaceOnUse" cy="197.19" cx="426.64" r="27.183">
+	<stop stop-color="#fff" offset="0" />
+	<stop stop-color="#FEFDFE" offset=".2539" />
+	<stop stop-color="#FCF5F9" offset=".4884" />
+	<stop stop-color="#F7E7F1" offset=".7153" />
+	<stop stop-color="color-mix(in srgb,var(--c1,#edcbe0) 86.5%,white)" offset=".9363" />
+	<stop stop-color="var(--c1,#edcbe0)" offset="1" />
+</radialGradient>
+<circle xmlns="http://www.w3.org/2000/svg" cy="197.6" cx="427.01" r="29.162" fill="url(#oc-cartoon-sheep-181218-SVGID_10_)" /></g></svg>

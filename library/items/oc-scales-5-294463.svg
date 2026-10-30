@@ -1,0 +1,349 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(137.75 423.57) scale(0.3605)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-scales-5-294463-defs25372">
+<linearGradient id="oc-scales-5-294463-SVGID_435_" y2="-4729" gradientUnits="userSpaceOnUse" x2="-2630.7" gradientTransform="matrix(.9998 .0186 -.0186 .9998 2163.9 5275)" y1="-4678.2" x1="-2632.5">
+<stop id="oc-scales-5-294463-stop7376" stop-color="var(--c2,#541513)" offset=".0056" />
+<stop id="oc-scales-5-294463-stop7378" stop-color="color-mix(in srgb,var(--c2,#824013) 91.5%,white)" offset=".0843" />
+<stop id="oc-scales-5-294463-stop7380" stop-color="color-mix(in srgb,var(--c3,#ffbb67) 79.6%,black)" offset=".382" />
+<stop id="oc-scales-5-294463-stop7382" stop-color="var(--c3,#fff2db)" offset=".5618" />
+<stop id="oc-scales-5-294463-stop7384" stop-color="color-mix(in srgb,var(--c2,#ae6213) 49.6%,white)" offset=".8034" />
+<stop id="oc-scales-5-294463-stop7386" stop-color="color-mix(in srgb,var(--c2,#a15813) 88.1%,white)" offset=".9154" />
+<stop id="oc-scales-5-294463-stop7388" stop-color="color-mix(in srgb,var(--c2,#9c530d) 100.0%,white)" offset=".9551" />
+</linearGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_436_" y2="-4729" gradientUnits="userSpaceOnUse" x2="-2434.2" gradientTransform="matrix(.9998 .0186 -.0186 .9998 2163.9 5275)" y1="-4678.4" x1="-2430.6">
+<stop id="oc-scales-5-294463-stop7393" stop-color="var(--c2,#541513)" offset=".0056" />
+<stop id="oc-scales-5-294463-stop7395" stop-color="color-mix(in srgb,var(--c2,#824013) 91.5%,white)" offset=".0843" />
+<stop id="oc-scales-5-294463-stop7397" stop-color="color-mix(in srgb,var(--c3,#ffbb67) 79.6%,black)" offset=".382" />
+<stop id="oc-scales-5-294463-stop7399" stop-color="var(--c3,#fff2db)" offset=".5618" />
+<stop id="oc-scales-5-294463-stop7401" stop-color="color-mix(in srgb,var(--c2,#ae6213) 49.6%,white)" offset=".8034" />
+<stop id="oc-scales-5-294463-stop7403" stop-color="color-mix(in srgb,var(--c2,#a15813) 88.1%,white)" offset=".9154" />
+<stop id="oc-scales-5-294463-stop7405" stop-color="color-mix(in srgb,var(--c2,#9c530d) 100.0%,white)" offset=".9551" />
+</linearGradient>
+<radialGradient id="oc-scales-5-294463-SVGID_437_" gradientUnits="userSpaceOnUse" cy="-7067" cx="-4554.9" gradientTransform="matrix(.7617 .0142 -.0142 .7617 3001.6 5960.9)" r="51.409">
+<stop id="oc-scales-5-294463-stop7410" stop-color="var(--c3,#fff2db)" offset="0" />
+<stop id="oc-scales-5-294463-stop7412" stop-color="color-mix(in srgb,var(--c2,#ae6213) 49.6%,white)" offset=".309" />
+<stop id="oc-scales-5-294463-stop7414" stop-color="color-mix(in srgb,var(--c2,#854113) 88.6%,white)" offset=".7465" />
+<stop id="oc-scales-5-294463-stop7416" stop-color="color-mix(in srgb,var(--c2,#824013) 91.5%,white)" offset=".7809" />
+<stop id="oc-scales-5-294463-stop7418" stop-color="var(--c2,#541513)" offset="1" />
+</radialGradient>
+<radialGradient id="oc-scales-5-294463-SVGID_438_" gradientUnits="userSpaceOnUse" cy="-7074.5" cx="-4295.7" gradientTransform="matrix(.7617 .0142 -.0142 .7617 3001.6 5960.9)" r="43.402">
+<stop id="oc-scales-5-294463-stop7423" stop-color="var(--c3,#fff2db)" offset="0" />
+<stop id="oc-scales-5-294463-stop7425" stop-color="color-mix(in srgb,var(--c2,#ae6213) 49.6%,white)" offset=".309" />
+<stop id="oc-scales-5-294463-stop7427" stop-color="color-mix(in srgb,var(--c2,#854113) 88.6%,white)" offset=".7465" />
+<stop id="oc-scales-5-294463-stop7429" stop-color="color-mix(in srgb,var(--c2,#824013) 91.5%,white)" offset=".7809" />
+<stop id="oc-scales-5-294463-stop7431" stop-color="var(--c2,#541513)" offset="1" />
+</radialGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_439_" y2="-4822.2" gradientUnits="userSpaceOnUse" x2="-2630.8" gradientTransform="matrix(.9998 .0186 -.0186 .9998 2163.9 5275)" y1="-4722.9" x1="-2634.3">
+<stop id="oc-scales-5-294463-stop7436" stop-color="var(--c2,#541513)" offset=".0056" />
+<stop id="oc-scales-5-294463-stop7438" stop-color="color-mix(in srgb,var(--c2,#824013) 91.5%,white)" offset=".0843" />
+<stop id="oc-scales-5-294463-stop7440" stop-color="color-mix(in srgb,var(--c3,#ffbb67) 79.6%,black)" offset=".382" />
+<stop id="oc-scales-5-294463-stop7442" stop-color="var(--c3,#fff2db)" offset=".5618" />
+<stop id="oc-scales-5-294463-stop7444" stop-color="color-mix(in srgb,var(--c2,#ae6213) 49.6%,white)" offset=".8034" />
+<stop id="oc-scales-5-294463-stop7446" stop-color="color-mix(in srgb,var(--c2,#a15813) 88.1%,white)" offset=".9154" />
+<stop id="oc-scales-5-294463-stop7448" stop-color="color-mix(in srgb,var(--c2,#9c530d) 100.0%,white)" offset=".9551" />
+</linearGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_440_" y2="-4822.2" gradientUnits="userSpaceOnUse" x2="-2438.2" gradientTransform="matrix(.9998 .0186 -.0186 .9998 2163.9 5275)" y1="-4722.9" x1="-2431.3">
+<stop id="oc-scales-5-294463-stop7453" stop-color="var(--c2,#541513)" offset=".0056" />
+<stop id="oc-scales-5-294463-stop7455" stop-color="color-mix(in srgb,var(--c2,#824013) 91.5%,white)" offset=".0843" />
+<stop id="oc-scales-5-294463-stop7457" stop-color="color-mix(in srgb,var(--c3,#ffbb67) 79.6%,black)" offset=".382" />
+<stop id="oc-scales-5-294463-stop7459" stop-color="var(--c3,#fff2db)" offset=".5618" />
+<stop id="oc-scales-5-294463-stop7461" stop-color="color-mix(in srgb,var(--c2,#ae6213) 49.6%,white)" offset=".8034" />
+<stop id="oc-scales-5-294463-stop7463" stop-color="color-mix(in srgb,var(--c2,#a15813) 88.1%,white)" offset=".9154" />
+<stop id="oc-scales-5-294463-stop7465" stop-color="color-mix(in srgb,var(--c2,#9c530d) 100.0%,white)" offset=".9551" />
+</linearGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_441_" y2="-4823.5" gradientUnits="userSpaceOnUse" x2="-2644.1" gradientTransform="matrix(.9998 .0186 -.0186 .9998 2163.9 5275)" y1="-4711.6" x1="-2648">
+<stop id="oc-scales-5-294463-stop7470" stop-color="var(--c2,#541513)" offset=".0056" />
+<stop id="oc-scales-5-294463-stop7472" stop-color="color-mix(in srgb,var(--c2,#824013) 91.5%,white)" offset=".0843" />
+<stop id="oc-scales-5-294463-stop7474" stop-color="color-mix(in srgb,var(--c3,#ffbb67) 79.6%,black)" offset=".382" />
+<stop id="oc-scales-5-294463-stop7476" stop-color="var(--c3,#fff2db)" offset=".5618" />
+<stop id="oc-scales-5-294463-stop7478" stop-color="color-mix(in srgb,var(--c2,#ae6213) 49.6%,white)" offset=".8034" />
+<stop id="oc-scales-5-294463-stop7480" stop-color="color-mix(in srgb,var(--c2,#a15813) 88.1%,white)" offset=".9154" />
+<stop id="oc-scales-5-294463-stop7482" stop-color="color-mix(in srgb,var(--c2,#9c530d) 100.0%,white)" offset=".9551" />
+</linearGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_442_" y2="-4829.5" gradientUnits="userSpaceOnUse" x2="-2425.3" gradientTransform="matrix(.9998 .0186 -.0186 .9998 2163.9 5275)" y1="-4717.1" x1="-2417.5">
+<stop id="oc-scales-5-294463-stop7487" stop-color="var(--c2,#541513)" offset=".0056" />
+<stop id="oc-scales-5-294463-stop7489" stop-color="color-mix(in srgb,var(--c2,#824013) 91.5%,white)" offset=".0843" />
+<stop id="oc-scales-5-294463-stop7491" stop-color="color-mix(in srgb,var(--c3,#ffbb67) 79.6%,black)" offset=".382" />
+<stop id="oc-scales-5-294463-stop7493" stop-color="var(--c3,#fff2db)" offset=".5618" />
+<stop id="oc-scales-5-294463-stop7495" stop-color="color-mix(in srgb,var(--c2,#ae6213) 49.6%,white)" offset=".8034" />
+<stop id="oc-scales-5-294463-stop7497" stop-color="color-mix(in srgb,var(--c2,#a15813) 88.1%,white)" offset=".9154" />
+<stop id="oc-scales-5-294463-stop7499" stop-color="color-mix(in srgb,var(--c2,#9c530d) 100.0%,white)" offset=".9551" />
+</linearGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_443_" y2="-4825.3" gradientUnits="userSpaceOnUse" x2="-2615.5" gradientTransform="matrix(.9998 .0186 -.0186 .9998 2163.9 5275)" y1="-4711.6" x1="-2619.5">
+<stop id="oc-scales-5-294463-stop7504" stop-color="var(--c2,#541513)" offset=".0056" />
+<stop id="oc-scales-5-294463-stop7506" stop-color="color-mix(in srgb,var(--c2,#824013) 91.5%,white)" offset=".0843" />
+<stop id="oc-scales-5-294463-stop7508" stop-color="color-mix(in srgb,var(--c3,#ffbb67) 79.6%,black)" offset=".382" />
+<stop id="oc-scales-5-294463-stop7510" stop-color="var(--c3,#fff2db)" offset=".5618" />
+<stop id="oc-scales-5-294463-stop7512" stop-color="color-mix(in srgb,var(--c2,#ae6213) 49.6%,white)" offset=".8034" />
+<stop id="oc-scales-5-294463-stop7514" stop-color="color-mix(in srgb,var(--c2,#a15813) 88.1%,white)" offset=".9154" />
+<stop id="oc-scales-5-294463-stop7516" stop-color="color-mix(in srgb,var(--c2,#9c530d) 100.0%,white)" offset=".9551" />
+</linearGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_444_" y2="-4830.6" gradientUnits="userSpaceOnUse" x2="-2454" gradientTransform="matrix(.9998 .0186 -.0186 .9998 2163.9 5275)" y1="-4717.1" x1="-2446">
+<stop id="oc-scales-5-294463-stop7521" stop-color="var(--c2,#541513)" offset=".0056" />
+<stop id="oc-scales-5-294463-stop7523" stop-color="color-mix(in srgb,var(--c2,#824013) 91.5%,white)" offset=".0843" />
+<stop id="oc-scales-5-294463-stop7525" stop-color="color-mix(in srgb,var(--c3,#ffbb67) 79.6%,black)" offset=".382" />
+<stop id="oc-scales-5-294463-stop7527" stop-color="var(--c3,#fff2db)" offset=".5618" />
+<stop id="oc-scales-5-294463-stop7529" stop-color="color-mix(in srgb,var(--c2,#ae6213) 49.6%,white)" offset=".8034" />
+<stop id="oc-scales-5-294463-stop7531" stop-color="color-mix(in srgb,var(--c2,#a15813) 88.1%,white)" offset=".9154" />
+<stop id="oc-scales-5-294463-stop7533" stop-color="color-mix(in srgb,var(--c2,#9c530d) 100.0%,white)" offset=".9551" />
+</linearGradient>
+<radialGradient id="oc-scales-5-294463-SVGID_445_" gradientUnits="userSpaceOnUse" cy="-7221.7" cx="-4576.8" gradientTransform="matrix(.7617 .0142 -.0142 .7617 3001.6 5960.9)" r="20.046">
+<stop id="oc-scales-5-294463-stop7538" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7540" stop-color="#F1EFEE" offset="0" />
+<stop id="oc-scales-5-294463-stop7542" stop-color="#fff" offset="0" />
+<stop id="oc-scales-5-294463-stop7544" stop-color="#F0F1F1" offset=".1247" />
+<stop id="oc-scales-5-294463-stop7546" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 89.1%,black)" offset=".3627" />
+<stop id="oc-scales-5-294463-stop7548" stop-color="color-mix(in srgb,var(--c1,#e0e2e5) 76.9%,black)" offset=".5225" />
+<stop id="oc-scales-5-294463-stop7550" stop-color="color-mix(in srgb,var(--c1,#dee2e5) 72.9%,black)" offset=".6034" />
+<stop id="oc-scales-5-294463-stop7552" stop-color="color-mix(in srgb,var(--c1,#d8e0e5) 62.9%,black)" offset=".7397" />
+<stop id="oc-scales-5-294463-stop7554" stop-color="color-mix(in srgb,var(--c1,#cddee5) 45.9%,black)" offset=".9136" />
+<stop id="oc-scales-5-294463-stop7556" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset="1" />
+</radialGradient>
+<radialGradient id="oc-scales-5-294463-SVGID_446_" gradientUnits="userSpaceOnUse" cy="-7225.4" cx="-4320.1" gradientTransform="matrix(.7617 .0142 -.0142 .7617 3001.6 5960.9)" r="18.156">
+<stop id="oc-scales-5-294463-stop7561" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7563" stop-color="#F1EFEE" offset="0" />
+<stop id="oc-scales-5-294463-stop7565" stop-color="#fff" offset="0" />
+<stop id="oc-scales-5-294463-stop7567" stop-color="#F0F1F1" offset=".1247" />
+<stop id="oc-scales-5-294463-stop7569" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 89.1%,black)" offset=".3627" />
+<stop id="oc-scales-5-294463-stop7571" stop-color="color-mix(in srgb,var(--c1,#e0e2e5) 76.9%,black)" offset=".5225" />
+<stop id="oc-scales-5-294463-stop7573" stop-color="color-mix(in srgb,var(--c1,#dee2e5) 72.9%,black)" offset=".6034" />
+<stop id="oc-scales-5-294463-stop7575" stop-color="color-mix(in srgb,var(--c1,#d8e0e5) 62.9%,black)" offset=".7397" />
+<stop id="oc-scales-5-294463-stop7577" stop-color="color-mix(in srgb,var(--c1,#cddee5) 45.9%,black)" offset=".9136" />
+<stop id="oc-scales-5-294463-stop7579" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset="1" />
+</radialGradient>
+<radialGradient id="oc-scales-5-294463-SVGID_447_" gradientUnits="userSpaceOnUse" cy="-7243" cx="-4576.2" gradientTransform="matrix(.7617 .0142 -.0142 .7617 3001.6 5960.9)" r="15.505">
+<stop id="oc-scales-5-294463-stop7584" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7586" stop-color="#F1EFEE" offset="0" />
+<stop id="oc-scales-5-294463-stop7588" stop-color="#fff" offset="0" />
+<stop id="oc-scales-5-294463-stop7590" stop-color="#F0F1F1" offset=".1247" />
+<stop id="oc-scales-5-294463-stop7592" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 89.1%,black)" offset=".3627" />
+<stop id="oc-scales-5-294463-stop7594" stop-color="color-mix(in srgb,var(--c1,#e0e2e5) 76.9%,black)" offset=".5225" />
+<stop id="oc-scales-5-294463-stop7596" stop-color="color-mix(in srgb,var(--c1,#dee2e5) 72.9%,black)" offset=".6034" />
+<stop id="oc-scales-5-294463-stop7598" stop-color="color-mix(in srgb,var(--c1,#d8e0e5) 62.9%,black)" offset=".7397" />
+<stop id="oc-scales-5-294463-stop7600" stop-color="color-mix(in srgb,var(--c1,#cddee5) 45.9%,black)" offset=".9136" />
+<stop id="oc-scales-5-294463-stop7602" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset="1" />
+</radialGradient>
+<radialGradient id="oc-scales-5-294463-SVGID_448_" gradientUnits="userSpaceOnUse" cy="-7248.6" cx="-4320.1" gradientTransform="matrix(.7617 .0142 -.0142 .7617 3001.6 5960.9)" r="16.53">
+<stop id="oc-scales-5-294463-stop7607" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7609" stop-color="#F1EFEE" offset="0" />
+<stop id="oc-scales-5-294463-stop7611" stop-color="#fff" offset="0" />
+<stop id="oc-scales-5-294463-stop7613" stop-color="#F0F1F1" offset=".1247" />
+<stop id="oc-scales-5-294463-stop7615" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 89.1%,black)" offset=".3627" />
+<stop id="oc-scales-5-294463-stop7617" stop-color="color-mix(in srgb,var(--c1,#e0e2e5) 76.9%,black)" offset=".5225" />
+<stop id="oc-scales-5-294463-stop7619" stop-color="color-mix(in srgb,var(--c1,#dee2e5) 72.9%,black)" offset=".6034" />
+<stop id="oc-scales-5-294463-stop7621" stop-color="color-mix(in srgb,var(--c1,#d8e0e5) 62.9%,black)" offset=".7397" />
+<stop id="oc-scales-5-294463-stop7623" stop-color="color-mix(in srgb,var(--c1,#cddee5) 45.9%,black)" offset=".9136" />
+<stop id="oc-scales-5-294463-stop7625" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset="1" />
+</radialGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_449_" y2="-4839.1" gradientUnits="userSpaceOnUse" x2="-2635.4" gradientTransform="matrix(.9998 .0186 -.0186 .9998 2163.9 5275)" y1="-4832.6" x1="-2629.1">
+<stop id="oc-scales-5-294463-stop7630" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7632" stop-color="color-mix(in srgb,var(--c1,#e5e2de) 96.5%,black)" offset="0" />
+<stop id="oc-scales-5-294463-stop7634" stop-color="color-mix(in srgb,var(--c1,#e5e3df) 90.0%,black)" offset=".0383" />
+<stop id="oc-scales-5-294463-stop7636" stop-color="color-mix(in srgb,var(--c1,#e2e5e4) 73.8%,black)" offset=".1119" />
+<stop id="oc-scales-5-294463-stop7638" stop-color="color-mix(in srgb,var(--c1,#d3e1e5) 49.8%,black)" offset=".2124" />
+<stop id="oc-scales-5-294463-stop7640" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset=".264" />
+<stop id="oc-scales-5-294463-stop7642" stop-color="color-mix(in srgb,var(--c1,#d7e0e5) 62.4%,black)" offset=".3711" />
+<stop id="oc-scales-5-294463-stop7644" stop-color="color-mix(in srgb,var(--c1,#dfe3e5) 81.7%,black)" offset=".4632" />
+<stop id="oc-scales-5-294463-stop7646" stop-color="color-mix(in srgb,var(--c1,#e3e4e5) 93.4%,black)" offset=".5333" />
+<stop id="oc-scales-5-294463-stop7648" stop-color="color-mix(in srgb,var(--c1,#e4e4e5) 97.8%,black)" offset=".573" />
+<stop id="oc-scales-5-294463-stop7650" stop-color="color-mix(in srgb,var(--c1,#e2e3e5) 94.3%,black)" offset=".6326" />
+<stop id="oc-scales-5-294463-stop7652" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 84.3%,black)" offset=".7328" />
+<stop id="oc-scales-5-294463-stop7654" stop-color="color-mix(in srgb,var(--c1,#d3dce5) 68.6%,black)" offset=".8607" />
+<stop id="oc-scales-5-294463-stop7656" stop-color="color-mix(in srgb,var(--c1,#d1dce5) 66.4%,black)" offset=".8764" />
+<stop id="oc-scales-5-294463-stop7658" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 92.6%,black)" offset="1" />
+<stop id="oc-scales-5-294463-stop7660" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 75.1%,black)" offset="1" />
+</linearGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_450_" y2="-4844.2" gradientUnits="userSpaceOnUse" x2="-2441" gradientTransform="matrix(.9998 .0186 -.0186 .9998 2163.9 5275)" y1="-4837.7" x1="-2434.7">
+<stop id="oc-scales-5-294463-stop7665" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7667" stop-color="color-mix(in srgb,var(--c1,#e5e2de) 96.5%,black)" offset="0" />
+<stop id="oc-scales-5-294463-stop7669" stop-color="color-mix(in srgb,var(--c1,#e5e3df) 90.0%,black)" offset=".0383" />
+<stop id="oc-scales-5-294463-stop7671" stop-color="color-mix(in srgb,var(--c1,#e2e5e4) 73.8%,black)" offset=".1119" />
+<stop id="oc-scales-5-294463-stop7673" stop-color="color-mix(in srgb,var(--c1,#d3e1e5) 49.8%,black)" offset=".2124" />
+<stop id="oc-scales-5-294463-stop7675" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset=".264" />
+<stop id="oc-scales-5-294463-stop7677" stop-color="color-mix(in srgb,var(--c1,#d7e0e5) 62.4%,black)" offset=".3711" />
+<stop id="oc-scales-5-294463-stop7679" stop-color="color-mix(in srgb,var(--c1,#dfe3e5) 81.7%,black)" offset=".4632" />
+<stop id="oc-scales-5-294463-stop7681" stop-color="color-mix(in srgb,var(--c1,#e3e4e5) 93.4%,black)" offset=".5333" />
+<stop id="oc-scales-5-294463-stop7683" stop-color="color-mix(in srgb,var(--c1,#e4e4e5) 97.8%,black)" offset=".573" />
+<stop id="oc-scales-5-294463-stop7685" stop-color="color-mix(in srgb,var(--c1,#e2e3e5) 94.3%,black)" offset=".6326" />
+<stop id="oc-scales-5-294463-stop7687" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 84.3%,black)" offset=".7328" />
+<stop id="oc-scales-5-294463-stop7689" stop-color="color-mix(in srgb,var(--c1,#d3dce5) 68.6%,black)" offset=".8607" />
+<stop id="oc-scales-5-294463-stop7691" stop-color="color-mix(in srgb,var(--c1,#d1dce5) 66.4%,black)" offset=".8764" />
+<stop id="oc-scales-5-294463-stop7693" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 92.6%,black)" offset="1" />
+<stop id="oc-scales-5-294463-stop7695" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 75.1%,black)" offset="1" />
+</linearGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_451_" y2="8838.9" gradientUnits="userSpaceOnUse" x2="-2538.6" gradientTransform="matrix(.9998 .0186 .0186 -.9998 2081 9249.7)" y1="8806.4" x1="-2536.7">
+<stop id="oc-scales-5-294463-stop7700" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7702" stop-color="color-mix(in srgb,var(--c1,#e5e2de) 96.5%,black)" offset="0" />
+<stop id="oc-scales-5-294463-stop7704" stop-color="color-mix(in srgb,var(--c1,#e5e3df) 90.0%,black)" offset=".0383" />
+<stop id="oc-scales-5-294463-stop7706" stop-color="color-mix(in srgb,var(--c1,#e2e5e4) 73.8%,black)" offset=".1119" />
+<stop id="oc-scales-5-294463-stop7708" stop-color="color-mix(in srgb,var(--c1,#d3e1e5) 49.8%,black)" offset=".2124" />
+<stop id="oc-scales-5-294463-stop7710" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset=".264" />
+<stop id="oc-scales-5-294463-stop7712" stop-color="color-mix(in srgb,var(--c1,#d7e0e5) 62.4%,black)" offset=".3711" />
+<stop id="oc-scales-5-294463-stop7714" stop-color="color-mix(in srgb,var(--c1,#dfe3e5) 81.7%,black)" offset=".4632" />
+<stop id="oc-scales-5-294463-stop7716" stop-color="color-mix(in srgb,var(--c1,#e3e4e5) 93.4%,black)" offset=".5333" />
+<stop id="oc-scales-5-294463-stop7718" stop-color="color-mix(in srgb,var(--c1,#e4e4e5) 97.8%,black)" offset=".573" />
+<stop id="oc-scales-5-294463-stop7720" stop-color="color-mix(in srgb,var(--c1,#e2e3e5) 94.3%,black)" offset=".6326" />
+<stop id="oc-scales-5-294463-stop7722" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 84.3%,black)" offset=".7328" />
+<stop id="oc-scales-5-294463-stop7724" stop-color="color-mix(in srgb,var(--c1,#d3dce5) 68.6%,black)" offset=".8607" />
+<stop id="oc-scales-5-294463-stop7726" stop-color="color-mix(in srgb,var(--c1,#d1dce5) 66.4%,black)" offset=".8764" />
+<stop id="oc-scales-5-294463-stop7728" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 92.6%,black)" offset="1" />
+<stop id="oc-scales-5-294463-stop7730" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 75.1%,black)" offset="1" />
+</linearGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_452_" y2="8840.1" gradientUnits="userSpaceOnUse" x2="-2516.8" gradientTransform="matrix(.9998 .0186 .0186 -.9998 2081 9249.7)" y1="8807.7" x1="-2514.9">
+<stop id="oc-scales-5-294463-stop7735" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7737" stop-color="color-mix(in srgb,var(--c1,#e5e2de) 96.5%,black)" offset="0" />
+<stop id="oc-scales-5-294463-stop7739" stop-color="color-mix(in srgb,var(--c1,#e5e3df) 90.0%,black)" offset=".0383" />
+<stop id="oc-scales-5-294463-stop7741" stop-color="color-mix(in srgb,var(--c1,#e2e5e4) 73.8%,black)" offset=".1119" />
+<stop id="oc-scales-5-294463-stop7743" stop-color="color-mix(in srgb,var(--c1,#d3e1e5) 49.8%,black)" offset=".2124" />
+<stop id="oc-scales-5-294463-stop7745" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset=".264" />
+<stop id="oc-scales-5-294463-stop7747" stop-color="color-mix(in srgb,var(--c1,#d7e0e5) 62.4%,black)" offset=".3711" />
+<stop id="oc-scales-5-294463-stop7749" stop-color="color-mix(in srgb,var(--c1,#dfe3e5) 81.7%,black)" offset=".4632" />
+<stop id="oc-scales-5-294463-stop7751" stop-color="color-mix(in srgb,var(--c1,#e3e4e5) 93.4%,black)" offset=".5333" />
+<stop id="oc-scales-5-294463-stop7753" stop-color="color-mix(in srgb,var(--c1,#e4e4e5) 97.8%,black)" offset=".573" />
+<stop id="oc-scales-5-294463-stop7755" stop-color="color-mix(in srgb,var(--c1,#e2e3e5) 94.3%,black)" offset=".6326" />
+<stop id="oc-scales-5-294463-stop7757" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 84.3%,black)" offset=".7328" />
+<stop id="oc-scales-5-294463-stop7759" stop-color="color-mix(in srgb,var(--c1,#d3dce5) 68.6%,black)" offset=".8607" />
+<stop id="oc-scales-5-294463-stop7761" stop-color="color-mix(in srgb,var(--c1,#d1dce5) 66.4%,black)" offset=".8764" />
+<stop id="oc-scales-5-294463-stop7763" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 92.6%,black)" offset="1" />
+<stop id="oc-scales-5-294463-stop7765" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 75.1%,black)" offset="1" />
+</linearGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_453_" y2="8836.1" gradientUnits="userSpaceOnUse" x2="-2585" gradientTransform="matrix(.9998 .0186 .0186 -.9998 2081 9249.7)" y1="8803.7" x1="-2583.1">
+<stop id="oc-scales-5-294463-stop7770" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7772" stop-color="color-mix(in srgb,var(--c1,#e5e2de) 96.5%,black)" offset="0" />
+<stop id="oc-scales-5-294463-stop7774" stop-color="color-mix(in srgb,var(--c1,#e5e3df) 90.0%,black)" offset=".0383" />
+<stop id="oc-scales-5-294463-stop7776" stop-color="color-mix(in srgb,var(--c1,#e2e5e4) 73.8%,black)" offset=".1119" />
+<stop id="oc-scales-5-294463-stop7778" stop-color="color-mix(in srgb,var(--c1,#d3e1e5) 49.8%,black)" offset=".2124" />
+<stop id="oc-scales-5-294463-stop7780" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset=".264" />
+<stop id="oc-scales-5-294463-stop7782" stop-color="color-mix(in srgb,var(--c1,#d7e0e5) 62.4%,black)" offset=".3711" />
+<stop id="oc-scales-5-294463-stop7784" stop-color="color-mix(in srgb,var(--c1,#dfe3e5) 81.7%,black)" offset=".4632" />
+<stop id="oc-scales-5-294463-stop7786" stop-color="color-mix(in srgb,var(--c1,#e3e4e5) 93.4%,black)" offset=".5333" />
+<stop id="oc-scales-5-294463-stop7788" stop-color="color-mix(in srgb,var(--c1,#e4e4e5) 97.8%,black)" offset=".573" />
+<stop id="oc-scales-5-294463-stop7790" stop-color="color-mix(in srgb,var(--c1,#e2e3e5) 94.3%,black)" offset=".6326" />
+<stop id="oc-scales-5-294463-stop7792" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 84.3%,black)" offset=".7328" />
+<stop id="oc-scales-5-294463-stop7794" stop-color="color-mix(in srgb,var(--c1,#d3dce5) 68.6%,black)" offset=".8607" />
+<stop id="oc-scales-5-294463-stop7796" stop-color="color-mix(in srgb,var(--c1,#d1dce5) 66.4%,black)" offset=".8764" />
+<stop id="oc-scales-5-294463-stop7798" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 92.6%,black)" offset="1" />
+<stop id="oc-scales-5-294463-stop7800" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 75.1%,black)" offset="1" />
+</linearGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_454_" y2="8842.9" gradientUnits="userSpaceOnUse" x2="-2470.3" gradientTransform="matrix(.9998 .0186 .0186 -.9998 2081 9249.7)" y1="8810.4" x1="-2468.4">
+<stop id="oc-scales-5-294463-stop7805" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7807" stop-color="color-mix(in srgb,var(--c1,#e5e2de) 96.5%,black)" offset="0" />
+<stop id="oc-scales-5-294463-stop7809" stop-color="color-mix(in srgb,var(--c1,#e5e3df) 90.0%,black)" offset=".0383" />
+<stop id="oc-scales-5-294463-stop7811" stop-color="color-mix(in srgb,var(--c1,#e2e5e4) 73.8%,black)" offset=".1119" />
+<stop id="oc-scales-5-294463-stop7813" stop-color="color-mix(in srgb,var(--c1,#d3e1e5) 49.8%,black)" offset=".2124" />
+<stop id="oc-scales-5-294463-stop7815" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset=".264" />
+<stop id="oc-scales-5-294463-stop7817" stop-color="color-mix(in srgb,var(--c1,#d7e0e5) 62.4%,black)" offset=".3711" />
+<stop id="oc-scales-5-294463-stop7819" stop-color="color-mix(in srgb,var(--c1,#dfe3e5) 81.7%,black)" offset=".4632" />
+<stop id="oc-scales-5-294463-stop7821" stop-color="color-mix(in srgb,var(--c1,#e3e4e5) 93.4%,black)" offset=".5333" />
+<stop id="oc-scales-5-294463-stop7823" stop-color="color-mix(in srgb,var(--c1,#e4e4e5) 97.8%,black)" offset=".573" />
+<stop id="oc-scales-5-294463-stop7825" stop-color="color-mix(in srgb,var(--c1,#e2e3e5) 94.3%,black)" offset=".6326" />
+<stop id="oc-scales-5-294463-stop7827" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 84.3%,black)" offset=".7328" />
+<stop id="oc-scales-5-294463-stop7829" stop-color="color-mix(in srgb,var(--c1,#d3dce5) 68.6%,black)" offset=".8607" />
+<stop id="oc-scales-5-294463-stop7831" stop-color="color-mix(in srgb,var(--c1,#d1dce5) 66.4%,black)" offset=".8764" />
+<stop id="oc-scales-5-294463-stop7833" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 92.6%,black)" offset="1" />
+<stop id="oc-scales-5-294463-stop7835" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 75.1%,black)" offset="1" />
+</linearGradient>
+<radialGradient id="oc-scales-5-294463-SVGID_455_" gradientUnits="userSpaceOnUse" cy="-7245.5" cx="-4471.6" gradientTransform="matrix(.7617 .0142 -.0142 .7617 3001.6 5960.9)" r="17.942">
+<stop id="oc-scales-5-294463-stop7840" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7842" stop-color="#F1EFEE" offset="0" />
+<stop id="oc-scales-5-294463-stop7844" stop-color="#fff" offset="0" />
+<stop id="oc-scales-5-294463-stop7846" stop-color="#F0F1F1" offset=".1247" />
+<stop id="oc-scales-5-294463-stop7848" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 89.1%,black)" offset=".3627" />
+<stop id="oc-scales-5-294463-stop7850" stop-color="color-mix(in srgb,var(--c1,#e0e2e5) 76.9%,black)" offset=".5225" />
+<stop id="oc-scales-5-294463-stop7852" stop-color="color-mix(in srgb,var(--c1,#dee2e5) 72.9%,black)" offset=".6034" />
+<stop id="oc-scales-5-294463-stop7854" stop-color="color-mix(in srgb,var(--c1,#d8e0e5) 62.9%,black)" offset=".7397" />
+<stop id="oc-scales-5-294463-stop7856" stop-color="color-mix(in srgb,var(--c1,#cddee5) 45.9%,black)" offset=".9136" />
+<stop id="oc-scales-5-294463-stop7858" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset="1" />
+</radialGradient>
+<radialGradient id="oc-scales-5-294463-SVGID_456_" gradientUnits="userSpaceOnUse" cy="-7246.1" cx="-4423.4" gradientTransform="matrix(.7617 .0142 -.0142 .7617 3001.6 5960.9)" r="16.862">
+<stop id="oc-scales-5-294463-stop7863" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7865" stop-color="#F1EFEE" offset="0" />
+<stop id="oc-scales-5-294463-stop7867" stop-color="#fff" offset="0" />
+<stop id="oc-scales-5-294463-stop7869" stop-color="#F0F1F1" offset=".1247" />
+<stop id="oc-scales-5-294463-stop7871" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 89.1%,black)" offset=".3627" />
+<stop id="oc-scales-5-294463-stop7873" stop-color="color-mix(in srgb,var(--c1,#e0e2e5) 76.9%,black)" offset=".5225" />
+<stop id="oc-scales-5-294463-stop7875" stop-color="color-mix(in srgb,var(--c1,#dee2e5) 72.9%,black)" offset=".6034" />
+<stop id="oc-scales-5-294463-stop7877" stop-color="color-mix(in srgb,var(--c1,#d8e0e5) 62.9%,black)" offset=".7397" />
+<stop id="oc-scales-5-294463-stop7879" stop-color="color-mix(in srgb,var(--c1,#cddee5) 45.9%,black)" offset=".9136" />
+<stop id="oc-scales-5-294463-stop7881" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset="1" />
+</radialGradient>
+<radialGradient id="oc-scales-5-294463-SVGID_457_" gradientUnits="userSpaceOnUse" cy="-7248" cx="-4447.8" gradientTransform="matrix(.7617 .0142 -.0142 .7617 3001.6 5960.9)" r="26.64">
+<stop id="oc-scales-5-294463-stop7886" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7888" stop-color="#F1EFEE" offset="0" />
+<stop id="oc-scales-5-294463-stop7890" stop-color="#fff" offset="0" />
+<stop id="oc-scales-5-294463-stop7892" stop-color="#F0F1F1" offset=".1247" />
+<stop id="oc-scales-5-294463-stop7894" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 89.1%,black)" offset=".3627" />
+<stop id="oc-scales-5-294463-stop7896" stop-color="color-mix(in srgb,var(--c1,#e0e2e5) 76.9%,black)" offset=".5225" />
+<stop id="oc-scales-5-294463-stop7898" stop-color="color-mix(in srgb,var(--c1,#dee2e5) 72.9%,black)" offset=".6034" />
+<stop id="oc-scales-5-294463-stop7900" stop-color="color-mix(in srgb,var(--c1,#d8e0e5) 62.9%,black)" offset=".7397" />
+<stop id="oc-scales-5-294463-stop7902" stop-color="color-mix(in srgb,var(--c1,#cddee5) 45.9%,black)" offset=".9136" />
+<stop id="oc-scales-5-294463-stop7904" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset="1" />
+</radialGradient>
+<linearGradient id="oc-scales-5-294463-SVGID_458_" y2="8856.6" gradientUnits="userSpaceOnUse" x2="-2522" gradientTransform="matrix(.9998 .0186 .0186 -.9998 2081 9249.7)" y1="8856.6" x1="-2533.9">
+<stop id="oc-scales-5-294463-stop7909" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7911" stop-color="color-mix(in srgb,var(--c1,#e5e2de) 96.5%,black)" offset="0" />
+<stop id="oc-scales-5-294463-stop7913" stop-color="color-mix(in srgb,var(--c1,#e5e3df) 90.0%,black)" offset=".0383" />
+<stop id="oc-scales-5-294463-stop7915" stop-color="color-mix(in srgb,var(--c1,#e2e5e4) 73.8%,black)" offset=".1119" />
+<stop id="oc-scales-5-294463-stop7917" stop-color="color-mix(in srgb,var(--c1,#d3e1e5) 49.8%,black)" offset=".2124" />
+<stop id="oc-scales-5-294463-stop7919" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset=".264" />
+<stop id="oc-scales-5-294463-stop7921" stop-color="color-mix(in srgb,var(--c1,#d7e0e5) 62.4%,black)" offset=".3711" />
+<stop id="oc-scales-5-294463-stop7923" stop-color="color-mix(in srgb,var(--c1,#dfe3e5) 81.7%,black)" offset=".4632" />
+<stop id="oc-scales-5-294463-stop7925" stop-color="color-mix(in srgb,var(--c1,#e3e4e5) 93.4%,black)" offset=".5333" />
+<stop id="oc-scales-5-294463-stop7927" stop-color="color-mix(in srgb,var(--c1,#e4e4e5) 97.8%,black)" offset=".573" />
+<stop id="oc-scales-5-294463-stop7929" stop-color="color-mix(in srgb,var(--c1,#e2e3e5) 94.3%,black)" offset=".6326" />
+<stop id="oc-scales-5-294463-stop7931" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 84.3%,black)" offset=".7328" />
+<stop id="oc-scales-5-294463-stop7933" stop-color="color-mix(in srgb,var(--c1,#d3dce5) 68.6%,black)" offset=".8607" />
+<stop id="oc-scales-5-294463-stop7935" stop-color="color-mix(in srgb,var(--c1,#d1dce5) 66.4%,black)" offset=".8764" />
+<stop id="oc-scales-5-294463-stop7937" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 92.6%,black)" offset="1" />
+<stop id="oc-scales-5-294463-stop7939" stop-color="color-mix(in srgb,var(--c1,#dee1e5) 75.1%,black)" offset="1" />
+</linearGradient>
+<radialGradient id="oc-scales-5-294463-SVGID_459_" gradientUnits="userSpaceOnUse" cy="-7335.6" cx="-4449.1" gradientTransform="matrix(.7617 .0142 -.0142 .7617 3001.6 5960.9)" r="21.23">
+<stop id="oc-scales-5-294463-stop7944" stop-color="var(--c1,#e5e1df)" offset="0" />
+<stop id="oc-scales-5-294463-stop7946" stop-color="#F1EFEE" offset="0" />
+<stop id="oc-scales-5-294463-stop7948" stop-color="#fff" offset="0" />
+<stop id="oc-scales-5-294463-stop7950" stop-color="#F0F1F1" offset=".1247" />
+<stop id="oc-scales-5-294463-stop7952" stop-color="color-mix(in srgb,var(--c1,#e2e4e5) 89.1%,black)" offset=".3627" />
+<stop id="oc-scales-5-294463-stop7954" stop-color="color-mix(in srgb,var(--c1,#e0e2e5) 76.9%,black)" offset=".5225" />
+<stop id="oc-scales-5-294463-stop7956" stop-color="color-mix(in srgb,var(--c1,#dee2e5) 72.9%,black)" offset=".6034" />
+<stop id="oc-scales-5-294463-stop7958" stop-color="color-mix(in srgb,var(--c1,#d8e0e5) 62.9%,black)" offset=".7397" />
+<stop id="oc-scales-5-294463-stop7960" stop-color="color-mix(in srgb,var(--c1,#cddee5) 45.9%,black)" offset=".9136" />
+<stop id="oc-scales-5-294463-stop7962" stop-color="color-mix(in srgb,var(--c1,#bfdae5) 36.7%,black)" offset="1" />
+</radialGradient>
+</defs>
+<g xmlns="http://www.w3.org/2000/svg" id="oc-scales-5-294463-layer1" transform="translate(-99.833 323.15)">
+<g id="oc-scales-5-294463-g7371" transform="matrix(3.5502 0 0 3.5652 1544.6 -1414.6)">
+<g id="oc-scales-5-294463-g7373">
+<g stroke="color-mix(in srgb,var(--c2,#924f13) 86.4%,white)" stroke-width=".060713">
+<path id="oc-scales-5-294463-path7390" d="m-379.74 506.45c15.241-0.125 27.18 4.914 27.365 16.548 0.179 11.634-12.031 21.433-27.265 21.549-14.847 0.124-27.095-9.323-27.272-21.36 0.202-11.627 12.327-16.621 27.172-16.737z" fill="url(#oc-scales-5-294463-SVGID_435_)" />
+<path id="oc-scales-5-294463-path7407" d="m-180.82 505.34c-15.243 0.115-27.366 5.102-27.188 17.141-0.218 11.625 12.039 21.081 27.281 20.965 14.837-0.124 27.038-9.52 27.264-21.549-0.186-11.644-12.52-16.682-27.357-16.557z" fill="url(#oc-scales-5-294463-SVGID_436_)" />
+<path id="oc-scales-5-294463-path7420" d="m-379.77 508.05c13.234-0.152 23.975 4.854 23.858 10.873-0.11 6.011-10.623 10.63-23.463 10.793-13.235 0.156-23.975-4.853-23.865-10.87 0.11-5.623 10.63-10.64 23.47-10.796z" fill="url(#oc-scales-5-294463-SVGID_437_)" />
+<path id="oc-scales-5-294463-path7433" d="m-180.86 507.35c-13.229-0.249-23.748 4.768-23.866 10.786 0.295 6.025 11.035 10.63 23.866 10.467 13.227 0.249 23.75-4.769 23.461-10.794 0.116-6.011-10.622-10.621-23.461-10.459z" fill="url(#oc-scales-5-294463-SVGID_438_)" />
+<path id="oc-scales-5-294463-path7450" d="m-377.09 407.05-1.851 99.423-0.803-0.016c-0.801-0.017-1.205-0.023-1.996-0.039l1.851-99.423c0.389 0.411 1.189 0.427 1.594 0.436 0.404 0.008 0.793 0.015 1.205-0.381z" fill="url(#oc-scales-5-294463-SVGID_439_)" />
+<path id="oc-scales-5-294463-path7467" d="m-184.59 406.22 2.962 99.104 0.801 0.017c0.801 0.016 1.197 0.022 1.998 0.039l-2.955-99.104c-0.402-0.008-0.802-0.017-1.608-0.032-0.389-0.009-0.794-0.016-1.198-0.024z" fill="url(#oc-scales-5-294463-SVGID_440_)" />
+<path id="oc-scales-5-294463-path7484" d="m-382.29 406.15-17.591 104.74c-1.229 1.182-2.451 1.958-3.672 3.142l18.51-110.74c0.784 1.22 1.569 2.036 2.753 2.86z" fill="url(#oc-scales-5-294463-SVGID_441_)" />
+<path id="oc-scales-5-294463-path7501" d="m-178.95 405.12 18.5 104.61c1.182 0.824 2.372 2.046 3.157 2.87l-19.2-110.23c-0.824 1.183-1.641 1.969-2.457 2.752z" fill="url(#oc-scales-5-294463-SVGID_442_)" />
+<path id="oc-scales-5-294463-path7518" d="m-371.8 403.13 17.153 112.21c-0.777-1.221-1.961-2.449-3.538-3.679l-16.073-105.76c1.212-0.785 2.029-1.57 2.458-2.768z" fill="url(#oc-scales-5-294463-SVGID_443_)" />
+<path id="oc-scales-5-294463-path7535" d="m-190.13 402.11-15.73 112.39c0.823-1.182 2.053-2.365 3.272-3.545l15.202-105.99c-1.182-0.419-1.967-1.641-2.744-2.854z" fill="url(#oc-scales-5-294463-SVGID_444_)" />
+</g>
+<g stroke="color-mix(in srgb,var(--c1,#dee1e5) 73.4%,black)">
+<g stroke-width=".84324">
+<path id="oc-scales-5-294463-path7558" d="m-378.42 392.98c4.007 0.07 7.154 3.335 7.489 6.96-0.078 4.005-3.354 7.55-7.356 7.481-4.014-0.07-7.558-3.345-7.479-7.357 0.067-4.011 3.333-7.154 7.346-7.084z" fill="url(#oc-scales-5-294463-SVGID_445_)" />
+<path id="oc-scales-5-294463-path7581" d="m-183.12 392.22c-4.013-0.08-7.276 3.07-7.349 7.076-0.077 4.013 3.063 7.271 7.085 6.953 4.411 0.083 7.676-3.066 7.349-7.077 0.08-4.007-3.073-7.279-7.085-6.952z" fill="url(#oc-scales-5-294463-SVGID_446_)" />
+<path id="oc-scales-5-294463-path7604" d="m-378.52 376.54c3.204 0.063 5.965 2.528 6.307 5.731-0.062 3.212-2.915 5.965-6.129 5.903-3.606-0.07-6.368-2.527-6.306-5.731s2.924-5.965 6.128-5.903z" fill="url(#oc-scales-5-294463-SVGID_447_)" />
+<path id="oc-scales-5-294463-path7627" d="m-183.21 375.37c-3.615-0.068-6.064 2.7-6.128 5.905-0.067 3.608 2.691 6.064 5.902 6.128 3.607 0.069 6.064-2.692 6.12-5.903 0.062-3.211-2.689-6.073-5.894-6.13z" fill="url(#oc-scales-5-294463-SVGID_448_)" />
+</g>
+<path id="oc-scales-5-294463-path7662" d="m-375.93 387.82-0.103 5.607c-0.793-0.412-1.595-0.429-2.395-0.443-0.802-0.016-1.603-0.031-2.419 0.35l0.108-5.607c0.794 0.413 1.603 0.429 2.396 0.443 0.803 0.023 1.603 0.031 2.413-0.35z" stroke-width=".28108" fill="url(#oc-scales-5-294463-SVGID_449_)" />
+<path id="oc-scales-5-294463-path7697" d="m-185.83 386.96 0.296 5.623c0.81-0.382 1.609-0.364 2.419-0.351 0.8 0.017 1.603 0.031 2.401 0.048l-0.303-5.227c-0.802-0.016-1.618 0.365-2.41 0.351-0.809-0.016-1.611-0.032-2.403-0.444z" stroke-width=".28108" fill="url(#oc-scales-5-294463-SVGID_450_)" />
+<g stroke-width=".84324">
+<path id="oc-scales-5-294463-path7732" d="m-295.93 377.28 8.026-0.249c-0.438 1.595-0.469 3.205-0.508 5.202-0.038 2.007 0.327 4.021 0.701 5.631l-8.415-0.156c0.832-1.587 1.268-3.584 1.308-5.591 0.037-2.014-0.335-3.623-1.112-4.837z" fill="url(#oc-scales-5-294463-SVGID_451_)" />
+<path id="oc-scales-5-294463-path7767" d="m-265.85 377.04-8.414-0.155c0.364 1.61 0.739 3.228 0.698 5.228-0.039 2.005-0.076 4.002-0.901 5.597l8.825-0.232c-0.776-1.214-1.547-3.235-1.508-5.242 0.032-2.015 0.484-4.012 1.3-5.196z" fill="url(#oc-scales-5-294463-SVGID_452_)" />
+<path id="oc-scales-5-294463-path7802" d="m-373.36 379.05 70.215-1.898c-0.831 1.585-0.863 3.197-0.901 5.195-0.039 1.998 0.325 4.013 1.104 5.233l-70.953-1.321c0.815-0.786 1.647-2.374 1.68-3.982-0.374-1.214-0.755-2.426-1.145-3.227z" fill="url(#oc-scales-5-294463-SVGID_453_)" />
+<path id="oc-scales-5-294463-path7837" d="m-188.47 378.08-70.16-0.91c0.785 1.222 1.151 2.823 1.111 4.829-0.039 2.006-0.474 3.999-1.298 5.188l71.015-1.884c-0.784-0.814-1.555-2.433-1.523-4.043 0.016-1.197 0.437-2.387 0.855-3.18z" fill="url(#oc-scales-5-294463-SVGID_454_)" />
+<path id="oc-scales-5-294463-path7860" d="m-299.48 374.41c2.409-0.359 4.752 3.295 4.667 7.707-0.086 4.408-2.154 7.977-4.558 7.938-2.815 0.349-4.753-3.298-4.666-7.707-0.325-4.417 1.75-7.993 4.557-7.938z" fill="url(#oc-scales-5-294463-SVGID_455_)" />
+<path id="oc-scales-5-294463-path7883" d="m-262.58 373.89c-2.409 0.356-4.485 3.934-4.564 8.336-0.076 4.409 2.271 7.661 4.674 7.706 2.808 0.055 4.876-3.516 4.961-7.932-0.328-4.402-2.256-8.057-5.071-8.11z" fill="url(#oc-scales-5-294463-SVGID_456_)" />
+<path id="oc-scales-5-294463-path7906" d="m-280.95 369.54c4.014 0.077 7.514 5.754 7.389 12.566 0.272 6.828-3.451 12.769-7.45 12.691-4.013-0.077-7.51-5.755-7.388-12.574-0.264-7.208 3.04-12.761 7.449-12.683z" fill="url(#oc-scales-5-294463-SVGID_457_)" />
+</g>
+</g>
+</g>
+<path id="oc-scales-5-294463-path7941" d="m-279.33 325.86 0.381 44.117c-0.793-0.413-1.197-0.42-1.998-0.436-0.802-0.017-1.603-0.032-2.015 0.356l-0.373-44.114c0.785 0.815 1.586 0.831 1.983 0.839 0.809 0.025 1.618-0.364 2.022-0.762z" stroke="color-mix(in srgb,var(--c1,#dee1e5) 73.4%,black)" stroke-width=".84324" fill="url(#oc-scales-5-294463-SVGID_458_)" />
+<path id="oc-scales-5-294463-path7964" d="m-281.38 306.57c2.811 0.055 5.531 4.518 5.431 10.133-0.103 5.606-2.193 9.985-5.404 9.923-2.803-0.054-5.134-4.502-5.033-9.721 0.116-5.607 2.199-10.383 5.006-10.335z" stroke="color-mix(in srgb,var(--c1,#dee1e5) 73.4%,black)" stroke-width=".84324" fill="url(#oc-scales-5-294463-SVGID_459_)" />
+</g>
+</g></g></svg>

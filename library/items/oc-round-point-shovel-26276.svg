@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(151.79 421.62) scale(0.7768)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-round-point-shovel-26276-defs6145">
+    <linearGradient id="oc-round-point-shovel-26276-linearGradient7703">
+      <stop id="oc-round-point-shovel-26276-stop7705" style="stop-color:var(--c1,#be391a)" offset="0" />
+      <stop id="oc-round-point-shovel-26276-stop7711" style="stop-color:color-mix(in srgb,var(--c1,#be4616) 71.6%,black)" offset=".5" />
+      <stop id="oc-round-point-shovel-26276-stop7707" style="stop-color:color-mix(in srgb,var(--c1,#d05c18) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-round-point-shovel-26276-linearGradient9200" y2="500.48" gradientUnits="userSpaceOnUse" y1="470.48" gradientTransform="matrix(.25084 .96803 -.96803 .25084 708.19 32.795)" x2="324.44" x1="308.25">
+      <stop id="oc-round-point-shovel-26276-stop6957" style="stop-color:color-mix(in srgb,var(--c1,#be771d) 47.9%,black)" offset="0" />
+      <stop id="oc-round-point-shovel-26276-stop6971" style="stop-color:color-mix(in srgb,var(--c1,#be984b) 95.3%,black)" offset=".5" />
+      <stop id="oc-round-point-shovel-26276-stop6973" style="stop-color:var(--c2,#504018)" offset=".75" />
+      <stop id="oc-round-point-shovel-26276-stop6959" style="stop-color:color-mix(in srgb,var(--c2,#a17d18) 95.2%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-round-point-shovel-26276-linearGradient9202" y2="415.58" gradientUnits="userSpaceOnUse" y1="353.43" gradientTransform="matrix(.25084 .96803 -.96803 .25084 708.19 32.795)" x2="526.07" x1="492.86"><stop id="oc-round-point-shovel-26276-stop7705" style="stop-color:var(--c1,#be391a)" offset="0" />
+      <stop id="oc-round-point-shovel-26276-stop7711" style="stop-color:color-mix(in srgb,var(--c1,#be4616) 71.6%,black)" offset=".5" />
+      <stop id="oc-round-point-shovel-26276-stop7707" style="stop-color:color-mix(in srgb,var(--c1,#d05c18) 100.0%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-round-point-shovel-26276-linearGradient9204" y2="386.65" gradientUnits="userSpaceOnUse" y1="410.93" gradientTransform="matrix(.25084 .96803 -.96803 .25084 708.19 32.795)" x2="472.5" x1="486.07"><stop id="oc-round-point-shovel-26276-stop7705" style="stop-color:var(--c1,#be391a)" offset="0" />
+      <stop id="oc-round-point-shovel-26276-stop7711" style="stop-color:color-mix(in srgb,var(--c1,#be4616) 71.6%,black)" offset=".5" />
+      <stop id="oc-round-point-shovel-26276-stop7707" style="stop-color:color-mix(in srgb,var(--c1,#d05c18) 100.0%,white)" offset="1" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-round-point-shovel-26276-layer1">
+    <g id="oc-round-point-shovel-26276-g9195" transform="translate(-138.57 -277.14)">
+      <path id="oc-round-point-shovel-26276-path6227" style="fill-rule:evenodd;stroke:#000000;stroke-width:2;fill:url(#oc-round-point-shovel-26276-linearGradient9200)" d="m420.1 564.93l-265.24-283.24s-4.88-3.38-9 0.64 0.46 9.48 0.46 9.48l268.36 283.9 5.42-10.78z" />
+      <path id="oc-round-point-shovel-26276-path6975" style="stroke-linejoin:round;fill-rule:evenodd;stroke:#000000;stroke-linecap:round;stroke-width:2;fill:url(#oc-round-point-shovel-26276-linearGradient9202)" d="m419.56 562.86l15.39 16.67s2.54 4.13 6.78 3.41c4.24-0.73 8.1-5.79 8.1-5.79l16.69-12.44s30.19 25.21 41.56 47.89c7.09 14.14 7.32 35.36 5.56 42.83-1.75 7.46-5.34 13.56-5.34 13.56s-16.66 6.9-30.88 4.68c-14.23-2.22-30.77-11.95-42.21-23.37-11.45-11.43-26.52-31.13-26.52-31.13l15.27-17.98s8.51-7 0.74-14.21-14.76-14.25-14.76-14.25 3.71-1.33 5.94-4.13c2.23-2.79 3.77-5.4 3.68-5.74z" />
+      <path id="oc-round-point-shovel-26276-path7713" style="opacity:0.7;fill-rule:evenodd;fill:url(#oc-round-point-shovel-26276-linearGradient9204)" d="m419.84 565.37l18.96 19.06s2.69 0.41 8.91-1.2c6.23-1.61 20.32 25.73 12.24 32.99-5.16 4.63-31.52-9.18-30.97-15.59 0.71-8.31 2.15-9.98-1.59-13.24-6.18-5.39-15.89-14.33-15.89-14.33s3.29-0.12 4.83-2.73 3.6-4.62 3.51-4.96z" />
+    </g>
+  </g></g></svg>

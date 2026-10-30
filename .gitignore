@@ -15,3 +15,7 @@ checkpoints/
 *.safetensors
 *.lance/
 renders/
+library/vectors.npz
+library/thumbs/
+runs/
+.cache/

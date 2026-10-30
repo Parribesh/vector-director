@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(69.51 411.72) scale(0.4603)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-lamp-254463-defs14">
+    <linearGradient id="oc-lamp-254463-linearGradient801" y2="147.35001" gradientUnits="userSpaceOnUse" y1="149.38" gradientTransform="matrix(0.3703081,0,0,1.1662877,527.58409,-7.1337488)" x2="456.39999" x1="407.87"><stop stop-color="var(--c2,#d5dfff)" offset="0" id="oc-lamp-254463-stop7" />
+      <stop stop-color="#FFF" offset="1" id="oc-lamp-254463-stop9" />
+    </linearGradient>
+    <linearGradient id="oc-lamp-254463-linearGradient795">
+      <stop stop-color="var(--c2,#d5dfff)" offset="0" id="oc-lamp-254463-stop7" />
+      <stop stop-color="#FFF" offset="1" id="oc-lamp-254463-stop9" />
+    </linearGradient>
+    <linearGradient id="oc-lamp-254463-linearGradient4333" gradientUnits="userSpaceOnUse" gradientTransform="matrix(17.858813,0,0,40.383731,-1776.7484,-4188.988)" x1="105.89597" y1="105.56837" x2="103.30656" y2="113.25211"><stop stop-color="var(--c3,#f00)" offset="0" id="oc-lamp-254463-stop7-8" />
+      <stop stop-color="#ff0" offset="1" id="oc-lamp-254463-stop9-0" />
+    </linearGradient>
+    <linearGradient id="oc-lamp-254463-grad" gradientUnits="userSpaceOnUse" x1="103.083" y1="111.276" x2="92.551102" y2="107.764" gradientTransform="matrix(0.99614143,0,0,2.2525522,703.84172,-75.047171)">
+      <stop stop-color="var(--c3,#f00)" offset="0" id="oc-lamp-254463-stop7-8" />
+      <stop stop-color="#ff0" offset="1" id="oc-lamp-254463-stop9-0" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-lamp-254463-g5067">
+    <path id="oc-lamp-254463-path35" d="m 515.83408,277.54051 c 0.01,27.72222 -22.46162,50.20052 -50.18456,50.20052 -27.72295,0 -50.19425,-22.4783 -50.18475,-50.20052 -0.01,-27.72223 22.4618,-50.2007 50.18475,-50.2007 27.72294,0 50.19406,22.47847 50.18456,50.2007 z" style="fill:var(--c1,#959597);stroke:#000000;stroke-width:16.91864395;fill-opacity:1" />
+    <path id="oc-lamp-254463-path37" d="m 259.91204,690.40416 391.75524,1.11512 c 0,0 6.14249,-50.84252 -40.92027,-81.74374 205.193,-28.21614 151.88664,-209.20887 323.73466,-219.46727 33.34391,5.12938 -89.77172,76.94729 -89.77172,76.94729 0,0 -103.61069,73.11715 -56.42798,110.2903 37.4591,29.5127 53.86303,-17.95183 58.99312,-53.8607 5.12974,-35.90904 166.71831,-58.99294 143.63457,-161.58765 -38.47365,-84.64288 -264.18506,56.42422 -264.18506,56.42422 l -161.03206,-0.89282 c -10.04057,-18.07356 -54.41988,-90.54925 -100.25134,-90.88486 -54.37362,1.98409 -92.6739,91.77822 -92.6739,91.77822 l -233.40628,0 -130.8101425,0 c 0,0 -12.4872029,93.45089 172.1863225,111.40542 41.57823,54.3019 73.80881,69.47364 109.95361,83.53026 -24.09665,20.08204 -30.88024,44.37608 -30.77895,76.94747 z" style="fill:var(--c1,#959597);stroke:#000000;stroke-width:16.91864395;fill-opacity:1" />
+    <path id="oc-lamp-254463-path39" d="M 288.11277,610.89353 614.41292,609.782" style="fill:var(--c1,#959597);stroke:#000000;stroke-width:16.91864395;fill-opacity:1" />
+    <path id="oc-lamp-254463-path41" d="m 138.66505,418.50828 c 0,0 26.10441,152.61434 146.58695,188.75842" style="fill:var(--c1,#959597);stroke:#000000;stroke-width:16.91864395;fill-opacity:1" />
+    <path id="oc-lamp-254463-path43" d="M 118.5857,416.50035 C 130.63385,358.26809 152.72257,348.22573 176.81904,273.92837 180.83527,201.6395 118.5857,209.6707 136.65819,163.48658 168.78676,113.28552 152.72257,65.092939 92.481296,26.940027 104.52962,93.206177 14.167716,155.45538 14.167716,209.67105 c 0,54.21801 46.18501,42.16986 40.160847,124.5011 4.016228,48.1899 -12.048146,36.14444 -16.064195,82.32856 l 80.321332,0 z" style="fill:url(#oc-lamp-254463-linearGradient4333);stroke:#000000;stroke-width:16.91864395" />
+  </g></g></svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(278.53 424.12) scale(0.3504)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-glaudius-sword-23530-defs4">
+    <linearGradient id="oc-glaudius-sword-23530-linearGradient5308">
+      <stop id="oc-glaudius-sword-23530-stop5310" style="stop-color:var(--c1,#775b64)" offset="0" />
+      <stop id="oc-glaudius-sword-23530-stop5312" style="stop-color:color-mix(in srgb,var(--c1,#835b5b) 35.4%,white)" offset=".22366" />
+      <stop id="oc-glaudius-sword-23530-stop5314" style="stop-color:var(--c3,#b09da0)" offset=".28986" />
+      <stop id="oc-glaudius-sword-23530-stop5316" style="stop-color:color-mix(in srgb,var(--c1,#8c5b71) 50.6%,white)" offset=".34850" />
+      <stop id="oc-glaudius-sword-23530-stop5318" style="stop-color:#000000" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-glaudius-sword-23530-linearGradient5288">
+      <stop id="oc-glaudius-sword-23530-stop5290" style="stop-color:color-mix(in srgb,var(--c1,#775b64) 58.0%,black)" offset="0" />
+      <stop id="oc-glaudius-sword-23530-stop5292" style="stop-color:color-mix(in srgb,var(--c1,#825b5b) 87.8%,white)" offset=".097274" />
+      <stop id="oc-glaudius-sword-23530-stop5296" style="stop-color:color-mix(in srgb,var(--c1,#835b5b) 42.1%,white)" offset=".21620" />
+      <stop id="oc-glaudius-sword-23530-stop5298" style="stop-color:color-mix(in srgb,var(--c1,#7e5b5c) 95.1%,white);stop-opacity:.99608" offset=".36498" />
+      <stop id="oc-glaudius-sword-23530-stop5294" style="stop-color:#26101a" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-glaudius-sword-23530-linearGradient5201">
+      <stop id="oc-glaudius-sword-23530-stop5203" style="stop-color:var(--c1,#775b64)" offset="0" />
+      <stop id="oc-glaudius-sword-23530-stop5205" style="stop-color:color-mix(in srgb,var(--c1,#835b5b) 35.4%,white)" offset=".22366" />
+      <stop id="oc-glaudius-sword-23530-stop5209" style="stop-color:#ffffff" offset=".28986" />
+      <stop id="oc-glaudius-sword-23530-stop5211" style="stop-color:color-mix(in srgb,var(--c1,#8c5b71) 50.6%,white)" offset=".34850" />
+      <stop id="oc-glaudius-sword-23530-stop5207" style="stop-color:#000000" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-glaudius-sword-23530-linearGradient5125" y2="181.66" gradientUnits="userSpaceOnUse" x2="659.37" y1="181.66" x1="620.87">
+      <stop id="oc-glaudius-sword-23530-stop5119" style="stop-color:#d0e3f7" offset="0" />
+      <stop id="oc-glaudius-sword-23530-stop5121" style="stop-color:color-mix(in srgb,var(--c3,#a5a5b0) 52.3%,black)" offset="1" />
+    </linearGradient>
+    <clipPath id="oc-glaudius-sword-23530-clipPath5155" clipPathUnits="userSpaceOnUse">
+      <path id="oc-glaudius-sword-23530-path5157" style="fill:#d0e3f7" d="m552.81-22.938c0.61605 3.4077 17.961 8.7816 18.594 13.438 0.63436 4.6678 1.2694 10.208 1.875 17.094 0.60557 6.8853 1.1876 15.121 1.7188 25.188 0.53116 10.067 1.0264 21.944 1.4375 36.156 0.41113 14.212 0.75451 30.74 1 50.062s0.40328 41.448 0.4375 66.844c0.0342 25.396-0.0586 54.066-0.28125 86.5-0.22266 32.434-0.59984 68.626-1.125 109.06-2.0005-0.67182-3.9858-1.3644-6.0312-1.9688-2.0454-0.60436-4.147-1.1069-6.375-1.4375 56.755 32.768 33.554 122.06 42.031 154.72 8.48-32.65-14.72-121.94 42.03-154.71-2.228 0.33057-4.3296 0.83314-6.375 1.4375s-4.0308 1.2969-6.0312 1.9688c-0.52516-40.436-0.90234-76.628-1.125-109.06-0.22265-32.434-0.31545-61.104-0.28125-86.5s0.19201-47.522 0.4375-66.844 0.58887-35.85 1-50.062 0.90634-26.089 1.4375-36.156 1.1132-18.302 1.7188-25.188c0.60557-6.8853 1.2406-12.426 1.875-17.094 0.63273-4.6559 17.978-10.03 18.594-13.438-12.026 1.4142-40.831 4.6836-53.281 4.5-12.45 0.18357-41.256-3.0858-53.281-4.5z" />
+    </clipPath>
+    <linearGradient id="oc-glaudius-sword-23530-linearGradient5173" y2="-131.81" gradientUnits="userSpaceOnUse" x2="621.57" y1="-131.81" x1="590.62">
+      <stop id="oc-glaudius-sword-23530-stop5169" style="stop-color:color-mix(in srgb,var(--c1,#775b64) 58.0%,black)" offset="0" />
+      <stop id="oc-glaudius-sword-23530-stop5191" style="stop-color:color-mix(in srgb,var(--c1,#825b5b) 87.8%,white)" offset=".27875" />
+      <stop id="oc-glaudius-sword-23530-stop5171" style="stop-color:#26101a" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-glaudius-sword-23530-linearGradient5199" y2="-175.69" gradientUnits="userSpaceOnUse" x2="625.69" y1="-175.69" x1="586.5"><stop id="oc-glaudius-sword-23530-stop5310" style="stop-color:var(--c1,#775b64)" offset="0" />
+      <stop id="oc-glaudius-sword-23530-stop5312" style="stop-color:color-mix(in srgb,var(--c1,#835b5b) 35.4%,white)" offset=".22366" />
+      <stop id="oc-glaudius-sword-23530-stop5314" style="stop-color:var(--c3,#b09da0)" offset=".28986" />
+      <stop id="oc-glaudius-sword-23530-stop5316" style="stop-color:color-mix(in srgb,var(--c1,#8c5b71) 50.6%,white)" offset=".34850" />
+      <stop id="oc-glaudius-sword-23530-stop5318" style="stop-color:#000000" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-glaudius-sword-23530-linearGradient5227" y2="-175.69" gradientUnits="userSpaceOnUse" x2="625.69" gradientTransform="translate(0 34.781)" y1="-175.69" x1="586.5"><stop id="oc-glaudius-sword-23530-stop5310" style="stop-color:var(--c1,#775b64)" offset="0" />
+      <stop id="oc-glaudius-sword-23530-stop5312" style="stop-color:color-mix(in srgb,var(--c1,#835b5b) 35.4%,white)" offset=".22366" />
+      <stop id="oc-glaudius-sword-23530-stop5314" style="stop-color:var(--c3,#b09da0)" offset=".28986" />
+      <stop id="oc-glaudius-sword-23530-stop5316" style="stop-color:color-mix(in srgb,var(--c1,#8c5b71) 50.6%,white)" offset=".34850" />
+      <stop id="oc-glaudius-sword-23530-stop5318" style="stop-color:#000000" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-glaudius-sword-23530-linearGradient5231" y2="-175.69" gradientUnits="userSpaceOnUse" x2="625.69" gradientTransform="translate(0 72.469)" y1="-175.69" x1="586.5"><stop id="oc-glaudius-sword-23530-stop5310" style="stop-color:var(--c1,#775b64)" offset="0" />
+      <stop id="oc-glaudius-sword-23530-stop5312" style="stop-color:color-mix(in srgb,var(--c1,#835b5b) 35.4%,white)" offset=".22366" />
+      <stop id="oc-glaudius-sword-23530-stop5314" style="stop-color:var(--c3,#b09da0)" offset=".28986" />
+      <stop id="oc-glaudius-sword-23530-stop5316" style="stop-color:color-mix(in srgb,var(--c1,#8c5b71) 50.6%,white)" offset=".34850" />
+      <stop id="oc-glaudius-sword-23530-stop5318" style="stop-color:#000000" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-glaudius-sword-23530-linearGradient5235" y2="-175.69" gradientUnits="userSpaceOnUse" x2="625.69" gradientTransform="translate(0 98.938)" y1="-175.69" x1="586.5"><stop id="oc-glaudius-sword-23530-stop5203" style="stop-color:var(--c1,#775b64)" offset="0" />
+      <stop id="oc-glaudius-sword-23530-stop5205" style="stop-color:color-mix(in srgb,var(--c1,#835b5b) 35.4%,white)" offset=".22366" />
+      <stop id="oc-glaudius-sword-23530-stop5209" style="stop-color:#ffffff" offset=".28986" />
+      <stop id="oc-glaudius-sword-23530-stop5211" style="stop-color:color-mix(in srgb,var(--c1,#8c5b71) 50.6%,white)" offset=".34850" />
+      <stop id="oc-glaudius-sword-23530-stop5207" style="stop-color:#000000" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-glaudius-sword-23530-linearGradient5239" y2="-175.69" gradientUnits="userSpaceOnUse" x2="625.69" gradientTransform="translate(0 -28.938)" y1="-175.69" x1="586.5"><stop id="oc-glaudius-sword-23530-stop5203" style="stop-color:var(--c1,#775b64)" offset="0" />
+      <stop id="oc-glaudius-sword-23530-stop5205" style="stop-color:color-mix(in srgb,var(--c1,#835b5b) 35.4%,white)" offset=".22366" />
+      <stop id="oc-glaudius-sword-23530-stop5209" style="stop-color:#ffffff" offset=".28986" />
+      <stop id="oc-glaudius-sword-23530-stop5211" style="stop-color:color-mix(in srgb,var(--c1,#8c5b71) 50.6%,white)" offset=".34850" />
+      <stop id="oc-glaudius-sword-23530-stop5207" style="stop-color:#000000" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-glaudius-sword-23530-linearGradient5286" y2="-235.33" gradientUnits="userSpaceOnUse" x2="660.16" y1="-235.33" x1="552.03"><stop id="oc-glaudius-sword-23530-stop5290" style="stop-color:color-mix(in srgb,var(--c1,#775b64) 58.0%,black)" offset="0" />
+      <stop id="oc-glaudius-sword-23530-stop5292" style="stop-color:color-mix(in srgb,var(--c1,#825b5b) 87.8%,white)" offset=".097274" />
+      <stop id="oc-glaudius-sword-23530-stop5296" style="stop-color:color-mix(in srgb,var(--c1,#835b5b) 42.1%,white)" offset=".21620" />
+      <stop id="oc-glaudius-sword-23530-stop5298" style="stop-color:color-mix(in srgb,var(--c1,#7e5b5c) 95.1%,white);stop-opacity:.99608" offset=".36498" />
+      <stop id="oc-glaudius-sword-23530-stop5294" style="stop-color:#26101a" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-glaudius-sword-23530-linearGradient5306" y2="-238.92" gradientUnits="userSpaceOnUse" x2="660.16" y1="-238.92" x1="552.03"><stop id="oc-glaudius-sword-23530-stop5290" style="stop-color:color-mix(in srgb,var(--c1,#775b64) 58.0%,black)" offset="0" />
+      <stop id="oc-glaudius-sword-23530-stop5292" style="stop-color:color-mix(in srgb,var(--c1,#825b5b) 87.8%,white)" offset=".097274" />
+      <stop id="oc-glaudius-sword-23530-stop5296" style="stop-color:color-mix(in srgb,var(--c1,#835b5b) 42.1%,white)" offset=".21620" />
+      <stop id="oc-glaudius-sword-23530-stop5298" style="stop-color:color-mix(in srgb,var(--c1,#7e5b5c) 95.1%,white);stop-opacity:.99608" offset=".36498" />
+      <stop id="oc-glaudius-sword-23530-stop5294" style="stop-color:#26101a" offset="1" />
+    </linearGradient>
+    <clipPath id="oc-glaudius-sword-23530-clipPath2885" clipPathUnits="userSpaceOnUse">
+      <path id="oc-glaudius-sword-23530-path2887" style="fill:var(--c2,#502d16)" d="m597.83-270.09c-25.632 0.0382-28.627 8.7037-28.473 29.372 12.293 1.6075 19.462 3.4141 37.178 2.932 17.716 0.48208 24.885-1.3245 37.178-2.932 0.17036-22.807-3.4966-30.998-37.178-29.111-3.1576-0.17695-6.0536-0.26573-8.7052-0.26178z" />
+    </clipPath>
+    <clipPath id="oc-glaudius-sword-23530-clipPath2891" clipPathUnits="userSpaceOnUse">
+      <path id="oc-glaudius-sword-23530-path2893" style="fill:var(--c2,#502d16)" d="m555.81-240.72h100.56c0-16.634-8.7641-30.664-50.281-29.563-2.5948-0.0688-5.0615-0.10202-7.4062-0.0557-35.171 0.69443-42.875 14.024-42.875 29.618z" />
+    </clipPath>
+    <clipPath id="oc-glaudius-sword-23530-clipPath2897" clipPathUnits="userSpaceOnUse">
+      <path id="oc-glaudius-sword-23530-path2900" style="fill:var(--c2,#502d16)" d="m656.31-240.72h-100.56c0-17.272 24.183-31.518 50.281-29.564 26.098-1.9532 50.281 12.292 50.281 29.564z" />
+    </clipPath>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-glaudius-sword-23530-layer1" transform="translate(-543.49 270.37)">
+    <path id="oc-glaudius-sword-23530-path2899" style="stroke:#ffffff;fill:#d0e3f7" clip-path="url(#oc-glaudius-sword-23530-clipPath5155)" d="m552.81-22.938c0.61605 3.4077 17.961 8.7816 18.594 13.438 0.63436 4.6679 1.2694 10.208 1.875 17.094 0.60557 6.8853 1.1876 15.121 1.7188 25.188 0.53116 10.067 1.0264 21.944 1.4375 36.156 0.41113 14.212 0.75451 30.74 1 50.062s0.40328 41.448 0.4375 66.844c0.0342 25.396-0.0586 54.066-0.28125 86.5-0.22266 32.434-0.59984 68.626-1.125 109.06-2.0005-0.67182-3.9858-1.3644-6.0312-1.9688-2.0454-0.60436-4.147-1.1069-6.375-1.4375 56.755 32.768 33.554 122.06 42.031 154.72 8.48-32.65-14.72-121.94 42.03-154.71-2.228 0.33057-4.3296 0.83314-6.375 1.4375s-4.0308 1.2969-6.0312 1.9688c-0.52516-40.436-0.90234-76.628-1.125-109.06-0.22265-32.434-0.31545-61.104-0.28125-86.5s0.19201-47.522 0.4375-66.844 0.58887-35.85 1-50.062 0.90634-26.089 1.4375-36.156 1.1132-18.302 1.7188-25.188c0.60557-6.8853 1.2406-12.426 1.875-17.094 0.63273-4.6559 17.978-10.03 18.594-13.438-12.026 1.4142-40.831 4.6836-53.281 4.5-12.45 0.18357-41.256-3.0858-53.281-4.5z" />
+    <path id="oc-glaudius-sword-23530-path4240" style="fill:url(#oc-glaudius-sword-23530-linearGradient5125)" d="m659.37-22.938c-17.72 46.37-15.024 267.12-11.25 404.21-2.228 0.33326-4.3296 1.1295-6.375 1.7388-2.0454 0.60929-4.0308 2.5729-6.0312 3.2502-0.52516-40.766-0.90234-78.809-1.125-111.51-0.22266-32.699-0.31547-61.603-0.28125-87.206 0.0342-25.603 0.19201-47.909 0.4375-67.389s0.58887-36.143 1-50.471 0.90634-26.302 1.4375-36.451 1.1132-18.452 1.7188-25.393c-0.26064-7.3699 0.28478-13.86 2.2279-18.204 3.052-6.1829 12.993-9.2389 18.241-12.576z" />
+    <path id="oc-glaudius-sword-23530-path2926" style="fill:#99b0d5" d="m552.81-22.938c17.72 46.37 15.024 267.12 11.25 404.21 2.228 0.33326 4.3296 1.1295 6.375 1.7388 2.0454 0.60929 4.0308 2.5729 6.0312 3.2502 0.52516-40.766 0.90234-78.809 1.125-111.51 0.22266-32.699 0.31547-61.603 0.28125-87.206-0.0342-25.603-0.19201-47.909-0.4375-67.389s-0.58887-36.143-1-50.471c-0.4-14.322-0.9-26.296-1.43-36.445s-1.11-18.452-1.72-25.393c0.26064-7.3699-0.28478-13.86-2.2279-18.204-3.052-6.1829-12.993-9.2389-18.241-12.576z" />
+    <path id="oc-glaudius-sword-23530-path2872" style="fill:#cfdff0" d="m564.06 378-0.40625 11.188 42.438 213.41l42.44-213.41-0.41-11.19c-44.11 7.04-40.63 101.55-42.03 142.22-1.4-40.67 2.09-135.18-42.03-142.22z" />
+    <path id="oc-glaudius-sword-23530-rect2877" style="fill:url(#oc-glaudius-sword-23530-linearGradient5173)" d="m590.62-203.75v129.88h15.469 15.469v-129.88h-15.469-15.469z" />
+    <path id="oc-glaudius-sword-23530-path5233" style="fill:url(#oc-glaudius-sword-23530-linearGradient5235)" d="m588.5-79.625c-1.108 0-2 0.892-2 2v1.75c0 1.108 0.892 2 2 2h17.594 17.594c1.108 0 2-0.892 2-2v-1.75c0-1.108-0.892-2-2-2h-17.594-17.594z" />
+    <path id="oc-glaudius-sword-23530-rect2874" style="fill:var(--c2,#502d16)" d="m591.44-76.344c-43.155 0.06838-48.197 15.585-47.938 52.594 20.697 2.8783 32.766 6.1132 62.594 5.25 29.828 0.86321 41.897-2.3717 62.594-5.25 0.28681-40.838-5.8869-55.505-62.594-52.125-5.3163-0.31685-10.192-0.47582-14.656-0.46875z" />
+    <path id="oc-glaudius-sword-23530-rect2879" style="fill:url(#oc-glaudius-sword-23530-linearGradient5199)" d="m588.5-178.56c-1.108 0-2 0.892-2 2v1.75c0 1.108 0.892 2 2 2h17.594 17.594c1.108 0 2-0.892 2-2v-1.75c0-1.108-0.892-2-2-2h-17.594-17.594z" />
+    <path id="oc-glaudius-sword-23530-path5237" style="fill:url(#oc-glaudius-sword-23530-linearGradient5239)" d="m588.5-207.5c-1.108 0-2 0.892-2 2v1.75c0 1.108 0.892 2 2 2h17.594 17.594c1.108 0 2-0.892 2-2v-1.75c0-1.108-0.892-2-2-2h-17.594-17.594z" />
+    <path id="oc-glaudius-sword-23530-path5245" style="fill:var(--c2,#502d16)" d="m656.38-237.12h-100.56c0 19.371 24.183 35.347 50.281 33.156 26.098 2.1906 50.281-13.785 50.281-33.156z" />
+    <path id="oc-glaudius-sword-23530-path2882" style="fill:var(--c2,#502d16)" d="m555.81-237.12h100.56c0-18.656-8.7641-34.392-50.281-33.156-2.5948-0.0772-5.0615-0.11442-7.4062-0.0625-35.171 0.77884-42.875 15.728-42.875 33.219z" />
+    <path id="oc-glaudius-sword-23530-path5348" style="opacity:.39267;fill:#ffffff" d="m592.42-240.72h-23.059c0-10.935 18.981-29.564 36.673-29.564-19.114 10.342-19.713 29.564-13.615 29.564z" clip-path="url(#oc-glaudius-sword-23530-clipPath2891)" transform="matrix(1 0 0 1.1216 0 32.855)" />
+    <path id="oc-glaudius-sword-23530-rect5026" style="opacity:.78534;fill:#ffffff" d="m567.41 389.19c41.078 15.039 27.92 150.45 37.6 205.57l-37.6-205.57z" />
+    <path id="oc-glaudius-sword-23530-path5225" style="fill:url(#oc-glaudius-sword-23530-linearGradient5227)" d="m588.5-143.78c-1.108 0-2 0.892-2 2v1.75c0 1.108 0.892 2 2 2h17.594 17.594c1.108 0 2-0.892 2-2v-1.75c0-1.108-0.892-2-2-2h-17.594-17.594z" />
+    <path id="oc-glaudius-sword-23530-path5229" style="fill:url(#oc-glaudius-sword-23530-linearGradient5231)" d="m588.5-106.09c-1.108 0-2 0.892-2 2v1.75c0 1.108 0.892 2 2 2h17.594 17.594c1.108 0 2-0.892 2-2v-1.75c0-1.108-0.892-2-2-2h-17.594-17.594z" />
+    <path id="oc-glaudius-sword-23530-rect5249" style="stroke:#000000;stroke-width:.75;fill:url(#oc-glaudius-sword-23530-linearGradient5286)" d="m552.41-237.12v3.5938h53.688 53.688v-3.5938h-53.688-53.688z" />
+    <path id="oc-glaudius-sword-23530-path5359" style="opacity:.39267;fill:#ffffff" d="m592.42-240.72h-23.059c0-10.935 18.981-29.564 36.673-29.564-19.114 10.342-19.713 29.564-13.615 29.564z" clip-path="url(#oc-glaudius-sword-23530-clipPath2897)" transform="matrix(1 0 0 -1.1215 .06139 -507.09)" />
+    <path id="oc-glaudius-sword-23530-path5270" style="stroke:#000000;stroke-width:.75;fill:url(#oc-glaudius-sword-23530-linearGradient5306)" d="m552.41-240.72v3.5938h53.688 53.688v-3.5938h-53.688-53.688z" />
+    <path id="oc-glaudius-sword-23530-path5361" style="opacity:.62827;fill:color-mix(in srgb,var(--c3,#9d9d9d) 77.6%,white)" d="m592.42-240.72h-23.059c-7.7784-20.908 14.656-35.11 36.673-29.564-19.114 10.342-19.713 29.564-13.615 29.564z" clip-path="url(#oc-glaudius-sword-23530-clipPath2885)" transform="matrix(1.6836 0 0 1.7906 -415.09 407.28)" />
+  </g></g></svg>

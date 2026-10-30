@@ -2,7 +2,23 @@
 
 from __future__ import annotations
 
-from collections.abc import Sequence
+from collections.abc import Iterable, Sequence
+
+
+def resolve(ids: Iterable[str], merged: dict[str, str | None]) -> set[str]:
+    """Labels name items as they were: one merged since counts as the item it became."""
+    out = set()
+    for i in ids:
+        seen = set()
+        while merged.get(i) and i not in seen:
+            seen.add(i)
+            i = merged[i]
+        out.add(i)
+    return out
+
+
+def first_right(ranked: Sequence[str], relevant: set[str]) -> int | None:
+    return next((n for n, doc_id in enumerate(ranked, start=1) if doc_id in relevant), None)
 
 
 def recall_at_k(ranked: Sequence[str], relevant: set[str], k: int) -> float:

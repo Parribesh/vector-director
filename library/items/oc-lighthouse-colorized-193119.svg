@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(182.34 466.16) scale(0.3677)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-colorized-193119-defs4">
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient4239" x1="162.84" gradientUnits="userSpaceOnUse" x2="162.84" gradientTransform="matrix(.70233 0 0 .6756 -3.924 6.4894)" y1="439.45" y2="228.35">
+      <stop id="oc-lighthouse-colorized-193119-stop4235" stop-color="var(--c1,#00daff)" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4237" stop-opacity="0" stop-color="var(--c1,#00daff)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient4550-1-6">
+      <stop id="oc-lighthouse-colorized-193119-stop4552-2-7" stop-color="#fff" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4554-3-9" stop-opacity="0" stop-color="#fff" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10476" y2="285.22" gradientUnits="userSpaceOnUse" x2="360.36" y1="283.79" x1="342.5">
+      <stop id="oc-lighthouse-colorized-193119-stop3987" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop3989" stop-color="color-mix(in srgb,var(--c2,#b3b3b3) 67.1%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10478" y2="445.22" gradientUnits="userSpaceOnUse" x2="1188.2" gradientTransform="matrix(-.68228 0 0 1.2202 967.34 -126.44)" y1="445.22" x1="564.42"><stop id="oc-lighthouse-colorized-193119-stop4552-2-7" stop-color="#fff" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4554-3-9" stop-opacity="0" stop-color="#fff" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10480" y2="445.22" gradientUnits="userSpaceOnUse" x2="1188.2" gradientTransform="matrix(-.70022 -.065411 -.017822 .44318 984.41 235.89)" y1="445.22" x1="564.42"><stop id="oc-lighthouse-colorized-193119-stop4552-2-7" stop-color="#fff" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4554-3-9" stop-opacity="0" stop-color="#fff" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10482" y2="445.22" gradientUnits="userSpaceOnUse" x2="1188.2" gradientTransform="matrix(-.71448 -.15435 .0089665 -.31646 979.33 599.82)" y1="445.22" x1="564.42"><stop id="oc-lighthouse-colorized-193119-stop4235" stop-color="var(--c1,#00daff)" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4237" stop-opacity="0" stop-color="var(--c1,#00daff)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10484" y2="445.22" gradientUnits="userSpaceOnUse" x2="1188.2" gradientTransform="matrix(-.71803 .086869 -.024218 -.31389 995.29 518.54)" y1="445.22" x1="564.42"><stop id="oc-lighthouse-colorized-193119-stop4552-2-7" stop-color="#fff" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4554-3-9" stop-opacity="0" stop-color="#fff" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10486" y2="445.22" gradientUnits="userSpaceOnUse" x2="1188.2" gradientTransform="matrix(-.71264 .17918 -.036802 -.30996 999.11 486.13)" y1="445.22" x1="564.42"><stop id="oc-lighthouse-colorized-193119-stop4235" stop-color="var(--c1,#00daff)" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4237" stop-opacity="0" stop-color="var(--c1,#00daff)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10488" y2="445.22" gradientUnits="userSpaceOnUse" x2="1188.2" gradientTransform="matrix(-.67271 -.054644 -.013866 .40326 955.28 281.41)" y1="445.22" x1="564.42"><stop id="oc-lighthouse-colorized-193119-stop4552-2-7" stop-color="#fff" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4554-3-9" stop-opacity="0" stop-color="#fff" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10490" y2="445.22" gradientUnits="userSpaceOnUse" x2="1188.2" gradientTransform="matrix(-.68869 .083997 -.025547 -.28535 967.79 538.45)" y1="445.22" x1="564.42"><stop id="oc-lighthouse-colorized-193119-stop4552-2-7" stop-color="#fff" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4554-3-9" stop-opacity="0" stop-color="#fff" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10492" y2="445.22" gradientUnits="userSpaceOnUse" x2="1188.2" gradientTransform="matrix(-.68705 -.13544 .0062919 -.28793 953.07 612.49)" y1="445.22" x1="564.42">
+      <stop id="oc-lighthouse-colorized-193119-stop4235-4-1" stop-color="var(--c1,#00daff)" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4237-7-2" stop-opacity="0" stop-color="var(--c1,#00daff)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10494" y2="445.22" gradientUnits="userSpaceOnUse" x2="1188.2" gradientTransform="matrix(-.71448 .15435 .0089665 .31646 970.76 250.51)" y1="445.22" x1="564.42">
+      <stop id="oc-lighthouse-colorized-193119-stop4235-4-8" stop-color="var(--c1,#00daff)" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4237-7-4" stop-opacity="0" stop-color="var(--c1,#00daff)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10496" y2="445.22" gradientUnits="userSpaceOnUse" x2="1188.2" gradientTransform="matrix(-.73092 .0080128 -.054643 .31184 1010.7 281.9)" y1="445.22" x1="564.42">
+      <stop id="oc-lighthouse-colorized-193119-stop4235-4-8-1" stop-color="var(--c1,#00daff)" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4237-7-4-9" stop-opacity="0" stop-color="var(--c1,#00daff)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10498" y2="445.22" gradientUnits="userSpaceOnUse" x2="1188.2" gradientTransform="matrix(-.72479 .094761 -.017222 .31612 989.98 251.77)" y1="445.22" x1="564.42">
+      <stop id="oc-lighthouse-colorized-193119-stop4235-4-8-0" stop-color="var(--c1,#00daff)" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4237-7-4-0" stop-opacity="0" stop-color="var(--c1,#00daff)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10500" y2="445.22" gradientUnits="userSpaceOnUse" x2="1188.2" gradientTransform="matrix(-.72479 .094761 -.017222 .31612 995.87 238.35)" y1="445.22" x1="564.42">
+      <stop id="oc-lighthouse-colorized-193119-stop4235-4-8-0-8" stop-color="var(--c1,#00daff)" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4237-7-4-0-3" stop-opacity="0" stop-color="var(--c1,#00daff)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-lighthouse-colorized-193119-linearGradient10502" y2="445.22" gradientUnits="userSpaceOnUse" x2="1188.2" gradientTransform="matrix(-.73086 -.012036 -.052926 -.31214 1017.3 570.96)" y1="445.22" x1="564.42">
+      <stop id="oc-lighthouse-colorized-193119-stop4235-4-2" stop-color="var(--c1,#00daff)" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4237-7-7" stop-opacity="0" stop-color="var(--c1,#00daff)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-lighthouse-colorized-193119-radialGradient10504" gradientUnits="userSpaceOnUse" cy="133.61" cx="14.817" gradientTransform="matrix(2.8644 0 0 2.343 738.15 127.24)" r="40.913">
+      <stop id="oc-lighthouse-colorized-193119-stop4225" stop-color="var(--c3,#ffe700)" style="stop-color:color-mix(in srgb,var(--c1,#00b9ff) 99.2%,black)" offset="0" />
+      <stop id="oc-lighthouse-colorized-193119-stop4227" stop-opacity="0" stop-color="var(--c3,#ffe700)" style="stop-color:#00e700;stop-opacity:0" offset="1" />
+    </radialGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-lighthouse-colorized-193119-layer1" transform="translate(-257.72 -260.3)">
+    <path id="oc-lighthouse-colorized-193119-path31017" style="opacity:.36283;fill:color-mix(in srgb,var(--c1,#45ffff) 100.0%,black)" d="m335.11 255.73 663.28-80.86-664.05 116.63z" transform="matrix(.68228 0 0 -1.2055 45.445 623.44)" />
+    <g id="oc-lighthouse-colorized-193119-g10424">
+      <g id="oc-lighthouse-colorized-193119-layer1-9" transform="translate(449.27 126.29)">
+        <path id="oc-lighthouse-colorized-193119-path3107-2" d="m396.25 308.52a66.875 12.589 0 1 1 -0.006 -0.17292" style="stroke:#000000;stroke-width:.79156;fill:none" transform="matrix(.94034 0 0 1.6973 24.294 -203.02)" />
+        <path id="oc-lighthouse-colorized-193119-path3107-2-2" d="m396.25 308.52a66.875 12.589 0 1 1 -0.006 -0.17292" style="stroke:#000000;stroke-width:.79156;fill:none" transform="matrix(.94034 0 0 1.6973 24.294 -190.75)" />
+        <path id="oc-lighthouse-colorized-193119-path3107-2-2-7" d="m396.25 308.52a66.875 12.589 0 1 1 -0.006 -0.17292" style="stroke:#000000;stroke-width:1.2665" transform="matrix(.94034 0 0 1.6973 24.294 -176.82)" />
+        <path id="oc-lighthouse-colorized-193119-path3050" d="m286.43 344.51-35.18 495.35 71.61 11.07 8.39-516.6z" style="stroke:var(--c2,#b3b3b3);stroke-width:1px;fill:var(--c2,#b3b3b3)" />
+        <path id="oc-lighthouse-colorized-193119-path3052" d="m331.43 334.51 40.714 6.4286 27.143 503.57-76.071 7.1428z" style="stroke:#f2f2f2;stroke-width:1px;fill:#f2f2f2" />
+        <path id="oc-lighthouse-colorized-193119-path3054" d="m372.14 340.93 20 12.857 41.071 481.07-33.75 9.4643z" style="stroke:color-mix(in srgb,var(--c2,#b3b3b3) 25.0%,white);stroke-width:1px;fill:color-mix(in srgb,var(--c2,#b3b3b3) 25.0%,white)" />
+        <path id="oc-lighthouse-colorized-193119-path3056" d="m277.14 354.51 9.2857-8.5714-35.536 493.93-19.464-8.2143z" style="stroke:var(--c2,#b3b3b3);stroke-width:1px;fill:color-mix(in srgb,var(--c2,#b3b3b3) 85.5%,black)" />
+        <path id="oc-lighthouse-colorized-193119-path3058" d="m345.35 578.47 26.895 0.12627-1.5152 55.432z" style="fill:var(--c2,#b3b3b3)" />
+        <path id="oc-lighthouse-colorized-193119-path3060" d="m349.37 584.28 17.425 0.25253 0.12627 18.562-17.678-0.12626z" style="stroke:#000000;stroke-width:1px" />
+        <path id="oc-lighthouse-colorized-193119-path3060-4" d="m349.42 605.21 17.425 0.25253 0.12627 18.562-17.678-0.12626z" style="stroke:#000000;stroke-width:1px" />
+        <path id="oc-lighthouse-colorized-193119-path3080" d="m251.53 736.31 1.5152-49.119 4.672-1.7678-3.283 51.644z" style="stroke:#000000;stroke-width:1px" />
+        <path id="oc-lighthouse-colorized-193119-path3080-2" d="m267.12 537.25 1.5152-49.119 4.672-1.7678-3.283 51.644z" style="stroke:#000000;stroke-width:1px" />
+        <path id="oc-lighthouse-colorized-193119-path3080-5" d="m276.97 411.99 1.5152-49.119 4.672-1.7678-3.283 51.644z" style="stroke:#000000;stroke-width:1px" />
+        <path id="oc-lighthouse-colorized-193119-path3107" d="m396.25 308.52a66.875 12.589 0 1 1 -0.006 -0.17292" style="stroke:#000000;stroke-width:.79156;fill:none" transform="matrix(.94034 0 0 1.6973 24.294 -215.3)" />
+        <path id="oc-lighthouse-colorized-193119-path3913" d="m364.46 266.92a41.786 13.304 0 1 1 -0.004 -0.18273" transform="translate(11.339,5.9286)" />
+        <path id="oc-lighthouse-colorized-193119-path3915" d="m297.95 302.54c17.309-10.51 57.09-7.1512 72.143 0.5357l0.00001-25.179c-21.019-12.347-47.757-13.054-71.786-1.6072z" style="stroke:#000000;stroke-width:2.2;fill:url(#oc-lighthouse-colorized-193119-linearGradient10476)" />
+        <path id="oc-lighthouse-colorized-193119-path3915-7" d="m293.48 332.5c17.309-10.51 66.019-8.9369 81.071-1.25l0.00001-25.179c-18.16-11.63-58.11-14.3-80.71-1.6z" style="stroke:#000000;stroke-width:1px" />
+        <path id="oc-lighthouse-colorized-193119-path3935" d="m321.52 244.36 13.036-10.714 11.964 11.071z" style="stroke-linejoin:round;stroke:#000000;stroke-width:1px" />
+        <path id="oc-lighthouse-colorized-193119-path3937" d="m325.36 244.15 0.35715 16.071 16.429 0.53572 0.53571-16.25z" style="stroke:#000000;stroke-width:1px" />
+        <path id="oc-lighthouse-colorized-193119-path3939" d="m334.29 237.01 0.89285-55.179" style="stroke:#000000;stroke-width:1px;fill:none" />
+        <path id="oc-lighthouse-colorized-193119-path3959" d="m285.54 294.33 0.53572 34.107" style="stroke:#000000;stroke-width:1px;fill:none" />
+        <path id="oc-lighthouse-colorized-193119-path3961" d="m270.71 308.79 0.54 34.11" style="stroke:#000000;stroke-width:1px;fill:none" />
+        <path id="oc-lighthouse-colorized-193119-path3963" d="m396.43 305.4-0.53571 37.679" style="stroke:#000000;stroke-width:1px;fill:none" />
+        <path id="oc-lighthouse-colorized-193119-path3965" d="m374.29 291.83-0.71429 38.214" style="stroke:#000000;stroke-width:1px;fill:none" />
+        <path id="oc-lighthouse-colorized-193119-path3913-3" d="m364.46 266.92a41.786 13.304 0 1 1 -0.004 -0.18273" transform="matrix(.31544 0 0 .31544 232.47 160.49)" />
+        <path id="oc-lighthouse-colorized-193119-path3993" d="m366.18 276.06-6.566 22.728" style="stroke:#000000;stroke-width:2.3;fill:none" />
+        <path id="oc-lighthouse-colorized-193119-path3995" d="m352.54 297.27-6.0609-26.264" style="stroke:#000000;stroke-width:2.3;fill:none" />
+      </g>
+      <g id="oc-lighthouse-colorized-193119-g10401">
+        <g id="oc-lighthouse-colorized-193119-g10380">
+          <path id="oc-lighthouse-colorized-193119-path24290" style="opacity:.66814;stroke:#ffffff;stroke-width:4.0482;fill:none" d="m1013.6 197.14-658.29 84.542v14.496s662.99 98.569 658.29 93.904z" transform="matrix(-.68228 0 0 1.1507 969.04 76.138)" />
+          <path id="oc-lighthouse-colorized-193119-rect4503" d="m286.77 301.95 439.86 97.468v17.688l-439.86 114.58z" style="opacity:.66814;fill:url(#oc-lighthouse-colorized-193119-linearGradient10478)" />
+          <path id="oc-lighthouse-colorized-193119-path24284" style="opacity:.66814;stroke:#ffffff;stroke-width:4.0482;fill:none" d="m1012.9 190.92-657.59 94.611v5.6992s660.74 108.96 656.04 104.29z" transform="matrix(-.68228 0 0 1.2202 969.04 55.712)" />
+          <path id="oc-lighthouse-colorized-193119-path24300" d="m281.44 345.28 445.18 59.875v6.4244l-450.25-1.901z" style="opacity:.66814;fill:url(#oc-lighthouse-colorized-193119-linearGradient10480)" />
+          <path id="oc-lighthouse-colorized-193119-path24320" d="m265.33 331.8 461.3 91.787v-4.588l-459.59-146.78z" style="opacity:.49038;fill:url(#oc-lighthouse-colorized-193119-linearGradient10482)" />
+          <path id="oc-lighthouse-colorized-193119-path31031" style="opacity:.36283;fill:color-mix(in srgb,var(--c1,#80ffe6) 100.0%,black)" d="m360.24 384.45 637.23-203.31-628.3 233.59z" transform="matrix(.65330 -.34756 -.19671 -1.1543 110.6 971.36)" />
+          <path id="oc-lighthouse-colorized-193119-path24304" d="m269.5 490.25 457.12-78.122v-4.5502l-460.62 28.318z" style="opacity:.66814;fill:url(#oc-lighthouse-colorized-193119-linearGradient10484)" />
+          <path id="oc-lighthouse-colorized-193119-path24308" style="opacity:.3125;fill:#ffffff" d="m1015.4 297.01-660.09-11.053v3.2676l657.64 50.226z" transform="matrix(-.68228 0 0 1.2202 969.04 55.712)" />
+          <path id="oc-lighthouse-colorized-193119-path24324" d="m281.24 466.99 445.38-46.915v-4.4931l-452.31-6.9491z" style="opacity:.41346;fill:url(#oc-lighthouse-colorized-193119-linearGradient10486)" />
+          <path id="oc-lighthouse-colorized-193119-path31017-8-6" style="opacity:.36283;fill:color-mix(in srgb,var(--c1,#45ffff) 100.0%,black)" d="m335.11 255.73 690.19-66.12-690.96 101.89z" transform="matrix(0.655 -.0047313 -.0088226 -1.0965 56.687 640.45)" />
+          <path id="oc-lighthouse-colorized-193119-path24308-0-7" style="opacity:.3125;fill:#ffffff" d="m1021.2 227.46-692.97 45.145 0.0445 3.2666 690.48-5.9712z" transform="matrix(-0.655 .0047313 .0089306 1.1099 939.21 117.63)" />
+          <path id="oc-lighthouse-colorized-193119-path24300-7-8" d="m281.22 385.8 445.4 37.255v5.8455l-449.81 15.513z" style="opacity:.66814;fill:url(#oc-lighthouse-colorized-193119-linearGradient10488)" />
+          <path id="oc-lighthouse-colorized-193119-path24304-2-9" d="m281.2 403.46 445.42 22.099v-2.6524l-449.18-68.864z" style="opacity:.66814;fill:url(#oc-lighthouse-colorized-193119-linearGradient10490)" />
+          <path id="oc-lighthouse-colorized-193119-path24320-1-4" d="m268.46 392.63 458.17 32.063v-4.1743l-456.96-82.099z" style="opacity:.49038;fill:url(#oc-lighthouse-colorized-193119-linearGradient10492)" />
+          <path id="oc-lighthouse-colorized-193119-path24320-1-7" d="m261.2 515.57 465.42-87.279v4.588l-463.71 142.27z" style="opacity:.49038;fill:url(#oc-lighthouse-colorized-193119-linearGradient10494)" />
+          <path id="oc-lighthouse-colorized-193119-path24320-1-7-7" d="m262.43 391.94 464.19 27.007v4.5209l-459.62 30.156z" style="opacity:.49038;fill:url(#oc-lighthouse-colorized-193119-linearGradient10496)" />
+          <path id="oc-lighthouse-colorized-193119-path24320-1-7-6" d="m260.94 457.27 465.68-29.23v4.583l-468.9 84.168z" style="opacity:.49038;fill:url(#oc-lighthouse-colorized-193119-linearGradient10498)" />
+          <path id="oc-lighthouse-colorized-193119-path24320-1-7-6-3" d="m266.84 443.85 459.78-22.943v4.583l-463.01 77.881z" style="opacity:.49038;fill:url(#oc-lighthouse-colorized-193119-linearGradient10500)" />
+          <path id="oc-lighthouse-colorized-193119-path24320-1-8" d="m269.64 449.38 456.98-17.832v-4.5252l-466.93-36.415z" style="opacity:.49038;fill:url(#oc-lighthouse-colorized-193119-linearGradient10502)" />
+        </g>
+        <path id="oc-lighthouse-colorized-193119-path4168" d="m897.77 440.28c0 52.925-52.449 95.838-117.16 95.854-64.709 0-117.18-42.881-117.22-95.822-0.0318-52.925 52.392-95.857 117.1-95.897 64.709-0.04 117.21 42.828 117.28 95.753" style="opacity:.875;fill:url(#oc-lighthouse-colorized-193119-radialGradient10504)" />
+      </g>
+    </g>
+  </g></g></svg>

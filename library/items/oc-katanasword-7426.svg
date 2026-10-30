@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(164.84 415.43) scale(0.9767)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-katanasword-7426-defs4">
+    <linearGradient id="oc-katanasword-7426-linearGradient3432" y2="182.59" gradientUnits="userSpaceOnUse" x2="606.69" gradientTransform="matrix(-.42331 .72012 .72012 .42331 288.29 -96.403)" y1="190.41" x1="543.03">
+      <stop id="oc-katanasword-7426-stop6745" style="stop-color:var(--c1,#d9d9d9)" offset="0" />
+      <stop id="oc-katanasword-7426-stop6747" style="stop-color:color-mix(in srgb,var(--c1,#d9d9d9) 77.4%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-katanasword-7426-linearGradient3434" y2="295.15" gradientUnits="userSpaceOnUse" x2="409.18" gradientTransform="matrix(-.46863 .79722 .79722 .46863 296.17 -144.91)" y1="264.34" x1="236.7">
+      <stop id="oc-katanasword-7426-stop3193" style="stop-color:var(--c1,#d9d9d9)" offset="0" />
+      <stop id="oc-katanasword-7426-stop3195" style="stop-color:color-mix(in srgb,var(--c1,#d9d9d9) 68.2%,black)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-katanasword-7426-linearGradient3436" y2="239.17" gradientUnits="userSpaceOnUse" x2="241.62" gradientTransform="matrix(-.46417 .78964 .78964 .46417 295.8 -140.77)" y1="252.59" x1="347.3">
+      <stop id="oc-katanasword-7426-stop2204" style="stop-color:color-mix(in srgb,var(--c1,#d9d9d9) 81.6%,white)" offset="0" />
+      <stop id="oc-katanasword-7426-stop2206" style="stop-color:#ffffff" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-katanasword-7426-linearGradient3438" y2="367.44" gradientUnits="userSpaceOnUse" x2="213.43" gradientTransform="translate(-1.4496 -9.7357)" y1="393.19" x1="207.21">
+      <stop id="oc-katanasword-7426-stop6365" style="stop-color:#222222" offset="0" />
+      <stop id="oc-katanasword-7426-stop6367" style="stop-color:#451d00" offset="1" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-katanasword-7426-layer1" transform="translate(-141.01 -88.877)">
+    <path id="oc-katanasword-7426-path3219" style="fill-rule:evenodd;stroke:color-mix(in srgb,var(--c1,#d9d9d9) 69.6%,black);stroke-width:0.6;fill:url(#oc-katanasword-7426-linearGradient3432)" d="m205.84 366.68s-31.67 31.3-57.23 34.81c-2.24 0.42 2.38 9.96 4.81 9.44 20.8-3.77 57.72-31.96 59.83-35.56 2.12-3.6-7.98-8.76-7.41-8.69z" />
+    <path id="oc-katanasword-7426-path2164" style="fill-rule:evenodd;fill:url(#oc-katanasword-7426-linearGradient3434)" d="m406.61 97.771c-7.7 75.439-131.43 201.69-150.75 220.21-19.32 18.53-50 45.16-51.35 46.24-0.46 0.78 10.12 15.49 10.86 15.54 0 0 14.18-15.98 19.44-10.59s7.96 9.27 12.46 6.17c4.51-3.1 193.66-171.51 159.34-277.57z" />
+    <path id="oc-katanasword-7426-path2168" style="fill-rule:evenodd;fill:url(#oc-katanasword-7426-linearGradient3436)" d="m406.83 100.05c-10.92 80.3-130.81 199.15-149.6 217.67-18.88 18.61-49.69 44.82-51.03 45.88-0.45 0.77 8.14 15.6 8.87 15.65 0 0 15.42-17.55 20.78-9.8 117.52-105.98 183.6-219.52 170.98-269.4z" />
+    <path id="oc-katanasword-7426-path5335" style="fill:none" d="m205.84 366.68s-31.67 31.3-57.23 34.81c-2.24 0.42 2.38 9.96 4.81 9.44 20.8-3.77 57.72-31.96 59.83-35.56 2.12-3.6-7.98-8.76-7.41-8.69z" />
+    <path id="oc-katanasword-7426-path2166" style="fill-rule:evenodd;stroke:color-mix(in srgb,var(--c1,#d9d9d9) 49.3%,black);stroke-width:0.416;fill:url(#oc-katanasword-7426-linearGradient3438)" d="m208.03 362.03s12.3 16.53 10.78 19.43-4.98 1.06-6.06-0.34c-1.08-1.39-10.15-14.69-10.61-16.48-0.47-1.79 3.19-7.04 5.89-2.61z" />
+  </g></g></svg>

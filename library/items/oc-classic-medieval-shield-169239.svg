@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(187.25 423.11) scale(0.5081)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-classic-medieval-shield-169239-defs4747">
+    <linearGradient id="oc-classic-medieval-shield-169239-linearGradient4705" y2="531.27" gradientUnits="userSpaceOnUse" y1="528.84" gradientTransform="translate(-114.53 -242.85)" x2="643.68" x1="206.85">
+      <stop id="oc-classic-medieval-shield-169239-stop3169-6" style="stop-color:var(--c1,#fffdd2);stop-opacity:.75439" offset="0" />
+      <stop id="oc-classic-medieval-shield-169239-stop3171-8" style="stop-color:color-mix(in srgb,var(--c1,#ffdd71) 100.0%,black);stop-opacity:.82456" offset=".11353" />
+      <stop id="oc-classic-medieval-shield-169239-stop3173-8" style="stop-color:color-mix(in srgb,var(--c1,#ffef6e) 100.0%,black);stop-opacity:.83333" offset=".54393" />
+      <stop id="oc-classic-medieval-shield-169239-stop3175-2" style="stop-color:color-mix(in srgb,var(--c1,#ffc255) 100.0%,black);stop-opacity:.82456" offset=".81916" />
+      <stop id="oc-classic-medieval-shield-169239-stop3177-0" style="stop-color:color-mix(in srgb,var(--c1,#ffdb48) 100.0%,black);stop-opacity:.81579" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-classic-medieval-shield-169239-linearGradient4431-7" y2="475.34" gradientUnits="userSpaceOnUse" x2="220.55" y1="475.34" x1="676.19"><stop id="oc-classic-medieval-shield-169239-stop3184-6-1" style="stop-color:var(--c2,#a6a6a6)" offset="0" />
+      <stop id="oc-classic-medieval-shield-169239-stop3192-2-4" style="stop-color:#f4f4f4" offset=".5" />
+      <stop id="oc-classic-medieval-shield-169239-stop3194-0-6" style="stop-color:color-mix(in srgb,var(--c2,#a6a6a6) 40.4%,white)" offset=".78274" />
+      <stop id="oc-classic-medieval-shield-169239-stop3186-3-0" style="stop-color:color-mix(in srgb,var(--c2,#a6a6a6) 83.1%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-classic-medieval-shield-169239-linearGradient3182-5-4">
+      <stop id="oc-classic-medieval-shield-169239-stop3184-6-1" style="stop-color:var(--c2,#a6a6a6)" offset="0" />
+      <stop id="oc-classic-medieval-shield-169239-stop3192-2-4" style="stop-color:#f4f4f4" offset=".5" />
+      <stop id="oc-classic-medieval-shield-169239-stop3194-0-6" style="stop-color:color-mix(in srgb,var(--c2,#a6a6a6) 40.4%,white)" offset=".78274" />
+      <stop id="oc-classic-medieval-shield-169239-stop3186-3-0" style="stop-color:color-mix(in srgb,var(--c2,#a6a6a6) 83.1%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-classic-medieval-shield-169239-linearGradient4760" y2="531.27" gradientUnits="userSpaceOnUse" y1="531.27" x2="641.68" x1="252.63"><stop id="oc-classic-medieval-shield-169239-stop3184-6-1" style="stop-color:var(--c2,#a6a6a6)" offset="0" />
+      <stop id="oc-classic-medieval-shield-169239-stop3192-2-4" style="stop-color:#f4f4f4" offset=".5" />
+      <stop id="oc-classic-medieval-shield-169239-stop3194-0-6" style="stop-color:color-mix(in srgb,var(--c2,#a6a6a6) 40.4%,white)" offset=".78274" />
+      <stop id="oc-classic-medieval-shield-169239-stop3186-3-0" style="stop-color:color-mix(in srgb,var(--c2,#a6a6a6) 83.1%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-classic-medieval-shield-169239-linearGradient4823" y2="475.34" gradientUnits="userSpaceOnUse" x2="220.55" y1="475.34" x1="676.19">
+      <stop id="oc-classic-medieval-shield-169239-stop13332" style="stop-color:color-mix(in srgb,var(--c2,#a6a6a6) 93.3%,white)" offset="0" />
+      <stop id="oc-classic-medieval-shield-169239-stop13334" style="stop-color:color-mix(in srgb,var(--c2,#a6a6a6) 85.4%,white);stop-opacity:0" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-classic-medieval-shield-169239-radialGradient4893" gradientUnits="userSpaceOnUse" cy="28.439" cx="502.87" gradientTransform="matrix(1 0 0 1.3658 0 -105.5)" r="194.03">
+      <stop id="oc-classic-medieval-shield-169239-stop4889" style="stop-color:#ffffff" offset="0" />
+      <stop id="oc-classic-medieval-shield-169239-stop4891" style="stop-color:#ffffff;stop-opacity:0" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-classic-medieval-shield-169239-radialGradient5039" cx="221.06" gradientUnits="userSpaceOnUse" cy="147.12" r="2.6973">
+      <stop id="oc-classic-medieval-shield-169239-stop5066" style="stop-color:var(--c1,#fffdd2)" offset="0" />
+      <stop id="oc-classic-medieval-shield-169239-stop5068" style="stop-color:color-mix(in srgb,var(--c1,#ffdd71) 100.0%,black)" offset=".38586" />
+      <stop id="oc-classic-medieval-shield-169239-stop5070" style="stop-color:color-mix(in srgb,var(--c1,#ffef6e) 100.0%,black)" offset="0.605" />
+      <stop id="oc-classic-medieval-shield-169239-stop5072" style="stop-color:color-mix(in srgb,var(--c1,#ffdb48) 100.0%,black)" offset=".83672" />
+      <stop id="oc-classic-medieval-shield-169239-stop5074" style="stop-color:#482e00" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-classic-medieval-shield-169239-radialGradient7264" gradientUnits="userSpaceOnUse" cy="405.24" cx="344.92" gradientTransform="matrix(1.2283 -.036106 .046456 1.5801 -97.578 -217.59)" r="115.75">
+      <stop id="oc-classic-medieval-shield-169239-stop5893" style="stop-color:var(--c1,#fffdd2)" offset="0" />
+      <stop id="oc-classic-medieval-shield-169239-stop5895" style="stop-color:color-mix(in srgb,var(--c1,#ffdd71) 100.0%,black)" offset=".47355" />
+      <stop id="oc-classic-medieval-shield-169239-stop5897" style="stop-color:color-mix(in srgb,var(--c1,#ffef6e) 100.0%,black)" offset=".69520" />
+      <stop id="oc-classic-medieval-shield-169239-stop5899" style="stop-color:color-mix(in srgb,var(--c1,#ffdb48) 100.0%,black)" offset=".84685" />
+      <stop id="oc-classic-medieval-shield-169239-stop5901" style="stop-color:#482e00" offset="1" />
+    </radialGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-classic-medieval-shield-169239-layer11" transform="translate(-122.53 -123.01)">
+    <g id="oc-classic-medieval-shield-169239-g4114">
+      <g id="oc-classic-medieval-shield-169239-g4683" transform="translate(-102.73 -105.27)">
+        <path id="oc-classic-medieval-shield-169239-path4411" d="m233.58 297.27c-13.106 169-32.955 373.05 213.57 535 246.53-161.95 226.68-366 213.57-535-81.788-1-149.54-11-213.57-67-64.035 56-131.79 66-213.57 67z" style="stroke:url(#oc-classic-medieval-shield-169239-linearGradient4823);stroke-width:3;fill:url(#oc-classic-medieval-shield-169239-linearGradient4431-7)" />
+        <path id="oc-classic-medieval-shield-169239-path4415" d="m259.14 325.26c-11.54 148.79-29.01 328.43 188.01 471.01 217.03-142.58 199.55-322.22 188.02-471.01-72-0.88-131.65-9.68-188.02-58.99-56.37 49.31-116.01 58.11-188.01 58.99z" style="fill:url(#oc-classic-medieval-shield-169239-linearGradient4760)" />
+      </g>
+      <path id="oc-classic-medieval-shield-169239-path4415-1" style="fill:url(#oc-classic-medieval-shield-169239-radialGradient4893)" d="m144.61 82.411c-11.54 148.79-29.01 328.43 188.01 471.01 217.03-142.58 199.55-322.22 188.02-471.01-72-0.88-131.65-9.684-188.02-58.986-56.37 49.302-116.01 58.106-188.01 58.987z" transform="translate(11.806 137.58)" />
+      <path id="oc-classic-medieval-shield-169239-path4413-3" style="stroke:color-mix(in srgb,var(--c2,#a6a6a6) 72.9%,black);stroke-width:6;fill:none" d="m144.61 82.411c-11.54 148.79-29.01 328.43 188.01 471.01 217.03-142.58 199.55-322.22 188.02-471.01-72-0.88-131.65-9.684-188.02-58.986-56.37 49.302-116.01 58.106-188.01 58.987z" transform="translate(11.806 137.58)" />
+      <path id="oc-classic-medieval-shield-169239-path4413" style="stroke:url(#oc-classic-medieval-shield-169239-linearGradient4705);stroke-width:5;fill:none" d="m144.61 82.411c-11.54 148.79-29.01 328.43 188.01 471.01 217.03-142.58 199.55-322.22 188.02-471.01-72-0.88-131.65-9.684-188.02-58.986-56.37 49.302-116.01 58.106-188.01 58.987z" transform="translate(11.806 137.58)" />
+      <g id="oc-classic-medieval-shield-169239-g5308" transform="translate(11.806 137.58)">
+        <path id="oc-classic-medieval-shield-169239-path4217-59-6" style="fill:url(#oc-classic-medieval-shield-169239-radialGradient5039)" d="m223.76 147.12a2.6973 2.6973 0 1 1 -5.3946 0 2.6973 2.6973 0 1 1 5.3946 0z" transform="matrix(2.5 0 0 2.5 -220.03 -359.26)" />
+        <path id="oc-classic-medieval-shield-169239-path4217-59-6-5" style="fill:url(#oc-classic-medieval-shield-169239-radialGradient5039)" d="m223.76 147.12a2.6973 2.6973 0 1 1 -5.3946 0 2.6973 2.6973 0 1 1 5.3946 0z" transform="matrix(2.5 0 0 2.5 -18.454 -297.36)" />
+        <path id="oc-classic-medieval-shield-169239-path4217-59-6-1" style="fill:url(#oc-classic-medieval-shield-169239-radialGradient5039)" d="m223.76 147.12a2.6973 2.6973 0 1 1 -5.3946 0 2.6973 2.6973 0 1 1 5.3946 0z" transform="matrix(2.5 0 0 2.5 -420.45 -297.36)" />
+        <path id="oc-classic-medieval-shield-169239-path4217-59-6-1-2" style="fill:url(#oc-classic-medieval-shield-169239-radialGradient5039)" d="m223.76 147.12a2.6973 2.6973 0 1 1 -5.3946 0 2.6973 2.6973 0 1 1 5.3946 0z" transform="matrix(2.5 0 0 2.5 -427.82 -154.15)" />
+        <path id="oc-classic-medieval-shield-169239-path4217-59-6-1-4" style="fill:url(#oc-classic-medieval-shield-169239-radialGradient5039)" d="m223.76 147.12a2.6973 2.6973 0 1 1 -5.3946 0 2.6973 2.6973 0 1 1 5.3946 0z" transform="matrix(2.5 0 0 2.5 -390.43 18.045)" />
+        <path id="oc-classic-medieval-shield-169239-path4217-59-6-1-9" style="fill:url(#oc-classic-medieval-shield-169239-radialGradient5039)" d="m223.76 147.12a2.6973 2.6973 0 1 1 -5.3946 0 2.6973 2.6973 0 1 1 5.3946 0z" transform="matrix(2.5 0 0 2.5 -220.03 203.97)" />
+        <path id="oc-classic-medieval-shield-169239-path4217-59-6-1-0" style="fill:url(#oc-classic-medieval-shield-169239-radialGradient5039)" d="m223.76 147.12a2.6973 2.6973 0 1 1 -5.3946 0 2.6973 2.6973 0 1 1 5.3946 0z" transform="matrix(2.5 0 0 2.5 -49.086 18.045)" />
+        <path id="oc-classic-medieval-shield-169239-path4217-59-6-1-92" style="fill:url(#oc-classic-medieval-shield-169239-radialGradient5039)" d="m223.76 147.12a2.6973 2.6973 0 1 1 -5.3946 0 2.6973 2.6973 0 1 1 5.3946 0z" transform="matrix(2.5 0 0 2.5 -11.243 -153.69)" />
+      </g>
+      <path id="oc-classic-medieval-shield-169239-path7215" style="opacity:.9;stroke:#482e00;stroke-width:1px;fill:url(#oc-classic-medieval-shield-169239-radialGradient7264)" d="m403.64 573.24c-24.372-4.4764-45.031-14.519-58.546-35.209-13.515 20.689-34.174 30.732-58.546 35.209 23.181-47.243 37.676-94.485 39.709-143.6-37.709 1.4474-74.132 15.938-110.55 39.11 3.4512-24.363 11.194-45.014 27.145-58.524-15.951-13.51-23.694-34.161-27.145-58.524 36.423 23.172 72.845 37.662 110.55 39.153-2.0326-49.07-16.528-96.312-39.709-143.55 24.372 4.4764 45.031 14.519 58.546 35.209 13.515-20.689 34.174-30.732 58.546-35.209-23.181 47.243-37.676 94.485-39.877 143.55 37.541-1.4908 73.963-15.981 110.39-39.153-3.4512 24.363-11.194 45.014-27.145 58.524 15.951 13.51 23.694 34.161 27.145 58.524-36.423-23.172-72.845-37.662-110.39-39.11 2.2009 49.113 16.696 96.356 39.877 143.6z" />
+      <path id="oc-classic-medieval-shield-169239-path4217-59-6-1-9-8" style="fill:url(#oc-classic-medieval-shield-169239-radialGradient5039)" d="m223.76 147.12a2.6973 2.6973 0 1 1 -5.3946 0 2.6973 2.6973 0 1 1 5.3946 0z" transform="matrix(9.0172 0 0 9.0164 -1648.5 -916.2)" />
+    </g>
+  </g></g></svg>

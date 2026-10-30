@@ -1,0 +1,542 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(143.01 423.72) scale(0.7899)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-treasure-chest-122029-defs4">
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3403">
+      <stop id="oc-treasure-chest-122029-stop3405" style="stop-color:color-mix(in srgb,var(--c1,#efe600) 94.9%,white)" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3407" style="stop-color:color-mix(in srgb,var(--c1,#bca200) 85.1%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3220">
+      <stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3200">
+      <stop id="oc-treasure-chest-122029-stop3202" style="stop-color:color-mix(in srgb,var(--c1,#e4f100) 71.4%,white)" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3204" style="stop-color:color-mix(in srgb,var(--c1,#b58b00) 92.9%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3226" y2="379.8" gradientUnits="userSpaceOnUse" x2="372.94" y1="359.8" x1="423.24"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3230" y2="522.03" gradientUnits="userSpaceOnUse" x2="247.49" y1="549.31" x1="421.74"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3232" y2="512.44" gradientUnits="userSpaceOnUse" x2="541.94" y1="545.77" x1="383.36"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3234" y2="572.03" gradientUnits="userSpaceOnUse" x2="542.95" gradientTransform="translate(0.5 -0.25)" y1="572.03" x1="345.98"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3236" y2="588.7" gradientUnits="userSpaceOnUse" x2="357.08" y1="588.7" x1="253.05"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-treasure-chest-122029-radialGradient3262" gradientUnits="userSpaceOnUse" cy="385.04" cx="571.78" gradientTransform="matrix(-1.9319 -1.057 .60433 -1.1045 1245 1473.4)" r="116.17"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3383" y2="344.75" gradientUnits="userSpaceOnUse" x2="656.09" y1="344.75" x1="622.76"><stop id="oc-treasure-chest-122029-stop3405" style="stop-color:color-mix(in srgb,var(--c1,#efe600) 94.9%,white)" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3407" style="stop-color:color-mix(in srgb,var(--c1,#bca200) 85.1%,white)" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-treasure-chest-122029-radialGradient3651" gradientUnits="userSpaceOnUse" cy="355.72" cx="273.09" gradientTransform="matrix(-.093154 -.55328 0.922 -.15523 -9.4403 539.55)" r="108.33"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-treasure-chest-122029-radialGradient3655" gradientUnits="userSpaceOnUse" cy="365.68" cx="279.43" gradientTransform="matrix(.95882 -.17844 .056766 .30502 -9.371 295.24)" r="103.03"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-treasure-chest-122029-radialGradient3657" gradientUnits="userSpaceOnUse" cy="381.67" cx="259.86" gradientTransform="matrix(1 -.22823 .074919 .32825 -28.594 315.7)" r="99.141"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-treasure-chest-122029-radialGradient3659" gradientUnits="userSpaceOnUse" cy="419.55" cx="247.49" gradientTransform="matrix(.96521 -.22963 .076836 .32296 -23.626 332.35)" r="101.62"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-treasure-chest-122029-radialGradient3661" gradientUnits="userSpaceOnUse" cy="428.34" cx="275.42" gradientTransform="matrix(.94674 -.23301 .075109 .30517 -17.504 361.8)" r="106.21"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-treasure-chest-122029-radialGradient3663" gradientUnits="userSpaceOnUse" cy="442.35" cx="319.2" gradientTransform="matrix(1 -.22711 .066877 .29447 -29.876 381.18)" r="105.86"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-treasure-chest-122029-radialGradient3665" gradientUnits="userSpaceOnUse" cy="460.87" cx="322.44" gradientTransform="matrix(.98682 -.24389 .071497 .28929 -28.7 406.19)" r="107.27"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3601" y2="372.11" gradientUnits="userSpaceOnUse" x2="432.5" y1="372.11" x1="389.5"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3611" y2="324.11" gradientUnits="userSpaceOnUse" x2="75" y1="309.11" x1="306.5"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3621" y2="412.36" gradientUnits="userSpaceOnUse" x2="253" y1="412.36" x1="191"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-treasure-chest-122029-radialGradient3662" gradientUnits="userSpaceOnUse" cy="492.61" cx="400.5" gradientTransform="matrix(1.2371 -1.1385 1.0949 1.1897 -632.81 362.5)" r="153"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3693" y2="459.27" gradientUnits="userSpaceOnUse" x2="167.88" gradientTransform="translate(98.288 73.539)" y1="142.13" x1="32.529"><stop id="oc-treasure-chest-122029-stop3202" style="stop-color:color-mix(in srgb,var(--c1,#e4f100) 71.4%,white)" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3204" style="stop-color:color-mix(in srgb,var(--c1,#b58b00) 92.9%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3753" y2="366.4" gradientUnits="userSpaceOnUse" x2="61.819" gradientTransform="translate(9.8995 -2.8284)" y1="315.62" x1="138.34"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3755" y2="345.69" gradientUnits="userSpaceOnUse" x2="71.798" gradientTransform="translate(9.8995 -2.8284)" y1="324.39" x1="133.98"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3757" y2="344.99" gradientUnits="userSpaceOnUse" x2="65.064" gradientTransform="translate(9.8995 -2.8284)" y1="330.83" x1="138.54"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3815" y2="530.86" gradientUnits="userSpaceOnUse" x2="-29.5" gradientTransform="translate(269,77)" y1="599.11" x1="105.5"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3817" y2="503.36" gradientUnits="userSpaceOnUse" x2="-56" gradientTransform="translate(269,77)" y1="577.86" x1="94"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3819" y2="500.36" gradientUnits="userSpaceOnUse" x2="-26.5" gradientTransform="translate(269,77)" y1="551.61" x1="75.5"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3821" y2="490.36" gradientUnits="userSpaceOnUse" x2="-27.5" gradientTransform="translate(269,77)" y1="521.86" x1="56"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3823" y2="470.86" gradientUnits="userSpaceOnUse" x2="-28.5" gradientTransform="translate(269,77)" y1="510.86" x1="68"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3825" y2="449.61" gradientUnits="userSpaceOnUse" x2="-31.5" gradientTransform="translate(269,77)" y1="499.11" x1="86.5"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3827" y2="427.86" gradientUnits="userSpaceOnUse" x2="-32" gradientTransform="translate(269,77)" y1="474.86" x1="88.5"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <radialGradient id="oc-treasure-chest-122029-radialGradient3837" gradientUnits="userSpaceOnUse" cy="590.61" cx="306.56" gradientTransform="matrix(.82147 -.57025 .89071 1.2831 -471.33 7.6206)" r="58.942"><stop id="oc-treasure-chest-122029-stop3202" style="stop-color:color-mix(in srgb,var(--c1,#e4f100) 71.4%,white)" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3204" style="stop-color:color-mix(in srgb,var(--c1,#b58b00) 92.9%,white)" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-treasure-chest-122029-radialGradient3861" gradientUnits="userSpaceOnUse" cy="604.84" cx="1149.9" gradientTransform="matrix(-.60280 -.31301 .35040 -.67479 905.43 1359.6)" r="99.996"><stop id="oc-treasure-chest-122029-stop3202" style="stop-color:color-mix(in srgb,var(--c1,#e4f100) 71.4%,white)" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3204" style="stop-color:color-mix(in srgb,var(--c1,#b58b00) 92.9%,white)" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3947" y2="832.98" gradientUnits="userSpaceOnUse" x2="694" gradientTransform="translate(-118,-51)" y1="832.98" x1="490.92"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3949" y2="773.62" gradientUnits="userSpaceOnUse" x2="694.14" gradientTransform="translate(-118,-51)" y1="773.62" x1="491.14"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3951" y2="736.22" gradientUnits="userSpaceOnUse" x2="711.36" gradientTransform="translate(-118,-51)" y1="811.08" x1="546.23"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3953" y2="753.14" gradientUnits="userSpaceOnUse" x2="710.31" gradientTransform="translate(-118,-51)" y1="821.16" x1="571.05"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3955" y2="769.37" gradientUnits="userSpaceOnUse" x2="713.45" gradientTransform="translate(-118,-51)" y1="830.23" x1="587.57"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3957" y2="786.7" gradientUnits="userSpaceOnUse" x2="705.71" gradientTransform="translate(-118,-51)" y1="862.17" x1="552.52"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3959" y2="798.27" gradientUnits="userSpaceOnUse" x2="709.52" gradientTransform="translate(-118,-51)" y1="887.18" x1="545.75"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient3961" y2="812.28" gradientUnits="userSpaceOnUse" x2="713.13" gradientTransform="translate(-118,-51)" y1="918.77" x1="517.38"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient4107" y2="535.01" gradientUnits="userSpaceOnUse" x2="458.79" gradientTransform="matrix(.99914 .041554 -.041554 .99914 22.409 -25.485)" y1="514.51" x1="450.55"><stop id="oc-treasure-chest-122029-stop3202" style="stop-color:color-mix(in srgb,var(--c1,#e4f100) 71.4%,white)" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3204" style="stop-color:color-mix(in srgb,var(--c1,#b58b00) 92.9%,white)" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient4110" y2="385.56" gradientUnits="userSpaceOnUse" x2="87.474" gradientTransform="translate(101.82 74.246)" y1="309.9" x1="56.776"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient4113" y2="424.1" gradientUnits="userSpaceOnUse" x2="117.88" gradientTransform="translate(101.82 74.246)" y1="317.32" x1="84.353"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-treasure-chest-122029-linearGradient4116" y2="436.47" gradientUnits="userSpaceOnUse" x2="150.41" gradientTransform="translate(101.82 74.246)" y1="263.94" x1="96.374"><stop id="oc-treasure-chest-122029-stop3222" style="stop-color:#492200" offset="0" />
+      <stop id="oc-treasure-chest-122029-stop3240" style="stop-color:#1a0400" offset="1" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-treasure-chest-122029-layer1" transform="translate(-156.48 -296.36)">
+    <path id="oc-treasure-chest-122029-path2406" style="fill-rule:evenodd;stroke:#130b00;stroke-width:2;fill:url(#oc-treasure-chest-122029-radialGradient3262)" d="m192.23 336.17 55.053 160.11 177.28-47.477c-18.73-62.8-23.01-91.57-37.37-144.45l-194.96 31.82z" />
+    <path id="oc-treasure-chest-122029-path2408" style="fill-rule:evenodd;stroke:#130b00;stroke-width:2;fill:url(#oc-treasure-chest-122029-linearGradient3226)" d="m386.38 305.86s-33.335 26.769-29.294 67.175c4.0406 40.406 65.155 73.236 65.155 73.236l-35.86-140.41z" />
+    <path id="oc-treasure-chest-122029-path2798" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-radialGradient3651)" d="m190.92 336.06 194.45-32.527-16.971 20.506-198.7 38.891 21.213-26.87z" />
+    <path id="oc-treasure-chest-122029-path2802" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-radialGradient3655)" d="m366.99 325.46-9.1495 23.67-195.91 41.262 7.7782-27.792 197.28-37.141z" />
+    <path id="oc-treasure-chest-122029-path2804" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-radialGradient3657)" d="m358.5 348.79-195.87 42.426-1.4142 23.335 193.79-40.176 3.4926-25.585z" />
+    <path id="oc-treasure-chest-122029-path2806" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-radialGradient3659)" d="m355.67 373.54 8.4853 22.627-194.45 43.841-7.7782-24.749 193.75-41.719z" />
+    <path id="oc-treasure-chest-122029-path2808" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-radialGradient3661)" d="m364.87 395.46 16.263 18.385-196.58 47.376-14.849-20.506 195.16-45.255z" />
+    <path id="oc-treasure-chest-122029-path2810" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-radialGradient3663)" d="m379.01 415.26 16.971 14.142-192.33 48.79-18.385-17.678 193.75-45.255z" />
+    <path id="oc-treasure-chest-122029-path2812" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-radialGradient3665)" d="m393.86 429.4 25.456 15.556-182.43 47.376-31.113-14.142 188.09-48.79z" />
+    <path id="oc-treasure-chest-122029-path2815" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3601)" d="m428.5 442.86-4 4-37.5-143.5 4.5-6 37 145.5z" />
+    <path id="oc-treasure-chest-122029-path3603" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3611)" d="m390.5 296.86-4 7-196 31.5 1-5.5 199-33z" />
+    <path id="oc-treasure-chest-122029-path3695" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient4116)" d="m173.24 349.5 48.437 140.71 24.395 6.364-55.154-165.46-17.678 18.385z" />
+    <path id="oc-treasure-chest-122029-path3697" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient4113)" d="m173.24 350.21-7.0711 16.263 36.062 112.43 18.531 10.064-47.523-138.76z" />
+    <path id="oc-treasure-chest-122029-path3699" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient4110)" d="m166.17 366.47-7.0711 36.77 15.556 45.255 27.091 30.229-35.576-112.25z" />
+    <path id="oc-treasure-chest-122029-path3685" style="stroke:color-mix(in srgb,var(--c1,#9c9c00) 57.7%,black);stroke-linecap:round;fill:url(#oc-treasure-chest-122029-linearGradient3693)" d="m166.99 440c-7.1056-14.154-9.9727-25.795-10.014-40.659-0.0508-18.348 4.3643-33.631 15.74-50.638 4.8281-7.218 17.92-19.86 18.763-19.003 0.57958 0.58957 55.222 165.92 55.222 167.05 0 0.95712-8.0061-1.6746-14.584-3.5294-28.365-7.5497-48.943-27.195-65.128-53.22zm60.281 39.618c0-0.62367-43.176-125.73-43.738-126.74-0.67891-1.2131-6.3333 10.474-9.2682 19.157-4.2563 12.592-5.8998 18.356-5.2883 30.132 0.68174 13.128 1.4863 16.441 5.9737 27.224 3.8223 9.1842 8.9482 15.019 18.352 24.424 8.6202 8.6212 15.1 13.994 25.423 21.08 6.7634 4.6425 8.5462 5.6273 8.5462 4.7208z" />
+    <g id="oc-treasure-chest-122029-g3741" style="stroke:#130b00" transform="matrix(.78987 .063835 -.063835 .78987 324.75 100.05)">
+      <path id="oc-treasure-chest-122029-path3743" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3753)" d="m85.56 267.47 48.083 145.66 23.114 11.217-57.762-170.32-13.435 13.435z" />
+      <path id="oc-treasure-chest-122029-path3745" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3755)" d="m84.146 267.47-9.8995 21.92 36.301 111.46 23.096 12.99-49.497-146.37z" />
+      <path id="oc-treasure-chest-122029-path3747" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3757)" d="m73.539 292.22-6.364 33.941 15.556 45.255 27.686 29.464-36.879-108.66z" />
+    </g>
+    <path id="oc-treasure-chest-122029-path3613" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3621)" d="m191.5 329.86 5-1 56 165.5-5.721 1.7652l-55.28-166.27z" />
+    <path id="oc-treasure-chest-122029-path2402" style="fill-rule:evenodd;stroke:#130b00;stroke-width:2;fill:url(#oc-treasure-chest-122029-linearGradient3232)" d="m423.25 447.28 12.122 111.12 97.985 19.193 14.647-113.64-124.75-16.668z" />
+    <path id="oc-treasure-chest-122029-path2404" style="fill-rule:evenodd;stroke:#130b00;stroke-width:2;fill:url(#oc-treasure-chest-122029-linearGradient3230)" d="m247.93 495.47 18.75 115.46 169.71-53.54-11.12-109.6-177.34 47.68z" />
+    <g id="oc-treasure-chest-122029-g3494" transform="translate(-182.79 136.51)">
+      <path id="oc-treasure-chest-122029-path3301" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-88.641 -6.3135)" />
+      <path id="oc-treasure-chest-122029-path3291" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-88.893 -9.3439)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3486" transform="translate(-33.981 187.08)">
+      <path id="oc-treasure-chest-122029-path3309" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path3311" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3510" transform="translate(-146.02 102.57)">
+      <path id="oc-treasure-chest-122029-path3315" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.68143 .73188 -.73188 .68143 345.56 -310.85)" />
+      <path id="oc-treasure-chest-122029-path3317" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.68143 .73188 -.73188 .68143 347.61 -313.1)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3522" transform="translate(-209.66 101.16)">
+      <path id="oc-treasure-chest-122029-path3321" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-70.729 54.841)" />
+      <path id="oc-treasure-chest-122029-path3323" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-70.981 51.811)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3584" transform="translate(-194.41 30.299)">
+      <path id="oc-treasure-chest-122029-path3327" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.91259 -.40888 .40888 .91259 -112.33 430.53)" />
+      <path id="oc-treasure-chest-122029-path3329" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.91259 -.40888 .40888 .91259 -113.8 427.87)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3576" transform="translate(-204 12.064)">
+      <path id="oc-treasure-chest-122029-path3333" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.38776 -.92176 .92176 .38776 70.012 917.13)" />
+      <path id="oc-treasure-chest-122029-path3335" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.38776 -.92176 .92176 .38776 67.121 916.18)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3560" transform="translate(-213.9 64.39)">
+      <path id="oc-treasure-chest-122029-path3339" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.74720 .66460 -.66460 -.74720 1347.2 256.8)" />
+      <path id="oc-treasure-chest-122029-path3341" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.74720 .66460 -.66460 -.74720 1349.4 258.9)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3568" transform="translate(-209.66 48.833)">
+      <path id="oc-treasure-chest-122029-path3345" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.3 100.56)" />
+      <path id="oc-treasure-chest-122029-path3347" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.553 97.525)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3490" transform="translate(-158.75 173.28)">
+      <path id="oc-treasure-chest-122029-path3414" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.54392 .83914 -.83914 -.54392 1125.6 -32.694)" />
+      <path id="oc-treasure-chest-122029-path3416" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.54392 .83914 -.83914 -.54392 1128.3 -31.258)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3498" transform="translate(-168.64 161.97)">
+      <path id="oc-treasure-chest-122029-path3418" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.17536 .98450 -.98450 .17536 708.1 -342.1)" />
+      <path id="oc-treasure-chest-122029-path3420" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.17536 .98450 -.98450 .17536 711.03 -342.88)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3514" transform="translate(-160.16 129.44)">
+      <path id="oc-treasure-chest-122029-path3422" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.26612 -.96394 .96394 .26612 -5.2925 906.25)" />
+      <path id="oc-treasure-chest-122029-path3424" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.26612 -.96394 .96394 .26612 -8.2808 905.69)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3505" transform="translate(-171.47 166.21)">
+      <path id="oc-treasure-chest-122029-path3426" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.83948 .54339 -.54339 -.83948 1226.8 294.87)" />
+      <g id="oc-treasure-chest-122029-g3502">
+        <path id="oc-treasure-chest-122029-path3428" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.83948 .54339 -.54339 -.83948 1228.6 297.27)" />
+      </g>
+    </g>
+    <g id="oc-treasure-chest-122029-g3552" transform="translate(-281.37 135.44)">
+      <path id="oc-treasure-chest-122029-path3454" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.43635 -.89978 .89978 .43635 90.761 797.96)" />
+      <path id="oc-treasure-chest-122029-path3456" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.43635 -.89978 .89978 .43635 87.924 796.87)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3544" transform="translate(-315.87 104.93)">
+      <path id="oc-treasure-chest-122029-path3458" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 543.19 1053.6)" />
+      <path id="oc-treasure-chest-122029-path3460" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 540.37 1054.7)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3535" transform="translate(-273.78 196.71)">
+      <path id="oc-treasure-chest-122029-path3462" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.76611 -.64271 .64271 .76611 -50.043 485.37)" />
+      <g id="oc-treasure-chest-122029-g3530">
+        <path id="oc-treasure-chest-122029-path3464" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.76611 -.64271 .64271 .76611 -52.184 483.21)" />
+      </g>
+    </g>
+    <g id="oc-treasure-chest-122029-g3616" transform="translate(-18.977 192.05)">
+      <path id="oc-treasure-chest-122029-path3618" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path3620" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3626" transform="translate(-135.22 167.52)">
+      <path id="oc-treasure-chest-122029-path3628" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.54392 .83914 -.83914 -.54392 1125.6 -32.694)" />
+      <path id="oc-treasure-chest-122029-path3630" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.54392 .83914 -.83914 -.54392 1128.3 -31.258)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3636" transform="translate(-136.63 207.12)">
+      <path id="oc-treasure-chest-122029-path3638" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.54392 .83914 -.83914 -.54392 1125.6 -32.694)" />
+      <path id="oc-treasure-chest-122029-path3640" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.54392 .83914 -.83914 -.54392 1128.3 -31.258)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3646" transform="translate(-388.49 165.83)">
+      <path id="oc-treasure-chest-122029-path3648" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 543.19 1053.6)" />
+      <path id="oc-treasure-chest-122029-path3650" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 540.37 1054.7)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3656" transform="translate(-245.34 135.79)">
+      <path id="oc-treasure-chest-122029-path3658" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 543.19 1053.6)" />
+      <path id="oc-treasure-chest-122029-path3660" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 540.37 1054.7)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3666" transform="translate(-307.88 171.48)">
+      <path id="oc-treasure-chest-122029-path3668" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 543.19 1053.6)" />
+      <path id="oc-treasure-chest-122029-path3670" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 540.37 1054.7)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3676" transform="translate(-204.12 119.66)">
+      <path id="oc-treasure-chest-122029-path3678" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-88.641 -6.3135)" />
+      <path id="oc-treasure-chest-122029-path3680" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-88.893 -9.3439)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3688" transform="translate(-190.1 124.97)">
+      <path id="oc-treasure-chest-122029-path3690" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.68143 .73188 -.73188 .68143 345.56 -310.85)" />
+      <path id="oc-treasure-chest-122029-path3692" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.68143 .73188 -.73188 .68143 347.61 -313.1)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3694" transform="translate(-230.99 84.305)">
+      <path id="oc-treasure-chest-122029-path3696" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-70.729 54.841)" />
+      <path id="oc-treasure-chest-122029-path3698" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-70.981 51.811)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3700" transform="translate(-225.34 -4.7906)">
+      <path id="oc-treasure-chest-122029-path3702" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.38776 -.92176 .92176 .38776 70.012 917.13)" />
+      <path id="oc-treasure-chest-122029-path3704" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.38776 -.92176 .92176 .38776 67.121 916.18)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3706" transform="translate(-235.24 47.535)">
+      <path id="oc-treasure-chest-122029-path3708" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.74720 .66460 -.66460 -.74720 1347.2 256.8)" />
+      <path id="oc-treasure-chest-122029-path3710" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.74720 .66460 -.66460 -.74720 1349.4 258.9)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3712" transform="translate(-227.99 34.479)">
+      <path id="oc-treasure-chest-122029-path3714" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.3 100.56)" />
+      <path id="oc-treasure-chest-122029-path3716" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.553 97.525)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3718" transform="translate(-180.08 156.43)">
+      <path id="oc-treasure-chest-122029-path3720" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.54392 .83914 -.83914 -.54392 1125.6 -32.694)" />
+      <path id="oc-treasure-chest-122029-path3722" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.54392 .83914 -.83914 -.54392 1128.3 -31.258)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3724" transform="translate(-189.98 145.12)">
+      <path id="oc-treasure-chest-122029-path3726" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.17536 .98450 -.98450 .17536 708.1 -342.1)" />
+      <path id="oc-treasure-chest-122029-path3728" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.17536 .98450 -.98450 .17536 711.03 -342.88)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3730" transform="translate(-202.5 118.59)">
+      <path id="oc-treasure-chest-122029-path3732" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.26612 -.96394 .96394 .26612 -5.2925 906.25)" />
+      <path id="oc-treasure-chest-122029-path3734" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.26612 -.96394 .96394 .26612 -8.2808 905.69)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3736" transform="translate(-195.81 174.36)">
+      <path id="oc-treasure-chest-122029-path3738" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.83948 .54339 -.54339 -.83948 1226.8 294.87)" />
+      <g id="oc-treasure-chest-122029-g3740">
+        <path id="oc-treasure-chest-122029-path3742" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.83948 .54339 -.54339 -.83948 1228.6 297.27)" />
+      </g>
+    </g>
+    <g id="oc-treasure-chest-122029-g3750" transform="translate(-409.7 118.83)">
+      <path id="oc-treasure-chest-122029-path3752" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.43635 -.89978 .89978 .43635 90.761 797.96)" />
+      <path id="oc-treasure-chest-122029-path3754" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.43635 -.89978 .89978 .43635 87.924 796.87)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3762" transform="translate(-177.55 168.67)">
+      <path id="oc-treasure-chest-122029-path3764" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.54392 .83914 -.83914 -.54392 1125.6 -32.694)" />
+      <path id="oc-treasure-chest-122029-path3766" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.54392 .83914 -.83914 -.54392 1128.3 -31.258)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3768" transform="translate(-157.97 190.27)">
+      <path id="oc-treasure-chest-122029-path3770" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.54392 .83914 -.83914 -.54392 1125.6 -32.694)" />
+      <path id="oc-treasure-chest-122029-path3772" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.54392 .83914 -.83914 -.54392 1128.3 -31.258)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3774" transform="translate(-255.68 124.93)">
+      <path id="oc-treasure-chest-122029-path3776" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 543.19 1053.6)" />
+      <path id="oc-treasure-chest-122029-path3778" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 540.37 1054.7)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3780" transform="translate(-329.22 154.63)">
+      <path id="oc-treasure-chest-122029-path3782" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 543.19 1053.6)" />
+      <path id="oc-treasure-chest-122029-path3784" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 540.37 1054.7)" />
+    </g>
+    <path id="oc-treasure-chest-122029-path2400" style="fill-rule:evenodd;stroke:#130b00;stroke-width:12;fill:url(#oc-treasure-chest-122029-linearGradient3234)" d="m358.09 547.54 12.37 126.4 170.93-101.1 5.56-103.56-188.86 78.26z" />
+    <g id="oc-treasure-chest-122029-g3978" transform="translate(-164.09 114.18)">
+      <path id="oc-treasure-chest-122029-path3980" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-88.641 -6.3135)" />
+      <path id="oc-treasure-chest-122029-path3982" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-88.893 -9.3439)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3984" transform="translate(-80.925 184.62)">
+      <path id="oc-treasure-chest-122029-path3986" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path3988" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3990" transform="translate(-261.94 3.6029)">
+      <path id="oc-treasure-chest-122029-path3992" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.38776 -.92176 .92176 .38776 70.012 917.13)" />
+      <path id="oc-treasure-chest-122029-path3994" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.38776 -.92176 .92176 .38776 67.121 916.18)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3996" transform="translate(-65.922 189.59)">
+      <path id="oc-treasure-chest-122029-path3998" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path4000" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4002" transform="translate(-125.7 187.49)">
+      <path id="oc-treasure-chest-122029-path4004" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path4006" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4008" transform="translate(-160.63 94.116)">
+      <path id="oc-treasure-chest-122029-path4010" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.68143 .73188 -.73188 .68143 345.56 -310.85)" />
+      <path id="oc-treasure-chest-122029-path4012" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.68143 .73188 -.73188 .68143 347.61 -313.1)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4014" transform="translate(-355.28 45.748)">
+      <path id="oc-treasure-chest-122029-path4016" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.38776 -.92176 .92176 .38776 70.012 917.13)" />
+      <path id="oc-treasure-chest-122029-path4018" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.38776 -.92176 .92176 .38776 67.121 916.18)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4020" transform="translate(-306.59 50.392)">
+      <path id="oc-treasure-chest-122029-path4022" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.74720 .66460 -.66460 -.74720 1347.2 256.8)" />
+      <path id="oc-treasure-chest-122029-path4024" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.74720 .66460 -.66460 -.74720 1349.4 258.9)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4038" transform="translate(46.055 193.53)">
+      <path id="oc-treasure-chest-122029-path4040" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path4042" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4044" transform="translate(-318.87 183.61)">
+      <path id="oc-treasure-chest-122029-path4046" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 543.19 1053.6)" />
+      <path id="oc-treasure-chest-122029-path4048" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 540.37 1054.7)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4098" transform="translate(-109.32 191.58)">
+      <path id="oc-treasure-chest-122029-path4100" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path4102" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4104" transform="translate(-72.794 71.504)">
+      <path id="oc-treasure-chest-122029-path4106" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.68143 .73188 -.73188 .68143 345.56 -310.85)" />
+      <path id="oc-treasure-chest-122029-path4108" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.68143 .73188 -.73188 .68143 347.61 -313.1)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4110" transform="translate(-219.62 14.806)">
+      <path id="oc-treasure-chest-122029-path4112" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.38776 -.92176 .92176 .38776 70.012 917.13)" />
+      <path id="oc-treasure-chest-122029-path4114" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.38776 -.92176 .92176 .38776 67.121 916.18)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4122" transform="translate(-180.89 27.045)">
+      <path id="oc-treasure-chest-122029-path4124" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.3 100.56)" />
+      <path id="oc-treasure-chest-122029-path4126" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.553 97.525)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4128" transform="translate(-302.24 25.228)">
+      <path id="oc-treasure-chest-122029-path4130" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 19.402 149.23)" />
+      <path id="oc-treasure-chest-122029-path4132" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 18.778 146.26)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4140" transform="translate(-361.79 150.66)">
+      <path id="oc-treasure-chest-122029-path4142" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 543.19 1053.6)" />
+      <path id="oc-treasure-chest-122029-path4144" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 540.37 1054.7)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4146" transform="translate(6.5941 197.1)">
+      <path id="oc-treasure-chest-122029-path4148" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path4150" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4152" transform="translate(-187.07 133.76)">
+      <path id="oc-treasure-chest-122029-path4154" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 543.19 1053.6)" />
+      <path id="oc-treasure-chest-122029-path4156" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 540.37 1054.7)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4158" transform="translate(-58.911 195.57)">
+      <path id="oc-treasure-chest-122029-path4160" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path4162" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4176" transform="translate(-215.77 19.008)">
+      <path id="oc-treasure-chest-122029-path4178" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.3 100.56)" />
+      <path id="oc-treasure-chest-122029-path4180" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.553 97.525)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4182" transform="translate(-228.63 58.025)">
+      <path id="oc-treasure-chest-122029-path4184" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 19.402 149.23)" />
+      <path id="oc-treasure-chest-122029-path4186" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 18.778 146.26)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4194" transform="translate(-330.2 134.91)">
+      <path id="oc-treasure-chest-122029-path4196" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 543.19 1053.6)" />
+      <path id="oc-treasure-chest-122029-path4198" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 540.37 1054.7)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4212" transform="translate(-231.37 16.795)">
+      <path id="oc-treasure-chest-122029-path4214" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.3 100.56)" />
+      <path id="oc-treasure-chest-122029-path4216" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.553 97.525)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4218" transform="translate(-228.44 77.301)">
+      <path id="oc-treasure-chest-122029-path4220" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 19.402 149.23)" />
+      <path id="oc-treasure-chest-122029-path4222" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 18.778 146.26)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4224" transform="translate(-39.499 219.29)">
+      <path id="oc-treasure-chest-122029-path4226" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path4228" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4318" transform="translate(-290.31 15.955)">
+      <path id="oc-treasure-chest-122029-path4320" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.3 100.56)" />
+      <path id="oc-treasure-chest-122029-path4322" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.553 97.525)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4328" transform="translate(-265.69 56.109)">
+      <path id="oc-treasure-chest-122029-path4330" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.3 100.56)" />
+      <path id="oc-treasure-chest-122029-path4332" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.553 97.525)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4338" transform="translate(-235.99 20.754)">
+      <path id="oc-treasure-chest-122029-path4340" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.3 100.56)" />
+      <path id="oc-treasure-chest-122029-path4342" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.553 97.525)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4348" transform="translate(-212.69 59.188)">
+      <path id="oc-treasure-chest-122029-path4350" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.3 100.56)" />
+      <path id="oc-treasure-chest-122029-path4352" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.553 97.525)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4368" transform="translate(-224.68 29.239)">
+      <path id="oc-treasure-chest-122029-path4370" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.3 100.56)" />
+      <path id="oc-treasure-chest-122029-path4372" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.553 97.525)" />
+    </g>
+    <path id="oc-treasure-chest-122029-path2398" style="fill-rule:evenodd;fill:url(#oc-treasure-chest-122029-linearGradient3236)" d="m253.95 506.36 10.744 112.6 91.893 53.579-11.112-125.26-91.526-40.924z" />
+    <path id="oc-treasure-chest-122029-path3679" style="stroke:#130b00;stroke-width:1px;fill:none" d="m352 536.86-0.5625 6.7812" />
+    <path id="oc-treasure-chest-122029-path3681" style="stroke:#130b00;stroke-width:1px;fill:none" d="m536 462.36 15.5-2" />
+    <path id="oc-treasure-chest-122029-path3795" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3827)" d="m248 497.86 3 23.5 102.5 47.5-2-26.5-103.5-44.5z" />
+    <path id="oc-treasure-chest-122029-path3797" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3825)" d="m251.25 521.61 0.75 18.75 103 45-2-17.5-101.75-46.25z" />
+    <path id="oc-treasure-chest-122029-path3799" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3823)" d="m252.5 541.36 1.5 17.5 103.5 45.5-2-18-103-45z" />
+    <path id="oc-treasure-chest-122029-path3801" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3821)" d="m254 559.86 1.5 17 104.5 48-1.5-20.5-104.5-44.5z" />
+    <path id="oc-treasure-chest-122029-path3803" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3819)" d="m255.5 577.86 1.5 15 104 51.5-1.5-20.5-104-46z" />
+    <path id="oc-treasure-chest-122029-path3805" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3817)" d="m256.75 593.11 2.25 15.25 103.5 57.5-1.5-21.5-104.25-51.25z" />
+    <path id="oc-treasure-chest-122029-path3807" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3815)" d="m259 608.36 1 13 105.5 61.5-3-16-103.5-58.5z" />
+    <path id="oc-treasure-chest-122029-path3871" style="stroke:#130b00;stroke-width:1px;fill:none" d="m352.11 537.37-0.5625 6.7812" />
+    <g id="oc-treasure-chest-122029-g3937" transform="matrix(.99539 0 0 .99539 -19.815 -205.69)">
+      <path id="oc-treasure-chest-122029-path3839" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3947)" d="m373.42 753.68 202.07-83.658-5.8778 116.63-181.95 107.28-14.25-140.25z" />
+      <path id="oc-treasure-chest-122029-path3863" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3949)" d="m373.64 754.28 1.8536 21.182 199.23-89.828 0.91422-15.854-202 84.5z" />
+      <path id="oc-treasure-chest-122029-path3865" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3951)" d="m375.99 775.47 1.5607 16.768 195.32-89.389 2.4142-17.121-199.29 89.743z" />
+      <path id="oc-treasure-chest-122029-path3867" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3953)" d="m377.7 793.23 1.6464 19.328 193.38-93.364 0.5-16.561-195.53 90.596z" />
+      <path id="oc-treasure-chest-122029-path3907" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3955)" d="m380.16 812.92 1.4142 16.617 190.92-92.985 0.35355-17.678-192.69 94.045z" />
+      <path id="oc-treasure-chest-122029-path3909" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3957)" d="m382.28 829.18 1.0607 19.799 188.44-98.995 0.35355-13.789-189.86 92.985z" />
+      <path id="oc-treasure-chest-122029-path3911" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3959)" d="m384.05 849.69 1.0607 18.738 184.91-100.41 1.4142-17.324-187.38 98.995z" />
+      <path id="oc-treasure-chest-122029-path3913" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient3961)" d="m385.81 869.13 1.7678 24.395 182.43-107.13v-18.738l-184.2 101.47z" />
+    </g>
+    <path id="oc-treasure-chest-122029-path3785" style="stroke:color-mix(in srgb,var(--c1,#9c9c00) 57.7%,black);stroke-linecap:round;fill:url(#oc-treasure-chest-122029-radialGradient3837)" d="m311.06 652.97c-34.03-20.2-51.17-30.76-51.69-31.85-0.9-1.87-12.03-122.62-11.37-123.28 0.35994-0.35993 102.37 43.382 104.68 45.109 1.9638 1.47 13.001 139.14 12.453 140.43-0.1254 0.2945-26.072-13.79-54.074-30.411v0.00002zm38.537 8.8136c0-1.0474-2.0892-26.265-4.6426-56.038-3.1025-36.176-3.9204-54.575-4.4801-54.96-1.327-0.9125-79.585-34.093-79.821-33.857-0.4277 0.42769 8.4086 99.743 8.8931 99.955 0.27536 0.12016 18.161 10.678 39.745 23.461s39.483 23.265 39.775 23.293c0.29168 0.0276 0.53033-0.80685 0.53033-1.8543v0.00001z" />
+    <g id="oc-treasure-chest-122029-g3556" transform="translate(-193.49 59.998)">
+      <path id="oc-treasure-chest-122029-path3450" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 19.402 149.23)" />
+      <path id="oc-treasure-chest-122029-path3452" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 18.778 146.26)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3682" transform="translate(-30.176 177.29)">
+      <path id="oc-treasure-chest-122029-path3684" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path3686" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <path id="oc-treasure-chest-122029-path3843" style="stroke:color-mix(in srgb,var(--c1,#9c9c00) 57.7%,black);stroke-linecap:round;fill:url(#oc-treasure-chest-122029-radialGradient3861)" d="m365.76 684c-0.50739-6.5435-13.997-139.6-13.403-140.19 1.0546-1.0546 200.68-82.929 201.11-82.491 0.4566 0.45641-5.7274 115.12-6.2287 115.56-0.5832 0.51367-173.53 102.41-176.49 104.29-2.8772 1.8287-1.8916 1.1112-4.9971 2.8338zm171.21-112.23c0.6234-0.57197 5.6557-91.829 5.099-92.464-0.3529-0.40257-174.96 71.336-177.07 72.749-0.2322 0.15573 1.8361 24.91 4.5962 55.009 2.7603 30.099 5.0185 55.971 5.0185 57.492 4.0625-1.825 63.223-35.027 84.146-46.497 26.039-15.481 52.244-30.687 78.211-46.288z" />
+    <path id="oc-treasure-chest-122029-path3643" style="fill-rule:evenodd;stroke:#130b00;stroke-width:1px;fill:url(#oc-treasure-chest-122029-radialGradient3662)" d="m247.9 497.31 6.4103-2.9318 99.193 43.1 184-74.741-112.5-13.75 5.125-5.75 122.75 17.25-199.99 83.11-104.99-46.287z" />
+    <g id="oc-treasure-chest-122029-g4032" transform="translate(-258.7 34.521)">
+      <path id="oc-treasure-chest-122029-path4034" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 19.402 149.23)" />
+      <path id="oc-treasure-chest-122029-path4036" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 18.778 146.26)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3744" transform="translate(-236.33 68.893)">
+      <path id="oc-treasure-chest-122029-path3746" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 19.402 149.23)" />
+      <path id="oc-treasure-chest-122029-path3748" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 18.778 146.26)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3979" transform="translate(-60.923 208.86)">
+      <path id="oc-treasure-chest-122029-path3981" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path3983" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4026" transform="translate(-198.55 34.398)">
+      <path id="oc-treasure-chest-122029-path4028" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.3 100.56)" />
+      <path id="oc-treasure-chest-122029-path4030" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.553 97.525)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3526" transform="matrix(-.90174 -.43227 .43227 -.90174 911.86 1048)">
+      <path id="oc-treasure-chest-122029-path3446" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.99238 .12324 -.12324 -.99238 1292.5 622.14)" />
+      <path id="oc-treasure-chest-122029-path3448" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.99238 .12324 -.12324 -.99238 1293.1 625.11)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3963" transform="matrix(-.90174 -.43227 .43227 -.90174 861.25 1043.1)">
+      <path id="oc-treasure-chest-122029-path3965" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.99238 .12324 -.12324 -.99238 1292.5 622.14)" />
+      <path id="oc-treasure-chest-122029-path3967" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.99238 .12324 -.12324 -.99238 1293.1 625.11)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4123" transform="translate(-168.16 -192.43)">
+      <path id="oc-treasure-chest-122029-path4166" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.38776 -.92176 .92176 .38776 89.876 1110.8)" />
+      <path id="oc-treasure-chest-122029-path4168" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.38776 -.92176 .92176 .38776 86.985 1109.1)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4206" transform="translate(-67.501 169.56)">
+      <path id="oc-treasure-chest-122029-path4208" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path4210" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g3973" transform="translate(-75.807 180.99)">
+      <path id="oc-treasure-chest-122029-path3975" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path3977" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4015" transform="matrix(-.23695 -.97152 .97152 -.23695 154.56 1232)">
+      <path id="oc-treasure-chest-122029-path4017" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 19.402 149.23)" />
+      <path id="oc-treasure-chest-122029-path4019" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(.99238 -.12324 .12324 .99238 18.778 146.26)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4021" transform="matrix(-.23695 -.97152 .97152 -.23695 234.41 1207.8)">
+      <path id="oc-treasure-chest-122029-path4023" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 543.19 1053.6)" />
+      <path id="oc-treasure-chest-122029-path4025" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 540.37 1054.7)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4027" transform="matrix(-.23695 -.97152 .97152 -.23695 191.89 1188.7)">
+      <path id="oc-treasure-chest-122029-path4029" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 543.19 1053.6)" />
+      <path id="oc-treasure-chest-122029-path4031" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-.29536 -.95539 .95539 -.29536 540.37 1054.7)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4033" transform="matrix(-.23695 -.97152 .97152 -.23695 282.63 995.55)">
+      <path id="oc-treasure-chest-122029-path4035" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path4037" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4039" transform="matrix(-.23695 -.97152 .97152 -.23695 213.43 995.71)">
+      <path id="oc-treasure-chest-122029-path4041" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.4 619.88)" />
+      <path id="oc-treasure-chest-122029-path4043" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="matrix(-1 0 0 -1 1116.7 622.91)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4045" transform="matrix(-.23695 -.97152 .97152 -.23695 98.11 1190)">
+      <path id="oc-treasure-chest-122029-path4047" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.3 100.56)" />
+      <path id="oc-treasure-chest-122029-path4049" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.553 97.525)" />
+    </g>
+    <g id="oc-treasure-chest-122029-g4101" transform="matrix(1.2471 0 0 1.2471 -109.03 -129.38)">
+      <path id="oc-treasure-chest-122029-path4075" style="fill-rule:evenodd;stroke:color-mix(in srgb,var(--c1,#9c9c00) 57.7%,black);stroke-width:1px;fill:url(#oc-treasure-chest-122029-linearGradient4107)" d="m444.53 519.86 22.504-9.326 0.13384 18.052s-1.0958 9.3317-7.2406 12.438c-6.1448 3.1061-11.555-7.2039-11.555-7.2039l-3.8426-13.96z" />
+      <g id="oc-treasure-chest-122029-g4097" transform="matrix(.99267 .12085 -.12085 .99267 67.668 -57.38)">
+        <path id="oc-treasure-chest-122029-path4093" style="fill:#000000" d="m460.06 534.98c0 1.9282-1.1278 3.4913-2.5191 3.4913-1.3912 0-2.5191-1.5631-2.5191-3.4913s1.1278-3.4913 2.5191-3.4913c1.3912 0 2.5191 1.5631 2.5191 3.4913z" transform="matrix(1.065 -.21346 .21346 1.065 -143.54 62.305)" />
+        <rect id="oc-treasure-chest-122029-rect4095" style="fill:#000000" transform="rotate(-18.361)" height="6.9827" width="2.2981" y="651.69" x="265.01" />
+      </g>
+    </g>
+    <g id="oc-treasure-chest-122029-g3985" transform="translate(-232.16 50.319)">
+      <path id="oc-treasure-chest-122029-path3987" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.3 100.56)" />
+      <path id="oc-treasure-chest-122029-path3989" style="stroke:var(--c1,#9c7600);fill:url(#oc-treasure-chest-122029-linearGradient3383)" d="m655.59 344.75c0 5.8579-7.2362 10.607-16.162 10.607-8.9263 0-16.162-4.7487-16.162-10.607 0-5.8579 7.2362-10.607 16.162-10.607 8.9263 0 16.162 4.7487 16.162 10.607z" transform="translate(-19.553 97.525)" />
+    </g>
+  </g></g></svg>

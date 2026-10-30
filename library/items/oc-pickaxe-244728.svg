@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(5.07 347.89) scale(0.7509)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-pickaxe-244728-defs4">
+    <linearGradient id="oc-pickaxe-244728-linearGradient3880">
+      <stop style="stop-color:var(--c1,#deaa87);stop-opacity:1;" offset="0" id="oc-pickaxe-244728-stop3882" />
+      <stop style="stop-color:var(--c1,#deaa87);stop-opacity:0;" offset="1" id="oc-pickaxe-244728-stop3884" />
+    </linearGradient>
+    <linearGradient id="oc-pickaxe-244728-linearGradient6185">
+      <stop style="stop-color:color-mix(in srgb,var(--c1,#de7128) 45.0%,black);stop-opacity:1;" offset="0" id="oc-pickaxe-244728-stop6187" />
+      <stop style="stop-color:color-mix(in srgb,var(--c1,#de9f76) 94.1%,black);stop-opacity:1;" offset="1" id="oc-pickaxe-244728-stop6189" />
+    </linearGradient>
+    <linearGradient id="oc-pickaxe-244728-linearGradient6167">
+      <stop style="stop-color:var(--c2,#888585);stop-opacity:1;" offset="0" id="oc-pickaxe-244728-stop6169" />
+      <stop id="oc-pickaxe-244728-stop6175" offset="0.5" style="stop-color:#f6f6f6;stop-opacity:1;" />
+      <stop style="stop-color:color-mix(in srgb,var(--c2,#858585) 62.3%,white);stop-opacity:1;" offset="1" id="oc-pickaxe-244728-stop6171" />
+    </linearGradient>
+    <linearGradient id="oc-pickaxe-244728-linearGradient3859" x1="7.330153" y1="733.32489" x2="66.494377" y2="733.32489" gradientUnits="userSpaceOnUse"><stop style="stop-color:color-mix(in srgb,var(--c1,#de7128) 45.0%,black);stop-opacity:1;" offset="0" id="oc-pickaxe-244728-stop6187" />
+      <stop style="stop-color:color-mix(in srgb,var(--c1,#de9f76) 94.1%,black);stop-opacity:1;" offset="1" id="oc-pickaxe-244728-stop6189" />
+    </linearGradient>
+    <linearGradient id="oc-pickaxe-244728-linearGradient3867" x1="8.9511576" y1="471.02432" x2="67.067963" y2="471.02432" gradientUnits="userSpaceOnUse"><stop style="stop-color:var(--c2,#888585);stop-opacity:1;" offset="0" id="oc-pickaxe-244728-stop6169" />
+      <stop id="oc-pickaxe-244728-stop6175" offset="0.5" style="stop-color:#f6f6f6;stop-opacity:1;" />
+      <stop style="stop-color:color-mix(in srgb,var(--c2,#858585) 62.3%,white);stop-opacity:1;" offset="1" id="oc-pickaxe-244728-stop6171" />
+    </linearGradient>
+    <linearGradient id="oc-pickaxe-244728-linearGradient3875" x1="-151.0939" y1="471.19229" x2="257.27118" y2="471.19229" gradientUnits="userSpaceOnUse"><stop style="stop-color:var(--c2,#888585);stop-opacity:1;" offset="0" id="oc-pickaxe-244728-stop6169" />
+      <stop id="oc-pickaxe-244728-stop6175" offset="0.5" style="stop-color:#f6f6f6;stop-opacity:1;" />
+      <stop style="stop-color:color-mix(in srgb,var(--c2,#858585) 62.3%,white);stop-opacity:1;" offset="1" id="oc-pickaxe-244728-stop6171" />
+    </linearGradient>
+    <linearGradient id="oc-pickaxe-244728-linearGradient3886" x1="508.19562" y1="276.6917" x2="555.76634" y2="276.6917" gradientUnits="userSpaceOnUse"><stop style="stop-color:var(--c1,#deaa87);stop-opacity:1;" offset="0" id="oc-pickaxe-244728-stop3882" />
+      <stop style="stop-color:var(--c1,#deaa87);stop-opacity:0;" offset="1" id="oc-pickaxe-244728-stop3884" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-pickaxe-244728-g6193" transform="matrix(0,-1,1,0,-336.67567,358.28598)">
+    <g id="oc-pickaxe-244728-g4291">
+      <path id="oc-pickaxe-244728-rect6163" d="M 63.161703,443.55071 L 63.161703,502.80778 C 63.908029,517.2865 61.071991,531.76522 61.818317,546.24395 C 60.971359,564.60256 60.572198,577.58762 65.994376,595.94623 C 56.99347,618.03754 55.605087,645.50239 57.799067,679.68417 C 56.926631,738.49977 56.054195,794.62859 53.390577,853.44419 C 52.750309,880.75617 49.423269,913.88949 51.021979,941.20147 C 52.232516,980.27912 87.217519,1019.5549 39.428545,1023.0586 C 29.292549,1023.8017 16.17764,1014.1584 12.639913,1007.8335 C 6.7793401,997.3559 3.4484601,994.55156 19.832575,964.92046 C 23.473545,939.81396 20.610928,876.56573 20.552309,842.23986 L 22.908693,651.45935 C 20.91256,593.24134 14.438473,603.53601 14.681316,584.72399 C 15.344235,571.59878 16.007154,558.47357 16.670072,545.34835 C 14.132565,529.82477 14.28183,512.95781 9.05755,498.77762 L 9.05755,443.55071 L 63.161703,443.55071 z" style="opacity:1;fill:url(#oc-pickaxe-244728-linearGradient3859);fill-opacity:1.0;fill-rule:nonzero;stroke:#000000;stroke-width:0.99999994000000003;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:0.39215686000000000" />
+      <path id="oc-pickaxe-244728-path6158" d="M 60.790426,501.48305 C 47.587239,505.916 40.304373,511.82092 15.150676,497.7526 C 10.697743,495.2621 9.3718564,483.23455 4.4624625,482.33014 C -45.063678,473.20632 -69.159209,469.54978 -149.07826,493.84396 C -152.03409,486.2092 -149.75563,451.79456 -149.75563,447.96248 C -118.09177,449.01164 -33.186484,457.83227 17.770601,442.35051 C 24.105168,440.42594 33.03369,435.80533 39.892264,435.80533 C 49.149425,435.80533 57.651197,440.46294 66.567963,441.06543 C 182.36504,448.84691 245.37214,463.93696 256.77117,469.59411 C 238.85535,471.25186 148.14934,453.65158 83.001757,468.61125 C 60.289291,473.82666 72.851872,488.18421 60.790426,501.48305 z" style="opacity:1;fill:url(#oc-pickaxe-244728-linearGradient3875);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path style="opacity:1;fill:url(#oc-pickaxe-244728-linearGradient3867);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 66.489944,501.48305 C 53.286757,505.916 34.604854,511.18764 9.4511574,497.11932 L 10.804511,443.61707 C 17.139078,441.6925 33.03369,435.80533 39.892264,435.80533 C 49.149425,435.80533 57.651197,437.29655 66.567963,437.89904 L 66.489944,501.48305 z" id="oc-pickaxe-244728-path6161" />
+    </g>
+  </g>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-pickaxe-244728-g4633" transform="translate(402.90138,587.19122)" /></g></svg>

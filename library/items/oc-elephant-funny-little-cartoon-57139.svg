@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800"><g id="prop" transform="translate(168.44 445.19) scale(0.8401)"><defs xmlns="http://www.w3.org/2000/svg" id="oc-elephant-funny-little-cartoon-57139-defs4">
+    <radialGradient id="oc-elephant-funny-little-cartoon-57139-radialGradient3634" gradientUnits="userSpaceOnUse" cy="461.42" cx="352.54" r="156.57">
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3620" style="stop-color:#ffffff" offset="0" />
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3622" style="stop-color:var(--c1,#969696);stop-opacity:0" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-elephant-funny-little-cartoon-57139-radialGradient3685" gradientUnits="userSpaceOnUse" cy="429.33" cx="345.55" gradientTransform="matrix(.69981 .71433 -1.4954 1.465 745.74 -472.46)" r="38.455">
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3681" style="stop-color:#000000" offset="0" />
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3683" style="stop-color:#000000" offset="1" />
+    </radialGradient>
+    <radialGradient id="oc-elephant-funny-little-cartoon-57139-radialGradient3723" gradientUnits="userSpaceOnUse" cy="430.56" cx="320.19" gradientTransform="matrix(1.7238 -1.0172 .90546 1.5344 -611.27 66.812)" r="37.955">
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3713" style="stop-color:var(--c1,#969696)" offset="0" />
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3727" style="stop-color:var(--c1,#969696)" offset=".64599" />
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3715" style="stop-color:color-mix(in srgb,var(--c1,#969696) 46.7%,black)" offset="1" />
+    </radialGradient>
+    <linearGradient id="oc-elephant-funny-little-cartoon-57139-linearGradient3759" y2="615.26" gradientUnits="userSpaceOnUse" x2="374.48" gradientTransform="matrix(.96810 -.25055 .25055 .96810 -97.583 99.54)" y1="609.72" x1="373.41">
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3755" style="stop-color:#ffffff" offset="0" />
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3757" style="stop-color:#ffffff;stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-elephant-funny-little-cartoon-57139-linearGradient3778" y2="615.26" gradientUnits="userSpaceOnUse" y1="609.72" gradientTransform="matrix(.96810 -.25055 .25055 .96810 -84.097 93.916)" x2="374.48" x1="373.41">
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3755-6" style="stop-color:#ffffff" offset="0" />
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3757-8" style="stop-color:#ffffff;stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-elephant-funny-little-cartoon-57139-linearGradient3778-2" y2="617.24" gradientUnits="userSpaceOnUse" y1="609.88" gradientTransform="matrix(.89645 .44315 -.44315 .89645 239.94 -109.84)" x2="374.46" x1="374.51">
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3755-6-7" style="stop-color:#ffffff" offset="0" />
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3757-8-1" style="stop-color:#ffffff;stop-opacity:0" offset="1" />
+    </linearGradient>
+    <linearGradient id="oc-elephant-funny-little-cartoon-57139-linearGradient3821" y2="618.58" gradientUnits="userSpaceOnUse" y1="610.75" gradientTransform="matrix(.89645 .44315 -.44315 .89645 227.76 -117.25)" x2="372.91" x1="373.95">
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3755-0" style="stop-color:#ffffff" offset="0" />
+      <stop id="oc-elephant-funny-little-cartoon-57139-stop3757-4" style="stop-color:#ffffff;stop-opacity:0" offset="1" />
+    </linearGradient>
+  </defs>
+  <g xmlns="http://www.w3.org/2000/svg" id="oc-elephant-funny-little-cartoon-57139-layer1" transform="translate(-195.79 -304.44)">
+    <g id="oc-elephant-funny-little-cartoon-57139-g3865">
+      <path id="oc-elephant-funny-little-cartoon-57139-path2816" style="fill:var(--c1,#969696)" d="m509.12 461.42c0 86.473-70.1 156.57-156.57 156.57-86.473 0-156.57-70.1-156.57-156.57 0-86.473 70.1-156.57 156.57-156.57 86.473 0 156.57 70.1 156.57 156.57z" transform="matrix(.98386 .17892 -.17892 .98386 88.093 -55.644)" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path2818" style="fill:#ffffff" d="m290.92 460.41c0 20.642-5.4271 37.376-12.122 37.376-6.6947 0-12.122-16.734-12.122-37.376s5.4271-37.376 12.122-37.376c6.6947 0 12.122 16.734 12.122 37.376z" transform="matrix(.94287 .17146 -.096712 .53182 68.902 112)" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path2818-1" style="fill:#000000" d="m290.92 460.41c0 20.642-5.4271 37.376-12.122 37.376-6.6947 0-12.122-16.734-12.122-37.376s5.4271-37.376 12.122-37.376c6.6947 0 12.122 16.734 12.122 37.376z" transform="matrix(.41251 .075015 -.042312 .23267 188.12 284.95)" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path2816-1" style="fill:url(#oc-elephant-funny-little-cartoon-57139-radialGradient3634)" d="m509.12 461.42c0 86.473-70.1 156.57-156.57 156.57-86.473 0-156.57-70.1-156.57-156.57 0-86.473 70.1-156.57 156.57-156.57 86.473 0 156.57 70.1 156.57 156.57z" transform="matrix(.26811 .47653 -.29098 .16371 479.05 161.4)" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3638" d="m325.41 354.95s-14.278-2.3638-3.6719-4.3842c10.607-2.0203 1.5152-4.5457 23.234-2.0203 21.718 2.5254 29.294 20.708 29.294 20.708s10.607 12.627 9.0914 24.244c-1.5152 11.617-9.0914 38.891-18.183 45.962-9.0914 7.0711-12.052 10.668-23.669 12.688-11.617 2.0203-9.7808-4.8664-9.7808-4.8664-8.5863-89.398-6.3149-93.341-6.3149-92.331z" style="stroke:#000000;stroke-width:1px;fill:url(#oc-elephant-funny-little-cartoon-57139-radialGradient3685)" transform="matrix(.98386 .17892 -.17892 .98386 88.093 -55.644)" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3640" style="stroke:#000000;stroke-width:1px;fill:none" d="m282.93 379.99c4.1602-5.0717 8.1862-6.8856 12.892-5.2716 3.2403 1.1115 6.2205 2.8646 8.2531 11.448" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3638-7" style="fill:url(#oc-elephant-funny-little-cartoon-57139-radialGradient3723)" d="m321.2 363.1s6.6413-16.76 17.438-16.85 2.3041-4.2012 23.22 2.1692 25.117 25.615 25.117 25.615 8.1763 14.321 4.6071 25.479-15.903 36.637-26.113 41.967c-10.21 5.3304-19.832 10.254-31.623 10.163-11.791-0.0907-19.109 0.63183-19.109 0.63183 7.5472-89.492 6.6437-90.17 6.463-89.176z" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3729" style="stroke:#000000;stroke-width:1px;fill:none" d="m485.56 465.75s6.2568 14.879 2.7768 26.513c-3.4801 11.634-3.1251 29.803-2.731 33.024 0.39406 3.2208-1.7485 20.061-1.7485 20.061" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3733" style="stroke:#000000;stroke-width:1px;fill:none" d="m489.29 524.51s2.447-0.57915 3.1669 0.73159" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3735" style="stroke:#000000;stroke-width:1px;fill:none" d="m490.64 511.48s5.6675-0.55351 6.4182 2.1523" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3737" style="stroke:#000000;stroke-width:1px;fill:none" d="m492.5 498.1s8.6855-2.1817 10.412 2.7827" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3739" style="stroke:#000000;stroke-width:1px;fill:none" d="m493.86 482.97s8.8234-2.1986 12.049 2.4425" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3741" style="fill:#ffffff" d="m322.6 615.61s6.7542-19.131 8.6654-26.553c1.8334-7.1201 17.79-40.121 16.486-43.039 4.7935 1.5193 69.855 2.2274 69.855 2.2274s-3.6662 14.796-6.5475 27.778c-1.5137 6.8196 1.0524 0.89665-1.3348 10.054-2.0843 7.9954 2.2361 17.105 2.1579 20.948-0.61657-0.0347-30.536 10.849-48.048 11.962-17.427 1.1078-41.234-3.3759-41.234-3.3759z" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3743" style="fill:url(#oc-elephant-funny-little-cartoon-57139-linearGradient3759)" d="m412.43 605.09-1.8989-13.515s-0.99164-5.4432 1.8702-6.74c2.8619-1.2967 5.0631-3.5347 8.4446-1.2123 3.3814 2.3224 4.4925 16.284 4.4925 16.284s-3.1574 1.3432-7.2181 3.102c-3.8772 1.6794-5.6902 2.0807-5.6902 2.0807z" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3743-8" style="fill:url(#oc-elephant-funny-little-cartoon-57139-linearGradient3778)" d="m425.99 599.59-1.9663-13.633s-0.99165-5.4432 1.8702-6.74c2.8619-1.2967 5.0631-3.5347 8.4446-1.2123 3.3814 2.3224 4.3455 14.909 4.3455 14.909s-2.1244 1.3462-6.0672 3.4186c-3.7401 1.9659-6.6269 3.2569-6.6269 3.2569z" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3743-9" style="fill:url(#oc-elephant-funny-little-cartoon-57139-linearGradient3821)" d="m281.76 599.26 8.9489-12.003s2.375-3.5944 5.8208-3.8785c3.1313-0.25817 6.1422 0.63422 7.1834 4.602s-9.3072 18.142-9.3072 18.142-2.2277-0.95883-6.2173-3.196c-3.6854-2.0667-6.4287-3.667-6.4287-3.667z" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3743-8-4" style="fill:url(#oc-elephant-funny-little-cartoon-57139-linearGradient3778-2)" d="m295.47 606.27 7.4224-11.603s2.681-3.9936 5.8208-3.8785c3.2982 0.12082 6.1422 0.6342 7.1835 4.602 1.0412 3.9678-7.5816 16.625-7.5816 16.625s-2.1632-0.77379-6.2074-2.4154c-3.9151-1.5892-6.6377-3.3307-6.6377-3.3307l0.00001-0.00002z" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3858" style="stroke:#000000;stroke-width:1.3336px;fill:none" d="m221.26 545.79c9.6258 11.497 33.015 33.275 52.735 34.844 21.655 1.7228 40.744-2.4896 47.625-22.578 4.1792-12.201 5.6278-24.467 1.7134-39.337-4.0423-15.356-20.354-30.232-39.672-26.142-15.442 3.2691-19.255 9.1549-22.698 20.117-4.2219 13.443 6.263 24.62 6.263 24.62s2.8022 4.054 6.8786 5.1276c4.0765 1.0736 5.3772 1.9747 9.4697 0.94673s8.0267-2.5277 9.2585-7.288c1.2318-4.7602 0.31988-8.4704 0.31988-8.4704l-3.4551 2.3598-2.3628-4.2657-4.0662 4.1427" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3860" style="stroke:#000000;stroke-width:1px;fill:none" d="m246.15 537.42s-13.886 4.4493-15.835 18.044" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3860-6" style="stroke:#000000;stroke-width:1px;fill:none" d="m256.99 550.72s-7.6415 7.5029-9.6058 18.305" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3860-6-0" style="stroke:#000000;stroke-width:1px;fill:none" d="m272.3 559.52s-5.9231 11.477-1.5964 20.285" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3860-6-0-1" style="stroke:#000000;stroke-width:1px;fill:none" d="m289.51 562.92s0.024 11.369 5.1639 16.742" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3860-6-0-1-7" style="stroke:#000000;stroke-width:1px;fill:none" d="m306.24 558.05s4.9637 6.6601 10.5 8.1255" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3860-6-0-1-7-4" style="stroke:#000000;stroke-width:1px;fill:none" d="m312.03 539.37s7.9137 2.5235 13.267 0.49076" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3860-6-0-1-7-4-0" style="stroke:#000000;stroke-width:1px;fill:none" d="m307.23 514.11s7.7755-2.9217 10.719-7.834" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3860-6-0-1-7-4-0-9" style="stroke:#000000;stroke-width:1px;fill:none" d="m285.7 491.76s-0.68088 4.9728 2.4584 9.7622" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3860-6-0-1-7-4-0-9-4" style="stroke:#000000;stroke-width:1px;fill:none" d="m262.57 507.69s1.7048 3.6102 7.427 3.8349" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3741-8" style="fill:#ffffff" d="m268.79 596.99c-10.73-5.25-6.8958-5.7445-20.758-17.415-13.862-11.671-27.532-28.554-26.577-32.266 3.7157 4.4636 15.343 15.68 24.567 21.947 9.141 6.2106 5.3552 3.6502 10.167 6.3615 6.3074 3.554 13.723 5.0789 13.723 5.0789s1.5718 0.80638 8.3299 0.88425c6.6788 0.077 8.9548 0.0607 14.73-0.68476-9.9549 15.784-10.985 13.205-13.14 19.344-7.0558-1.4974-5.3253-0.45253-11.042-3.2498z" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3741-8-8" style="fill:#ffffff" d="m455.88 580.3c9.109-6.972 3.7482-2.3994 15.239-16.411 6.7158-8.1893 8.5737-9.4317 12.008-15.957 0.34521-3.8387 0.811-3.7256 0.90226-8.4982 0.10238-5.3542 0.0819-3.6575 0.69465-9.2685 0.76858-7.0383-0.25609-17.153-0.25609-17.153s-7.5272 8.365-15.074 18.359c-4.0249 5.3303-10.358 12.838-15.754 13.647-3.4225 16.19-6.0207 33.891-8.3149 42.622 6.0642-4.5228 4.5442-2.7399 10.556-7.3413z" />
+      <path id="oc-elephant-funny-little-cartoon-57139-path3091" style="fill:#ffffff" d="m332.54 306.04s15.938-0.52621 22.522 0.5121c6.5845 1.0383 16.789 4.5778 22.629 7.9142 8.9384 5.107 11.298 11.512 17.209 16.009 6.4216 4.8847 7.6754 5.4844 15.613 9.5296 6.5091 3.3174 17.543-0.40284 27.551 3.1518 10.009 3.5547 21.675 6.1717 25.774 10.882 4.0993 4.7102 15.242 12.931 16.397 16.115 1.1556 3.1837-9.7248-17.38-19.472-25.099-9.7469-7.7196-24.226-20.76-34.997-24.206-10.772-3.4456-29.59-13.063-41.147-14.916-6.2196-0.99769-22.967-1.7354-35.134-1.4234-10.441 0.26773-16.945 1.5313-16.945 1.5313z" />
+    </g>
+  </g></g></svg>
