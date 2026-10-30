@@ -11,7 +11,7 @@ dependencies = [
 # Each milestone pulls in only its own heavy dependencies:
 #   uv pip install -e ".[m1]"
 [project.optional-dependencies]
-m1 = ["playwright>=1.45", "open_clip_torch>=2.24", "torch>=2.3", "pillow>=10", "anthropic>=0.40", "instructor>=1.4"]
+m1 = ["playwright>=1.45", "open_clip_torch>=2.24", "torch>=2.3", "pillow>=10", "numpy>=1.26", "anthropic>=2.3"]
 m2 = ["lancedb>=0.13", "rank-bm25>=0.2", "open_clip_torch>=2.24", "sentence-transformers>=3.0"]
 m3 = ["torch>=2.3", "tokenizers>=0.19", "matplotlib>=3.8"]
 m4 = ["torch>=2.3", "open_clip_torch>=2.24"]

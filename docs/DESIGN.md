@@ -1,6 +1,6 @@
 # Vector Director design
 
-Status: scaffold (no milestone implemented yet). Source plan: "AI Bootcamp × Vector Animation: Project Plan".
+Status: M1 built; M2 to M8 are stubs. Source plan: "AI Bootcamp × Vector Animation: Project Plan".
 
 ## Goal
 
@@ -84,7 +84,9 @@ M1 first, always. After that the dependency is loose:
 
 ## Open questions
 
-- [ ] What does `sadhu` animate with (CSS, SMIL, GSAP, its own engine)? That fixes `spec_to_svg`'s target
-      and how its canvas consumes M8's stream.
-- [ ] Which API model for the M1 generator and judge?
+- [ ] What does `sadhu` animate with (CSS, SMIL, GSAP, its own engine)? M1 compiles to CSS
+      `@keyframes` by default (plays everywhere, seekable headlessly, maps onto GSAP tweens);
+      add a second compiler target if sadhu needs one.
+- [x] Which model for the M1 generator and judge? Any: `m1_harness/llm.py` is a provider seam
+      (Anthropic, Gemini, Ollama) behind `--provider`, so models are compared on one scoreboard.
 - [ ] SVG sources and licenses for the M2 library (Tabler, Lucide, Phosphor, OpenMoji, HF datasets).
