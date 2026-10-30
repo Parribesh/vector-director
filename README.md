@@ -11,7 +11,7 @@ and every milestone ends in a demo GIF and an eval number.
 
 | # | Module | What you build | Bootcamp weeks | Status |
 |---|--------|----------------|----------------|--------|
-| M1 | [`m1_harness`](src/vector_director/m1_harness) | Typed spec, API generator, headless render, scorers, LLM judge | W1 to 3 | stub |
+| M1 | [`m1_harness`](src/vector_director/m1_harness) | Typed spec, API generator, headless render, scorers, LLM judge | W1 to 3 | built |
 | M2 | [`m2_retrieval`](src/vector_director/m2_retrieval) | SVG library, CLIP text/sketch search, hybrid RAG, HyDE, reranking | W4, W8 | stub |
 | M3 | [`m3_svg_lm`](src/vector_director/m3_svg_lm) | Path tokenizers, trigram doodler, attention, mini GPT | W3, W5, W6, W8 | stub |
 | M4 | [`m4_embeddings`](src/vector_director/m4_embeddings) | Triplet-loss motion embeddings, CLIP style and quality heads | W5, W7 | stub |

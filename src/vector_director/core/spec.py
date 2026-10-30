@@ -19,14 +19,25 @@ class SceneObject(BaseModel):
 
     id: str = Field(pattern=r"^[A-Za-z][\w-]*$")
     svg: str = Field(description="SVG fragment for this object, e.g. a <path> or <g>.")
-    label: str | None = Field(default=None, description="Human name, used by retrieval and critics.")
-    source: str | None = Field(default=None, description="Where it came from: generated, asset id, ...")
+    label: str | None = Field(
+        default=None, description="Human name, used by retrieval and critics."
+    )
+    source: str | None = Field(
+        default=None, description="Where it came from: generated, asset id, ..."
+    )
 
 
 class Keyframe(BaseModel):
     t: float = Field(ge=0.0, description="Time in seconds.")
-    value: float | str | list[float]
-    easing: Easing = "ease-in-out"
+    value: float | str | list[float] = Field(
+        description=(
+            "translate: [dx, dy] px offset from where the object is drawn; rotate: degrees; "
+            "scale: s or [sx, sy]; opacity: 0..1; fill/stroke: CSS colour; path: SVG path data."
+        )
+    )
+    easing: Easing = Field(
+        default="ease-in-out", description="How motion eases into this keyframe."
+    )
 
 
 class Track(BaseModel):
