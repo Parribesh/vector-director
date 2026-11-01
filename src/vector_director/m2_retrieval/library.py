@@ -311,27 +311,32 @@ def seed_things(reg: Registry, sadhu: Path) -> dict[str, int]:
     return {"things": made}
 
 
-def seed_paintings(reg: Registry, sadhu: Path) -> dict[str, int]:
-    """Every painted layer of every film, so that a place's pieces can be used again anywhere."""
+def add_painting(reg: Registry, item_id: str, source: Path, name: str, kind: str, about: str, tags: list[str], height_cm: float) -> bool:
+    """One painted picture into the gallery, as an item. False if it's already there."""
     from PIL import Image
 
+    if item_id in reg.items:
+        return False
+    (reg.root / "items").mkdir(parents=True, exist_ok=True)
+    file = item_id + source.suffix
+    (reg.root / "items" / file).write_bytes(source.read_bytes())
+    with Image.open(source) as img:
+        flat = Image.new("RGB", img.size, "white")
+        flat.paste(img.convert("RGBA"), mask=img.convert("RGBA").getchannel("A"))
+        flat.thumbnail((256, 256))
+        reg.thumb_path(item_id).parent.mkdir(parents=True, exist_ok=True)
+        flat.save(reg.thumb_path(item_id))
+    reg.items[item_id] = Item(id=item_id, name=name, kind=kind, format="image", file=file, description=about, tags=["painted", kind, *tags], height_cm=height_cm, drawn_cm=height_cm, source="painted for the series", license="project")
+    return True
+
+
+def seed_paintings(reg: Registry, sadhu: Path) -> dict[str, int]:
+    """Every painted layer of every film, so that a place's pieces can be used again anywhere."""
     made = 0
 
-    def add(item_id: str, source: Path, name: str, kind: str, about: str, tags: list[str], height_cm: float) -> None:
+    def add(*args) -> None:
         nonlocal made
-        if item_id in reg.items:
-            return
-        (reg.root / "items").mkdir(parents=True, exist_ok=True)
-        file = item_id + source.suffix
-        (reg.root / "items" / file).write_bytes(source.read_bytes())
-        with Image.open(source) as img:
-            flat = Image.new("RGB", img.size, "white")
-            flat.paste(img.convert("RGBA"), mask=img.convert("RGBA").getchannel("A"))
-            flat.thumbnail((256, 256))
-            reg.thumb_path(item_id).parent.mkdir(parents=True, exist_ok=True)
-            flat.save(reg.thumb_path(item_id))
-        reg.items[item_id] = Item(id=item_id, name=name, kind=kind, format="image", file=file, description=about, tags=["painted", kind, *tags], height_cm=height_cm, drawn_cm=height_cm, source="painted by vd film", license="project")
-        made += 1
+        made += add_painting(reg, *args)
 
     for plan_file in sorted((sadhu / "films").glob("*/sets/*/plan.json")):
         folder, plan = plan_file.parent, json.loads(plan_file.read_text())

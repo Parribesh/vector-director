@@ -870,6 +870,9 @@ def write_episode(run: Run, series_id: str, number: int, language: str = "hi") -
     outline = break_down(run, story["story"], story["title"], LANGS.get(language, LANGS["hi"]), tpl)
     out = {"series": series_id, "number": number, "template": tpl["id"], "language": language, **story, "outline": outline["scenes"], "stats": run.stats}
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
+    from vector_director.director.film import write_project  # film.py builds on this module
+
+    write_project(engine, series_id, number, out)
     return out
 
 

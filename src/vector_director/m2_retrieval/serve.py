@@ -15,6 +15,8 @@ POST  /story      {"project", "template", "idea"}
 POST  /breakdown  {"project": {...}, "story", "title", "language", "template"}
 POST  /stage      {"project": {...}}
 POST  /dress      {"project": {...}, "set": id}
+POST  /film       {"series", "number"}: stops and says which sets are still to build, if any are
+POST  /paint      {"name", "kind": "prop" | "backdrop" | "floor", "description", "height_cm"}: one image, into the gallery
 GET   /templates
 """
 
@@ -78,6 +80,29 @@ class Gallery:
         self.jobs[job_id] = job
         threading.Thread(target=go, daemon=True).start()
         return job_id
+
+    def paint(self, run, name: str, kind: str, about: str, height_cm: float) -> dict:
+        """Paints something search didn't find, and adds it to the gallery. Costs one image."""
+        import tempfile
+
+        from vector_director.director.film import paint_new, slug
+        from vector_director.m2_retrieval.library import add_painting
+
+        run.on_step("Painting", "running", name)
+        with tempfile.TemporaryDirectory() as folder:
+            source = paint_new(Path(folder), name, kind, about)
+            with self.lock:
+                base = item_id = f"paint-new-{slug(name)}"
+                n = 1
+                while item_id in self.reg.items:
+                    n += 1
+                    item_id = f"{base}-{n}"
+                add_painting(self.reg, item_id, source, name, kind, about, slug(name).split("-"), height_cm)
+                self.reg.save()
+                self.bm25.refresh()
+                self.vector.add_new()
+        run.on_step("Painting", "done", name)
+        return asdict(self.reg.items[item_id])
 
     def search(
         self,
@@ -226,6 +251,14 @@ def handler_for(g: Gallery):
                 work = lambda run: P.write_story(run, template, req.get("idea") or "")
             elif path == "episode":
                 work = lambda run: P.write_episode(run, req["series"], int(req["number"]), req.get("language", "hi"))
+            elif path == "film":
+                from vector_director.director.film import build_film
+
+                work = lambda run: build_film(run, req["series"], int(req["number"]), g.reg.root, req.get("language", "hi"))
+            elif path == "paint":
+                if not req.get("name") or req.get("kind", "prop") not in ("prop", "backdrop", "floor"):
+                    return self._json(400, {"error": "needs a name and a kind"})
+                work = lambda run: g.paint(run, req["name"], req.get("kind", "prop"), req.get("description") or req["name"], float(req.get("height_cm", 150)))
             elif path == "breakdown":
                 work = lambda run: P.run_pipeline(run, project, req["story"], req.get("title", ""), req.get("language", "hi"), template)
             elif path == "stage":

@@ -1,9 +1,9 @@
-"""From an episode's outline to a film: each location planned and painted, each scene written and staged.
+"""From an episode's outline to a film. The sets are built by hand in Studio, and this stops until they all are.
 
-    1. sets    one call per location, then an image per layer. Saved under films/<id>/sets/<place>/, and a
-               picture that's already there isn't painted again, so a rerun only pays for what changed.
-    2. scenes  one call per scene, in story order, each reading the scene before: lines and staging together,
-               because both are picks from what the set and the engine have.
+    1. outline  `write_project` lays the episode out as a Studio project: its sets, each with what its scenes need.
+    2. sets     someone builds each set in Studio. `film_sets` copies the art of every built set into the film's folder.
+    3. scenes   one call per scene, in story order, each reading the scene before: lines and staging together,
+                because both are picks from what the set and the engine have.
 
 The answer is checked in code, then turned into sadhu's film format (schemas/film.schema.json).
 """
@@ -15,6 +15,7 @@ import json
 import math
 import os
 import re
+import shutil
 import urllib.request
 from pathlib import Path
 
@@ -27,6 +28,7 @@ STYLE = "Simple flat-colour cartoon, like a modern 2D animated TV series: big cl
 FAR_RULE = "A background seen straight on from eye level. It fills the whole picture and repeats nothing important at the edges. The bottom edge of the picture is exactly where it meets the ground: show no floor or ground at all."
 PIECE_RULE = "One object alone, seen exactly straight on from eye level, so its top surface isn't visible, on a fully transparent background. Nothing beneath it: no ground, floor, grass, rubble or shadow."
 FLOOR_RULE = "A seamless repeating ground texture, seen straight down from above, with even flat light and no objects or shadows: "
+DEFAULT_MARKS = [{"name": "left", "x": -1.5, "z": 0}, {"name": "centre", "x": 0, "z": 0.5}, {"name": "right", "x": 1.5, "z": 0}]      # for a set given no marks of its own
 OFF = {"off-left": (-8.0, 0.0), "off-right": (8.0, 0.0)}
 POSES = ["stand", "talk", "excited", "angry", "serious", "pleading", "point", "think", "shrug", "scared", "crossed", "bless", "namaste"]
 WALK_PACE = 1.05
@@ -67,23 +69,65 @@ def paint(path: Path, prompt: str, size: str, clear: bool = False) -> int:
     return 1
 
 
-def build_place(run: Run, place: str, scenes: list[dict], folder: Path, only_plan: bool = False) -> tuple[dict, int]:
+def paint_new(folder: Path, name: str, kind: str, about: str) -> Path:
+    "Paints one thing for the gallery, for Studio's Paint this button. -> the file, inside folder."
     folder.mkdir(parents=True, exist_ok=True)
-    schema = obj({"backdrop": S, "floor": S, "light": en("warm", "cold", "neutral"), "portal_x": N, "portal_z": N,
-                  "pieces": arr(obj({"name": S, "prompt": S, "height_m": N, "x": N, "z": N})), "marks": arr(obj({"name": S, "x": N, "z": N}))})  # fmt: skip
-    about = {"place": place, "scenes": [{k: sc[k] for k in ("time", "summary", "things")} for sc in scenes]}
-    plan = run.ask("set_layers", {"series": "Cris and Baba", "count": "3", "scene": json.dumps(about, ensure_ascii=False, indent=1)}, schema, f"Set: {place}")
-    made = paint(folder / "backdrop.jpg", f"{plan['backdrop']}\n\n{FAR_RULE}", "1536x1024")
-    made += paint(folder / "floor.jpg", FLOOR_RULE + plan["floor"], "1024x1024")
-    for i, p in enumerate(plan["pieces"]):
-        p["file"] = f"piece{i}.webp"
-        made += paint(folder / p["file"], f"{p['prompt']}\n\n{PIECE_RULE}", "1024x1024", clear=True)
-        with Image.open(folder / p["file"]) as img:
-            p["aspect"] = round(img.width / img.height, 4)
-    door = next((p for p in plan["pieces"] if re.search("arch|gate|door", p["name"], re.I)), None)     # a ring of light opens in a doorway, if the place has one
-    portal = [door["x"], door["z"] + 0.05] if door else [plan["portal_x"], plan["portal_z"]]
-    (folder / "plan.json").write_text(json.dumps(plan, ensure_ascii=False, indent=1) + "\n")
-    return {"layers": True, "light": plan["light"], "pieces": plan["pieces"], "marks": plan["marks"], "portal": portal, "plan": {k: plan[k] for k in ("backdrop", "floor")}}, made
+    if kind == "backdrop":
+        paint(path := folder / f"{slug(name)}.jpg", f"{about}\n\n{FAR_RULE}", "1536x1024")
+    elif kind == "floor":
+        paint(path := folder / f"{slug(name)}.jpg", FLOOR_RULE + about, "1024x1024")
+    else:
+        paint(path := folder / f"{slug(name)}.webp", f"{about}\n\n{PIECE_RULE}", "1024x1024", clear=True)
+    return path
+
+
+def project_id(series_id: str, number: int) -> str:
+    return f"{series_id}-ep{number:02d}"
+
+
+def write_project(engine, series_id: str, number: int, ep: dict) -> dict:
+    "The outline as a Studio project. A set that's already been worked on keeps its work."
+    path = engine.root / "projects" / project_id(series_id, number) / "project.json"
+    old = json.loads(path.read_text()) if path.exists() else {}
+    kept = {st["id"]: st for st in old.get("sets", [])}
+    sets, scenes = {}, []
+    for n, sc in enumerate(ep["outline"], start=1):
+        sid = slug(sc["place"])
+        st = sets.setdefault(sid, kept.get(sid, {"id": sid, "name": sc["place"], "items": [], "marks": [], "built": False}))
+        scenes.append({"number": n, "id": f"s{n:02d}", "stage": sc["stage"], "title": sc["title"], "set": sid, "time": sc["time"], "summary": sc["summary"], "things": sc["things"], "cast": [slug(x["name"]) for x in sc["present"]], "beats": []})
+    project = {**old, "id": project_id(series_id, number), "series": series_id, "episode": number, "mode": "3d", "title": ep["title"], "language": ep.get("language", "hi"), "template": ep["template"],
+               "story": ep["story"], "logline": ep["logline"], "moral": ep.get("moral", ""), "cast": old.get("cast", []), "sets": list(sets.values()), "scenes": scenes}  # fmt: skip
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(project, ensure_ascii=False, indent=1) + "\n")
+    return project
+
+
+def unbuilt(project: dict) -> list[str]:
+    "The sets still to build, by name."
+    return [st["name"] for st in project["sets"] if not st.get("built")]
+
+
+def film_sets(project: dict, library: Path, root: Path) -> dict:
+    "Each built set in the film's format, with its art copied in, so that a film keeps working whatever the gallery does later."
+    out = {}
+    for st in project["sets"]:
+        folder = root / "sets" / st["id"]
+        folder.mkdir(parents=True, exist_ok=True)
+
+        def bring(file: str | None) -> str | None:
+            if file:
+                shutil.copyfile(library / "items" / file, folder / file)
+            return file
+
+        base = st.get("base") or {}
+        items = []
+        for it in st.get("items", []):
+            file = None if it["format"] == "3d" else bring(it.get("file") or f"{it['id']}.svg")
+            items.append({**it, **({"file": file} if file else {})})
+        door = next((it for it in items if re.search("arch|gate|door|portal", it["name"], re.I)), None)     # a ring of light opens in a doorway, if the place has one
+        out[st["id"]] = {"layers": True, "base": {**base, "backdrop": bring(base.get("backdrop")), "floor": bring(base.get("floor"))}, "items": items,
+                         "marks": [{k: m[k] for k in ("name", "x", "z")} for m in st.get("marks", [])] or DEFAULT_MARKS, "portal": [door["x"], door["z"] + 0.05] if door else [0, -2]}  # fmt: skip
+    return out
 
 
 def check_scene(d: dict, here: list[str], marks: set[str], speakers: list[str]) -> list[str]:
@@ -164,7 +208,7 @@ def write_scene(run: Run, ep: dict, series: dict, sc: dict, number: int, set_nam
                   "shots": arr(obj({"camera": en("wide", "two", "medium", "close", "over"), "on": S, "move": en("none", "in", "out"),
                                     "beats": arr(obj({"who": en("nobody", speakers), "say": S, "pose": pose, "other": S, "other_pose": pose, "walker": en("none", here), "to": en("none", spots),
                                                       "portal": en("none", "open", "rift", "close"), "light": en("none", "normal", "dim", "dark"), "sound": en("none", "wind-up", "wind-down", "rumble")}))}))})  # fmt: skip
-    things = [{"name": p["name"], "x": p["x"], "z": p["z"]} for p in st["pieces"]]
+    things = [{"name": it["name"], "x": it["x"], "z": it["z"]} for it in st["items"]]
     data, errors = run.checked("film_scene", {
         "series": series["name"], "about": json.dumps({k: series[k] for k in ("premise", "characters", "rules")}, ensure_ascii=False, indent=1), "story": ep["story"], "previous": previous,
         "set": json.dumps({"place": sc["place"], "things": things, "ring of light at": st["portal"]}, ensure_ascii=False), "speakers": ", ".join(speakers), "here": ", ".join(here), "marks": ", ".join(spots), "poses": ", ".join(POSES),
@@ -175,23 +219,16 @@ def write_scene(run: Run, ep: dict, series: dict, sc: dict, number: int, set_nam
     return to_shots(data, number, set_name, spots, here, where)
 
 
-def build_film(run: Run, series_id: str, number: int, language: str = "hi", only_place: str | None = None) -> dict:
+def build_film(run: Run, series_id: str, number: int, library: Path, language: str = "hi") -> dict:
     engine = run.engine
     series, ep = engine.series(series_id), json.loads(engine.episode_path(series_id, number).read_text())
+    project = write_project(engine, series_id, number, ep)
+    if waiting := unbuilt(project):
+        run.on_step("Sets", "warn", "Still to build: " + ", ".join(waiting))
+        return {"waiting": waiting, "stats": run.stats}
     film_id = f"ep{number:02d}"
     root = engine.root / "films" / film_id
-    places = list(dict.fromkeys(sc["place"] for sc in ep["outline"]))
-    sets, images = {}, 0
-    for place in places:
-        if only_place and place != only_place:
-            continue
-        run.on_step(f"Set: {place}", "running")
-        sets[slug(place)], made = build_place(run, place, [sc for sc in ep["outline"] if sc["place"] == place], root / "sets" / slug(place))
-        images += made
-        run.on_step(f"Set: {place}", "done", f"{made} images")
-    run.stats["images"] = images
-    if only_place:
-        return {"sets": sets, "stats": run.stats}
+    sets = film_sets(project, library, root)
 
     where = {"cris": [0.0, 0.0], "baba": [0.0, 0.0]}
     shots: list[dict] = []
