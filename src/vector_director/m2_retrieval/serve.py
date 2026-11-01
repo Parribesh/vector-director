@@ -221,6 +221,8 @@ def handler_for(g: Gallery):
             template = req.get("template") or "baba-rescue"
             if path == "story":
                 work = lambda run: P.write_story(run, template, req.get("idea") or "")
+            elif path == "episode":
+                work = lambda run: P.write_episode(run, req["series"], int(req["number"]), req.get("language", "hi"))
             elif path == "breakdown":
                 work = lambda run: P.run_pipeline(run, project, req["story"], req.get("title", ""), req.get("language", "hi"), template)
             elif path == "stage":

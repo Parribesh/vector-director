@@ -2,9 +2,13 @@
 
 from __future__ import annotations
 
+import json
+from types import SimpleNamespace
+
 from vector_director.director.pipeline import (
     account,
     apply_casting,
+    Run,
     apply_direction,
     check_breakdown,
     check_direction,
@@ -14,6 +18,7 @@ from vector_director.director.pipeline import (
     en,
     free_mark,
     usable,
+    write_episode,
 )
 from vector_director.director.setbuilder import (
     BACKGROUNDS,
@@ -281,3 +286,33 @@ def test_a_3d_project_is_dressed_from_the_catalog():
     dress_set(run, "p", st, [{"number": 1, "set": "bank", "time": "day", "summary": "", "beats": [], "things": []}])
     assert [d["slug"] for d in st["dressing"]] == ["stone-well"] and st["background"] == "riverbank" and "art" not in st
     assert [w["slug"] for w in run.wanted] == ["unicorn"] and not run.files["sets"] and not run.files["objects"]
+
+
+def test_an_episode_reads_the_series_and_what_came_before_and_saves_its_outline(tmp_path, monkeypatch):
+    series = tmp_path / "bible" / "series" / "s"
+    (tmp_path / "bible" / "templates").mkdir(parents=True)
+    series.mkdir(parents=True)
+    tpl = {"id": "t", "name": "T", "description": "d", "length": "1-2 scenes", "rules": ["r"], "stages": [{"id": "a", "name": "A", "scenes": [1, 2], "goal": "g"}]}
+    (tmp_path / "bible" / "templates" / "t.json").write_text(json.dumps(tpl))
+    (series / "series.json").write_text(json.dumps({"name": "S", "premise": "p", "dimensions": [], "characters": [], "rules": [], "episodes": {"2": {"template": "t", "brief": "b"}}}))
+    (series / "ep01.json").write_text(json.dumps({"logline": "first logline"}))
+
+    from vector_director.director.pipeline import Engine
+
+    engine = Engine.__new__(Engine)
+    engine.root, engine.menus = tmp_path, {"times": ["day"]}
+    asked = []
+    answers = {
+        "episode": {"title": "E", "logline": "l", "moral": "m", "story": "once", "stages": []},
+        "breakdown": {"title": "E", "logline": "l", "moral": "m", "scenes": [{"stage": "a", "title": "x", "place": "p", "time": "day", "summary": "s", "present": [{"name": "Cris", "what": "person"}], "things": [], "mentioned": []}]},
+    }
+
+    def fake(task, vars, *a, **k):
+        asked.append((task, vars))
+        return {"data": answers[task], "cached": False, "usage": {}, "provider": "gemini", "model": "m", "tries": []}
+
+    monkeypatch.setattr("vector_director.director.pipeline.LLM", SimpleNamespace(run=fake, LLMError=Exception))
+    out = write_episode(Run("p", engine, None), "s", 2, "en")
+    assert [t for t, _ in asked] == ["episode", "breakdown"]
+    assert "first logline" in asked[0][1]["previous"]
+    assert json.loads((series / "ep02.json").read_text())["outline"] == out["outline"] == answers["breakdown"]["scenes"]

@@ -1,6 +1,7 @@
 """The director, from an idea to a production Studio can open and edit.
 
-    1. story      (optional) a story written to a template's stages (sadhu/bible/templates/*.json)
+    1. story      (optional) a story written to a template's stages (sadhu/bible/templates/*.json), on its
+                  own or as an episode of a series (sadhu/bible/series/<id>/)
     2. breakdown  the outline: each scene's place and time, who is present and what is needed. No design.
     3. casting    who has to be built and which places exist, one id each, checked in code against every
                   name in the outline; then a continuity pass, which may add people and places
@@ -80,6 +81,12 @@ class Engine:
 
     def bible(self) -> str:
         return (self.root / "bible" / "sadhu.md").read_text()
+
+    def series(self, series_id: str) -> dict:
+        return json.loads((self.root / "bible" / "series" / series_id / "series.json").read_text())
+
+    def episode_path(self, series_id: str, number: int) -> Path:
+        return self.root / "bible" / "series" / series_id / f"ep{number:02d}.json"
 
     def projects(self) -> list[dict]:
         out = []
@@ -685,13 +692,8 @@ def doing_in(cid: str, scenes: list[dict]) -> str:
     return "\n".join(lines[:16]) or "Nothing in particular."
 
 
-def run_pipeline(run: Run, project: dict, story: str, title: str, language: str = "hi", template_id: str = "baba-rescue") -> dict:
-    engine, on_step = run.engine, run.on_step
-    tpl, lib, lang_text, menus = engine.template(template_id), load_library(engine, project), LANGS.get(language, LANGS["hi"]), engine.menus
-    run.three_d = project.get("mode") == "3d"
-    times, species = menus["times"], (menus_3d(menus) if run.three_d else menus)["animals"]["species"]
-
-    # the outline: what happens, where, and who and what is there
+def break_down(run: Run, story: str, title: str, lang_text: str, tpl: dict) -> dict:
+    on_step, times = run.on_step, run.engine.menus["times"]
     on_step("Breakdown", "running")
     outline_schema = obj({"title": S, "logline": S, "moral": S,
         "scenes": arr(obj({"stage": en([s["id"] for s in tpl["stages"]]), "title": S, "place": S, "time": en(times), "summary": S,
@@ -704,6 +706,17 @@ def run_pipeline(run: Run, project: dict, story: str, title: str, language: str 
         on_step("Breakdown", "failed", "; ".join(errors))
         raise RuntimeError(f"The outline still has problems: {'; '.join(errors)}")
     on_step("Breakdown", "done", f"{len(outline['scenes'])} scenes")
+    return outline
+
+
+def run_pipeline(run: Run, project: dict, story: str, title: str, language: str = "hi", template_id: str = "baba-rescue") -> dict:
+    engine, on_step = run.engine, run.on_step
+    tpl, lib, lang_text, menus = engine.template(template_id), load_library(engine, project), LANGS.get(language, LANGS["hi"]), engine.menus
+    run.three_d = project.get("mode") == "3d"
+    times, species = menus["times"], (menus_3d(menus) if run.three_d else menus)["animals"]["species"]
+
+    # the outline: what happens, where, and who and what is there
+    outline = break_down(run, story, title, lang_text, tpl)
 
     # the cast and the places: one id each, and every name in the outline has a home
     on_step("Casting", "running")
@@ -832,11 +845,37 @@ def run_pipeline(run: Run, project: dict, story: str, title: str, language: str 
             "missing": plan.get("missing") or [], "wanted": run.wanted, "accounting": accounting, "stats": run.stats, "files": run.files}  # fmt: skip
 
 
+def story_schema(tpl: dict) -> dict:
+    return obj({"title": S, "logline": S, "moral": S, "story": S, "stages": arr(obj({"stage": en([s["id"] for s in tpl["stages"]]), "summary": S}))})
+
+
+def template_lines(tpl: dict) -> list[str]:
+    return [tpl["description"], "", *(f"{s['id']}. {s['name']} ({s['scenes'][0]}-{s['scenes'][1]} scenes{', Baba appears' if s.get('baba') else ''}): {s['goal']}" for s in tpl["stages"]),
+            "", "Rules:", *(f"- {x}" for x in tpl["rules"])]  # fmt: skip
+
+
+def write_episode(run: Run, series_id: str, number: int, language: str = "hi") -> dict:
+    """An episode of a series: the series and what came before -> a story -> its outline. Saved beside the series."""
+    engine = run.engine
+    series, path = engine.series(series_id), engine.episode_path(series_id, number)
+    episode = series["episodes"][str(number)]
+    tpl = engine.template(episode["template"])
+    earlier = [engine.episode_path(series_id, n) for n in range(1, number)]
+    previous = "\n".join(f"- Episode {n}: {json.loads(f.read_text())['logline']}" for n, f in enumerate(earlier, start=1) if f.exists()) or "None: this is the first."
+    run.on_step("Story", "running")
+    about = {k: series[k] for k in ("premise", "dimensions", "characters", "rules")}
+    story = run.ask("episode", {"seriesName": series["name"], "number": str(number), "series": json.dumps(about, ensure_ascii=False, indent=1), "previous": previous, "brief": episode["brief"],
+                                "templateName": tpl["name"], "template": "\n".join(template_lines(tpl)), "length": tpl["length"]}, story_schema(tpl), "Story", temperature=0.9)  # fmt: skip
+    run.on_step("Story", "done", story["title"])
+    outline = break_down(run, story["story"], story["title"], LANGS.get(language, LANGS["hi"]), tpl)
+    out = {"series": series_id, "number": number, "template": tpl["id"], "language": language, **story, "outline": outline["scenes"], "stats": run.stats}
+    path.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
+    return out
+
+
 def write_story(run: Run, template_id: str, idea: str) -> dict:
     """A new story, written to the template."""
     tpl = run.engine.template(template_id)
-    schema = obj({"title": S, "logline": S, "moral": S, "story": S, "stages": arr(obj({"stage": en([s["id"] for s in tpl["stages"]]), "summary": S}))})
-    lines = [tpl["description"], "", *(f"{s['id']}. {s['name']} ({s['scenes'][0]}-{s['scenes'][1]} scenes{', Baba appears' if s.get('baba') else ''}): {s['goal']}" for s in tpl["stages"]),
-             "", "Rules:", *(f"- {x}" for x in tpl["rules"])]  # fmt: skip
+    schema, lines = story_schema(tpl), template_lines(tpl)
     return run.ask("story", {"baba": run.engine.bible(), "templateName": tpl["name"], "idea": idea or "Your choice: a fresh, specific hero and problem from everyday Indian life.",
                              "length": tpl["length"], "template": "\n".join(lines)}, schema, "Story", temperature=0.9)  # fmt: skip

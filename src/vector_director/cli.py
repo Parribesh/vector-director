@@ -67,6 +67,11 @@ def main(argv: list[str] | None = None) -> None:
     sv.add_argument("--root", default="library")
     sv.add_argument("--port", type=int, default=8772)
     sv.add_argument("--sadhu", default=None, help="a sadhu checkout: turns on the director")
+    ep = sub.add_parser("episode", help="an episode of a series: its story and scene outline, no further")
+    ep.add_argument("series")
+    ep.add_argument("number", type=int)
+    ep.add_argument("--sadhu", required=True, help="a sadhu checkout")
+    ep.add_argument("--language", default="hi", choices=["hi", "en"])
     pr = sub.add_parser("prompts", help="(M1) write the synthetic eval prompt set")
     pr.add_argument("--n", type=int, default=50)
     pr.add_argument("--seed", type=int, default=0)
@@ -104,6 +109,12 @@ def main(argv: list[str] | None = None) -> None:
         serve(args.root, args.port, args.sadhu)
     elif args.cmd == "set":
         _set(args)
+    elif args.cmd == "episode":
+        from vector_director.director.pipeline import Engine, Run, write_episode
+
+        run = Run(f"{args.series}-ep{args.number:02d}", Engine(args.sadhu), None, lambda label, state, note="": print(label, state, note, flush=True))
+        out = write_episode(run, args.series, args.number, args.language)
+        print(json.dumps({k: out[k] for k in ("title", "logline")} | {"scenes": len(out["outline"]), "stats": out["stats"]}, ensure_ascii=False, indent=1))
 
 
 def _library(args: argparse.Namespace) -> None:

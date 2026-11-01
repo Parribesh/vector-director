@@ -14,7 +14,10 @@ schema. Code then turns the picks into characters and sets and checks every id. 
 ```
 Studio  --POST /breakdown-->  vd serve (port 8772)  --job id-->  Studio polls /jobs/<id>
 
-(Story)            optional: idea -> story text, written to a template's stages
+Series             sadhu bible/series/<id>/: dimensions, characters, rules, and a brief per episode
+   |
+Story              series + episode number + episodes so far -> story text, written to a template's stages
+   |               (or, outside a series, an idea or a story you bring)
    |
 Breakdown          story -> scenes: place, time, who is present, what things. No design.
    |
@@ -41,6 +44,7 @@ Prompts are in `src/vector_director/director/prompts/`; the steps are in `direct
 
 | Step | In | Out | Core idea |
 |---|---|---|---|
+| Story | series, episode brief, template | story text | The series states what is fixed. The model invents only what it leaves open. `vd episode <series> <n>` runs this and Breakdown, and saves `ep<n>.json` beside the series. |
 | Breakdown | story, template stages | scenes with free-text names | Say what happens, not how it looks, so later steps have one outline to agree with. |
 | Casting | outline, engine's species, reusable library | cast, places, pictures, held, left out | Names become ids here, and code refuses to go on until every name has a home. |
 | Continuity | whole plan | corrected scenes, new cast or places | One reader sees the whole story at once. If its answer fails the checks, the old plan stays. |
