@@ -85,6 +85,22 @@ class VectorRetriever:
         self.save()
         return len(self.ids)
 
+    def add_new(self) -> int:
+        """Embed only what isn't embedded yet."""
+        import numpy as np
+        from PIL import Image
+
+        new = [i for i in self.reg.items if i not in self.ids and self.reg.thumb_path(i).exists()]
+        if not new:
+            return 0
+        image = self.embedder.embed_images([Image.open(self.reg.thumb_path(i)).convert("RGB") for i in new])
+        text = self.embedder.embed_text([self.reg.items[i].text() for i in new])
+        self.ids += new
+        self.image = np.concatenate([self.image, image]) if self.image is not None else image
+        self.text = np.concatenate([self.text, text]) if self.text is not None else text
+        self.save()
+        return len(new)
+
     def save(self) -> None:
         import numpy as np
 

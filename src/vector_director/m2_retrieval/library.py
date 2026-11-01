@@ -35,7 +35,9 @@ OPENMOJI_LICENSE = "CC BY-SA 4.0, OpenMoji (openmoji.org)"
 class Item:
     id: str
     name: str
-    kind: str = "prop"  # prop | backdrop
+    kind: str = "prop"  # prop | backdrop | floor
+    format: str = "svg"  # svg | image (a painting in items/) | 3d (built by Sadhu's engine3d, from its catalog)
+    file: str = ""  # image: its file in items/. 3d: its id in assets3d/catalog.json
     description: str = ""
     tags: list[str] = field(default_factory=list)
     height_cm: float = 100.0
@@ -172,7 +174,7 @@ def tidy(reg: Registry, vectors) -> dict[str, int]:
     merged, idx = reg.merged(), {i: k for k, i in enumerate(map(str, vectors.ids))}
     groups: dict[str, list[str]] = {}
     for i, it in reg.items.items():
-        if it.kind == "prop" and i in idx:
+        if it.kind == "prop" and it.format == "svg" and i in idx:
             groups.setdefault(family(i)[0], []).append(i)
     rank = lambda i: (reg.items[i].status != "approved", not reg.items[i].description, reg.svg_path(i).stat().st_size)
     dropped = 0
@@ -189,7 +191,7 @@ def tidy(reg: Registry, vectors) -> dict[str, int]:
     (reg.root / "merged.json").write_text(json.dumps(merged, indent=0))
     recoloured = 0
     for i, it in reg.items.items():
-        if it.kind == "prop" and not it.palette:
+        if it.kind == "prop" and it.format == "svg" and not it.palette:
             svg, it.palette = recolorable(reg.svg_path(i).read_text())
             reg.svg_path(i).write_text(svg)
             recoloured += bool(it.palette)
@@ -291,6 +293,56 @@ def seed_openmoji(reg: Registry, svg_dir: Path, meta: list[dict], page, heights:
         counts["added"] += 1
     reg.save()
     return counts
+
+
+def seed_things(reg: Registry, sadhu: Path) -> dict[str, int]:
+    """Sadhu's 3D things, with pictures from tools/thing_thumbs.py. Anything edited here keeps its edits."""
+    pictures = reg.root / "thumbs" / "3d"
+    subprocess.run(["python3", "tools/thing_thumbs.py", str(pictures.resolve())], cwd=sadhu, check=True)
+    made = 0
+    for t in json.loads((sadhu / "assets3d" / "catalog.json").read_text())["things"]:
+        item_id, picture = f"3d-{t['id']}", pictures / f"{t['id']}.png"
+        if not picture.exists() or item_id in reg.items:
+            continue
+        reg.thumb_path(item_id).write_bytes(picture.read_bytes())
+        reg.items[item_id] = Item(id=item_id, name=t["name"], format="3d", file=t["id"], description=t["about"], tags=["3d", *t["id"].split("-")], height_cm=t["height_cm"], drawn_cm=t["height_cm"], source="sadhu engine3d", license="project")
+        made += 1
+    reg.save()
+    return {"things": made}
+
+
+def seed_paintings(reg: Registry, sadhu: Path) -> dict[str, int]:
+    """Every painted layer of every film, so that a place's pieces can be used again anywhere."""
+    from PIL import Image
+
+    made = 0
+
+    def add(item_id: str, source: Path, name: str, kind: str, about: str, tags: list[str], height_cm: float) -> None:
+        nonlocal made
+        if item_id in reg.items:
+            return
+        (reg.root / "items").mkdir(parents=True, exist_ok=True)
+        file = item_id + source.suffix
+        (reg.root / "items" / file).write_bytes(source.read_bytes())
+        with Image.open(source) as img:
+            flat = Image.new("RGB", img.size, "white")
+            flat.paste(img.convert("RGBA"), mask=img.convert("RGBA").getchannel("A"))
+            flat.thumbnail((256, 256))
+            reg.thumb_path(item_id).parent.mkdir(parents=True, exist_ok=True)
+            flat.save(reg.thumb_path(item_id))
+        reg.items[item_id] = Item(id=item_id, name=name, kind=kind, format="image", file=file, description=about, tags=["painted", kind, *tags], height_cm=height_cm, drawn_cm=height_cm, source="painted by vd film", license="project")
+        made += 1
+
+    for plan_file in sorted((sadhu / "films").glob("*/sets/*/plan.json")):
+        folder, plan = plan_file.parent, json.loads(plan_file.read_text())
+        place = folder.name
+        words = place.split("-")
+        add(f"paint-{place}-backdrop", folder / "backdrop.jpg", f"{place.replace('-', ' ')} backdrop", "backdrop", plan["backdrop"], words, 0)
+        add(f"paint-{place}-floor", folder / "floor.jpg", plan["floor"], "floor", plan["floor"], words, 0)
+        for i, p in enumerate(plan["pieces"]):
+            add(f"paint-{place}-{slug(p['name'])}", folder / f"piece{i}.webp", p["name"], "prop", p["prompt"], slug(p["name"]).split("-"), p["height_m"] * 100)
+    reg.save()
+    return {"paintings": made}
 
 
 def make_thumbs(reg: Registry, page, only: list[str] | None = None, size: int = 256) -> int:

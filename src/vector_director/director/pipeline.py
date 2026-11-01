@@ -553,7 +553,7 @@ def direct_scenes(run: Run, scenes: list[dict], sets: list[dict], cast: list[dic
 
 # ---------- the set builder ----------
 def usable(hit: dict) -> bool:
-    return hit.get("source") != "openmoji" and hit.get("kind") == "prop"  # emoji are for reference, not for a story's stage
+    return hit.get("source") != "openmoji" and hit.get("kind") == "prop" and hit.get("format", "svg") == "svg"  # emoji are for reference, not for a story's stage; a 2D story draws SVG
 
 
 THING = {"slug": S, "for": S, "query": S, "prompt": S, "height_cm": N, "row": en("back", "front"), "mark": en(MARK_X)}

@@ -34,7 +34,7 @@ from vector_director.m2_retrieval.library import Registry
 from vector_director.m2_retrieval.metrics import first_right, mrr, recall_at_k, resolve
 from vector_director.m2_retrieval.retrievers import BM25Retriever, HybridRetriever, VectorRetriever
 
-TYPES = {".svg": "image/svg+xml", ".png": "image/png"}
+TYPES = {".svg": "image/svg+xml", ".png": "image/png", ".jpg": "image/jpeg", ".webp": "image/webp"}
 
 
 class Gallery:
@@ -86,11 +86,13 @@ class Gallery:
         kind: str | None = None,
         status: str | None = None,
         mode: str = "vector",
+        format: str | None = None,
     ) -> list[dict]:
         """Vector by default: it ranked best on data/eval/retrieval.jsonl (`vd library eval`)."""
         with self.lock:
-            hits = self.modes.get(mode, self.vector.search)(q, k=k, kind=kind, status=status)
-        return [{**asdict(self.reg.items[h.id]), "score": h.score} for h in hits]
+            hits = self.modes.get(mode, self.vector.search)(q, k=k * 4 if format else k, kind=kind, status=status)
+        out = [{**asdict(self.reg.items[h.id]), "score": h.score} for h in hits]
+        return [h for h in out if not format or h["format"] == format][:k]
 
     def labels(self) -> list[dict]:
         path = self.labels_path
@@ -177,6 +179,7 @@ def handler_for(g: Gallery):
                         q.get("kind"),
                         q.get("status"),
                         q.get("mode", "vector"),
+                        q.get("format"),
                     ),
                 )
             if len(parts) == 2 and parts[0] == "jobs" and parts[1] in g.jobs:
