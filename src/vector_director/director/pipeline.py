@@ -876,6 +876,21 @@ def write_episode(run: Run, series_id: str, number: int, language: str = "hi") -
     return out
 
 
+def outline_again(run: Run, series_id: str, number: int, story: str, title: str, language: str = "hi") -> dict:
+    """The outline again, from a story edited by hand. Sets and written scenes that still fit are kept."""
+    engine = run.engine
+    path = engine.episode_path(series_id, number)
+    ep = json.loads(path.read_text())
+    tpl = engine.template(ep["template"])
+    outline = break_down(run, story, title, LANGS.get(language, LANGS["hi"]), tpl)
+    ep |= {"story": story, "title": title, "language": language, "outline": outline["scenes"]}
+    path.write_text(json.dumps(ep, ensure_ascii=False, indent=1) + "\n")
+    from vector_director.director.film import write_project  # film.py builds on this module
+
+    write_project(engine, series_id, number, ep)
+    return ep
+
+
 def write_story(run: Run, template_id: str, idea: str) -> dict:
     """A new story, written to the template."""
     tpl = run.engine.template(template_id)

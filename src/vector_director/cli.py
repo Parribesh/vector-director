@@ -72,11 +72,10 @@ def main(argv: list[str] | None = None) -> None:
     ep.add_argument("number", type=int)
     ep.add_argument("--sadhu", required=True, help="a sadhu checkout")
     ep.add_argument("--language", default="hi", choices=["hi", "en"])
-    fm = sub.add_parser("film", help="an episode's film: once its sets are built in Studio, write and stage its scenes")
+    fm = sub.add_parser("film", help="once an episode's sets are built in Studio, write and stage its unwritten scenes")
     fm.add_argument("series")
     fm.add_argument("number", type=int)
     fm.add_argument("--sadhu", required=True, help="a sadhu checkout")
-    fm.add_argument("--root", default="library", help="the gallery the sets were built from")
     pr = sub.add_parser("prompts", help="(M1) write the synthetic eval prompt set")
     pr.add_argument("--n", type=int, default=50)
     pr.add_argument("--seed", type=int, default=0)
@@ -115,13 +114,11 @@ def main(argv: list[str] | None = None) -> None:
     elif args.cmd == "set":
         _set(args)
     elif args.cmd == "film":
-        from pathlib import Path
-
-        from vector_director.director.film import build_film
+        from vector_director.director.film import write_scenes
         from vector_director.director.pipeline import Engine, Run
 
         run = Run(f"{args.series}-film{args.number:02d}", Engine(args.sadhu), None, lambda label, state, note="": print(label, state, note, flush=True))
-        print(json.dumps(build_film(run, args.series, args.number, Path(args.root)), ensure_ascii=False, indent=1)[:3000])
+        print(json.dumps(write_scenes(run, args.series, args.number), ensure_ascii=False, indent=1)[:3000])
     elif args.cmd == "episode":
         from vector_director.director.pipeline import Engine, Run, write_episode
 

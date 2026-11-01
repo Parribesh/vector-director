@@ -1,9 +1,12 @@
-"""From an episode's outline to a film. The sets are built by hand in Studio, and this stops until they all are.
+"""From an episode's outline to a film. Studio holds the film as it's made, and a person finishes each part by hand.
 
-    1. outline  `write_project` lays the episode out as a Studio project: its sets, each with what its scenes need.
-    2. sets     someone builds each set in Studio. `film_sets` copies the art of every built set into the film's folder.
-    3. scenes   one call per scene, in story order, each reading the scene before: lines and staging together,
-                because both are picks from what the set and the engine have.
+    1. outline   `write_project` lays the episode out as a Studio project: its sets, each with what its scenes need.
+    2. sets      someone builds each set in Studio. `write_scenes` stops until they all are.
+    3. scenes    one call per scene, in story order, each reading the scene before: lines and staging together,
+                 because both are picks from what the set and the engine have. A scene that already has shots is
+                 kept, so that nothing edited by hand is lost, and a rerun only pays for what's missing.
+    4. the film  someone edits and finalizes each scene and arranges them on the timeline. Studio composes the film,
+                 and `save_film` writes it with its art copied in.
 
 The answer is checked in code, then turned into sadhu's film format (schemas/film.schema.json).
 """
@@ -90,13 +93,15 @@ def write_project(engine, series_id: str, number: int, ep: dict) -> dict:
     path = engine.root / "projects" / project_id(series_id, number) / "project.json"
     old = json.loads(path.read_text()) if path.exists() else {}
     kept = {st["id"]: st for st in old.get("sets", [])}
+    written = {sc["number"]: sc for sc in old.get("scenes", []) if sc.get("title") in [o["title"] for o in ep["outline"]]}
     sets, scenes = {}, []
     for n, sc in enumerate(ep["outline"], start=1):
         sid = slug(sc["place"])
         st = sets.setdefault(sid, kept.get(sid, {"id": sid, "name": sc["place"], "items": [], "marks": [], "built": False}))
-        scenes.append({"number": n, "id": f"s{n:02d}", "stage": sc["stage"], "title": sc["title"], "set": sid, "time": sc["time"], "summary": sc["summary"], "things": sc["things"], "cast": [slug(x["name"]) for x in sc["present"]], "beats": []})
+        scenes.append({"number": n, "id": f"s{n:02d}", "stage": sc["stage"], "title": sc["title"], "set": sid, "time": sc["time"], "summary": sc["summary"], "things": sc["things"], "cast": [slug(x["name"]) for x in sc["present"]],
+                       **({"shots": written[n]["shots"], "final": written[n].get("final", False)} if n in written and written[n].get("shots") else {})})  # fmt: skip
     project = {**old, "id": project_id(series_id, number), "series": series_id, "episode": number, "mode": "3d", "title": ep["title"], "language": ep.get("language", "hi"), "template": ep["template"],
-               "story": ep["story"], "logline": ep["logline"], "moral": ep.get("moral", ""), "cast": old.get("cast", []), "sets": list(sets.values()), "scenes": scenes}  # fmt: skip
+               "story": ep["story"], "logline": ep["logline"], "moral": ep.get("moral", ""), "filmCast": sorted(ON_SCREEN), "names": NAMES, "voices": VOICES, "sets": list(sets.values()), "scenes": scenes}  # fmt: skip
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(project, ensure_ascii=False, indent=1) + "\n")
     return project
@@ -107,27 +112,27 @@ def unbuilt(project: dict) -> list[str]:
     return [st["name"] for st in project["sets"] if not st.get("built")]
 
 
-def film_sets(project: dict, library: Path, root: Path) -> dict:
-    "Each built set in the film's format, with its art copied in, so that a film keeps working whatever the gallery does later."
-    out = {}
-    for st in project["sets"]:
-        folder = root / "sets" / st["id"]
+def film_set(st: dict) -> dict:
+    "What a scene is written against: a built set's things, its marks, and where a ring of light opens."
+    items = st.get("items", [])
+    door = next((it for it in items if re.search("arch|gate|door|portal", it["name"], re.I)), None)     # a ring of light opens in a doorway, if the place has one
+    return {"items": items, "marks": [{k: m[k] for k in ("name", "x", "z")} for m in st.get("marks", [])] or DEFAULT_MARKS, "portal": [door["x"], door["z"] + 0.05] if door else [0, -2]}
+
+
+def save_film(engine, library: Path, film: dict) -> dict:
+    "A film as Studio composed it, with its art copied in, so that it keeps working whatever the gallery does later."
+    if not re.fullmatch("[a-z0-9-]+", film.get("id", "")):
+        raise ValueError("a film needs an id")
+    root = engine.root / "films" / film["id"]
+    for sid, st in film["sets"].items():
+        folder = root / "sets" / slug(sid)
         folder.mkdir(parents=True, exist_ok=True)
-
-        def bring(file: str | None) -> str | None:
-            if file:
-                shutil.copyfile(library / "items" / file, folder / file)
-            return file
-
         base = st.get("base") or {}
-        items = []
-        for it in st.get("items", []):
-            file = None if it["format"] == "3d" else bring(it.get("file") or f"{it['id']}.svg")
-            items.append({**it, **({"file": file} if file else {})})
-        door = next((it for it in items if re.search("arch|gate|door|portal", it["name"], re.I)), None)     # a ring of light opens in a doorway, if the place has one
-        out[st["id"]] = {"layers": True, "base": {**base, "backdrop": bring(base.get("backdrop")), "floor": bring(base.get("floor"))}, "items": items,
-                         "marks": [{k: m[k] for k in ("name", "x", "z")} for m in st.get("marks", [])] or DEFAULT_MARKS, "portal": [door["x"], door["z"] + 0.05] if door else [0, -2]}  # fmt: skip
-    return out
+        for file in [base.get("backdrop"), base.get("floor"), *[it.get("file") for it in st.get("items", []) if it["format"] != "3d"]]:
+            if file:
+                shutil.copyfile(library / "items" / Path(file).name, folder / Path(file).name)
+    (root / "film.json").write_text(json.dumps(film, ensure_ascii=False, indent=1) + "\n")
+    return {"film": film["id"], "shots": len(film["shots"])}
 
 
 def check_scene(d: dict, here: list[str], marks: set[str], speakers: list[str]) -> list[str]:
@@ -141,7 +146,7 @@ def check_scene(d: dict, here: list[str], marks: set[str], speakers: list[str]) 
         if c in ("medium", "close", "over") and shot.get("on") not in here:
             errors.append(f'shot {n}: a {c} shot needs "on" to be someone on screen: {", ".join(here)}')
         if c in ("two", "over") and len(here) < 2:
-            errors.append(f"shot {n}: {c} needs two people, and only {here[0]} is here")
+            errors.append(f"shot {n}: {c} needs two people, and {here[0] if here else 'nobody'} is here")
         for b in shot["beats"]:
             if (b.get("say") or "").strip():
                 lines += 1
@@ -219,29 +224,30 @@ def write_scene(run: Run, ep: dict, series: dict, sc: dict, number: int, set_nam
     return to_shots(data, number, set_name, spots, here, where)
 
 
-def build_film(run: Run, series_id: str, number: int, library: Path, language: str = "hi") -> dict:
+def write_scenes(run: Run, series_id: str, number: int, language: str = "hi", only: int | None = None) -> dict:
+    "Writes every scene that has no shots yet, or just the one asked for, and saves each as it's done."
     engine = run.engine
     series, ep = engine.series(series_id), json.loads(engine.episode_path(series_id, number).read_text())
     project = write_project(engine, series_id, number, ep)
     if waiting := unbuilt(project):
         run.on_step("Sets", "warn", "Still to build: " + ", ".join(waiting))
         return {"waiting": waiting, "stats": run.stats}
-    film_id = f"ep{number:02d}"
-    root = engine.root / "films" / film_id
-    sets = film_sets(project, library, root)
-
+    path = engine.root / "projects" / project["id"] / "project.json"
+    sets = {st["id"]: film_set(st) for st in project["sets"]}
     where = {"cris": [0.0, 0.0], "baba": [0.0, 0.0]}
-    shots: list[dict] = []
     previous = "None: this is the first scene."
-    for n, sc in enumerate(ep["outline"], start=1):
-        run.on_step(f"Scene {n}", "running")
-        scene_shots = write_scene(run, ep, series, sc, n, slug(sc["place"]), sets[slug(sc["place"])], previous, where, language)
-        shots += scene_shots
-        previous = lines_of(scene_shots) or sc["summary"]
-        run.on_step(f"Scene {n}", "done", f"{len(scene_shots)} shots")
-    first = shots[0]["place"]
-    film = {"id": film_id, "title": ep["title"], "language": language, "cast": ["cris", "baba"], "names": NAMES, "voices": VOICES, "portal": [0, -3, 0], "sets": sets,
-            "start": {who: {"x": (first.get(who) or [0, 0])[0], "z": (first.get(who) or [0, 0])[1], "pose": "stand", **({} if who in first else {"hidden": True})} for who in ("cris", "baba")}, "shots": shots}  # fmt: skip
-    root.mkdir(parents=True, exist_ok=True)
-    (root / "film.json").write_text(json.dumps(film, ensure_ascii=False, indent=1) + "\n")
-    return {"film": film_id, "shots": len(shots), "stats": run.stats}
+    wrote = 0
+    for n, (sc, scene) in enumerate(zip(ep["outline"], project["scenes"], strict=True), start=1):
+        if scene.get("final") or (scene.get("shots") and only != n) or (only and only != n):     # a finished scene is never written over
+            for shot in scene.get("shots", []):
+                where.update(shot.get("place") or {})
+                for beat in shot["beats"]:
+                    where.update(beat.get("walk") or {})
+        else:
+            run.on_step(f"Scene {n}", "running")
+            scene["shots"] = write_scene(run, ep, series, sc, n, scene["set"], sets[scene["set"]], previous, where, language)
+            path.write_text(json.dumps(project, ensure_ascii=False, indent=1) + "\n")
+            wrote += 1
+            run.on_step(f"Scene {n}", "done", f"{len(scene['shots'])} shots")
+        previous = lines_of(scene.get("shots", [])) or sc["summary"]
+    return {"wrote": wrote, "stats": run.stats}

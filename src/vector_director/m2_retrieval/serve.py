@@ -15,7 +15,10 @@ POST  /story      {"project", "template", "idea"}
 POST  /breakdown  {"project": {...}, "story", "title", "language", "template"}
 POST  /stage      {"project": {...}}
 POST  /dress      {"project": {...}, "set": id}
-POST  /film       {"series", "number"}: stops and says which sets are still to build, if any are
+GET   /series      each series and its episodes
+POST  /outline    {"series", "number", "story", "title", "language"}: the outline again, from an edited story
+POST  /film       {"series", "number", "only"}: writes unwritten scenes; stops and says which sets are still to build, if any are
+PUT   /film       a film composed by Studio: saved, with its art copied in
 POST  /paint      {"name", "kind": "prop" | "backdrop" | "floor", "description", "height_cm"}: one image, into the gallery
 GET   /templates
 """
@@ -215,6 +218,15 @@ def handler_for(g: Gallery):
                     t = json.loads(f.read_text())
                     out.append({"id": f.stem, "name": t["name"], "description": t.get("description", ""), "stages": [s["name"] for s in t["stages"]]})
                 return self._json(200, out)
+            if parts == ["series"] and g.engine:
+                out = []
+                for f in sorted((g.engine.root / "bible" / "series").glob("*/series.json")):
+                    series, eps = json.loads(f.read_text()), []
+                    for n in sorted(series.get("episodes", {}), key=int):
+                        path = g.engine.episode_path(f.parent.name, int(n))
+                        eps.append({"number": int(n), "written": path.exists(), **({"title": json.loads(path.read_text())["title"]} if path.exists() else {})})
+                    out.append({"id": f.parent.name, "name": series["name"], "episodes": eps})
+                return self._json(200, out)
             if parts == ["items"]:
                 return self._json(
                     200,
@@ -252,9 +264,11 @@ def handler_for(g: Gallery):
             elif path == "episode":
                 work = lambda run: P.write_episode(run, req["series"], int(req["number"]), req.get("language", "hi"))
             elif path == "film":
-                from vector_director.director.film import build_film
+                from vector_director.director.film import write_scenes
 
-                work = lambda run: build_film(run, req["series"], int(req["number"]), g.reg.root, req.get("language", "hi"))
+                work = lambda run: write_scenes(run, req["series"], int(req["number"]), req.get("language", "hi"), req.get("only"))
+            elif path == "outline":
+                work = lambda run: P.outline_again(run, req["series"], int(req["number"]), req["story"], req.get("title", ""), req.get("language", "hi"))
             elif path == "paint":
                 if not req.get("name") or req.get("kind", "prop") not in ("prop", "backdrop", "floor"):
                     return self._json(400, {"error": "needs a name and a kind"})
@@ -281,6 +295,13 @@ def handler_for(g: Gallery):
             self._json(200, {"job": g.start_job(pid, work)})
 
         def do_PUT(self) -> None:
+            if urlparse(self.path).path.strip("/") == "film" and g.engine:
+                from vector_director.director.film import save_film
+
+                try:
+                    return self._json(200, save_film(g.engine, g.reg.root, json.loads(self.rfile.read(int(self.headers.get("content-length", 0))))))
+                except (ValueError, KeyError, OSError) as e:
+                    return self._json(400, {"error": str(e)})
             if urlparse(self.path).path.strip("/") != "labels":
                 return self._json(404, {"error": "not found"})
             try:
