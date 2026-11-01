@@ -77,8 +77,11 @@ things directly from that catalog instead of searching the 2D gallery.
 
 ## Series episodes
 
-An episode doesn't use the set builder. `vd episode` writes its story and outline, and lays them out as a Studio project
-with one empty set per place. The flow then stops: a person builds each set in Studio, finding objects through the
-gallery's search (`/search`) or painting what's missing (`/paint`, one image, kept in the gallery). `vd film` or Studio's
-Write the scenes (`/film`) answers with the sets still to build, and once none are left, writes each scene from the
-objects and marks on its set (`director/film.py`).
+An episode doesn't use the set builder. `/episode` writes its story and outline, and lays them out as a Studio project with
+one empty set per place. The flow then stops: a person builds each set in Studio, finding objects through the gallery's
+search (`/search`) or painting what's missing (`/paint`, one image, kept in the gallery). `/film` answers with the sets still
+to build, and once none are left, writes each scene without shots from the objects and marks on its set, saving as it goes.
+A scene with shots is never written over unless asked for by number, and a final one never is. A person edits and finalizes
+the scenes in Studio, and it composes the film, which `PUT /film` saves with its art (`director/film.py`).
+
+The routes `/story`, `/breakdown`, `/stage` and `/dress` are the older path, for one-off stories, and Studio no longer calls them.
