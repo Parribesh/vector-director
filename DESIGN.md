@@ -70,12 +70,3 @@ Studio   --HTTP--> vd serve                               /story /breakdown /sta
 
 A project with `mode: "3d"` changes two things: menus are cut down to `assets3d/catalog.json`, and the set builder picks
 things directly from that catalog instead of searching the 2D gallery.
-
-## Known gaps, for discussion
-
-- **Nothing looks at the result.** No step sees a rendered frame; M1's scorers and judge aren't connected to this pipeline.
-- **Scene writers can't read each other.** They share the plan but not each other's lines, so dialogue doesn't carry across scenes.
-- **The look answer isn't used in 3D.** The builder returns `body3d`, which only the 2D engine reads. 3D bodies come from casting's free-text `look`, in sadhu's `tools/make_people3d.py`.
-- **Staging has a small vocabulary.** People have 4 poses (stand, namaste, bless, meditate), while sadhu's new library has 13. Positions are a grid of 2D marks and the camera has 3 shots.
-- **Corrections aren't captured.** Calls are logged, but Studio edits aren't, so there are no corrected examples to learn from.
-- **Repair is a single try**, and it only catches what a code check can see, not whether the story reads well.
