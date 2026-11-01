@@ -1,6 +1,7 @@
 """Builds a place: a backdrop drawn in code, then gallery items stood on it.
 
-The backdrop is only what no item can be: the sky (each time of day), the far view and the ground.
+The backdrop is only what no item can be: the sky (each time of day), the far view, the ground, and a river
+or road, which lie flat across the ground. A named background fixes these together for a place.
 Everything else is its own item, so it can be moved, resized or swapped in Studio.
 """
 
@@ -27,6 +28,8 @@ FAR = {
     "forest": "a dark line of forest",
     "fields": "flat farmland",
     "town": "rooftops of a town",
+    "city": "the glass towers of a city of the future",
+    "skyline": "the tops of future towers, seen from high up",
     "none": "only sky",
 }
 GROUND = {
@@ -36,9 +39,33 @@ GROUND = {
     "dry": ("#CDB27A", "#B39762", "#9A8050"),
     "grass": ("#8DAF5A", "#749548", "#5F7F3A"),
     "paved": ("#B3A898", "#94897A", "#7B7164"),
+    "metal": ("#8E9BA8", "#76838F", "#5C6873"),
     "stone": ("#A39C90", "#857E73", "#6E685E"),
     "snow": ("#EEF2F5", "#D5DEE6", "#BCC8D2"),
 }
+# what a place can be: (far view, ground, a river or road across it)
+BACKGROUNDS = {
+    "village": ("fields", "dirt", ""),
+    "village-road": ("fields", "dirt", "road"),
+    "village-river": ("hills", "grass", "river"),
+    "town": ("town", "paved", ""),
+    "town-road": ("town", "dirt", "road"),
+    "desert": ("desert", "sand", ""),
+    "desert-town": ("town", "sand", ""),
+    "desert-road": ("desert", "sand", "road"),
+    "riverbank": ("river", "grass", ""),
+    "dry-riverbed": ("fields", "dry", ""),
+    "forest": ("forest", "grass", ""),
+    "forest-path": ("forest", "grass", "road"),
+    "seashore": ("sea", "shore", ""),
+    "mountains": ("mountains", "stone", ""),
+    "mountain-road": ("mountains", "stone", "road"),
+    "palace-court": ("hills", "paved", ""),
+    "future-city": ("city", "metal", ""),
+    "future-rooftop": ("skyline", "metal", ""),
+}
+# rooms: (walls, floor)
+ROOMS = {"hut": ("mud", "mud"), "house": ("plaster", "wood"), "palace-room": ("palace", "marble"), "shop": ("plaster", "tiles"), "temple": ("stone", "stone"), "future-room": ("panel", "metal")}
 HORIZON = 440
 INK = "#2A1A10"
 
@@ -88,6 +115,19 @@ def _far(kind: str, rng: random.Random) -> str:
             out += f'<polygon points="{x - 6},{HORIZON - h} {x + w / 2},{HORIZON - h - 26} {x + w + 6},{HORIZON - h}" fill="{roof}"/>'
             x += w - 4
         return out
+    if kind in ("city", "skyline"):
+        out, x, top = "", -20, (250, 60) if kind == "city" else (130, 30)
+        for far_row, fill in ((True, "#8FA3B8"), (False, "#5F7389")):
+            x = -20
+            while x < W:
+                w, h = rng.randint(50, 110), rng.randint(top[0] // (2 if far_row else 3), top[0] + (top[1] if far_row else 0))
+                out += f'<rect x="{x}" y="{HORIZON - h}" width="{w}" height="{h + 120}" fill="{fill}"/>'
+                for wy in range(HORIZON - h + 12, HORIZON, 22):
+                    for wx in range(x + 8, x + w - 10, 18):
+                        if not far_row and rng.random() < 0.55:
+                            out += f'<rect x="{wx}" y="{wy}" width="9" height="11" fill="#BFEAF2"/>'
+                x += w + rng.randint(-4, 14)
+        return out
     return ""
 
 
@@ -96,7 +136,7 @@ def _ground(kind: str, rng: random.Random) -> str:
     out = f'<path d="M0 510 Q300 {rng.randint(490, 520)} 600 505 T1200 512 L1200 {H} L0 {H} Z" fill="{base}"/>'
     out += _band(rng, 590, 10, mid, 240, H)
     out += _band(rng, 690, 10, base, 240, H)
-    if kind in ("paved", "stone"):
+    if kind in ("paved", "stone", "metal"):
         for i, y in enumerate((540, 580, 630, 690, 760)):
             out += f'<line x1="0" x2="{W}" y1="{y}" y2="{y}" stroke="{dark}" stroke-width="{1.5 + i * 0.5}" opacity=".7"/>'
             step, off = 60 + i * 34, (i % 2) * (30 + i * 17)
@@ -117,11 +157,50 @@ def _ground(kind: str, rng: random.Random) -> str:
     return out
 
 
-def backdrop(far: str, ground: str, name: str, kind: str = "outdoor") -> str:
+def _wave(rng: random.Random, y: int, bump: int, step: int = 200) -> list[tuple[int, int]]:
+    return [(x, y + rng.randint(-bump, bump)) for x in range(-step, W + 2 * step, step)]
+
+
+def _strip(top: list, bottom: list, fill: str) -> str:
+    """A band between two wavy lines, right across the stage."""
+    d = f"M{top[0][0]} {top[0][1]}" + "".join(f" T{x} {y}" for x, y in top[1:]) + f" L{bottom[-1][0]} {bottom[-1][1]}" + "".join(f" T{x} {y}" for x, y in reversed(bottom[:-1])) + " Z"
+    return f'<path d="{d}" fill="{fill}"/>'
+
+
+def _river(rng: random.Random, ground: str) -> str:
+    """Flows across behind the back row, so that things stand on its near bank and nobody stands in it."""
+    _, mid, _ = GROUND[ground]
+    far, near = _wave(rng, 512, 3), _wave(rng, 552, 3)
+    out = _strip(_wave(rng, 505, 2), [(x, y + 8) for x, y in near], mid) + _strip(far, near, "#3F7FA6")
+    for _ in range(14):
+        x, y, w = rng.randint(0, W), rng.randint(518, 546), rng.randint(30, 90)
+        out += f'<path d="M{x} {y} q{w / 2} -4 {w} 0" fill="none" stroke="#BCD9E6" stroke-width="2.5" opacity=".7" stroke-linecap="round"/>'
+    return out
+
+
+def _road(rng: random.Random, ground: str) -> str:
+    """Runs across the middle of the stage, where people walk along it."""
+    _, mid, dark = GROUND[ground]
+    top, bottom = _wave(rng, 640, 5), _wave(rng, 728, 6)
+    out = _strip([(x, y - 5) for x, y in top], [(x, y + 6) for x, y in bottom], dark) + _strip(top, bottom, "#D8C4A0")
+    for y in (668, 700):                                                # wheel ruts
+        out += f'<path d="M0 {y} Q300 {y + rng.randint(-5, 5)} 600 {y} T1200 {y}" fill="none" stroke="{mid}" stroke-width="5" opacity=".7"/>'
+    return out
+
+
+def backdrop(far: str, ground: str, name: str, kind: str = "outdoor", path: str = "") -> str:
     """The sky for every time of day, the far view and the ground, as one SVG for the stage."""
     rng = random.Random(name)
     prefix = "".join(c if c.isalnum() else "-" for c in name).strip("-")
-    return compose(_far(far if far in FAR else "none", rng), "", _ground(ground if ground in GROUND else "dirt", rng), kind, prefix)
+    ground = ground if ground in GROUND else "dirt"
+    across = {"river": _river, "road": _road}.get(path, lambda *_: "")(rng, ground)
+    return compose(_far(far if far in FAR else "none", rng), "", _ground(ground, rng) + across, kind, prefix)
+
+
+def background(key: str, name: str) -> str:
+    """A named background as one SVG for the stage."""
+    far, ground, path = BACKGROUNDS.get(key, BACKGROUNDS["village"])
+    return backdrop(far, ground, name, "outdoor", path)
 
 
 def scale_for(item: dict, row: str, kind: str, y: int) -> float:

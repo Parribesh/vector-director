@@ -226,7 +226,7 @@ def handler_for(g: Gallery):
             elif path == "stage":
 
                 def work(run):
-                    P.direct_scenes(run, project["scenes"], project["sets"])
+                    P.direct_scenes(run, project["scenes"], project["sets"], project.get("cast"))
                     return {"scenes": project["scenes"], "stats": run.stats}
 
             elif path == "dress":

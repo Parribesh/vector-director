@@ -27,10 +27,10 @@ MAIN = os.environ.get("GEMINI_TEXT_MODEL", "gemini-3.8-flash")
 LITE = os.environ.get("GEMINI_LITE_MODEL", MAIN)
 OPENAI = os.environ.get("OPENAI_MODEL", "gpt-5-mini")
 # tasks small enough for the cheapest model
-LITE_TASKS = {"look", "room", "land", "repair", "dress", "pick"}
+LITE_TASKS = {"look", "animal", "repair", "set_first", "set_return", "pick"}
 # how hard the model thinks before answering: thinking is most of the time and output tokens of a
-# small pick-from-a-menu answer, so only the story and the plan get the model's default
-THINK = {"look": "low", "room": "low", "land": "low", "repair": "low", "scene": "low", "direct": "low", "dress": "low", "pick": "low"}
+# small pick-from-a-menu answer, so only the story, the breakdown and the casting get the model's default
+THINK = {"look": "low", "animal": "low", "repair": "low", "scene": "low", "direct": "low", "set_first": "low", "set_return": "low", "pick": "low"}
 
 
 class LLMError(Exception):
