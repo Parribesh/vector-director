@@ -21,11 +21,16 @@ POST  /film       {"series", "number", "only"}: writes unwritten scenes; stops a
 PUT   /film       a film composed by Studio: saved, with its art copied in
 POST  /paint      {"name", "kind": "prop" | "backdrop" | "floor", "description", "height_cm"}: one image, into the gallery
 GET   /templates
+
+DIRECTOR_TOKEN, when set, is asked of every request (but OPTIONS) as "Authorization: Bearer <token>"; Studio's server
+sends it on.
 """
 
 from __future__ import annotations
 
+import hmac
 import json
+import os
 import threading
 import uuid
 from dataclasses import asdict
@@ -39,6 +44,7 @@ from vector_director.m2_retrieval.library import Registry
 from vector_director.m2_retrieval.metrics import first_right, mrr, recall_at_k, resolve
 from vector_director.m2_retrieval.retrievers import BM25Retriever, HybridRetriever, VectorRetriever
 
+TOKEN = os.environ.get("DIRECTOR_TOKEN", "")
 TYPES = {".svg": "image/svg+xml", ".png": "image/png", ".jpg": "image/jpeg", ".webp": "image/webp"}
 
 
@@ -181,7 +187,7 @@ def handler_for(g: Gallery):
             self.send_header("content-type", ctype)
             self.send_header("access-control-allow-origin", "*")
             self.send_header("access-control-allow-methods", "GET, PATCH, POST, PUT, OPTIONS")
-            self.send_header("access-control-allow-headers", "content-type")
+            self.send_header("access-control-allow-headers", "content-type, authorization")
             self.end_headers()
             self.wfile.write(body)
 
@@ -194,7 +200,17 @@ def handler_for(g: Gallery):
         def do_OPTIONS(self) -> None:
             self._send(204, b"")
 
+        def _allowed(self) -> bool:
+            """DIRECTOR_TOKEN, when set, as the request's bearer."""
+            given = (self.headers.get("authorization") or "").removeprefix("Bearer ").strip()
+            if not TOKEN or (given and hmac.compare_digest(given, TOKEN)):
+                return True
+            self._json(401, {"error": "the director wants its token"})
+            return False
+
         def do_GET(self) -> None:
+            if not self._allowed():
+                return
             u = urlparse(self.path)
             parts = [unquote(p) for p in u.path.strip("/").split("/")]
             q = {k: v[0] for k, v in parse_qs(u.query).items()}
@@ -257,6 +273,8 @@ def handler_for(g: Gallery):
             self._json(404, {"error": "not found"})
 
         def do_POST(self) -> None:
+            if not self._allowed():
+                return
             from vector_director.director import pipeline as P
 
             path = urlparse(self.path).path.strip("/")
@@ -309,6 +327,8 @@ def handler_for(g: Gallery):
             self._json(200, {"job": g.start_job(pid, work)})
 
         def do_PUT(self) -> None:
+            if not self._allowed():
+                return
             if urlparse(self.path).path.strip("/") == "film" and g.engine:
                 from vector_director.director.film import save_film
 
@@ -328,6 +348,8 @@ def handler_for(g: Gallery):
             self._json(200, g.save_label(query, relevant))
 
         def do_PATCH(self) -> None:
+            if not self._allowed():
+                return
             parts = [unquote(p) for p in urlparse(self.path).path.strip("/").split("/")]
             if len(parts) != 2 or parts[0] != "items" or parts[1] not in g.reg.items:
                 return self._json(404, {"error": "not found"})
