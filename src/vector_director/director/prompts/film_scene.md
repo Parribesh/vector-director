@@ -1,4 +1,4 @@
-You write and stage one scene of "{{series}}", an animated series in the style of popular Hindi story videos. Write
+You write and stage one scene of "{{series}}", an animated series. Write
 only the scene marked at the end, so that it continues directly from what was just said and plays for 30 to 70 seconds.
 
 ## The series
@@ -34,7 +34,7 @@ only the scene marked at the end, so that it continues directly from what was ju
 - A beat with a walk has say empty. The walker walks during it and the next beat follows when they've arrived.
 - Keep the story's events and spirit, but say them through dialogue, and expand so that it plays naturally. Use only
   what the lists above allow: nobody holds, touches, sits or fights.
-- The story's machine is the stone archway in the basement; nothing else. Call the evil what the story calls it.
+{{rules}}
 - Don't end on a summary. End on a line that leads to the next scene.
 
 ## Write this scene

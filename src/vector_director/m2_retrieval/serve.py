@@ -12,6 +12,9 @@ GET   /files/items/<id>.svg  and  /files/thumbs/<id>.png
 
 The director, with --sadhu (these answer {"job": id}; poll GET /jobs/<id> for steps and the result; POST /jobs/<id>/cancel stops one at its next step):
 POST  /story      {"project", "template", "idea"}
+POST  /tale       {"id", "title", "story", "logline", "moral", "language", "people": [{"name", "about"}], "template"}: a one-off
+                  story (Guru's) as a series of one episode: its outline, its people in the shared cast (new ones built
+                  in Blender), and its Studio project waiting for its sets
 POST  /breakdown  {"project": {...}, "story", "title", "language", "template"}
 POST  /stage      {"project": {...}}
 POST  /dress      {"project": {...}, "set": id}
@@ -293,6 +296,13 @@ def handler_for(g: Gallery):
             template = req.get("template") or "baba-rescue"
             if path == "story":
                 work = lambda run: P.write_story(run, template, req.get("idea") or "")
+            elif path == "tale":
+                from vector_director.director.tale import write_tale
+
+                if not (req.get("title") and req.get("story")):
+                    return self._json(400, {"error": "needs a title and a story"})
+                pid = req.get("id") or req["title"]
+                work = lambda run: write_tale(run, req)
             elif path == "episode":
                 work = lambda run: P.write_episode(run, req["series"], int(req["number"]), req.get("language", "hi"))
             elif path == "film":

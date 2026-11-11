@@ -24,7 +24,7 @@ from pathlib import Path
 
 from PIL import Image
 
-from vector_director.director.pipeline import DEVANAGARI, LANGS, N, Run, S, arr, en, obj
+from vector_director.director.pipeline import DEVANAGARI, LANGS, N, Run, S, arr, en, name_key, obj
 
 IMAGE_MODEL = "gpt-image-1.5"
 STYLE = "Simple flat-colour cartoon, like a modern 2D animated TV series: big clean shapes, few details, a limited palette, soft gradient shading only, thin dark ink outlines. It sits beside smooth, simple 3D cartoon characters. No text, no people."
@@ -45,6 +45,21 @@ VOICES = {
 NAMES = {"baba": "बाबा", "cris": "क्रिस", "mira": "मीरा", "evil": "???", "narrator": ""}
 ON_SCREEN = {"baba", "cris"}
 HEARD = {"modern-life": ["mira"], "the-machine": ["mira"], "shadow": ["evil"]}      # only voices, and only where they can be heard
+SCENE_RULES = ["It's in the style of popular Hindi story videos.",
+               "The story's machine is the stone archway in the basement; nothing else. Call the evil what the story calls it."]
+
+
+def film_cast(series: dict | None) -> dict:
+    """Who is on screen, their names and voices, who is only heard, and the scene writer's own rules: a series' `film`
+    (a one-off story's own people), or Cris and Baba's."""
+    f = (series or {}).get("film") or {}
+    return {"onScreen": set(f.get("onScreen", ON_SCREEN)), "names": f.get("names", NAMES), "voices": f.get("voices", VOICES),
+            "heard": f.get("heard", HEARD), "ids": f.get("ids", {}), "rules": f.get("sceneRules", SCENE_RULES)}
+
+
+def who(name: str, fc: dict) -> str:
+    "The cast id for a name the outline uses."
+    return fc["ids"].get(name_key(name)) or slug(name)
 
 
 def slug(text: str) -> str:
@@ -88,8 +103,9 @@ def project_id(series_id: str, number: int) -> str:
     return f"{series_id}-ep{number:02d}"
 
 
-def write_project(engine, series_id: str, number: int, ep: dict) -> dict:
+def write_project(engine, series_id: str, number: int, ep: dict, series: dict | None = None) -> dict:
     "The outline as a Studio project. A set that's already been worked on keeps its work."
+    fc = film_cast(series)
     path = engine.root / "projects" / project_id(series_id, number) / "project.json"
     old = json.loads(path.read_text()) if path.exists() else {}
     kept = {st["id"]: st for st in old.get("sets", [])}
@@ -98,10 +114,11 @@ def write_project(engine, series_id: str, number: int, ep: dict) -> dict:
     for n, sc in enumerate(ep["outline"], start=1):
         sid = slug(sc["place"])
         st = sets.setdefault(sid, kept.get(sid, {"id": sid, "name": sc["place"], "items": [], "marks": [], "built": False}))
-        scenes.append({"number": n, "id": f"s{n:02d}", "stage": sc["stage"], "title": sc["title"], "set": sid, "time": sc["time"], "summary": sc["summary"], "things": sc["things"], "cast": [slug(x["name"]) for x in sc["present"]],
+        scenes.append({"number": n, "id": f"s{n:02d}", "stage": sc["stage"], "title": sc["title"], "set": sid, "time": sc["time"], "summary": sc["summary"], "things": sc["things"], "cast": list(dict.fromkeys(who(x["name"], fc) for x in sc["present"])),
                        **({"shots": written[n]["shots"], "final": written[n].get("final", False)} if n in written and written[n].get("shots") else {})})  # fmt: skip
     project = {**old, "id": project_id(series_id, number), "series": series_id, "episode": number, "mode": "3d", "title": ep["title"], "language": ep.get("language", "hi"), "template": ep["template"],
-               "story": ep["story"], "logline": ep["logline"], "moral": ep.get("moral", ""), "filmCast": sorted(ON_SCREEN), "names": NAMES, "voices": VOICES, "sets": list(sets.values()), "scenes": scenes}  # fmt: skip
+               "story": ep["story"], "logline": ep["logline"], "moral": ep.get("moral", ""), "filmCast": sorted(fc["onScreen"]), "names": fc["names"], "voices": fc["voices"], "sets": list(sets.values()), "scenes": scenes,
+               **({"film": series_id} if (series or {}).get("tale") else {})}  # fmt: skip      # a one-off story's film is named after it, not ep01
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(project, ensure_ascii=False, indent=1) + "\n")
     return project
@@ -135,7 +152,7 @@ def save_film(engine, library: Path, film: dict) -> dict:
     return {"film": film["id"], "shots": len(film["shots"])}
 
 
-def check_scene(d: dict, here: list[str], marks: set[str], speakers: list[str]) -> list[str]:
+def check_scene(d: dict, here: list[str], marks: set[str], speakers: list[str], language: str = "hi") -> list[str]:
     errors = []
     errors += [f'start: "{w}" has no mark' for w in here if not any(s["who"] == w for s in d["start"])]
     if not 2 <= len(d["shots"]) <= 6:
@@ -152,7 +169,7 @@ def check_scene(d: dict, here: list[str], marks: set[str], speakers: list[str]) 
                 lines += 1
                 if b["who"] not in speakers:
                     errors.append(f'shot {n}: "{b["who"]}" can\'t speak here')
-                if not DEVANAGARI.search(b["say"]):
+                if language == "hi" and not DEVANAGARI.search(b["say"]):
                     errors.append(f"shot {n}: this line must be in Hindi (Devanagari script): {b['say'][:40]}")
                 if b["walker"] != "none":
                     errors.append(f"shot {n}: a beat with a walk has say empty")
@@ -205,8 +222,9 @@ def lines_of(shots: list[dict]) -> str:
 
 
 def write_scene(run: Run, ep: dict, series: dict, sc: dict, number: int, set_name: str, st: dict, previous: str, where: dict, language: str) -> list[dict]:
-    here = [p for p in dict.fromkeys(slug(x["name"]) for x in sc["present"]) if p in ON_SCREEN]
-    speakers = [*here, *HEARD.get(sc["stage"], []), "narrator"]
+    fc = film_cast(series)
+    here = [p for p in dict.fromkeys(who(x["name"], fc) for x in sc["present"]) if p in fc["onScreen"]]
+    speakers = [*here, *fc["heard"].get(sc["stage"], []), "narrator"]
     spots = {**{m["name"]: [m["x"], m["z"]] for m in st["marks"]}, **{k: list(v) for k, v in OFF.items()}}
     pose = en("keep", POSES)
     schema = obj({"start": arr(obj({"who": en(here), "mark": en(spots), "pose": en(POSES)})),
@@ -217,8 +235,8 @@ def write_scene(run: Run, ep: dict, series: dict, sc: dict, number: int, set_nam
     data, errors = run.checked("film_scene", {
         "series": series["name"], "about": json.dumps({k: series[k] for k in ("premise", "characters", "rules")}, ensure_ascii=False, indent=1), "story": ep["story"], "previous": previous,
         "set": json.dumps({"place": sc["place"], "things": things, "ring of light at": st["portal"]}, ensure_ascii=False), "speakers": ", ".join(speakers), "here": ", ".join(here), "marks": ", ".join(spots), "poses": ", ".join(POSES),
-        "language": LANGS.get(language, LANGS["hi"]), "scene": json.dumps({k: sc[k] for k in ("title", "time", "summary", "things")} | {"number": number}, ensure_ascii=False, indent=1),
-    }, schema, f"Scene {number}: {sc['title']}", lambda d: check_scene(d, here, set(spots), speakers), f"one scene as shots; on screen: {', '.join(here)}; speakers: {', '.join(speakers)}; marks: {', '.join(spots)}")  # fmt: skip
+        "rules": "\n".join(f"- {r}" for r in fc["rules"]), "language": LANGS.get(language, LANGS["hi"]), "scene": json.dumps({k: sc[k] for k in ("title", "time", "summary", "things")} | {"number": number}, ensure_ascii=False, indent=1),
+    }, schema, f"Scene {number}: {sc['title']}", lambda d: check_scene(d, here, set(spots), speakers, language), f"one scene as shots; on screen: {', '.join(here)}; speakers: {', '.join(speakers)}; marks: {', '.join(spots)}")  # fmt: skip
     if errors:
         run.on_step(f"Scene {number}", "warn", "; ".join(errors))
     return to_shots(data, number, set_name, spots, here, where)
@@ -228,13 +246,13 @@ def write_scenes(run: Run, series_id: str, number: int, language: str = "hi", on
     "Writes every scene that has no shots yet, or just the one asked for, and saves each as it's done."
     engine = run.engine
     series, ep = engine.series(series_id), json.loads(engine.episode_path(series_id, number).read_text())
-    project = write_project(engine, series_id, number, ep)
+    project = write_project(engine, series_id, number, ep, series)
     if waiting := unbuilt(project):
         run.on_step("Sets", "warn", "Still to build: " + ", ".join(waiting))
         return {"waiting": waiting, "stats": run.stats}
     path = engine.root / "projects" / project["id"] / "project.json"
     sets = {st["id"]: film_set(st) for st in project["sets"]}
-    where = {"cris": [0.0, 0.0], "baba": [0.0, 0.0]}
+    where = {w: [0.0, 0.0] for w in film_cast(series)["onScreen"]}
     previous = "None: this is the first scene."
     wrote = 0
     for n, (sc, scene) in enumerate(zip(ep["outline"], project["scenes"], strict=True), start=1):

@@ -872,7 +872,7 @@ def write_episode(run: Run, series_id: str, number: int, language: str = "hi") -
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
     from vector_director.director.film import write_project  # film.py builds on this module
 
-    write_project(engine, series_id, number, out)
+    write_project(engine, series_id, number, out, series)
     return out
 
 
@@ -887,7 +887,7 @@ def outline_again(run: Run, series_id: str, number: int, story: str, title: str,
     path.write_text(json.dumps(ep, ensure_ascii=False, indent=1) + "\n")
     from vector_director.director.film import write_project  # film.py builds on this module
 
-    write_project(engine, series_id, number, ep)
+    write_project(engine, series_id, number, ep, engine.series(series_id))
     return ep
 
 
