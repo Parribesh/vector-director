@@ -10,7 +10,7 @@ GET   /items/<id>
 PATCH /items/<id>      {"name", "description", "tags", "height_cm", "status"}
 GET   /files/items/<id>.svg  and  /files/thumbs/<id>.png
 
-The director, with --sadhu (these answer {"job": id}; poll GET /jobs/<id> for steps and the result):
+The director, with --sadhu (these answer {"job": id}; poll GET /jobs/<id> for steps and the result; POST /jobs/<id>/cancel stops one at its next step):
 POST  /story      {"project", "template", "idea"}
 POST  /breakdown  {"project": {...}, "story", "title", "language", "template"}
 POST  /stage      {"project": {...}}
@@ -42,6 +42,10 @@ from vector_director.m2_retrieval.retrievers import BM25Retriever, HybridRetriev
 TYPES = {".svg": "image/svg+xml", ".png": "image/png", ".jpg": "image/jpeg", ".webp": "image/webp"}
 
 
+
+class Cancelled(Exception):
+    """A job asked to stop."""
+
 class Gallery:
     def __init__(self, root: Path | str) -> None:
         self.reg = Registry(root)
@@ -64,10 +68,12 @@ class Gallery:
         """Runs work(run) on its own thread; its steps and result are read from /jobs/<id>."""
         from vector_director.director.pipeline import Run
 
-        job_id, job = uuid.uuid4().hex, {"steps": [], "done": False, "result": None, "error": None}
+        job_id, job = uuid.uuid4().hex, {"steps": [], "done": False, "result": None, "error": None, "cancelled": False}
         steps: dict[str, dict] = {}
 
         def on_step(label, state, note=""):
+            if job["cancelled"]:      # asked to stop: it can't be cut off mid-call, so it stops at its next step
+                raise Cancelled()
             if label not in steps:
                 steps[label] = {"label": label}
                 job["steps"].append(steps[label])
@@ -76,6 +82,10 @@ class Gallery:
         def go():
             try:
                 job["result"] = work(Run(project_id, self.engine, self, on_step))
+                if job["cancelled"]:
+                    job["result"], job["error"] = None, "Cancelled"
+            except Cancelled:
+                job["error"] = "Cancelled"
             except Exception as e:  # noqa: BLE001
                 job["error"] = str(e)
             job["done"] = True
@@ -250,6 +260,10 @@ def handler_for(g: Gallery):
             from vector_director.director import pipeline as P
 
             path = urlparse(self.path).path.strip("/")
+            parts = path.split("/")
+            if len(parts) == 3 and parts[0] == "jobs" and parts[2] == "cancel" and parts[1] in g.jobs:
+                g.jobs[parts[1]]["cancelled"] = True
+                return self._json(200, g.jobs[parts[1]])
             if not g.engine:
                 return self._json(503, {"error": "the director needs vd serve --sadhu <checkout>"})
             try:
