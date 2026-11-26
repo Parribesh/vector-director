@@ -1,0 +1,22 @@
+Scene kinds (`show`):
+- `{"kind": "title", "text": "...", "sub": "..."?}`
+- `{"kind": "words", "text": "...", "sub": "..."?, "style": "slam" | "rise" | "strike"?}` (a cost, a warning, a recap)
+- `{"kind": "terms", "heading": "..."?, "terms": [{"term": ≤32 chars, "means": ≤90 chars, "at": "..."?}]}` 1–4 terms
+- `{"kind": "diagram", "name": "Flow", "settings": {"heading": "..."?, "direction": "right" | "down"?,
+  "nodes": [{"id": "a", "text": ≤40 chars, "at": "..."?, "tone": "plain" | "key" | "yes" | "no"?}] 2–8,
+  "edges": [{"from": "a", "to": "b", "text": ≤16 chars?}]}}` No loops; at most 4 boxes in a column and 5 columns;
+  list nodes in the order they are said.
+- `{"kind": "trace", "heading": "..."?, "array": [numbers or strings ≤4 chars] 2–16, "target": ...?,
+  "steps": [{"at": "..."?, "pointers": {"L": 0, "R": 5} 1–3 names of 1–4 letters, "mark": [i]?, "out": [i]?,
+  "vars": {"sum": 9}? ≤3, "note": ≤48 chars?, "found": true?}] 1–16}` Each step is the whole state at that moment;
+  every index inside the array. `mark` lights cells, `out` dims cells set aside.
+  A trace that keeps a hash set or map (what it has seen, counts, indexes) draws it under the array: give the trace
+  `"store": {"name": "seen", "kind": "set" | "map"}` and each step its whole contents, `"items": [3, 1]` (a set) or
+  `"items": {"3": 0, "1": 1}` (a map: key → value), ≤10 keys of ≤6 chars, plus `"hit": <key>` when a lookup finds it.
+  Don't put the store in `vars`.
+- `{"kind": "code", "language": "python", "code": "..." (≤24 lines, ≤72 chars each), "heading": "..."?,
+  "steps": [{"at": "..."?, "lines": [1-based line numbers], "note": ≤60 chars?}]?}`
+- `{"kind": "recall", "question": ≤140 chars, "choices": [≤60 chars] 2–4?, "answer": "<one choice, word for word>"?,
+  "reveal": true?}` Two shots: the question (`seconds` about 9, so the silence lets them think), then the same
+  recall with `"reveal": true` and a `say` that gives the answer.
+

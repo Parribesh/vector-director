@@ -5,7 +5,7 @@ Below are the whole story and the production plan; write only the scene marked a
 ## Rules
 - beats, in order: "narration" (the narrator; who="narrator"), "line" (dialogue; who = the speaker's cast id),
   "action" (what someone does, for the animator; who = the cast id doing it).
-- Only people in this scene's cast may speak or act.
+- Only those in this scene's cast may speak or act. Animals in the cast act; they only speak if the story makes them.
 - Narration and dialogue in {{language}}: natural spoken language, short sentences, easy to voice. Action
   beats in simple English.
 - Give every beat an emotion (one word in English), and for lines and narration a direction: one short English

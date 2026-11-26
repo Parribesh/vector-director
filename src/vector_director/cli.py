@@ -51,7 +51,7 @@ def main(argv: list[str] | None = None) -> None:
     st.add_argument("--model", default=None)
     st.add_argument("--out", default=".")
     lb = sub.add_parser("library", help="(M2) build the gallery")
-    lb.add_argument("action", choices=["seed", "openmoji", "openclipart", "label", "thumbs", "embed", "tidy", "eval"])
+    lb.add_argument("action", choices=["seed", "openmoji", "openclipart", "label", "thumbs", "embed", "tidy", "eval", "more"])
     lb.add_argument("--sadhu", default="../sadhu", help="seed: a sadhu checkout")
     lb.add_argument("--openmoji", default="data/raw/openmoji", help="openmoji: the unpacked download")
     lb.add_argument("--heights", default=None, help="openmoji: JSON of id -> height_cm")
@@ -67,6 +67,15 @@ def main(argv: list[str] | None = None) -> None:
     sv.add_argument("--root", default="library")
     sv.add_argument("--port", type=int, default=8772)
     sv.add_argument("--sadhu", default=None, help="a sadhu checkout: turns on the director")
+    ep = sub.add_parser("episode", help="an episode of a series: its story and scene outline, no further")
+    ep.add_argument("series")
+    ep.add_argument("number", type=int)
+    ep.add_argument("--sadhu", required=True, help="a sadhu checkout")
+    ep.add_argument("--language", default="hi", choices=["hi", "en"])
+    fm = sub.add_parser("film", help="once an episode's sets are built in Studio, write and stage its unwritten scenes")
+    fm.add_argument("series")
+    fm.add_argument("number", type=int)
+    fm.add_argument("--sadhu", required=True, help="a sadhu checkout")
     pr = sub.add_parser("prompts", help="(M1) write the synthetic eval prompt set")
     pr.add_argument("--n", type=int, default=50)
     pr.add_argument("--seed", type=int, default=0)
@@ -104,6 +113,18 @@ def main(argv: list[str] | None = None) -> None:
         serve(args.root, args.port, args.sadhu)
     elif args.cmd == "set":
         _set(args)
+    elif args.cmd == "film":
+        from vector_director.director.film import write_scenes
+        from vector_director.director.pipeline import Engine, Run
+
+        run = Run(f"{args.series}-film{args.number:02d}", Engine(args.sadhu), None, lambda label, state, note="": print(label, state, note, flush=True))
+        print(json.dumps(write_scenes(run, args.series, args.number), ensure_ascii=False, indent=1)[:3000])
+    elif args.cmd == "episode":
+        from vector_director.director.pipeline import Engine, Run, write_episode
+
+        run = Run(f"{args.series}-ep{args.number:02d}", Engine(args.sadhu), None, lambda label, state, note="": print(label, state, note, flush=True))
+        out = write_episode(run, args.series, args.number, args.language)
+        print(json.dumps({k: out[k] for k in ("title", "logline")} | {"scenes": len(out["outline"]), "stats": out["stats"]}, ensure_ascii=False, indent=1))
 
 
 def _library(args: argparse.Namespace) -> None:
@@ -149,6 +170,10 @@ def _library(args: argparse.Namespace) -> None:
         print(label_openclipart(reg, make_llm("gemini", "gemini-3.8-flash")))
     elif args.action == "tidy":
         print(lib.tidy(reg, VectorRetriever(reg, ClipEmbedder())))
+    elif args.action == "more":      # 3D things and paintings from a sadhu checkout: only what's new is embedded
+        from pathlib import Path
+
+        print(lib.seed_things(reg, Path(args.sadhu)), lib.seed_paintings(reg, Path(args.sadhu)), "embedded", VectorRetriever(reg, ClipEmbedder()).add_new())
     elif args.action == "embed":
         print("embedded", VectorRetriever(reg, ClipEmbedder()).build())
     elif args.action == "eval":

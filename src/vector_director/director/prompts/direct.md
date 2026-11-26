@@ -4,7 +4,7 @@ walks where on each beat, their poses and the camera. Tell the story with where 
 ## The stage
 Marks are places on the floor: {{marks}}.
 "back" marks are further from the camera, "front" marks nearer. off-left and off-right are out of sight.
-Poses: {{poses}}. Walking happens by itself when someone moves. A seat mark seats them; don't give them a pose there.
+Poses for people: {{poses}}. Poses for animals: {{animal_poses}}. Animals in this scene: {{animals}}. Walking happens by itself when someone moves. A seat mark seats them; don't give them a pose there.
 Shots: wide (the whole set), medium (one person to the waist), close (one face), or keep (the last shot stays).
 
 ## Rules

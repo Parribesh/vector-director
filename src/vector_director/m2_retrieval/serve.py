@@ -10,17 +10,30 @@ GET   /items/<id>
 PATCH /items/<id>      {"name", "description", "tags", "height_cm", "status"}
 GET   /files/items/<id>.svg  and  /files/thumbs/<id>.png
 
-The director, with --sadhu (these answer {"job": id}; poll GET /jobs/<id> for steps and the result):
+The director, with --sadhu (these answer {"job": id}; poll GET /jobs/<id> for steps and the result; POST /jobs/<id>/cancel stops one at its next step):
 POST  /story      {"project", "template", "idea"}
+POST  /tale       {"id", "title", "story", "logline", "moral", "language", "people": [{"name", "about"}], "template"}: a one-off
+                  story (Guru's) as a series of one episode: its outline, its people in the shared cast (new ones built
+                  in Blender), and its Studio project waiting for its sets
 POST  /breakdown  {"project": {...}, "story", "title", "language", "template"}
 POST  /stage      {"project": {...}}
 POST  /dress      {"project": {...}, "set": id}
+GET   /series      each series and its episodes
+POST  /outline    {"series", "number", "story", "title", "language"}: the outline again, from an edited story
+POST  /film       {"series", "number", "only"}: writes unwritten scenes; stops and says which sets are still to build, if any are
+PUT   /film       a film composed by Studio: saved, with its art copied in
+POST  /paint      {"name", "kind": "prop" | "backdrop" | "floor", "description", "height_cm"}: one image, into the gallery
 GET   /templates
+
+DIRECTOR_TOKEN, when set, is asked of every request (but OPTIONS) as "Authorization: Bearer <token>"; Studio's server
+sends it on.
 """
 
 from __future__ import annotations
 
+import hmac
 import json
+import os
 import threading
 import uuid
 from dataclasses import asdict
@@ -34,8 +47,13 @@ from vector_director.m2_retrieval.library import Registry
 from vector_director.m2_retrieval.metrics import first_right, mrr, recall_at_k, resolve
 from vector_director.m2_retrieval.retrievers import BM25Retriever, HybridRetriever, VectorRetriever
 
-TYPES = {".svg": "image/svg+xml", ".png": "image/png"}
+TOKEN = os.environ.get("DIRECTOR_TOKEN", "")
+TYPES = {".svg": "image/svg+xml", ".png": "image/png", ".jpg": "image/jpeg", ".webp": "image/webp"}
 
+
+
+class Cancelled(Exception):
+    """A job asked to stop."""
 
 class Gallery:
     def __init__(self, root: Path | str) -> None:
@@ -59,10 +77,12 @@ class Gallery:
         """Runs work(run) on its own thread; its steps and result are read from /jobs/<id>."""
         from vector_director.director.pipeline import Run
 
-        job_id, job = uuid.uuid4().hex, {"steps": [], "done": False, "result": None, "error": None}
+        job_id, job = uuid.uuid4().hex, {"steps": [], "done": False, "result": None, "error": None, "cancelled": False}
         steps: dict[str, dict] = {}
 
         def on_step(label, state, note=""):
+            if job["cancelled"]:      # asked to stop: it can't be cut off mid-call, so it stops at its next step
+                raise Cancelled()
             if label not in steps:
                 steps[label] = {"label": label}
                 job["steps"].append(steps[label])
@@ -71,6 +91,10 @@ class Gallery:
         def go():
             try:
                 job["result"] = work(Run(project_id, self.engine, self, on_step))
+                if job["cancelled"]:
+                    job["result"], job["error"] = None, "Cancelled"
+            except Cancelled:
+                job["error"] = "Cancelled"
             except Exception as e:  # noqa: BLE001
                 job["error"] = str(e)
             job["done"] = True
@@ -79,6 +103,29 @@ class Gallery:
         threading.Thread(target=go, daemon=True).start()
         return job_id
 
+    def paint(self, run, name: str, kind: str, about: str, height_cm: float) -> dict:
+        """Paints something search didn't find, and adds it to the gallery. Costs one image."""
+        import tempfile
+
+        from vector_director.director.film import paint_new, slug
+        from vector_director.m2_retrieval.library import add_painting
+
+        run.on_step("Painting", "running", name)
+        with tempfile.TemporaryDirectory() as folder:
+            source = paint_new(Path(folder), name, kind, about)
+            with self.lock:
+                base = item_id = f"paint-new-{slug(name)}"
+                n = 1
+                while item_id in self.reg.items:
+                    n += 1
+                    item_id = f"{base}-{n}"
+                add_painting(self.reg, item_id, source, name, kind, about, slug(name).split("-"), height_cm)
+                self.reg.save()
+                self.bm25.refresh()
+                self.vector.add_new()
+        run.on_step("Painting", "done", name)
+        return asdict(self.reg.items[item_id])
+
     def search(
         self,
         q: str,
@@ -86,11 +133,13 @@ class Gallery:
         kind: str | None = None,
         status: str | None = None,
         mode: str = "vector",
+        format: str | None = None,
     ) -> list[dict]:
         """Vector by default: it ranked best on data/eval/retrieval.jsonl (`vd library eval`)."""
         with self.lock:
-            hits = self.modes.get(mode, self.vector.search)(q, k=k, kind=kind, status=status)
-        return [{**asdict(self.reg.items[h.id]), "score": h.score} for h in hits]
+            hits = self.modes.get(mode, self.vector.search)(q, k=k * 4 if format else k, kind=kind, status=status)
+        out = [{**asdict(self.reg.items[h.id]), "score": h.score} for h in hits]
+        return [h for h in out if not format or h["format"] == format][:k]
 
     def labels(self) -> list[dict]:
         path = self.labels_path
@@ -141,7 +190,7 @@ def handler_for(g: Gallery):
             self.send_header("content-type", ctype)
             self.send_header("access-control-allow-origin", "*")
             self.send_header("access-control-allow-methods", "GET, PATCH, POST, PUT, OPTIONS")
-            self.send_header("access-control-allow-headers", "content-type")
+            self.send_header("access-control-allow-headers", "content-type, authorization")
             self.end_headers()
             self.wfile.write(body)
 
@@ -154,7 +203,17 @@ def handler_for(g: Gallery):
         def do_OPTIONS(self) -> None:
             self._send(204, b"")
 
+        def _allowed(self) -> bool:
+            """DIRECTOR_TOKEN, when set, as the request's bearer."""
+            given = (self.headers.get("authorization") or "").removeprefix("Bearer ").strip()
+            if not TOKEN or (given and hmac.compare_digest(given, TOKEN)):
+                return True
+            self._json(401, {"error": "the director wants its token"})
+            return False
+
         def do_GET(self) -> None:
+            if not self._allowed():
+                return
             u = urlparse(self.path)
             parts = [unquote(p) for p in u.path.strip("/").split("/")]
             q = {k: v[0] for k, v in parse_qs(u.query).items()}
@@ -177,6 +236,7 @@ def handler_for(g: Gallery):
                         q.get("kind"),
                         q.get("status"),
                         q.get("mode", "vector"),
+                        q.get("format"),
                     ),
                 )
             if len(parts) == 2 and parts[0] == "jobs" and parts[1] in g.jobs:
@@ -186,6 +246,15 @@ def handler_for(g: Gallery):
                 for f in sorted((g.engine.root / "bible" / "templates").glob("*.json")):
                     t = json.loads(f.read_text())
                     out.append({"id": f.stem, "name": t["name"], "description": t.get("description", ""), "stages": [s["name"] for s in t["stages"]]})
+                return self._json(200, out)
+            if parts == ["series"] and g.engine:
+                out = []
+                for f in sorted((g.engine.root / "bible" / "series").glob("*/series.json")):
+                    series, eps = json.loads(f.read_text()), []
+                    for n in sorted(series.get("episodes", {}), key=int):
+                        path = g.engine.episode_path(f.parent.name, int(n))
+                        eps.append({"number": int(n), "written": path.exists(), **({"title": json.loads(path.read_text())["title"]} if path.exists() else {})})
+                    out.append({"id": f.parent.name, "name": series["name"], "episodes": eps})
                 return self._json(200, out)
             if parts == ["items"]:
                 return self._json(
@@ -207,9 +276,15 @@ def handler_for(g: Gallery):
             self._json(404, {"error": "not found"})
 
         def do_POST(self) -> None:
+            if not self._allowed():
+                return
             from vector_director.director import pipeline as P
 
             path = urlparse(self.path).path.strip("/")
+            parts = path.split("/")
+            if len(parts) == 3 and parts[0] == "jobs" and parts[2] == "cancel" and parts[1] in g.jobs:
+                g.jobs[parts[1]]["cancelled"] = True
+                return self._json(200, g.jobs[parts[1]])
             if not g.engine:
                 return self._json(503, {"error": "the director needs vd serve --sadhu <checkout>"})
             try:
@@ -221,12 +296,35 @@ def handler_for(g: Gallery):
             template = req.get("template") or "baba-rescue"
             if path == "story":
                 work = lambda run: P.write_story(run, template, req.get("idea") or "")
+            elif path == "tale":
+                from vector_director.director.tale import write_tale
+
+                if not (req.get("title") and req.get("story")):
+                    return self._json(400, {"error": "needs a title and a story"})
+                pid = req.get("id") or req["title"]
+                work = lambda run: write_tale(run, req)
+            elif path == "episode":
+                work = lambda run: P.write_episode(run, req["series"], int(req["number"]), req.get("language", "hi"))
+            elif path == "film":
+                from vector_director.director.film import write_scenes
+
+                work = lambda run: write_scenes(run, req["series"], int(req["number"]), req.get("language", "hi"), req.get("only"))
+            elif path == "outline":
+                work = lambda run: P.outline_again(run, req["series"], int(req["number"]), req["story"], req.get("title", ""), req.get("language", "hi"))
+            elif path == "documentary":
+                from vector_director.director.documentary import write_documentary
+
+                work = lambda run: write_documentary(run, req)
+            elif path == "paint":
+                if not req.get("name") or req.get("kind", "prop") not in ("prop", "backdrop", "floor"):
+                    return self._json(400, {"error": "needs a name and a kind"})
+                work = lambda run: g.paint(run, req["name"], req.get("kind", "prop"), req.get("description") or req["name"], float(req.get("height_cm", 150)))
             elif path == "breakdown":
                 work = lambda run: P.run_pipeline(run, project, req["story"], req.get("title", ""), req.get("language", "hi"), template)
             elif path == "stage":
 
                 def work(run):
-                    P.direct_scenes(run, project["scenes"], project["sets"])
+                    P.direct_scenes(run, project["scenes"], project["sets"], project.get("cast"))
                     return {"scenes": project["scenes"], "stats": run.stats}
 
             elif path == "dress":
@@ -243,6 +341,15 @@ def handler_for(g: Gallery):
             self._json(200, {"job": g.start_job(pid, work)})
 
         def do_PUT(self) -> None:
+            if not self._allowed():
+                return
+            if urlparse(self.path).path.strip("/") == "film" and g.engine:
+                from vector_director.director.film import save_film
+
+                try:
+                    return self._json(200, save_film(g.engine, g.reg.root, json.loads(self.rfile.read(int(self.headers.get("content-length", 0))))))
+                except (ValueError, KeyError, OSError) as e:
+                    return self._json(400, {"error": str(e)})
             if urlparse(self.path).path.strip("/") != "labels":
                 return self._json(404, {"error": "not found"})
             try:
@@ -255,6 +362,8 @@ def handler_for(g: Gallery):
             self._json(200, g.save_label(query, relevant))
 
         def do_PATCH(self) -> None:
+            if not self._allowed():
+                return
             parts = [unquote(p) for p in urlparse(self.path).path.strip("/").split("/")]
             if len(parts) != 2 or parts[0] != "items" or parts[1] not in g.reg.items:
                 return self._json(404, {"error": "not found"})
