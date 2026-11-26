@@ -311,6 +311,10 @@ def handler_for(g: Gallery):
                 work = lambda run: write_scenes(run, req["series"], int(req["number"]), req.get("language", "hi"), req.get("only"))
             elif path == "outline":
                 work = lambda run: P.outline_again(run, req["series"], int(req["number"]), req["story"], req.get("title", ""), req.get("language", "hi"))
+            elif path == "documentary":
+                from vector_director.director.documentary import write_documentary
+
+                work = lambda run: write_documentary(run, req)
             elif path == "paint":
                 if not req.get("name") or req.get("kind", "prop") not in ("prop", "backdrop", "floor"):
                     return self._json(400, {"error": "needs a name and a kind"})

@@ -26,11 +26,15 @@ RUNS = os.environ.get("VD_RUNS", "runs")
 MAIN = os.environ.get("GEMINI_TEXT_MODEL", "gemini-3.8-flash")
 LITE = os.environ.get("GEMINI_LITE_MODEL", MAIN)
 OPENAI = os.environ.get("OPENAI_MODEL", "gpt-5-mini")
+# a documentary's breakdown (director/documentary.py) is written by a stronger model: its facts are taught
+DOC_MODEL = os.environ.get("VD_DOC_MODEL", "gpt-5.5")
+# VD_PROVIDERS="openai" skips Gemini (while its key answers 402); default: Gemini, then OpenAI
+PROVIDERS = [p.strip() for p in os.environ.get("VD_PROVIDERS", "gemini,openai").split(",") if p.strip()]
 # tasks small enough for the cheapest model
 LITE_TASKS = {"look", "animal", "repair", "set_first", "set_return", "pick"}
 # how hard the model thinks before answering: thinking is most of the time and output tokens of a
 # small pick-from-a-menu answer, so only the story, the breakdown and the casting get the model's default
-THINK = {"look": "low", "animal": "low", "repair": "low", "scene": "low", "direct": "low", "set_first": "low", "set_return": "low", "pick": "low"}
+THINK = {"doc_outline": "medium", "doc_shot": "medium", "look": "low", "animal": "low", "repair": "low", "scene": "low", "direct": "low", "set_first": "low", "set_return": "low", "pick": "low"}
 
 
 class LLMError(Exception):
@@ -89,7 +93,7 @@ def call_openai(model, prompt, schema, temperature, think=None):
     data = post("https://api.openai.com/v1/chat/completions",
                 {"model": model, "messages": [{"role": "user", "content": prompt}],
                  "response_format": {"type": "json_schema", "json_schema": {"name": "answer", "schema": to_json_schema(schema), "strict": False}},
-                 **({"reasoning_effort": "low"} if think else {})},
+                 **({"reasoning_effort": think} if think else {})},
                 {"authorization": "Bearer " + os.environ["OPENAI_API_KEY"]})
     u = data.get("usage", {})
     return json.loads(data["choices"][0]["message"]["content"]), {"in": u.get("prompt_tokens", 0), "out": u.get("completion_tokens", 0),
@@ -127,16 +131,23 @@ def log(project, entry):
         f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
 
+def chain_names(chain):
+    return {p for p, _, _ in chain}
+
+
 def run(task, vars, schema, project=None, temperature=0.7, only=None):
     """-> {"data", "provider", "model", "cached", "usage", "tries"}; raises LLMError when every provider failed.
     only: "gemini" or "openai" to use just that provider (for testing the fallback)."""
     prompt = fill(task, vars)
     model = LITE if task in LITE_TASKS else MAIN
     chain = []
-    if os.environ.get("GEMINI_API_KEY") and only != "openai":
+    if os.environ.get("GEMINI_API_KEY") and only != "openai" and "gemini" in PROVIDERS:
         chain += [("gemini", model, 0), ("gemini", model, 4)]          # (provider, model, seconds to wait first)
-    if os.environ.get("OPENAI_API_KEY") and only != "gemini":
-        chain.append(("openai", OPENAI, 0))
+    if os.environ.get("OPENAI_API_KEY") and only != "gemini" and "openai" in PROVIDERS:
+        m = DOC_MODEL if task.startswith("doc_") else OPENAI
+        chain.append(("openai", m, 0))
+        if "gemini" not in chain_names(chain):
+            chain.append(("openai", m, 3))                         # OpenAI alone: once more after a dropped connection
     if not chain:
         raise LLMError("no GEMINI_API_KEY or OPENAI_API_KEY in the environment of vd serve")
 
